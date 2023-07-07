@@ -6,6 +6,8 @@ body {
   letter-spacing: 0.05em;
   user-select: none;
   --webkit-user-select: none;
+  overflow-x: hidden;
+  --webkit-overflow-x: hidden;
 }
 
 .imgWrap {
@@ -30,10 +32,25 @@ body {
   width: 100vw;
   overflow-x: hidden;
   height: auto;
+  pointer-events: none;
 }
 
 .svg__content {
   position: relative;
   top: 0;
-  left: 0;
+  left: -2px;
+  width: 102%;
+  pointer-events: none;
+}
+
+.svg__content.top {
+  top: 1px;
+}
+
+.svg__content.under {
+  top: -1px;
+}
+
+.svg__content path {
+  width: 100vh;
 }

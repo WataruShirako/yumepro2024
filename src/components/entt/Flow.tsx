@@ -4,7 +4,11 @@ const Flow = ({ flow }: any) => {
   return (
     <>
       <div className="svg__container">
-        <svg xmlns="http://www.w3.org/2000/svg" className={'svg__content'} viewBox="0 0 1366 100">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={'svg__content top'}
+          viewBox="0 0 1366 100"
+        >
           <path
             id="パス_285"
             data-name="パス 285"
@@ -222,7 +226,11 @@ const Flow = ({ flow }: any) => {
         </div>
       </section>
       <div className="svg__container">
-        <svg xmlns="http://www.w3.org/2000/svg" className={'svg__content'} viewBox="0 0 1366 100">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={'svg__content under'}
+          viewBox="0 0 1366 100"
+        >
           <path
             className={'w-full'}
             id="パス_286"

@@ -3,8 +3,12 @@ import Image from 'next/image';
 const Entry = () => {
   return (
     <>
-      <div className="svg__container">
-        <svg xmlns="http://www.w3.org/2000/svg" className={'svg__content'} viewBox="0 0 1366 100">
+      <div className={'svg__container'}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={'svg__content top'}
+          viewBox="0 0 1366 100"
+        >
           <path
             id="パス_285"
             data-name="パス 285"
@@ -14,7 +18,6 @@ const Entry = () => {
           />
         </svg>
       </div>
-
       <section id="entry" className={'bg-[#252525]'}>
         <h2 className="secTitle">エントリー受付中</h2>
         <div className="ctaBtnArea flex flex-col gap-8 md:flex-row items-end max-w-4xl m-auto">
@@ -55,7 +58,11 @@ const Entry = () => {
         </div>
       </section>
       <div className="svg__container">
-        <svg xmlns="http://www.w3.org/2000/svg" className={'svg__content'} viewBox="0 0 1366 100">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={'svg__content under'}
+          viewBox="0 0 1366 100"
+        >
           <path
             id="パス_286"
             data-name="パス 286"
