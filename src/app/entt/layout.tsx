@@ -6,7 +6,7 @@ import { Shippori_Mincho } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 const cinzel = Cinzel({ subsets: ['latin'] });
 const ShipporiMincho = Shippori_Mincho({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext'],
   weight: '400',
 });
 
