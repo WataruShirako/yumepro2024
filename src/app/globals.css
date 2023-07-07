@@ -28,7 +28,7 @@ body {
 .svg__container {
   position: relative;
   width: 100%;
-  height: 30px;
+  height: auto;
 }
 
 .svg__content {
