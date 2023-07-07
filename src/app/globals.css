@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  letter-spacing: 0.05em;
+  user-select: none;
+  --webkit-user-select: none;
+}
+
+.imgWrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  object-fit: contain;
+  position: relative !important;
+  width: 100% !important;
+}

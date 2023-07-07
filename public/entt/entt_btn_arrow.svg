@@ -1,0 +1,14 @@
+<svg id="グループ_139" data-name="グループ 139" xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+  viewBox="0 0 26 26">
+  <g id="グループ_117" data-name="グループ 117" transform="translate(10.886 9.315)">
+    <g id="グループ_113" data-name="グループ 113">
+      <path id="パス_293" data-name="パス 293"
+        d="M38.18,35.384c-.325-.548-.2-.71.283-.363l4.324,3.125a.438.438,0,0,1,0,.755l-4.324,3.125c-.481.348-.607.184-.283-.363l.214-.361a6,6,0,0,0,0-5.558Z"
+        transform="translate(-38 -34.838)" fill="#fff" fill-rule="evenodd" />
+    </g>
+  </g>
+  <g id="楕円形_10" data-name="楕円形 10" fill="none" stroke="#fff" strokeWidth="1">
+    <circle cx="13" cy="13" r="13" stroke="none" />
+    <circle cx="13" cy="13" r="12.5" fill="none" />
+  </g>
+</svg>
