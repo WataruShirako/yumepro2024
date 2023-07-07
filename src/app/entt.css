@@ -10,17 +10,17 @@
 section {
   padding: 25px 0;
 }
-@media screen and (width > 768px) {
+@media screen and (min-width: 768px) {
   section {
     padding: 40px 0;
   }
 }
-@media screen and (width > 1024px) {
+@media screen and (min-width: 1024px) {
   section {
     padding: 50px 0;
   }
 }
-@media screen and (width > 1536px) {
+@media screen and (min-width: 1536px) {
   section {
     padding: 80px 0;
   }
@@ -47,12 +47,12 @@ section {
   position: relative;
 }
 
-@media screen and (width > 768px) {
+@media screen and (min-width: 768px) {
   .sponsorList {
     width: calc(100% / 4 - 1rem);
   }
 }
-@media screen and (width > 1024px) {
+@media screen and (min-width: 1024px) {
   .sponsorList {
     width: calc(100% / 6 - 1rem);
   }
@@ -70,12 +70,13 @@ section {
   font-size: 20px;
   position: relative;
 }
-@media screen and (width > 768px) {
+
+@media screen and (min-width: 768px) {
   .btn {
     margin-top: 40px;
   }
 }
-@media screen and (width > 1024px) {
+@media screen and (min-width: 1024px) {
   .btn {
     margin-top: 50px;
   }
@@ -97,12 +98,13 @@ section {
   position: absolute !important;
   scale: 0.7;
 }
-@media screen and (width > 768px) {
+
+@media screen and (min-width: 768px) {
   #yumephoto .introImg {
     scale: 1;
   }
 }
-@media screen and (width > 1536px) {
+@media screen and (min-width: 1536px) {
   #yumephoto .introImg {
     scale: 1.2;
   }
@@ -135,7 +137,7 @@ section {
   margin-inline: auto;
 }
 
-@media screen and (width > 768px) {
+@media screen and (min-width: 768px) {
   #yumephoto .exGrandPrix .btnEntt {
     margin-left: 0;
   }
