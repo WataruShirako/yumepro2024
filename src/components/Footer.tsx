@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const Footer = () => {
   return (
     <footer className={'bg-[#efefef]'}>
@@ -7,15 +5,20 @@ const Footer = () => {
         <p>
           <small className={'text-xs'}>Copyright &copy;YUMEKANAERUPROJECT CO.,LTD</small>
         </p>
-        <ul className={'flex flex-col md:flex-row gap-4 text-center mt-8'}>
-          <li className={'text-sm font-semibold'}>
-            <a href="">運営会社</a>
+        <ul className={'flex flex-col md:flex-row gap-6 text-center mt-8 md:mt-0'}>
+          <li className={'text-xs font-semibold'}>
+            <a href="https://www.cred-in.com/company/" target="_blank">
+              運営会社
+            </a>
           </li>
-          <li className={'text-sm font-semibold'}>
+          {/* <li className={'text-xs font-semibold'}>
             <Link href="">夢叶えるプロジェクトとは</Link>
+          </li> */}
+          <li className={'text-xs font-semibold'}>
+            <a href="https://yume-pj.com/project/sponsor/" target="_blank">
+              スポンサー募集
+            </a>
           </li>
-          <li className={'text-sm font-semibold'}>ビジネス部門</li>
-          <li className={'text-sm font-semibold'}>エンタメ部門</li>
         </ul>
       </div>
     </footer>

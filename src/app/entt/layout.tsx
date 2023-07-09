@@ -1,14 +1,6 @@
 import '../globals.css';
-import { Inter } from 'next/font/google';
-import { Cinzel } from 'next/font/google';
-import { Shippori_Mincho } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
-const cinzel = Cinzel({ subsets: ['latin'] });
-const ShipporiMincho = Shippori_Mincho({
-  subsets: ['latin', 'latin-ext'],
-  weight: '400',
-});
+import { ShipporiMincho } from '../../utils/fonts';
+import { cinzel } from '../../utils/fonts';
 
 const siteName = '夢フォトオーディション';
 const description =
@@ -34,8 +26,8 @@ export const metadata = {
     card: 'summary_large_image',
     title: siteName,
     description,
-    site: '@サイト用アカウントのTwitterID',
-    creator: '@作者のTwitterID',
+    site: '@yumepro2023',
+    creator: '@yumepro2023',
   },
   verification: {
     google: 'サーチコンソールの',
@@ -51,7 +43,9 @@ export default function EnttLayout({ children }: { children: React.ReactNode }) 
       <head>
         <title>エンタメコンテスト</title>
       </head>
-      <body className={'font-sans entt'}>{children}</body>
+      <body className={`font-sans entt ${ShipporiMincho.className} ${cinzel.className}`}>
+        {children}
+      </body>
     </html>
   );
 }

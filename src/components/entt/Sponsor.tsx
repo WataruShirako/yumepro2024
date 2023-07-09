@@ -20,7 +20,7 @@ const Sponsor = ({ sponsors }: any) => {
           </div>
         ))}
       </div>
-      <a href="" className={'btn btnEntt'}>
+      <a href="https://yume-pj.com/project/sponsor/" className={'btn btnEntt'}>
         スポンサーさま募集中
         <Image
           className={'absolute right-[20px] top-1/2 -translate-y-1/2'}

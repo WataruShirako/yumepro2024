@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Comingsoon from './Comingsoon';
 
 const Chairman = ({ chairman }: any) => {
   return (
@@ -7,7 +8,8 @@ const Chairman = ({ chairman }: any) => {
         <span className={'block'}>chairman</span>
         総合司会
       </h2>
-      <div className="container m-auto max-w-[92%] lg:max-w-4xl">
+      <Comingsoon />
+      {/* <div className="container m-auto max-w-[92%] lg:max-w-4xl">
         <div className="list flex flex-col md:flex-row justify-between">
           <Image
             className={'img prizeImg flex-[45%] hidden md:block'}
@@ -23,7 +25,7 @@ const Chairman = ({ chairman }: any) => {
             <p>{chairman.text}</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

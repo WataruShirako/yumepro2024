@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Comingsoon from './Comingsoon';
 
 const Ambassador = () => {
   return (
@@ -8,7 +9,8 @@ const Ambassador = () => {
           <span className={'block'}>Ambassador</span>
           アンバサダー
         </h2>
-        <div className="container"></div>
+        <Comingsoon />
+        {/* <div className="container"></div> */}
       </section>
     </>
   );

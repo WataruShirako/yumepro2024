@@ -4,7 +4,11 @@ const Sns = () => {
   return (
     <>
       <div className={'svg__container'}>
-        <svg xmlns="http://www.w3.org/2000/svg" className={'svg__content'} viewBox="0 0 1366 100">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={'svg__content top'}
+          viewBox="0 0 1366 100"
+        >
           <path
             id="パス_285"
             data-name="パス 285"
@@ -23,7 +27,12 @@ const Sns = () => {
         <p className={'text-center'}>フォロー、友達登録で最新情報をGETしよう</p>
         <div className={'container m-auto mt-12'}>
           <div className={'list flex gap-4  md:gap-20 justify-center'}>
-            <a href={''}>
+            <a
+              href={
+                'https://liff.line.me/1657596848-xOJZNbmM/landing?follow=%40306ccdiy&lp=ey1QMR&liff_id=1657596848-xOJZNbmM'
+              }
+              target="_blank"
+            >
               <Image
                 className={'rounded-[18px] shadow-md hover:shadow-none'}
                 src={'/icon_line.svg'}
@@ -32,7 +41,7 @@ const Sns = () => {
                 height={80}
               />
             </a>
-            <a href={''}>
+            <a href={'https://www.tiktok.com/@yumekanaeru_project'} target={'_blank'}>
               <Image
                 className={'rounded-[18px] shadow-md hover:shadow-none'}
                 src={'/icon_tiktok.svg'}
@@ -41,7 +50,7 @@ const Sns = () => {
                 height={80}
               />
             </a>
-            <a href={''}>
+            <a href={'https://instagram.com/yumekanaeru_project'} target={'_blank'}>
               <Image
                 className={'rounded-[18px] shadow-md hover:shadow-none'}
                 src={'/icon_instagram.svg'}
@@ -50,7 +59,7 @@ const Sns = () => {
                 height={80}
               />
             </a>
-            <a href={''}>
+            <a href={'https://twitter.com/yumepro2023'} target="_blank">
               <Image
                 className={'rounded-[18px] shadow-md hover:shadow-none transition-all'}
                 src={'/icon_twitter.svg'}
@@ -63,7 +72,11 @@ const Sns = () => {
         </div>
       </section>
       <div className={'svg__container'}>
-        <svg xmlns="http://www.w3.org/2000/svg" className={'svg__content'} viewBox="0 0 1366 100">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={'svg__content under'}
+          viewBox="0 0 1366 100"
+        >
           <path
             id="パス_286"
             data-name="パス 286"

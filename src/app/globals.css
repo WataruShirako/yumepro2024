@@ -44,11 +44,11 @@ body {
 }
 
 .svg__content.top {
-  top: 1px;
+  top: 2px;
 }
 
 .svg__content.under {
-  top: -1px;
+  top: -2px;
 }
 
 .svg__content path {

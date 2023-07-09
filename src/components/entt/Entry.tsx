@@ -21,28 +21,32 @@ const Entry = () => {
       <section id="entry" className={'bg-[#252525]'}>
         <h2 className="secTitle">エントリー受付中</h2>
         <div className="ctaBtnArea flex flex-col gap-8 md:flex-row items-end max-w-4xl m-auto">
-          <a href="" className={'btn btnEntt'}>
+          <a
+            href="https://liff.line.me/1657596848-xOJZNbmM/landing?follow=%40306ccdiy&lp=ey1QMR&liff_id=1657596848-xOJZNbmM"
+            target="_blank"
+            className={'btn btnEntt'}
+          >
             <Image
               className={'absolute right-auto -top-[24px]'}
               src={'/entt/btn_line_pre.svg'}
-              alt={'▶︎'}
+              alt={'夢を叶えるチャンスを掴もう'}
               width={273}
               height={16.5}
             />
             LINEで応募する
             <Image
-              className={'absolute right-[20px] top-1/2 -translate-y-1/2'}
+              className={'absolute right-[20px] top-1/2 -translate-y-1/2 btnArrow'}
               src={'/entt/entt_btn_arrow.svg'}
               alt={'▶︎'}
               width={26}
               height={26}
             />
           </a>
-          <a href="" className={'btn btnEntt'}>
+          <a href="https://yume-pj.com/project/sponsor/" className={'btn btnEntt'}>
             <Image
               className={'absolute right-auto -top-[24px]'}
               src={'/entt/btn_spo_pre.svg'}
-              alt={'▶︎'}
+              alt={'スポンサーさま募集中'}
               width={219}
               height={16.5}
             />

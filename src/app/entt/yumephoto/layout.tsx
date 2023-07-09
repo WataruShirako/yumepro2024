@@ -1,4 +1,6 @@
 import { Inter } from 'next/font/google';
+import { ShipporiMincho } from '../../../utils/fonts';
+import { cinzel } from '../../../utils/fonts';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -26,8 +28,8 @@ export const metadata = {
     card: 'summary_large_image',
     title: siteName,
     description,
-    site: '@サイト用アカウントのTwitterID',
-    creator: '@作者のTwitterID',
+    site: '@yumepro2023',
+    creator: '@yumepro2023',
   },
   verification: {
     google: 'サーチコンソールのやつ',
@@ -40,14 +42,9 @@ export const metadata = {
 export default function EnttLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
-      <head>
-        {/* <title>夢フォトオーディション | 夢叶えるプロジェクト2024</title>
-        <meta
-          name="description"
-          content="「夢フォトオーディション」は写真を通じて日本の文化・社会・風景などの魅力を国内外に発信していくアンバサダーを選出するコンテストです。業界をけん引するにふさわしい「技術と感性」を身につけた次世代エースを発掘すべくSNS審査・豪華審査員による審査などの選考によりグランプリを決定します。今回の題材は「日本全国の風景景色」です。"
-        /> */}
-      </head>
-      <body className={'font-sans'}>{children}</body>
+      <body className={`font-sans ${ShipporiMincho.className} ${cinzel.className}`}>
+        {children}
+      </body>
     </html>
   );
 }

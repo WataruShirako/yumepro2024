@@ -1,6 +1,8 @@
 import './globals.css';
-import Head from './Head';
+import Head from 'next/head';
 import { Inter } from 'next/font/google';
+import { ShipporiMincho } from '../utils/fonts';
+import { cinzel } from '../utils/fonts';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,8 +29,8 @@ export const metadata = {
     card: 'summary_large_image',
     title: siteName,
     description,
-    site: '@サイト用アカウントのTwitterID',
-    creator: '@作者のTwitterID',
+    site: '@yumepro2023',
+    creator: '@yumepro2023',
   },
   verification: {
     google: 'サーチコンソールID',
@@ -41,7 +43,13 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
-      <body className={`${inter.className} entt`}>{children}</body>
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cinzel&family=Shippori+Mincho&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className={`entt`}>{children}</body>
     </html>
   );
 }

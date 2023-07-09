@@ -15,8 +15,28 @@ import Instagram from '@/components/entt/Instagram';
 import News from '@/components/entt/News';
 import Sns from '@/components/entt/Sns';
 import Entry from '@/components/entt/Entry';
+import Ambassador from '@/components/entt/Ambassador';
+import Adviser from '@/components/entt/Adviser';
+import Department from '@/components/entt/Department';
 
 const Home = () => {
+  // 公開済みのコンテスト エンタメコンテスト
+  const enttContests = [
+    {
+      id: 1,
+      name: '夢フォトオーディション',
+      path: '/',
+    },
+  ];
+  // 公開済みのコンテスト スター誕生オーディション
+  const enttStar = [
+    {
+      // id: 1,
+      // name: '夢フォトオーディション',
+      // Path: '/',
+    },
+  ];
+
   // スポンサー一覧
   const sponsors = [
     {
@@ -81,14 +101,14 @@ const Home = () => {
 
   //開催概要
   const about = {
-    sched: ['2023/7/1(土)〜 | 該当投稿のリンクを公式LINEにシェア', '2024/3/1(金) | 受賞者1名発表'],
-    status: [
-      '・日本国内に在住のアマチュアの方',
-      '・2024年4月（詳細未定）に開催される決勝戦・授賞式に参加できる方',
-      `・夢プロ公式Instagramをフォロー`,
-    ],
-    judge: ['①テーマに沿った作品', '②オリジナリティ', '③技術面'],
-    award: ['4/1(月) @某有名ホテル'],
+    sched: '2023/7/1(土)〜 | 該当投稿のリンクを公式LINEにシェア<br>2024/3/1(金) | 受賞者1名発表',
+    status: `
+      ・日本国内に在住のアマチュアの方<br>
+      ・2024年4月（詳細未定）に開催される決勝戦・授賞式に参加できる方<br>
+      ・夢プロ公式Instagramをフォロー
+    `,
+    judge: '①テーマに沿った作品<br>②オリジナリティ<br>③技術面',
+    award: '4/1(月) @某有名ホテル',
   };
 
   // 審査委員
@@ -127,7 +147,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/yumephoto_fv_sp.jpg'}
+              src={'/entt/yumephoto_fv_sp.jpg'}
               alt="text"
               width={750}
               height={1370}
@@ -197,7 +217,11 @@ const Home = () => {
                 <br />
                 LINEで応募をお待ちしております。
               </p>
-              <a href="" className={'btn btnEntt m-auto md:mr-auto text-left'}>
+              <a
+                href="https://liff.line.me/1657596848-xOJZNbmM/landing?follow=%40306ccdiy&lp=ey1QMR&liff_id=1657596848-xOJZNbmM"
+                target="_blank"
+                className={'btn btnEntt m-auto md:mr-auto text-left'}
+              >
                 LINEで応募する
                 <Image
                   className={'absolute right-[20px] top-1/2 -translate-y-1/2'}
@@ -213,8 +237,11 @@ const Home = () => {
         <Flow />
         <Instagram />
         <Committee committee={committee} />
-        {/* <Chairman chairman={chairman} /> */}
+        <Chairman chairman={chairman} />
+        <Adviser />
+        <Department enttContests={enttContests} enttStar={enttStar} />
         <Entry />
+        <Ambassador />
         <Sns />
         <News />
       </main>
