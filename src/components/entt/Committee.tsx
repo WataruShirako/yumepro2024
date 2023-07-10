@@ -8,8 +8,7 @@ const Committee = ({ committee }: any) => {
         <span className={'block'}>committee</span>
         審査委員
       </h2>
-      <Comingsoon />
-      {/* <div className="container m-auto max-w-[92%] lg:max-w-4xl">
+      <div className="container m-auto max-w-[92%] lg:max-w-4xl">
         {committee.map((committee: any, index: any) => (
           <div className="list flex flex-col md:flex-row justify-between items-start" key={index}>
             <Image
@@ -31,7 +30,7 @@ const Committee = ({ committee }: any) => {
             </div>
           </div>
         ))}
-      </div> */}
+      </div>
     </section>
   );
 };

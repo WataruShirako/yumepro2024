@@ -235,7 +235,7 @@ const Home = () => {
           </div>
         </section>
         <Flow />
-        <Instagram />
+        {/* <Instagram /> */}
         <Committee committee={committee} />
         <Chairman chairman={chairman} />
         <Adviser />
