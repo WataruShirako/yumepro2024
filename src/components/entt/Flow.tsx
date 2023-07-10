@@ -40,7 +40,7 @@ const Flow = ({ flow }: any) => {
                   transform="translate(194.251 2371) rotate(90)"
                   fill="#fff"
                   stroke="#485757"
-                  stroke-width="1"
+                  strokeWidth="1"
                 >
                   <circle cx="19.5" cy="19.5" r="19.5" stroke="none" />
                   <circle cx="19.5" cy="19.5" r="19" fill="none" />
@@ -70,7 +70,7 @@ const Flow = ({ flow }: any) => {
                   transform="translate(174.75 2390.5)"
                   fill="none"
                   stroke="#485757"
-                  stroke-width="1"
+                  strokeWidth="1"
                 />
                 <circle
                   id="楕円形_21"
