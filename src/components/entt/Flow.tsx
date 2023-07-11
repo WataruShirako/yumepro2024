@@ -30,7 +30,6 @@ const Flow = ({ flow }: any) => {
             width="355.062"
             height="585.186"
             viewBox="0 0 355.062 585.186"
-            className={'md:hidden w-full'}
           >
             <g id="グループ_842" data-name="グループ 842" transform="translate(5504.384 -4566.224)">
               <path
@@ -214,15 +213,6 @@ const Flow = ({ flow }: any) => {
                   />
                 </g>
               </g>
-              <line
-                id="線_144"
-                data-name="線 144"
-                x1="20"
-                transform="translate(-5416.571 4898.991)"
-                fill="none"
-                stroke="#707070"
-                strokeWidth="1"
-              />
               <g
                 id="グループ_167"
                 data-name="グループ 167"
