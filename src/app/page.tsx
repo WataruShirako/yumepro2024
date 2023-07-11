@@ -37,66 +37,13 @@ const Home = () => {
     },
   ];
 
-  // スポンサー一覧
-  const sponsors = [
-    {
-      id: 1,
-      src: '/entt/sponsor/zen_spa.jpg',
-      alt: 'text',
-    },
-    {
-      id: 2,
-      src: '/entt/sponsor/an_spa.jpg',
-      alt: 'text',
-    },
-    {
-      id: 3,
-      src: '/entt/sponsor/sanatio_spa.jpg',
-      alt: 'sanatio',
-    },
-    {
-      id: 4,
-      src: '/entt/sponsor/sora_spa.jpg',
-      alt: 'sanatio',
-    },
-    {
-      id: 5,
-      src: '/entt/sponsor/spa_solani.jpg',
-      alt: 'text',
-    },
-    {
-      id: 6,
-      src: '/entt/sponsor/landmark_spa.jpg',
-      alt: 'text',
-    },
-    {
-      id: 7,
-      src: '/entt/sponsor/la_villa.jpg',
-      alt: 'text',
-    },
-    {
-      id: 8,
-      src: '/entt/sponsor/hammam_spa.jpg',
-      alt: 'text',
-    },
-    {
-      id: 9,
-      src: '/entt/sponsor/inroom_spa.jpg',
-      alt: 'text',
-    },
-    {
-      id: 10,
-      src: '/entt/sponsor/fauchon.jpg',
-      alt: 'text',
-    },
-  ];
-
   // 賞金・スポンサー賞
   const prize = {
-    title: 'スポンサー賞 / <br/>部門スポンサー',
-    src: '/entt/prizes/prize_sponsor_spa_100.jpg',
+    title: 'スポンサー賞',
+    sponsor: '/entt/sponsor/min_sponsor/min_sakura.jpg',
+    src: '/entt/prizes/prize_sponsor_spa_100_1.jpg',
     alt: 'text',
-    SPsrc: '/entt/prizes/sp_prize_sponsor_spa_100.jpg',
+    SPsrc: '/entt/prizes/sp_prize_sponsor_spa_100_1.jpg',
   };
 
   //開催概要

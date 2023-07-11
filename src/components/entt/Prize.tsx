@@ -18,6 +18,10 @@ const Prize = ({ prize }: any) => {
         <h2 className="secTitle">
           <span className={'block'}>prize</span>
           <p dangerouslySetInnerHTML={{ __html: `${prize.title}` }} />
+          <div className={'mt-2 flex items-center justify-center gap-2'}>
+            <p className={'text-xs'}>スポンサー企業</p>
+            <Image src={prize.sponsor} alt={prize.alt} width={70} height={17} />
+          </div>
         </h2>
         <div className="container m-auto max-w-[92%] lg:max-w-4xl">
           <Image
