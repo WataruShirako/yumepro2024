@@ -127,7 +127,7 @@ const Home = () => {
       insta: 'iwakurashiori',
     },
     {
-      id: 1,
+      id: 2,
       name: '相武えつ子',
       pro: 'フォトグラファー',
       text: '愛知県在住、2人の姉妹のお母さん。結婚を機にカメラを始め、出産後から自身の子どもの写真を撮り続けている。国際フォトコンテスト受賞歴あり。写真展開催。カメラメーカーや暮らしに関する様々な業種の講座で子育てと写真について発信。 Instagramのフォロワーは8万人を超え、ママ世代だけでなく幅広い年齢層のファンに支持されている。',
@@ -135,6 +135,16 @@ const Home = () => {
       hp: 'https://www.etsukoaimu.com/',
       twitter: '',
       insta: 'aimue',
+    },
+    {
+      id: 3,
+      name: '別所隆弘',
+      pro: '写真家・フォトグラファー',
+      text: '関西大学社会学部メディア専攻講師。毎日広告デザイン賞最高賞や、National Geographic社主催の世界最大級のフォトコンテストであるNature Photographer of the Year “Aerials” 2位など、国内外での表彰多数。写真と文学という2つの領域を横断しつつ、「その間」の表現を探究している。滋賀、京都を中心とした”Around The Lake”というテーマでの撮影がライフワーク。 ',
+      src: '/entt/committee/bessho_takahiro.jpg',
+      hp: 'https://www.youtube.com/@TakahiroBessho',
+      twitter: 'https://twitter.com/TakahiroBessho',
+      insta: 'takahiro_bessho',
     },
   ];
 
