@@ -107,7 +107,7 @@ const Home = () => {
     status: `
       ・日本国内に在住のアマチュアの方<br>
       ・2024年4月（詳細未定）に開催される決勝戦・授賞式に参加できる方<br>
-      ・夢プロ公式Instagramをフォロー<a href="https://www.instagram.com/umekanaeru_project/" target="_blank" style='text-decoration: underline; color: #06b6d4;'>(リンクはこちら)</a><br>
+      ・夢プロ公式Instagramをフォロー<a href="https://www.instagram.com/yumekanaeru_project/" target="_blank" style='text-decoration: underline; color: #06b6d4;'>(リンクはこちら)</a><br>
       ・「#夢フォト2024」をつけて投稿
     `,
     judge: '①テーマに沿った作品<br>②オリジナリティ<br>③技術面',
