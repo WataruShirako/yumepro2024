@@ -96,7 +96,7 @@ const Home = () => {
     title: 'スポンサー賞 / <br/>部門スポンサー',
     src: '/entt/prizes/prize_sponsor_spa_100.jpg',
     alt: 'text',
-    SPsrc: '/entt/prizes/prize_sponsor_spa_100_sp.jpg',
+    SPsrc: '/entt/prizes/sp_prize_sponsor_spa_100.jpg',
   };
 
   //開催概要
@@ -215,9 +215,9 @@ const Home = () => {
               <h4 className={'title text-[40px] ml-0 text-center md:text-left pb-5 md:pb-10'}>
                 去年の受賞作
               </h4>
-              <p className={'text-center md:text-left'}>
+              <p className={'text-center md:text-left max-w-[92%] m-auto'}>
                 こちらが昨年のフォトコンテスト受賞作品です。
-                <br />
+                <br className={'hidden md:block'} />
                 クリエイターは松尾一也さん。
                 <br />
                 2024年は一体どんな作品がグランプリに輝くのか？

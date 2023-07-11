@@ -30,6 +30,7 @@ const Flow = ({ flow }: any) => {
             width="355.062"
             height="585.186"
             viewBox="0 0 355.062 585.186"
+            className={'md:hidden'}
           >
             <g id="グループ_842" data-name="グループ 842" transform="translate(5504.384 -4566.224)">
               <path
