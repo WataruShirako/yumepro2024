@@ -120,42 +120,6 @@ section {
   height: 100%;
 }
 
-#yumephoto .introImgWrap {
-  width: 250px;
-  height: 320px;
-  margin: auto;
-}
-
-#yumephoto .introImg {
-  position: absolute !important;
-  scale: 0.7;
-}
-
-@media screen and (min-width: 768px) {
-  #yumephoto .introImg {
-    scale: 1;
-  }
-}
-@media screen and (min-width: 1536px) {
-  #yumephoto .introImg {
-    scale: 1.2;
-  }
-}
-
-#yumephoto .introImg:nth-of-type(1) {
-  rotate: -15deg;
-  translate: -45px 0;
-}
-
-#yumephoto .introImg:nth-of-type(2) {
-  rotate: 0deg;
-}
-
-#yumephoto .introImg:nth-of-type(3) {
-  rotate: 15deg;
-  translate: 45px 0;
-}
-
 #yumephoto .prizeContinue {
   font-family: 'cinzel', serif;
 }

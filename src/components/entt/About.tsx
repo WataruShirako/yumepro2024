@@ -20,13 +20,6 @@ const About = ({ about }: any) => {
           <p className={'w-1/4 md:w-1/5'}>参加資格</p>
           <div className={'w-3/4 md:w-4/5 text-sm leading-8'}>
             <p dangerouslySetInnerHTML={{ __html: `${about.status}` }} />
-            <a
-              href="https://www.instagram.com/yumekanaeru_project/"
-              target="_blank"
-              className={'underline text-cyan-500'}
-            >
-              (リンクはこちら)
-            </a>
           </div>
         </div>
         <div className="list flex py-8 border-solid border-t border-[#485757]">

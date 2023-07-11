@@ -17,7 +17,7 @@ const Prize = ({ prize }: any) => {
       <section id="sponsor" className={'bg-white'}>
         <h2 className="secTitle">
           <span className={'block'}>prize</span>
-          {prize.title}
+          <p dangerouslySetInnerHTML={{ __html: `${prize.title}` }} />
         </h2>
         <div className="container m-auto max-w-[92%] lg:max-w-4xl">
           <Image
