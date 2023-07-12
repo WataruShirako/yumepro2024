@@ -22,12 +22,6 @@ const About = ({ about }: any) => {
             <p dangerouslySetInnerHTML={{ __html: `${about.status}` }} />
           </div>
         </div>
-        <div className="list flex py-8 border-solid border-t border-[#485757]">
-          <p className={'w-1/4 md:w-1/5'}>審査基準</p>
-          <div className={'w-3/4 md:w-4/5 text-sm leading-8'}>
-            <p dangerouslySetInnerHTML={{ __html: `${about.judge}` }} />
-          </div>
-        </div>
         <div className="list flex py-8 border-solid border-y border-[#485757]">
           <p className={'w-1/4 md:w-1/5'}>授賞式</p>
           <div className={'w-3/4 md:w-4/5 text-sm leading-8'}>

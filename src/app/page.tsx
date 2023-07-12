@@ -49,7 +49,7 @@ const Home = () => {
   //開催概要
   const about = {
     sched: `
-      2023/7/1(土)〜12/31(日)
+      2023年7月15日〜12月31日
     `,
     status: `
       ・日本国内に在住のアマチュアの方<br>
@@ -57,8 +57,8 @@ const Home = () => {
       ・夢プロ公式Instagramをフォロー<a href="https://www.instagram.com/yumekanaeru_project/" target="_blank" style='text-decoration: underline; color: #06b6d4;'>(リンクはこちら)</a><br>
       ・「#夢フォト2024」をつけて投稿
     `,
-    judge: '①テーマに沿った作品<br>②オリジナリティ<br>③技術面',
-    award: '2024年4月後半予定',
+
+    award: '2024年4月後半に東京近郊にて開催予定',
   };
 
   // 審査委員
@@ -156,6 +156,7 @@ const Home = () => {
           </div>
         </section>
         <Prize prize={prize} />
+        <Committee committee={committee} />
         <About about={about} />
         <section className="pt-[25px]">
           <div className="md:flex max-w-5xl m-auto items-center justify-between">
@@ -186,14 +187,13 @@ const Home = () => {
         </section>
         <Flow />
         {/* <Instagram /> */}
-        <Committee committee={committee} />
+
         <Chairman chairman={chairman} />
         <Adviser />
         <Department enttContests={enttContests} enttStar={enttStar} />
         <Entry />
         <Ambassador />
         <Sns />
-
         <section className="container m-auto max-w-[92%] md:max-w-5xl">
           <h2 className={'bg-[#485757] px-1 w-full text-[#EFEFEF] text-center'}>
             個人情報の取り扱い
