@@ -54,7 +54,7 @@ const Home = () => {
     status: `
       ・日本国内に在住のアマチュアの方<br>
       ・2024年4月（詳細未定）に開催される決勝戦・授賞式に参加できる方<br>
-      ・夢プロ公式Instagramをフォロー<a href="https://www.instagram.com/yumekanaeru_project/" target="_blank" style='text-decoration: underline; color: #06b6d4;'>(リンクはこちら)</a><br>
+      ・夢プロ公式Instagramをフォロー<a href="https://www.instagram.com/yumekanaeru_project/" target="_blank" style='text-decoration: underline; color: #06b6d4;'>(公式アカウントはこちら)</a><br>
       ・「#夢フォト2024」をつけて投稿
     `,
 
@@ -112,7 +112,7 @@ const Home = () => {
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={'/entt/yumephoto/fv_pc.jpg'}
+              src={'/entt/yumephoto/fv_pc1.jpg'}
               alt="text"
               width={1920}
               height={930}
@@ -120,7 +120,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/fv_sp.jpg'}
+              src={'/entt/yumephoto/fv_sp1.jpg'}
               alt="text"
               width={750}
               height={1370}
@@ -185,20 +185,13 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <Flow />
-        {/* <Instagram /> */}
-
-        <Chairman chairman={chairman} />
-        <Adviser />
-        <Department enttContests={enttContests} enttStar={enttStar} />
         <Entry />
-        <Ambassador />
-        <Sns />
+        <Flow />
         <section className="container m-auto max-w-[92%] md:max-w-5xl">
           <h2 className={'bg-[#485757] px-1 w-full text-[#EFEFEF] text-center'}>
             個人情報の取り扱い
           </h2>
-          <p className={'mt-4'}>
+          <p className={'mt-4 text-sm '}>
             本企画の主催は、株式会社クレドインターナショナルが行い、運営業務は株式会社クレドインターナショナルが行います。
             <br />
             本コンテストで取得した個人情報は厳重に管理され、コンテストに関するご連絡、賞品の発送、応募作品の管理、受賞作品の展示などコンテストの実施・運営・宣伝広報活動およびこれらに付随する目的並びに特定の個人を識別できない統計資料を作成する目的、このほか主催者のPR活動で応募作品を使用する際に応募時のInstagramアカウント名を合わせて表示する目的、並びに個人情報保護法等の法令において認められた範囲でのみ利用し、それ以外の目的では利用いたしません。データ（Exif情報など）は統計的に処理され、個人が特定できないように加工して分析し、協力企業など第三者に公開される可能性がありますことをご了承ください。
@@ -228,7 +221,7 @@ const Home = () => {
             ※賞品の発送・配送は、株式会社クレドインターナショナルおよび株式会社クレドインターナショナルが委託する企業が行います。
           </p>
           <h2 className={'bg-[#485757] px-1 w-full text-[#EFEFEF] text-center mt-8'}>注意事項</h2>
-          <p className={'mt-4'}>
+          <p className={'mt-4 text-sm '}>
             応募者は、応募の際に指定された項目につき、正確な情報を入力するものとします。入力いただいた情報のミスによる落選、その他いかなる損害についても一切責任を負えませんのでご了承ください。
             <br />
             応募作品は未発表のものに限りませんが、トラブル防止のため他のコンテストなどに応募中または応募予定、あるいは過去に受賞して画像が確認できる作品の場合は、他のフォトコンテストなどの応募規約もご確認いただきますようお願いいたします。なお、応募者本人が制作された市販目的のない出版物や本人のSNS、ブログなどに掲載した作品、審査のない写真展に出品した作品は応募いただけます。
@@ -281,6 +274,15 @@ const Home = () => {
             本コンテストの関係者、および関係グループ企業・団体に勤務する方は応募できません。
           </p>
         </section>
+        {/* <Instagram /> */}
+
+        <Chairman chairman={chairman} />
+        <Adviser />
+        <Department enttContests={enttContests} enttStar={enttStar} />
+
+        <Ambassador />
+        <Sns />
+
         <News />
       </main>
       <ToTop />

@@ -21,7 +21,7 @@ const Committee = ({ committee }: any) => {
               height={300}
               loading="lazy"
             />
-            <div className={'m-auto mt-4 md:mt-0 md:mr-0 md:w-[60%]'}>
+            <div className={'m-auto mt-4 md:mt-0 md:mr-0 md:w-[60%] max-w-full'}>
               <h4 className={'text-2xl pb-4 md:pb-6 ShipporiMincho text-center md:text-left'}>
                 {committee.name}
               </h4>
@@ -54,7 +54,7 @@ const Committee = ({ committee }: any) => {
                       />
                     </g>
                   </svg>
-                  <a href={committee.hp} className={'hover:opacity-50'}>
+                  <a href={committee.hp} className={'text-xs md:text-base hover:opacity-50'}>
                     {committee.hp}
                   </a>
                 </div>
@@ -75,7 +75,7 @@ const Committee = ({ committee }: any) => {
                   </svg>
                   <a
                     href={`https://twitter.com/${committee.twitter}/`}
-                    className={'hover:opacity-50'}
+                    className={'text-xs md:text-base hover:opacity-50'}
                   >
                     {committee.twitter}
                   </a>
@@ -119,7 +119,7 @@ const Committee = ({ committee }: any) => {
                   </svg>
                   <a
                     href={`https://instagram.com/${committee.insta}/`}
-                    className={'hover:opacity-50'}
+                    className={'text-xs md:text-base hover:opacity-50'}
                   >
                     @{committee.insta}
                   </a>
