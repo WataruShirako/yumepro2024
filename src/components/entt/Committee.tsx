@@ -10,7 +10,7 @@ const Committee = ({ committee }: any) => {
       <div className="container m-auto max-w-[92%] lg:max-w-5xl">
         {committee.map((committee: any, index: any) => (
           <div
-            className="list flex flex-col md:flex-row justify-between items-start mt-12"
+            className="list flex flex-col md:flex-row justify-between items-start mt-12 first:mt-0"
             key={index}
           >
             <Image

@@ -5,7 +5,7 @@ import { cinzel } from '../../utils/fonts';
 const About = ({ about }: any) => {
   return (
     <section id="sponsor" className={''}>
-      <h2 className={`secTitle ${ShipporiMincho.className} font-font-cinzel`}>
+      <h2 className={`secTitle ${ShipporiMincho.className} font-font-cinzel !pb-6`}>
         <span className={`block ${cinzel.className}`}>about</span>
         開催概要
       </h2>

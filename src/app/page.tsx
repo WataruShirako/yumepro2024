@@ -112,7 +112,7 @@ const Home = () => {
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={'/entt/yumephoto/fv_pc1.jpg'}
+              src={'/entt/yumephoto/fv_pc2.jpg'}
               alt="text"
               width={1920}
               height={930}
@@ -120,7 +120,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/fv_sp1.jpg'}
+              src={'/entt/yumephoto/fv_sp2.jpg'}
               alt="text"
               width={750}
               height={1370}
@@ -142,12 +142,12 @@ const Home = () => {
             </div>
 
             <div className="flex-1 justify-self-center conteiner max-x-[92%]">
-              <div className="imgWrap introImgWrap">
+              <div className="imgWrap introImgWrap max-w-[92%] m-auto">
                 <Image
                   className="img introImg"
-                  src={'/entt/yumephoto/yumephoto_intro_img.jpg'}
+                  src={'/entt/yumephoto/intro_img.jpg'}
                   alt="text"
-                  width={430}
+                  width={450}
                   height={357}
                   priority
                 />
