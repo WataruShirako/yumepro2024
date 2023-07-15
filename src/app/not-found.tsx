@@ -1,10 +1,13 @@
 import Image from 'next/image';
 
-const Prepare = () => {
+const NotFound = () => {
   return (
     <section className={'mt-[30vh] text-center'}>
       <Image src={'/logo_black.svg'} alt={'logo'} width={98} height={103} className={'m-auto'} />
-      <p className={'mt-8'}>このページは現在準備中です。</p>
+      <p className={'mt-8'}>
+        アクセスしたページは見つかりませんでした。
+        <br />
+      </p>
       <div
         className={
           'border-black border-solid rounded-lg border w-full py-10 container max-w-[92%] md:max-w-5xl mx-auto mt-12'
@@ -23,4 +26,4 @@ const Prepare = () => {
   );
 };
 
-export default Prepare;
+export default NotFound;

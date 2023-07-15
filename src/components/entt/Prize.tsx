@@ -41,7 +41,32 @@ const Prize = ({ prize }: any) => {
             priority
           />
         </div>
-        <p className={'text-center prizeContinue text-2xl mt-12'}>and more ...</p>
+        <p className={'text-center prizeContinue text-2xl my-6 md:my-12'}>+</p>
+        <div className={'bg-[#f4f4f4] container m-auto max-w-[92%] md:max-w-[1100px] p-12'}>
+          <h3 className={'text-center text-xl ShipporiMincho mb-8 '}>KIRINスポンサー賞</h3>
+          <div className={'flex justify-around items-start gap-6 md:gap-14 flex-col md:flex-row'}>
+            <div className={'list text-center w-full md:w-1/2'}>
+              <Image
+                src={'/entt/prizes/sponsor_img_1.webp'}
+                alt={'CM出演'}
+                width={330}
+                height={175}
+                className={'w-full'}
+              />
+              <p className={'mt-2 ShipporiMincho'}>CM出演券</p>
+            </div>
+            <div className={'list text-center w-full md:w-1/2'}>
+              <Image
+                src={'/entt/prizes/sponsor_img_2.webp'}
+                alt={'CM出演'}
+                width={330}
+                height={175}
+                className={'w-full'}
+              />
+              <p className={'mt-2 ShipporiMincho'}>銀座駅サイネージ広告</p>
+            </div>
+          </div>
+        </div>
       </section>
       <div className={'svg__container'}>
         <svg xmlns="http://www.w3.org/2000/svg" className={'svg__content'} viewBox="0 0 1366 100">
