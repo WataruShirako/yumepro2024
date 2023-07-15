@@ -1,9 +1,7 @@
+import Prepare from '@/components/Prepare';
+
 const page = () => {
-  return (
-    <div>
-      <p>エンタメコンテスト</p>
-    </div>
-  );
+  return <Prepare />;
 };
 
 export default page;
