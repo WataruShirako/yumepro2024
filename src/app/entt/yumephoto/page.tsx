@@ -132,7 +132,7 @@ const Home = () => {
           <div className="container flex m-auto items-center justify-between flex-wrap flex-col lg:flex-row gap-4">
             <div className="flex-1 px-[4%]">
               <h3 className={'text-3xl ShipporiMincho'}>
-                今回の題材
+                題材:
                 <br className={'md:hidden'} />
                 「日本の風景景色」
               </h3>
