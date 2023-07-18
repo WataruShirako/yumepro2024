@@ -130,10 +130,8 @@ const Home = () => {
         <section id="intro">
           <div className="container flex m-auto items-center justify-between flex-wrap flex-col lg:flex-row gap-4">
             <div className="flex-1 px-[4%]">
-              <h3 className={'text-3xl ShipporiMincho'}>
-                題材:
-                <br className={'md:hidden'} />
-                「日本の風景景色」
+              <h3 className={'text-3xl ShipporiMincho border-b border-b-[#CBD6D0] pb-4 md:pb-6'}>
+                日本の風景景色
               </h3>
               <p className={'mt-4 md:mt-8'}>
                 「夢フォトオーディション」は写真を通じて日本の文化・社会・風景などの魅力を国内外に発信していくアンバサダーを選出するコンテストです。業界をけん引するにふさわしい「技術と感性」を身につけた次世代エースを発掘すべくSNS審査・豪華審査員による審査などの選考によりグランプリを決定します。
@@ -158,29 +156,39 @@ const Home = () => {
         <Committee committee={committee} />
         <About about={about} />
         <section className="pt-[25px]">
-          <div className="md:flex max-w-5xl m-auto items-center justify-between">
-            <div className="relative w-2/3 md:w-[45%] m-auto">
+          <div className="flex flex-col md:flex-row max-w-5xl m-auto items-center md:items-start justify-between md:gap-24">
+            <div className="relative w-2/3 md:w-[45%] m-auto mt-8 md:mt-0">
               <Image
-                className={'img'}
+                className={'img m-0'}
                 src={'/entt/yumephoto/yumephoto_ex_grand_prix.jpg'}
                 alt={'去年の受賞作'}
                 width={450}
                 height={516}
               />
             </div>
-            <div className="text-center mt-4 md:w-[45%] exGrandPrix">
-              <h4 className={'title text-[40px] ml-0 text-center md:text-left pb-5 md:pb-10'}>
-                去年の受賞作
+            <div className="text-center mt-4 md:mt-0 md:w-[45%] exGrandPrix contents md:block">
+              <h4
+                className={
+                  'title text-[40px] ml-0 text-center md:text-left -order-1 md:order-none w-4/5 md:w-full'
+                }
+              >
+                <Image
+                  src={'/entt/grand_prix_past.svg'}
+                  alt={'グランプリ受賞作'}
+                  width={261}
+                  height={160}
+                  className={'w-full md:m-auto'}
+                />
               </h4>
-              <p className={'text-center md:text-left max-w-[92%] m-auto'}>
-                こちらが昨年のフォトコンテスト受賞作品です。
-                <br className={'hidden md:block'} />
-                クリエイターは松尾一也さん。
-                <br />
-                2024年は一体どんな作品がグランプリに輝くのか？
-                <br />
-                ご応募をお待ちしております。
-              </p>
+              <div className={'text-center md:text-left m-auto mt-4 md:mt-8'}>
+                <a href="" className={'flex items-center justify-center gap-2'}>
+                  <Image src={'/monoIcon_instagram.svg'} alt={''} width={20} height={20} />
+                  @kazpic2
+                </a>
+                <p className={'text-sm mt-4 md:mt-8'}>
+                  {/* テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。 */}
+                </p>
+              </div>
             </div>
           </div>
         </section>
