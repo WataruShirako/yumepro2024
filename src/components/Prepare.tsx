@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Prepare = () => {
   return (
@@ -13,9 +14,9 @@ const Prepare = () => {
         <h2 className={'font-bold'}>開催中のコンテスト</h2>
         <ul className={'mt-4'}>
           <li>
-            <a href="/entt/yumephoto" className={'underline hover:opacity-50'}>
+            <Link href="/project/entertainment/photo" className={'underline hover:opacity-50'}>
               ・夢フォトオーディション
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

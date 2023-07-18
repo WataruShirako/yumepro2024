@@ -1,10 +1,6 @@
-import { Inter } from 'next/font/google';
-import { ShipporiMincho } from '../../../utils/fonts';
-import { cinzel } from '../../../utils/fonts';
+import '../../globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
-
-const siteName = '夢フォトオーディション | 夢叶えるプロジェクト2024';
+const siteName = 'エンタメコンテスト | 夢叶えるプロジェクト2024';
 const description =
   '「夢フォトオーディション」は写真を通じて日本の文化・社会・風景などの魅力を国内外に発信していくアンバサダーを選出するコンテストです。業界をけん引するにふさわしい「技術と感性」を身につけた次世代エースを発掘すべくSNS審査・豪華審査員による審査などの選考によりグランプリを決定します。今回の題材は「日本全国の風景景色」です。';
 const url = 'https://yume-pj.com';
@@ -32,7 +28,7 @@ export const metadata = {
     creator: '@yumepro2023',
   },
   verification: {
-    google: 'サーチコンソールのやつ',
+    google: 'サーチコンソールの',
   },
   alternates: {
     canonical: url,
@@ -42,9 +38,10 @@ export const metadata = {
 export default function EnttLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
-      <body className={`font-sans ${ShipporiMincho.className} ${cinzel.className}`}>
-        {children}
-      </body>
+      <head>
+        <title>エンタメコンテスト</title>
+      </head>
+      <body>{children}</body>
     </html>
   );
 }

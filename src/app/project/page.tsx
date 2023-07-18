@@ -1,3 +1,4 @@
+// projectページ
 import Prepare from '@/components/Prepare';
 
 const page = () => {

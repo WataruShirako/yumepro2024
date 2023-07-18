@@ -1,10 +1,4 @@
 import './globals.css';
-import Head from 'next/head';
-import { Inter } from 'next/font/google';
-import { ShipporiMincho } from '../utils/fonts';
-import { cinzel } from '../utils/fonts';
-
-const inter = Inter({ subsets: ['latin'] });
 
 const siteName = '夢叶えるプロジェクト2024';
 const description =
@@ -45,11 +39,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ja">
       <head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Cinzel&family=Shippori+Mincho&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className={`entt`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

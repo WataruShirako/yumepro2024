@@ -1,8 +1,7 @@
-import '../../globals.css';
-import '../../entt.css';
+import '../../../globals.css';
+import '../../../entt.css';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import Sponsor from '@/components/entt/Sponsor';
 import Image from 'next/image';
 import Prize from '@/components/entt/Prize';
 import About from '@/components/entt/About';
@@ -107,12 +106,12 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main id="yumephoto">
+      <main id="yumephoto" className={'entt'}>
         <section id="fv" className={'pt-0'}>
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={'/entt/yumephoto/fv_pc3.jpg'}
+              src={'/entt/yumephoto/fv_pc3.webp'}
               alt="text"
               width={1920}
               height={930}
@@ -120,7 +119,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/fv_sp3.jpg'}
+              src={'/entt/yumephoto/fv_sp3.webp'}
               alt="text"
               width={750}
               height={1370}

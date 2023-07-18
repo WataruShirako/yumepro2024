@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.125"
+  height="20.014" viewBox="0 0 16.125 20.014">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#254db1" />
+      <stop offset="1" stop-color="#bc2ef9" />
+      <stop offset="1" stop-color="#c52cfd" />
+    </linearGradient>
+  </defs>
+  <g id="noun-project-3831416" transform="translate(-5.529 -3)">
+    <g id="Project_2" data-name="Project 2" transform="translate(5.529 3)">
+      <path id="パス_369" data-name="パス 369"
+        d="M21.654,5.31A2.31,2.31,0,0,0,19.344,3H7.84A2.31,2.31,0,0,0,5.53,5.31V19.94c-.062,2.633,3.85,3.973,5.968,2.4.231-.046,9.648-7.092,9.841-7.169a.87.87,0,0,0,.316-.624ZM7.07,19.94V5.31a.77.77,0,0,1,.77-.77h11.5a.77.77,0,0,1,.77.77v8.47H13.676a2.31,2.31,0,0,0-2.31,2.31v3.85C11.282,21.958,7.155,21.965,7.07,19.94Zm5.837-.508V16.09a.77.77,0,0,1,.77-.77h4.851ZM11.69,6.85h3.85a.77.77,0,0,1,0,1.54H11.69a.77.77,0,0,1,0-1.54Zm6.16,4.62H9.38a.77.77,0,0,1,0-1.54h8.47a.77.77,0,1,1,0,1.54Z"
+        transform="translate(-5.529 -3)" fill="url(#linear-gradient)" />
+    </g>
+  </g>
+</svg>

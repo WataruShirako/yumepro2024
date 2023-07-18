@@ -1,0 +1,8 @@
+.Montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#cta {
+  background: url(../../public/top/cta_bg.webp) no-repeat;
+  background-size: cover;
+}
