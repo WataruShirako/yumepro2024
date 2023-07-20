@@ -130,7 +130,14 @@ const Home = () => {
         <section id="intro">
           <div className="container flex m-auto items-center justify-between flex-wrap flex-col lg:flex-row gap-4">
             <div className="flex-1 px-[4%]">
-              <h3 className={'text-3xl ShipporiMincho border-b border-b-[#CBD6D0] pb-4 md:pb-6'}>
+              <p className="text-xl px-4 py-2 bg-[#888888] text-white flex w-max mb-4 md:mb-6">
+                夢フォト2024テーマ
+              </p>
+              <h3
+                className={
+                  'text-3xl md:text-4xl 2xl:text-5xl ShipporiMincho border-b border-b-[#CBD6D0] pb-4 md:pb-6'
+                }
+              >
                 日本の風景景色
               </h3>
               <p className={'mt-4 md:mt-8'}>
@@ -173,7 +180,7 @@ const Home = () => {
                 }
               >
                 <Image
-                  src={'/entt/grand_prix_past.svg'}
+                  src={'/entt/intro_medal.svg'}
                   alt={'グランプリ受賞作'}
                   width={261}
                   height={160}

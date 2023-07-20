@@ -4,8 +4,8 @@ const Committee = ({ committee }: any) => {
   return (
     <section id="committee" className={''}>
       <h2 className="secTitle">
-        <span className={'block'}>committee</span>
-        審査委員
+        <span className={'block'}>judge</span>
+        審査員
       </h2>
       <div className="container m-auto max-w-[92%] lg:max-w-5xl">
         {committee.map((committee: any, index: any) => (
