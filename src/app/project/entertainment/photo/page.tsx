@@ -296,7 +296,7 @@ const Home = () => {
 
         <Chairman chairman={chairman} />
         <Adviser />
-        <Department enttContests={enttContests} enttStar={enttStar} />
+        {/* <Department enttContests={enttContests} enttStar={enttStar} /> */}
 
         <Ambassador />
         <Sns />
