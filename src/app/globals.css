@@ -25,6 +25,7 @@ body {
 .svg__container {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .svg__container {

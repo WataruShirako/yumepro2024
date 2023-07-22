@@ -192,10 +192,14 @@ const Home = () => {
                   <Image src={'/monoIcon_instagram.svg'} alt={''} width={20} height={20} />
                   @kazpic2
                 </a>
-                <p className={'text-sm mt-4 md:mt-8'}>
-                  一目でわかる季節感と雰囲気を感じてもらえるよう残した写真です。
+                <p className={'text-sm mt-4 md:mt-8 leading-loose p-5'}>
+                  一目でわかる季節感と雰囲気を
+                  <br className="md:hidden" />
+                  感じてもらえるよう残した写真です。
                   <br />
-                  夏の入道雲、夕暮れの中に人をシルエット化させることで夏の面影を意識しました。
+                  夏の入道雲、夕暮れの中に人をシルエット化
+                  <br className="md:hidden" />
+                  させることで夏の面影を意識しました。
                   <br />
                   猛暑の夏ですが、この作品を見て夏が少しでも誰かの心の癒しや特別感を感じてもらえればと思っております。
                 </p>
