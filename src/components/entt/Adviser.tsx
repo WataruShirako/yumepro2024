@@ -21,7 +21,10 @@ const Adviser = () => {
       </div>
       <section id="adviser" className={'bg-white'}>
         <h2 className="secTitle">
-          <span className={'block'}>Adviser</span>
+          <span className={'flex justify-center gap-2'}>
+            <Image src={'/entt/yumephoto/icons/adviser.svg'} alt="" width={17} height={20} />
+            Adviser
+          </span>
           特別顧問
         </h2>
         <Comingsoon />

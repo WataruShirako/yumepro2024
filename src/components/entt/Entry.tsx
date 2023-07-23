@@ -20,7 +20,10 @@ const Entry = () => {
       </div>
       <section id="entry" className={'bg-[#252525]'}>
         <h2 className="secTitle">
-          <span className={'block'}>entry</span>
+          <span className={'flex justify-center gap-2'}>
+            <Image src={'/entt/yumephoto/icons/entry.svg'} alt="" width={15} height={20} />
+            entry
+          </span>
           応募方法
         </h2>
         <div className="ctaBtnArea flex flex-col gap-8 md:flex-row items-center max-w-5xl m-auto container">

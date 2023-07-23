@@ -16,7 +16,10 @@ const Prize = ({ prize }: any) => {
       </div>
       <section id="sponsor" className={'bg-white'}>
         <h2 className="secTitle">
-          <span className={'block'}>prize</span>
+          <span className={'flex gap-2 m-auto items-center justify-center '}>
+            <Image src={'/entt/yumephoto/icons/prize.svg'} alt="" width={15} height={20} />
+            prize
+          </span>
           <p dangerouslySetInnerHTML={{ __html: `${prize.title}` }} />
           <div className={'mt-2 flex items-center justify-center gap-2'}>
             <p className={'text-xs'}>スポンサー企業</p>

@@ -4,7 +4,10 @@ const Committee = ({ committee }: any) => {
   return (
     <section id="committee" className={''}>
       <h2 className="secTitle">
-        <span className={'block'}>judge</span>
+        <span className={'flex gap-2 justify-center'}>
+          <Image src={'/entt/yumephoto/icons/committee.svg'} alt="" width={15} height={20} />
+          judge
+        </span>
         審査員
       </h2>
       <div className="container m-auto max-w-[92%] lg:max-w-5xl">

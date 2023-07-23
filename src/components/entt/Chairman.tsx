@@ -5,7 +5,10 @@ const Chairman = ({ chairman }: any) => {
   return (
     <section id="sponsor" className={''}>
       <h2 className="secTitle">
-        <span className={'block'}>chairman</span>
+        <span className={'flex justify-center gap-2'}>
+          <Image src={'/entt/yumephoto/icons/chairman.svg'} alt="" width={17} height={20} />
+          chairman
+        </span>
         総合司会
       </h2>
       <Comingsoon />

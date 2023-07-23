@@ -1,12 +1,16 @@
 import { Key } from 'react';
 import { ShipporiMincho } from '../../utils/fonts';
 import { cinzel } from '../../utils/fonts';
+import Image from 'next/image';
 
 const About = ({ about }: any) => {
   return (
     <section id="sponsor" className={''}>
       <h2 className={`secTitle ${ShipporiMincho.className} font-font-cinzel !pb-6`}>
-        <span className={`block ${cinzel.className}`}>about</span>
+        <span className={`flex gap-2 justify-center ${cinzel.className}`}>
+          <Image src={'/entt/yumephoto/icons/about.svg'} alt="" width={15} height={20} />
+          about
+        </span>
         開催概要
       </h2>
       <div className="container m-auto max-w-[92%] lg:max-w-2xl">

@@ -20,7 +20,10 @@ const Flow = ({ flow }: any) => {
       </div>
       <section id="flow" className={'bg-white'}>
         <h2 className="secTitle">
-          <span className={'block'}>flow</span>
+          <span className={'flex gap-2 justify-center'}>
+            <Image src={'/entt/yumephoto/icons/flow.svg'} alt="" width={20} height={20} />
+            flow
+          </span>
           選考フロー
         </h2>
         <div className="container m-auto max-w-[92%] xl:max-w-5xl">

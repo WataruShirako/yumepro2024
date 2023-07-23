@@ -6,7 +6,10 @@ const Ambassador = () => {
     <>
       <section id="ambassador" className={''}>
         <h2 className="secTitle">
-          <span className={'block'}>Ambassador</span>
+          <span className={'flex justify-center gap-2'}>
+            <Image src={'/entt/yumephoto/icons/ambassodors.svg'} alt="" width={20} height={20} />
+            Ambassador
+          </span>
           アンバサダー
         </h2>
         <Comingsoon />
