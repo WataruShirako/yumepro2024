@@ -38,9 +38,7 @@ export const metadata = {
 export default function EnttLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
-      <head>
-        <title>エンタメコンテスト</title>
-      </head>
+      <head></head>
       <body>{children}</body>
     </html>
   );

@@ -11,14 +11,14 @@ const Category = () => {
         </span>
         <p className={'font-bold text-2xl md:text-3xl mt-1'}>コンテスト部門一覧</p>
       </h2>
-      <div className="flex gap-2 md:gap-12 flex-col lg:flex-row  mt-8 lg:max-w-6xl mx-auto lg:justify-center">
+      <div className="flex gap-2 md:gap-12 flex-col lg:flex-row mt-12 lg:max-w-6xl mx-auto lg:justify-center">
         {/* エンタメ部門 */}
         <div
           className={
-            'container max-w-[92%] md:max-w-lg m-auto lg:m-0 bg-white p-5 lg:p-8 lg:px-12 rounded-2xl '
+            'container max-w-[92%] md:max-w-lg m-auto lg:m-0 bg-white p-5 lg:py-8 lg:px-8 rounded-2xl '
           }
         >
-          <h3 className={'relative flex items-center justify-start'}>
+          <h3 className={'relative flex items-center justify-start lg:-translate-x-4'}>
             <Image
               src={'/top/entt_symbol.svg'}
               alt={''}
@@ -41,7 +41,7 @@ const Category = () => {
                 alt={'エンタメコンテスト'}
                 width={150}
                 height={150}
-                className={'rounded-lg shadow-md w-full'}
+                className={'rounded-2xl shadow-md w-full'}
               />
               <p className={'text-xs font-semibold mt-2'}>エンタメコンテスト</p>
             </Link>
@@ -51,7 +51,7 @@ const Category = () => {
                 alt={'スター誕生オーディション'}
                 width={150}
                 height={150}
-                className={'rounded-lg shadow-md w-full'}
+                className={'rounded-2xl shadow-md w-full'}
               />
               <p className={'text-xs font-semibold mt-2'}>
                 スター誕生
@@ -67,7 +67,7 @@ const Category = () => {
             'container max-w-[92%]  md:max-w-lg m-auto lg:m-0 bg-[#151D22] p-5 lg:p-8 lg:px-12 rounded-2xl text-[#f4f4f4]'
           }
         >
-          <h3 className={'relative flex items-center justify-start'}>
+          <h3 className={'relative flex items-center justify-start lg:-translate-x-4'}>
             <Image
               src={'/top/busi_symbol.svg'}
               alt={''}
@@ -90,7 +90,7 @@ const Category = () => {
                 alt={'coming soon...'}
                 width={150}
                 height={150}
-                className={'rounded-lg shadow-md w-full'}
+                className={'rounded-2xl shadow-md w-full'}
               />
               <p className={'text-xs font-semibold mt-2'}>coming soon...</p>
             </div>
@@ -100,7 +100,7 @@ const Category = () => {
                 alt={'coming soon...'}
                 width={150}
                 height={150}
-                className={'rounded-lg shadow-md w-full'}
+                className={'rounded-2xl shadow-md w-full'}
               />
 
               <p className={'text-xs font-semibold mt-2'}>coming soon...</p>

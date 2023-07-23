@@ -5,7 +5,7 @@ const Cta = () => {
     <section
       id="cta"
       className={
-        'text-center max-w-[92%] m-auto mt-12 rounded-2xl overflow-hidden text-white py-12 md:py-24'
+        'text-center max-w-[92%] m-auto mt-12 md:mt-24 rounded-2xl overflow-hidden text-white py-12 md:py-24 bg-no-repeat bg-topCta bg-cover'
       }
     >
       <h3 className={'text-2xl md:text-3xl font-semibold'}>エントリーはこちらから</h3>

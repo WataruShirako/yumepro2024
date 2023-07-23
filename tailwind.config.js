@@ -16,6 +16,9 @@ module.exports = {
         'sec-title': 'var(--font-shipporimincho)',
         'font-cinzel': 'var(--font-cinzel)',
       },
+      backgroundImage: {
+        topCta: "url('/top/cta_bg.webp')",
+      },
     },
   },
   plugins: [],

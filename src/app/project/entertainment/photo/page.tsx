@@ -17,6 +17,9 @@ import Entry from '@/components/entt/Entry';
 import Ambassador from '@/components/entt/Ambassador';
 import Adviser from '@/components/entt/Adviser';
 import Department from '@/components/entt/Department';
+import Cta from '@/components/top/Cta';
+import Category from '@/components/top/Category';
+import Link2023 from '@/components/top/Link2023';
 
 const Home = () => {
   // 公開済みのコンテスト エンタメコンテスト
@@ -304,6 +307,12 @@ const Home = () => {
 
         <Ambassador />
         <Sns />
+
+        <Cta />
+
+        <Category />
+
+        <Link2023 />
 
         <News />
       </main>
