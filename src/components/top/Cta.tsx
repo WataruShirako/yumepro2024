@@ -5,18 +5,25 @@ const Cta = () => {
     <section
       id="cta"
       className={
-        'text-center max-w-[92%] m-auto mt-12 rounded-2xl overflow-hidden text-white py-12'
+        'text-center max-w-[92%] m-auto mt-12 rounded-2xl overflow-hidden text-white py-12 md:py-24'
       }
     >
-      <h3 className={'text-2xl font-semibold'}>エントリーはこちらから</h3>
+      <h3 className={'text-2xl md:text-3xl font-semibold'}>エントリーはこちらから</h3>
       <div className="btnArea">
         <p className={'mt-6'}>
           エンタメ / ビジネス部門どちらも
           <br />
           LINEからご参加ください。
         </p>
-        <div className={'flex items-end justify-center gap-5 md:gap-10 flex-col mt-12'}>
-          <div className="btn bg-[#06C755] rounded-2xl w-full h-16 max-w-[85%] m-auto grid place-items-center text-white font-semibold md:text-xl relative">
+        <div
+          className={
+            'flex items-end justify-center gap-5 md:gap-10 flex-col md:flex-row mt-12 md:mt-16 md:max-w-4xl m-auto md:px-8'
+          }
+        >
+          <a
+            href=""
+            className="btn bg-[#06C755] rounded-2xl w-full md:w-1/2 h-16 md:h-20 max-w-[85%] m-auto grid place-items-center text-white font-semibold md:text-xl relative"
+          >
             <Image
               src={'/top/cta_btn_top_text.svg'}
               alt={''}
@@ -32,8 +39,11 @@ const Cta = () => {
               height={12.45}
               className={'absolute top-auto bottom-auto right-4'}
             />
-          </div>
-          <div className="btn bg-gradient-to-bl from-[#254DB1] to-[#C52CFD] rounded-2xl  w-full h-16 max-w-[85%] m-auto grid place-items-center text-white font-semibold md:text-xl relative">
+          </a>
+          <a
+            href=""
+            className="btn bg-gradient-to-bl from-[#254DB1] to-[#C52CFD] rounded-2xl  w-full md:w-1/2 h-16 md:h-20 max-w-[85%] m-auto grid place-items-center text-white font-semibold md:text-xl relative"
+          >
             スポンサーさま募集
             <Image
               src={'/top/arrow_white.svg'}
@@ -42,7 +52,7 @@ const Cta = () => {
               height={12.45}
               className={'absolute top-auto bottom-auto right-4'}
             />
-          </div>
+          </a>
         </div>
       </div>
     </section>
