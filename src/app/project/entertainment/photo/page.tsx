@@ -111,7 +111,7 @@ const Home = () => {
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={'/entt/yumephoto/fv_pc3.webp'}
+              src={'/entt/yumephoto/fv_pc4.webp'}
               alt="text"
               width={1920}
               height={930}
@@ -119,7 +119,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/fv_sp3.webp'}
+              src={'/entt/yumephoto/fv_sp4.webp'}
               alt="text"
               width={750}
               height={1370}
@@ -149,7 +149,7 @@ const Home = () => {
               <div className="imgWrap introImgWrap max-w-[92%] m-auto">
                 <Image
                   className="img introImg"
-                  src={'/entt/yumephoto/intro_img2.webp'}
+                  src={'/entt/yumephoto/intro_img3.webp'}
                   alt="text"
                   width={450}
                   height={357}
