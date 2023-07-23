@@ -45,20 +45,16 @@ const Category = () => {
               />
               <p className={'text-xs font-semibold mt-2'}>エンタメコンテスト</p>
             </Link>
-            <Link href={'/project/entertainment/photo'} className={'text-center w-1/2'}>
+            <div className={'text-center w-1/2'}>
               <Image
-                src={'/top/entt_2_1.webp'}
-                alt={'スター誕生オーディション'}
+                src={'/top/busi_1_1.webp'}
+                alt={'coming soon...'}
                 width={150}
                 height={150}
                 className={'rounded-2xl shadow-md w-full'}
               />
-              <p className={'text-xs font-semibold mt-2'}>
-                スター誕生
-                <br className={'md:hidden'} />
-                オーディション
-              </p>
-            </Link>
+              <p className={'text-xs font-semibold mt-2'}>coming soon...</p>
+            </div>
           </div>
         </div>
         {/* ビジネス部門 */}
