@@ -36,7 +36,7 @@ section {
 
 .secTitle {
   text-align: center;
-  font-family: YuGothic, serif;
+  font-family: YuGothic, 'YuGothic', sans-serif;
   font-weight: 600;
   font-size: 2rem;
   color: #485757;
@@ -46,7 +46,7 @@ section {
 
 .secTitle span {
   font-size: 1rem;
-  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat', Montserrat, serif;
   font-weight: 600;
   letter-spacing: 0.03em;
   color: #c52cfd;
