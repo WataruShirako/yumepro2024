@@ -21,8 +21,9 @@ const Cta = () => {
           }
         >
           <a
-            href=""
+            href="https://liff.line.me/1657596848-xOJZNbmM/landing?follow=%40306ccdiy&lp=ey1QMR&liff_id=1657596848-xOJZNbmM"
             className="btn bg-[#06C755] rounded-2xl w-full md:w-1/2 h-16 md:h-20 max-w-[85%] m-auto grid place-items-center text-white font-semibold md:text-xl relative"
+            target="_blank"
           >
             <Image
               src={'/top/cta_btn_top_text.svg'}
@@ -41,8 +42,9 @@ const Cta = () => {
             />
           </a>
           <a
-            href=""
+            href="https://yume-pj.com/project/sponsor/"
             className="btn bg-gradient-to-bl from-[#254DB1] to-[#C52CFD] rounded-2xl  w-full md:w-1/2 h-16 md:h-20 max-w-[85%] m-auto grid place-items-center text-white font-semibold md:text-xl relative"
+            target="_blank"
           >
             スポンサーさま募集
             <Image
