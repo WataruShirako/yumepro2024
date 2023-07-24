@@ -122,7 +122,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/fv_sp4.webp'}
+              src={'/entt/yumephoto/fv_sp5.webp'}
               alt="text"
               width={750}
               height={1370}
