@@ -122,7 +122,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/fv_sp5.webp'}
+              src={'/entt/yumephoto/fv_sp6.webp'}
               alt="text"
               width={750}
               height={1370}
@@ -133,16 +133,22 @@ const Home = () => {
         <section id="intro">
           <div className="container flex m-auto items-center justify-between flex-wrap flex-col lg:flex-row gap-4">
             <div className="flex-1 px-[4%]">
-              <p className="text-xl px-4 py-2 bg-[#888888] text-white flex w-max mb-4 md:mb-6">
-                夢フォト2024テーマ
-              </p>
-              <h3
-                className={
-                  'text-3xl md:text-4xl 2xl:text-5xl border-b border-b-[#CBD6D0] pb-4 md:pb-6 font-semibold'
-                }
-              >
-                日本の風景景色
+              <h3 className={''}>
+                <span>
+                  <Image
+                    src={'/entt/yumephoto/yumephoto_intro_title.svg'}
+                    alt={'夢フォト2024テーマ'}
+                    width={264}
+                    height={95}
+                  />
+                </span>
+                <span
+                  className={'text-center text-3xl md:text-4xl font-semibold block drop-shadow-lg'}
+                >
+                  「日本全国の風景景色」
+                </span>
               </h3>
+
               <p className={'mt-4 md:mt-8'}>
                 「夢フォトオーディション」は写真を通じて日本の文化・社会・風景などの魅力を国内外に発信していくアンバサダーを選出するコンテストです。業界をけん引するにふさわしい「技術と感性」を身につけた次世代エースを発掘すべくSNS審査・豪華審査員による審査などの選考によりグランプリを決定します。
               </p>
@@ -183,7 +189,7 @@ const Home = () => {
                 }
               >
                 <Image
-                  src={'/entt/intro_medal.svg'}
+                  src={'/entt/yumephoto/prize_past.svg'}
                   alt={'グランプリ受賞作'}
                   width={261}
                   height={160}
@@ -195,7 +201,10 @@ const Home = () => {
                   <Image src={'/monoIcon_instagram.svg'} alt={''} width={20} height={20} />
                   @kazpic2
                 </a>
-                <p className={'text-sm mt-4 md:mt-8 leading-loose p-5'}>
+                <p className={'text-lg mt-4 md:mt-6 leading-loose p-5 py-1 text-center'}>
+                  〜作品に込めた想い〜
+                </p>
+                <p className={'text-sm mt-2 md:mt-3 leading-loose p-5 pt-1 md:px-0'}>
                   一目でわかる季節感と雰囲気を
                   <br className="md:hidden" />
                   感じてもらえるよう残した写真です。

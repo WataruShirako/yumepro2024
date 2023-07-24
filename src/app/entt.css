@@ -53,10 +53,13 @@ section {
   margin-bottom: 12px;
   line-height: 1;
   align-items: center;
+  height: 13px;
+  gap: 4px;
 }
 
 .secTitle span img {
   height: 100%;
+  width: max-content;
 }
 
 .sponsorList {
