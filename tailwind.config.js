@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         'sec-title': 'var(--font-shipporimincho)',
         'font-cinzel': 'var(--font-cinzel)',
+        'font-montserrat': 'var(--font-montserrat)',
       },
       backgroundImage: {
         topCta: "url('/top/cta_bg.webp')",

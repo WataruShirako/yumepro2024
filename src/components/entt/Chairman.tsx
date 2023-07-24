@@ -7,7 +7,7 @@ const Chairman = ({ chairman }: any) => {
       <h2 className="secTitle">
         <span className={'flex justify-center gap-2'}>
           <Image src={'/entt/yumephoto/icons/chairman.svg'} alt="" width={17} height={20} />
-          chairman
+          Chairman
         </span>
         総合司会
       </h2>

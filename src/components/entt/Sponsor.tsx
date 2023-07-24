@@ -4,7 +4,7 @@ const Sponsor = ({ sponsors }: any) => {
   return (
     <section id="sponsor">
       <h2 className="secTitle">
-        <span className={'block'}>sponsor</span>
+        <span className={'block'}>Sponsor</span>
         スポンサー企業一覧
       </h2>
       <div className="container flex flex-wrap justify-center gap-3 md:gap-4 m-auto max-w-[1100px]">

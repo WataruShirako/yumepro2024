@@ -5,7 +5,7 @@ const News = () => {
     <>
       <section id={'ambassador'} className={''}>
         <h2 className={'secTitle'}>
-          <span className={'block'}>news</span>
+          <span className={'block'}>News</span>
           新着情報
         </h2>
         <div className={'container m-auto max-w-5xl px-[4%]'}>

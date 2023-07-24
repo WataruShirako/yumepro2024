@@ -6,7 +6,7 @@ const Committee = ({ committee }: any) => {
       <h2 className="secTitle">
         <span className={'flex gap-2 justify-center'}>
           <Image src={'/entt/yumephoto/icons/committee.svg'} alt="" width={15} height={20} />
-          judge
+          Judge
         </span>
         審査員
       </h2>
@@ -25,12 +25,10 @@ const Committee = ({ committee }: any) => {
               loading="lazy"
             />
             <div className={'m-auto mt-4 md:mt-0 md:mr-0 md:w-[60%] max-w-full'}>
-              <h4 className={'text-2xl pb-4 md:pb-6 ShipporiMincho text-center md:text-left'}>
+              <h4 className={'text-2xl pb-4 md:pb-6 text-center md:text-left font-semibold'}>
                 {committee.name}
               </h4>
-              <h5 className={'text-lg pb-4 md:pb-6 ShipporiMincho text-center md:text-left'}>
-                {committee.pro}
-              </h5>
+              <h5 className={'text-lg pb-4 md:pb-6 text-center md:text-left'}>{committee.pro}</h5>
               <p className={'text-sm leading-loose pb-4 md:pb-6'}>{committee.text}</p>
               {committee.hp !== '' && (
                 <div className={'flex items-center justify-start gap-4 text-sm mb-2 md:mb-4'}>

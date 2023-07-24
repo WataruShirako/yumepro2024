@@ -138,7 +138,7 @@ const Home = () => {
               </p>
               <h3
                 className={
-                  'text-3xl md:text-4xl 2xl:text-5xl ShipporiMincho border-b border-b-[#CBD6D0] pb-4 md:pb-6'
+                  'text-3xl md:text-4xl 2xl:text-5xl border-b border-b-[#CBD6D0] pb-4 md:pb-6 font-semibold'
                 }
               >
                 日本の風景景色
