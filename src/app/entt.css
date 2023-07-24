@@ -40,8 +40,8 @@ section {
   font-weight: 600;
   font-size: 2rem;
   color: #485757;
-  padding-bottom: 50px;
-  line-height: 1.4em;
+  padding-bottom: 25px;
+  line-height: 1em;
 }
 
 .secTitle span {
@@ -49,9 +49,14 @@ section {
   font-family: 'Montserrat', serif;
   font-weight: 600;
   letter-spacing: 0.03em;
-  color: #cbd6d0;
-  text-transform: ;
   color: #c52cfd;
+  margin-bottom: 12px;
+  line-height: 1;
+  align-items: center;
+}
+
+.secTitle span img {
+  height: 100%;
 }
 
 .sponsorList {
@@ -62,6 +67,10 @@ section {
 @media screen and (min-width: 768px) {
   .sponsorList {
     width: calc(100% / 4 - 1rem);
+  }
+
+  .secTitle {
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 1024px) {

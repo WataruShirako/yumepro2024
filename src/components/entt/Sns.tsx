@@ -19,7 +19,7 @@ const Sns = () => {
         </svg>
       </div>
       <section id="ambassador" className={'bg-[#CBD6D0]'}>
-        <h2 className="secTitle">
+        <h2 className="text-2xl md:text-3xl text-center font-semibold mb-6">
           夢叶えるプロジェクト
           <br className={'lg:hidden'} />
           公式チャンネル

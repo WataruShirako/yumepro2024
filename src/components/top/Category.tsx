@@ -4,14 +4,14 @@ import Link from 'next/link';
 const Category = () => {
   return (
     <section className={'mt-12 md:mt-24'}>
-      <h2 className={'text-center'}>
+      <h2 className={'text-center secTitle'}>
         <span className={'text-[#C52CFD] font-bold flex items-center justify-center gap-2'}>
           <Image src={'/icons/categories.svg'} alt={''} width={16} height={20} />
           Dream Categories
         </span>
         <p className={'font-bold text-2xl md:text-3xl mt-1'}>コンテスト部門一覧</p>
       </h2>
-      <div className="flex gap-2 md:gap-12 flex-col lg:flex-row mt-12 lg:max-w-6xl mx-auto lg:justify-center">
+      <div className="flex gap-2 md:gap-12 flex-col lg:flex-row lg:max-w-6xl mx-auto lg:justify-center">
         {/* エンタメ部門 */}
         <div
           className={
