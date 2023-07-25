@@ -204,16 +204,20 @@ const Home = () => {
                 <p className={'text-lg mt-4 md:mt-6 leading-loose p-5 py-1 text-center'}>
                   〜作品に込めた想い〜
                 </p>
-                <p className={'text-sm mt-2 md:mt-3 leading-loose p-5 pt-1 md:px-0'}>
+                <p className={'text-sm mt-2 md:mt-3 leading-loose p-5 pt-1 md:px-0 text-center'}>
                   一目でわかる季節感と雰囲気を
-                  <br className="md:hidden" />
+                  <br />
                   感じてもらえるよう残した写真です。
                   <br />
                   夏の入道雲、夕暮れの中に人をシルエット化
-                  <br className="md:hidden" />
+                  <br />
                   させることで夏の面影を意識しました。
                   <br />
-                  猛暑の夏ですが、この作品を見て夏が少しでも誰かの心の癒しや特別感を感じてもらえればと思っております。
+                  猛暑の夏ですが、この作品を見て夏が少しでも
+                  <br />
+                  誰かの心の癒しや特別感を感じてもらえれば
+                  <br />
+                  と思っております。
                 </p>
               </div>
             </div>
