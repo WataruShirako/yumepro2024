@@ -11,7 +11,7 @@ const Category = () => {
         </span>
         <p className={'font-bold text-2xl md:text-3xl mt-1'}>コンテスト部門一覧</p>
       </h2>
-      <div className="flex gap-2 md:gap-12 flex-col lg:flex-row lg:max-w-6xl mx-auto lg:justify-center mt-10">
+      <div className="flex gap-2 md:gap-12 flex-col md:flex-row lg:max-w-6xl mx-auto lg:justify-center mt-10 px-5">
         {/* エンタメ部門 */}
         <div
           className={
@@ -35,7 +35,10 @@ const Category = () => {
             />
           </h3>
           <div className={'flex justify-around mt-4 gap-6 '}>
-            <Link href={'/project/entertainment/photo'} className={'text-center w-1/2'}>
+            <Link
+              href={'/project/entertainment/photo'}
+              className={'text-center w-1/2 hover:brightness-90'}
+            >
               <Image
                 src={'/top/top_entt_enttcontest.webp'}
                 alt={'エンタメコンテスト'}

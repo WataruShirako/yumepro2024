@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.44" height="19.507" viewBox="0 0 21.44 19.507">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#254db1"/>
+      <stop offset="1" stop-color="#bc2ef9"/>
+      <stop offset="1" stop-color="#c52cfd"/>
+    </linearGradient>
+  </defs>
+  <g id="noun-news-5889222" transform="translate(-18.55 -25.41)">
+    <path id="パス_996" data-name="パス 996" d="M35.6,25.41H26.709a4.394,4.394,0,0,0-4.364,3.928,4.395,4.395,0,0,0-3.795,4.349v6.843a4.387,4.387,0,0,0,4.388,4.388H35.6a4.394,4.394,0,0,0,4.388-4.388V37.847a.784.784,0,1,0-1.567,0v2.682A2.822,2.822,0,0,1,35.6,43.35H22.938a2.818,2.818,0,0,1-2.821-2.821V33.687a2.825,2.825,0,0,1,2.2-2.75v9.334a.784.784,0,1,0,1.567,0V29.8a2.822,2.822,0,0,1,2.821-2.821H35.6A2.822,2.822,0,0,1,38.423,29.8v3.941a.784.784,0,1,0,1.567,0V29.8A4.394,4.394,0,0,0,35.6,25.41Z" fill="url(#linear-gradient)"/>
+    <path id="パス_997" data-name="パス 997" d="M58.462,48.754a.782.782,0,0,0-.784-.784H49.554a.784.784,0,0,0,0,1.567h8.125A.782.782,0,0,0,58.462,48.754Z" transform="translate(-22.327 -16.668)" fill="url(#linear-gradient)"/>
+    <path id="パス_998" data-name="パス 998" d="M55.85,61.844a.782.782,0,0,0-.784-.784H49.554a.784.784,0,0,0,0,1.567h5.513A.782.782,0,0,0,55.85,61.844Z" transform="translate(-22.327 -26.339)" fill="url(#linear-gradient)"/>
+    <path id="パス_999" data-name="パス 999" d="M49.554,74.97a.784.784,0,1,0,0,1.567h2.977a.784.784,0,1,0,0-1.567Z" transform="translate(-22.327 -36.616)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
