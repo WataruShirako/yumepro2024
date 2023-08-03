@@ -11,7 +11,7 @@ const Category = () => {
         </span>
         <p className={'font-bold text-2xl md:text-3xl mt-1'}>コンテスト部門一覧</p>
       </h2>
-      <div className="flex gap-2 md:gap-12 flex-col lg:flex-row lg:max-w-6xl mx-auto lg:justify-center">
+      <div className="flex gap-2 md:gap-12 flex-col lg:flex-row lg:max-w-6xl mx-auto lg:justify-center mt-10">
         {/* エンタメ部門 */}
         <div
           className={

@@ -178,7 +178,7 @@ const Home = () => {
               className="md:w-1/2"
             />
             <div className="md:w-1/2">
-              <h4 className="font-semibold text-xl mb-6 text-center md:text-left">
+              <h4 className="font-semibold text-xl md:text-2xl mb-6 text-center md:text-left">
                 SDGs×地方創生
                 <br />
                 「夢叶えるプロジェクト」
