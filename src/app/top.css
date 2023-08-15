@@ -11,3 +11,47 @@
     font-size: 5.6vw;
   }
 }
+
+/*
+右から左へ
+----------------------------*/
+@keyframes infinity-scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/*
+IE11対策
+----------------------------*/
+.slide:-ms-lang(x)::-ms-backdrop,
+.slide {
+  display: -ms-grid;
+  overflow: hidden;
+}
+/*----------------------------*/
+
+.slide__wrap {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide__list {
+  display: flex;
+  list-style: none;
+}
+
+.slide__list--left {
+  animation: infinity-scroll-left 65s infinite linear 0.5s both;
+}
+
+.slide__item {
+  //width: calc(100vw / 2.5);
+  margin-left: 10px;
+}
+.slide__item > img {
+  width: 100%;
+}

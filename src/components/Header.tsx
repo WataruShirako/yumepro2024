@@ -41,7 +41,7 @@ const NavBusi = () => {
 const NavEntt = () => {
   const enttContests = [
     {
-      path: '',
+      path: '/project/entertainment/photo',
       name: 'yumephoto',
       title: '夢フォトオーディション',
     },

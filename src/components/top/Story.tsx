@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Story = () => {
   return (
     <section id="story" className="pt-12 md:pt-24">
-      <div className="container flex flex-col md:flex-row-reverse m-auto max-w-[92%] md:max-w-6xl gap-6 lg:gap-24 items-center px-5">
+      <div className="container flex flex-col md:flex-row-reverse m-auto max-w-[92%] md:max-w-6xl gap-6 lg:gap-24 items-center md:px-5">
         <Image
           src={'/top/born_story.webp'}
           alt={''}

@@ -16,6 +16,7 @@ import Intro from '@/components/top/Intro';
 import Link2023 from '@/components/top/Link2023';
 import News from '@/components/top/News';
 import Schedule from '@/components/top/Schedule';
+import Slide from '@/components/top/Slide';
 import Sns from '@/components/top/Sns';
 import Sponsor from '@/components/top/Sponsor';
 import Story from '@/components/top/Story';
@@ -63,6 +64,7 @@ const Home = () => {
       <Header />
       <main className={'bg-[#F7F7F7]'}>
         <Fv />
+        <Slide />
         <News />
         <Intro />
         <Category />
