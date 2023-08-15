@@ -29,70 +29,70 @@ const Sponsor = () => {
         <p className="mt-6 md:mt-12 font-semibold">スポンサー企業様</p>
         <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
           <Image
-            src={'/top/sponsor/zen_spa.jpg'}
+            src={'/top/sponsor/zen_spa.png'}
             alt="sakura"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
-            src={'/top/sponsor/an_spa.jpg'}
+            src={'/top/sponsor/an_spa.png'}
             alt="an_spa"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={'/top/sponsor/sanatio_spa.jpg'}
+            src={'/top/sponsor/sanatio_spa.png'}
             alt="sanatio_spa"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={'/top/sponsor/sora_spa.jpg'}
+            src={'/top/sponsor/sora_spa.png'}
             alt="sola_spa"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={'/top/sponsor/spa_solani.jpg'}
+            src={'/top/sponsor/spa_solani.png'}
             alt="spa_solani"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={'/top/sponsor/landmark_spa.jpg'}
+            src={'/top/sponsor/landmark_spa.png'}
             alt="landmark_spa"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={'/top/sponsor/la_villa.jpg'}
+            src={'/top/sponsor/la_villa.png'}
             alt="la_villa"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={'/top/sponsor/hammam_spa.jpg'}
+            src={'/top/sponsor/hammam_spa.png'}
             alt="hammam_spa"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={'/top/sponsor/inroom_spa.jpg'}
+            src={'/top/sponsor/inroom_spa.png'}
             alt="inroom_spa"
             width={80}
             height={80}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={'/top/sponsor/fauchon.jpg'}
+            src={'/top/sponsor/fauchon.png'}
             alt="fauchon"
             width={80}
             height={80}
