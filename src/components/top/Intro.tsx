@@ -22,9 +22,11 @@ const Intro = () => {
           height={500}
           className={'rounded-2xl overflow-hidden flex-1'}
         />
-        <div className="flex-1">
+        <div className="flex-1 palt">
           <h3 className={'text-2xl font-semibold mt-8'}>
-            テーマ「エンタメ」×「地方創生」×「SDGs」
+            テーマ
+            <br className={'md:hidden'} />
+            「エンタメ」×「地方創生」×「SDGs」
             <br />
             若者も大人もが夢に
             <br className={'md:hidden'} />

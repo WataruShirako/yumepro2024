@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .palt {
+    font-feature-settings: 'palt';
+  }
+}
+
 body {
   letter-spacing: 0.05em;
   user-select: none;
