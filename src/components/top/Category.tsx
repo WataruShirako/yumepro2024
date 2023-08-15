@@ -46,7 +46,11 @@ const Category = () => {
                 height={150}
                 className={'rounded-2xl shadow-md w-full'}
               />
-              <p className={'text-xs font-semibold mt-2'}>エンタメコンテスト</p>
+              <p className={'text-xs font-semibold mt-2'}>
+                部門別
+                <br className="md:hidden" />
+                エンタメオーディション
+              </p>
             </Link>
             <div className={'text-center w-1/2'}>
               <Image
