@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 // Navigation ビジネス部門
@@ -117,9 +118,9 @@ const Header = ({ header }: any) => {
   return (
     <>
       <header className="flex justify-between px-6 md:px-6 md:justify-center items-center m-auto fixed w-full h-[80px] md:h-[100px] bg-white z-10 gap-10">
-        <a href="">
+        <Link href="/">
           <Image src={'/logo_black.svg'} alt={'logo'} width={50} height={52} />
-        </a>
+        </Link>
 
         <button className="humb md:hidden flex flex-col">
           <Image src={'/icons/humb.svg'} alt={'='} width={36} height={36} />

@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -38,6 +40,7 @@ const Category = () => {
             <Link
               href={'/project/entertainment/photo'}
               className={'text-center w-1/2 hover:brightness-90'}
+              onClick={() => window.scrollTo(0, 0)}
             >
               <Image
                 src={'/top/top_entt_enttcontest.webp'}

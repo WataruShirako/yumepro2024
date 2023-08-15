@@ -313,20 +313,14 @@ const Home = () => {
           </p>
         </section>
         {/* <Instagram /> */}
-
         <Chairman chairman={chairman} />
         <Adviser />
         {/* <Department enttContests={enttContests} enttStar={enttStar} /> */}
-
         <Ambassador />
         <Sns />
-
         <Cta />
-
         <Category />
-
         <Link2023 />
-
         <News />
       </main>
       <ToTop />

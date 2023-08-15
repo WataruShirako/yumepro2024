@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -27,10 +29,11 @@ const CategoryIntro = ({ enttContests, star }: any) => {
             {enttContests.map((EnttContest: any, index: number) => (
               <Link
                 key={index}
-                href={''}
+                href={'/project/entertainment/photo'}
                 className={
                   'list bg-[#CBD6D0] p-4 mt-2 flex justify-between items-center hover:bg-[#dbe8e1] '
                 }
+                onClick={() => window.scrollTo(0, 0)}
               >
                 <span>{EnttContest.name}</span>
                 {EnttContest.name !== 'coming soon ...' && (
@@ -44,7 +47,7 @@ const CategoryIntro = ({ enttContests, star }: any) => {
             {star.map((star: any, index: number) => (
               <Link
                 key={index}
-                href={''}
+                href={'/project/entertainment/photo'}
                 className={
                   'list bg-[#CBD6D0] p-4 mt-2 flex justify-between items-center hover:bg-[#dbe8e1]'
                 }
