@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import Comingsoon from './Comingsoon';
 import Instagram from '../entt/Instagram';
@@ -42,6 +44,7 @@ const Banner = () => {
                   href={audi.path}
                   className={'md:w-[calc(100%/3-2%)] hover:brightness-90'}
                   key={index}
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   <Image src={audi.src} alt={audi.name} width={350} height={115} />
                 </Link>
