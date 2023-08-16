@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Prepare from '@/components/Prepare';
 import Ambassadors from '@/components/top/Ambassadors';
+import Banner from '@/components/top/Banner';
 import Category from '@/components/top/Category';
 import CategoryIntro from '@/components/top/CategoryIntro';
 import Comingsoon from '@/components/top/Comingsoon';
@@ -65,6 +66,7 @@ const Home = () => {
       <main className={'bg-[#F7F7F7]'}>
         <Fv />
         <Slide />
+        <Banner />
         <News />
         <Intro />
         <Category />

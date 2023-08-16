@@ -5,7 +5,7 @@ import Instagram from '../entt/Instagram';
 const News = () => {
   return (
     <>
-      <section id="ambassodor" className="pt-12 md:pt-24">
+      <section id="news" className="pt-12 md:pt-24">
         <h2 className={'text-center'}>
           <span className={'text-[#C52CFD] font-bold flex items-center justify-center gap-2'}>
             <Image src={'/icons/news.svg'} alt={''} width={17} height={20} />
