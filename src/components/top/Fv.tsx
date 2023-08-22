@@ -31,7 +31,7 @@ const Fv = () => {
         slidesPerView={1} //一度に表示するスライドの数
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         className={'w-full md:!hidden'}
@@ -56,7 +56,7 @@ const Fv = () => {
         slidesPerView={1} //一度に表示するスライドの数
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         className={'w-full !hidden md:!block'}
