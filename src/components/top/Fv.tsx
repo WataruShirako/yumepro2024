@@ -1,22 +1,81 @@
+'use client';
+
 import Image from 'next/image';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+
+// カルーセルにする画像のソースをリストにします
+const images = {
+  pc: [
+    '/top/fv_slide/top_slide_1.webp',
+    '/top/fv_slide/top_slide_2.webp',
+    '/top/fv_slide/top_slide_3.webp',
+    '/top/fv_slide/top_slide_4.webp',
+  ],
+  sp: [
+    '/top/fv_slide/sp_top_slide_1.webp',
+    '/top/fv_slide/sp_top_slide_2.webp',
+    '/top/fv_slide/sp_top_slide_3.webp',
+    '/top/fv_slide/sp_top_slide_4.webp',
+  ],
+};
 
 const Fv = () => {
   return (
     <section className={'fv'}>
-      <Image
-        src={'/top/top_fv_pc.webp'}
-        alt={''}
-        width={1366}
-        height={690}
-        className={'w-full hidden md:block'}
-      />
-      <Image
-        src={'/top/top_fv_sp.webp'}
-        alt={''}
-        width={1366}
-        height={690}
-        className={'w-full block md:hidden'}
-      />
+      <Swiper
+        modules={[Navigation, Pagination, Autoplay, EffectFade]}
+        slidesPerView={1} //一度に表示するスライドの数
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        className={'w-full md:!hidden'}
+        effect="fade"
+      >
+        {images.sp.map((src: string, index: number) => {
+          return (
+            <SwiperSlide key={`${index}`}>
+              <Image
+                src={src}
+                width={640}
+                height={400}
+                alt={`image${index}`}
+                className={'w-full'}
+              />
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+      <Swiper
+        modules={[Navigation, Pagination, Autoplay, EffectFade]}
+        slidesPerView={1} //一度に表示するスライドの数
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        className={'w-full !hidden md:!block'}
+        effect={'fade'}
+      >
+        {images.pc.map((src: string, index: number) => {
+          return (
+            <SwiperSlide key={`${index}`}>
+              <Image
+                src={src}
+                width={640}
+                height={400}
+                alt={`image${index}`}
+                className={'w-full'}
+              />
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </section>
   );
 };
