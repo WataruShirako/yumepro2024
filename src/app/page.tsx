@@ -2,13 +2,10 @@ import './globals.css';
 import './top.css';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import Prepare from '@/components/Prepare';
 import Ambassadors from '@/components/top/Ambassadors';
 import Banner from '@/components/top/Banner';
 import Category from '@/components/top/Category';
 import CategoryIntro from '@/components/top/CategoryIntro';
-import Comingsoon from '@/components/top/Comingsoon';
-import Copyright from '@/components/top/Copyright';
 import Cta from '@/components/top/Cta';
 import Entry from '@/components/top/Entry';
 import FooterMessage from '@/components/top/FooterMessage';
@@ -21,9 +18,6 @@ import Slide from '@/components/top/Slide';
 import Sns from '@/components/top/Sns';
 import Sponsor from '@/components/top/Sponsor';
 import Story from '@/components/top/Story';
-import { ImageError } from 'next/dist/server/image-optimizer';
-import Image from 'next/image';
-import Link from 'next/link';
 
 const Home = () => {
   const enttCategory = [

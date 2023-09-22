@@ -2,7 +2,10 @@ import Image from 'next/image';
 
 const Link2023 = () => {
   return (
-    <a href="https://yume-pj.com" className={'block relative mt-12 md:mt-24 hover:brightness-90'}>
+    <a
+      href="https://2023.yume-pj.com"
+      className={'block relative mt-12 md:mt-24 hover:brightness-90'}
+    >
       <div
         className={
           'max-w-[92%] lg:max-w-6xl m-auto rounded-2xl overflow-hidden relative py-5 h-56 md:h-auto'

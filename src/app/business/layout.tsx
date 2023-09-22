@@ -1,23 +1,19 @@
-import './globals.css';
-
-const siteName = '夢叶えるプロジェクト2024';
-const description =
-  '日本最大級エンタメビジネスコンテストを開催。あらゆる業界を全10部門に分け、ビジネス（ピッチ）コンテストに並行して、より多くの若者へ訴求するためとエンタメ（アンバサダー）コンテンストを実施します。';
-const url = 'https://yume-pj.com';
+const siteName = '全国学生スタートアップ選手権大会 | 夢叶えるプロジェクト2024';
+const description = '全国学生スタートアップ選手権大会は、';
+const url = 'https://yume-pj.com/business';
 
 export const metadata = {
   title: {
     default: siteName,
+    /** `next-seo`の`titleTemplate`に相当する機能 */
     template: `%s - ${siteName}`,
   },
-  description: {
-    default: description,
-  },
+  description,
   openGraph: {
     title: siteName,
-    description,
-    url,
-    siteName,
+    description: description,
+    url: url,
+    siteName: siteName,
     locale: 'ja_JP',
     type: 'website',
   },
@@ -29,14 +25,14 @@ export const metadata = {
     creator: '@yumepro2023',
   },
   verification: {
-    google: 'サーチコンソールID',
+    google: 'サーチコンソールのやつ',
   },
   alternates: {
     canonical: url,
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function BusiLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
       <head>
