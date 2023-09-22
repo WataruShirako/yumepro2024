@@ -56,8 +56,8 @@ const Home = () => {
     status: `
       ・日本国内に在住のアマチュアの方<br>
       ・2024年4月（詳細未定）に開催される決勝戦・授賞式に参加できる方<br>
-      ・夢プロ公式Instagramをフォローしている方<a href="https://www.instagram.com/yumekanaeru_project/" target="_blank" style='text-decoration: underline; color: #06b6d4;'>(公式アカウントはこちら)</a><br>
-      ・「#夢フォト2024」をつけて投稿している方
+      ・夢プロ公式Instagramをフォロー<a href="https://www.instagram.com/yumekanaeru_project/" target="_blank" style='text-decoration: underline; color: #06b6d4;'>(公式アカウントはこちら)</a><br>
+      ・「#夢フォト2024」をつけて投稿
     `,
 
     award: '2024年4月後半に東京近郊にて開催予定',
@@ -114,7 +114,7 @@ const Home = () => {
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={'/entt/yumephoto/fv_pc5.webp'}
+              src={'/entt/yumephoto/fv_pc4.webp'}
               alt="text"
               width={1920}
               height={930}
@@ -122,7 +122,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/fv_sp8.webp'}
+              src={'/entt/yumephoto/fv_sp7.webp'}
               alt="text"
               width={750}
               height={1370}
