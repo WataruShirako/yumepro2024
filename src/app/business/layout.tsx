@@ -1,6 +1,7 @@
 const siteName = '全国学生スタートアップ選手権大会 | 夢叶えるプロジェクト2024';
 const description = '全国学生スタートアップ選手権大会は、';
 const url = 'https://yume-pj.com/business';
+import '../busi.css';
 
 export const metadata = {
   title: {

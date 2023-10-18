@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.busi {
+  color: #eee;
+  font-family: 'Montserrat', 'YuGothic';
+}
+
+.sectionTitle {
+  @apply text-4xl md:text-7xl font-semibold text-center flex flex-col text-white uppercase;
+}
+
+.sectionTitle span {
+  @apply text-xl md:text-3xl font-semibold text-center mt-6;
+}
+
+.button {
+  @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#254DB1] to-[#C52CFD] w-72 h-16 text-center mx-auto my-5;
+}
+
+.onTitle {
+  animation: flash 2s linear infinite;
+}
+
+.onTitle:hover {
+  fill: #de7454;
+  animation: none;
+}
+
+@keyframes flash {
+  0% {
+    fill: #c2c2c2;
+  }
+
+  50% {
+    fill: #de7454;
+  }
+
+  100% {
+    fill: #c2c2c2;
+  }
+}

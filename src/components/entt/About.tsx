@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const About = ({ about }: any) => {
   return (
-    <section id="sponsor" className={''}>
+    <section id="about" className={''}>
       <h2 className={`secTitle`}>
         <span className={`flex gap-2 justify-center Montserrat`}>
           <Image src={'/entt/yumephoto/icons/about.svg'} alt="" width={15} height={20} />

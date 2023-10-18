@@ -49,7 +49,7 @@ IE11対策
 }
 
 .slide__item {
-  //width: calc(100vw / 2.5);
+  /* width: calc(100vw / 2.5); */
   margin-left: 10px;
 }
 .slide__item > img {

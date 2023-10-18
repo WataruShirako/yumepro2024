@@ -1,16 +1,35 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
-import Fv from '@/components/top/Fv';
+import About from '@/components/busi/About';
+import Avdiser from '@/components/busi/Avdiser';
+import Award from '@/components/busi/Award';
+import Committee from '@/components/busi/Committee';
+import Footer from '@/components/busi/Footer';
+import Fv from '@/components/busi/Fv';
+import Header from '@/components/busi/Header';
+import Meetup from '@/components/busi/Meetup';
+import News from '@/components/busi/News';
+import Project from '@/components/busi/Project';
+import Sponsor from '@/components/busi/Sponsor';
+import Venue from '@/components/busi/Venue';
+import Image from 'next/image';
 
 const BusinessPage = () => {
   return (
-    <>
-      <Header></Header>
-      <main>
-        <Fv></Fv>
+    <div className="bg-[#151D22]">
+      <Header />
+      <main className="busi">
+        <Fv />
+        <Project />
+        <Avdiser />
+        <Committee />
+        <About />
+        <Award />
+        <Venue />
+        <Meetup />
+        <Sponsor />
+        <News />
       </main>
-      <Footer></Footer>
-    </>
+      <Footer />
+    </div>
   );
 };
 

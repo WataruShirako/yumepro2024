@@ -3,7 +3,17 @@ import Image from 'next/image';
 const Fv = () => {
   return (
     <div>
-      <Image src="/busi/" alt="" />
+      <picture className=" w-full">
+        <source media="(min-width: 768px)" srcSet="/busi/busi_top_pc.webp" />
+        <source media="(min-width: 321px)" srcSet="/busi/busi_top_sp.webp" />
+        <Image
+          src="/busi/busi_top_sp.webp"
+          alt="IAキャラクター"
+          width={375}
+          height={750}
+          className="w-full"
+        />
+      </picture>
     </div>
   );
 };
