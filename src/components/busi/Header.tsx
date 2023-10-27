@@ -127,9 +127,15 @@ const Header = ({ header }: any) => {
 
   return (
     <>
-      <header className="flex justify-between px-6 md:px-6 md:justify-center items-center m-auto fixed w-full h-[80px] md:h-[100px] bg-white z-10 gap-10">
+      <header className="flex justify-between px-6 md:px-6 md:justify-center items-center m-auto fixed w-full h-[80px] md:h-[100px] text-white z-10 gap-10">
         <Link href="/">
-          <Image src={"/logo_black.svg"} alt={"logo"} width={50} height={52} />
+          <Image
+            priority
+            src={"/logo_white.svg"}
+            alt={"logo"}
+            width={50}
+            height={52}
+          />
         </Link>
 
         <button className="humb md:hidden flex flex-col">
@@ -211,8 +217,6 @@ const Header = ({ header }: any) => {
           </ul>
         </nav>
       </header>
-
-      <div className={"pb-[80px] md:pb-[100px]"}></div>
     </>
   );
 };
