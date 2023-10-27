@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Avdiser = () => {
+const Adviser = () => {
   return (
     <>
       <section className="adviser my-20 md:my-40">
@@ -27,10 +27,10 @@ const Avdiser = () => {
               width={320}
               height={320}
               alt=""
-              className="w-48 h-48 md:w-[320px] md:h-[320px] object-cover"
+              className="w-60 h-60 md:w-[320px] md:h-[320px] object-cover"
             />
           </div>
-          <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5">
+          <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
             <p className="mt-2 text-2xl font-bold mb-10 text-center md:text-left">
               丸尾浩一
             </p>
@@ -46,4 +46,4 @@ const Avdiser = () => {
   );
 };
 
-export default Avdiser;
+export default Adviser;

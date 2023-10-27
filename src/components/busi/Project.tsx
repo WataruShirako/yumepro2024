@@ -19,7 +19,7 @@ const Project = () => {
             ビジネスピッチコンテストとは？
           </span>
         </h2>
-        <p className="container text-left mx-auto w-4/5 md:max-w-3xl pb-20">
+        <p className="container text-left mx-auto px-5 md:max-w-3xl pb-20">
           ビジネスに特化し、最新の技術や話題のテーマから、今後次世代を牽引する起業家、事業家たちが３分間のピッチコンテストを行います。
           <br />
           参加者は110部問の各カテゴリーから1テーマ選出し、それぞれのテーマにたいしての想いや考えを披露していただきます。
