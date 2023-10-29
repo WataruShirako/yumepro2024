@@ -10,11 +10,13 @@ const Sponsor = () => {
             width={128}
             height={128}
             alt=""
-            className="absolute -top-3 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
+            className="absolute -top-1 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
           />
-          <p className="relative break-all">Sponsor</p>
+          <p className="relative break-all montserrat">Sponsor</p>
         </div>
-        <span className="relative mt-2 md:mt-6">スポンサー</span>
+        <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
+          スポンサー
+        </p>
       </h2>
       <div className="container grid grid-cols-3 md:grid-cols-5 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">
         <div className="item">
@@ -108,8 +110,15 @@ const Sponsor = () => {
           />
         </div>
       </div>
-      <a href="" className="button text-xl font-bold">
+      <a href="" className="button md:text-xl text-base font-bold relative">
         スポンサー様募集
+        <Image
+          src={"/top/arrow_white.svg"}
+          alt={"▶︎"}
+          width={8.45}
+          height={12.45}
+          className={"absolute top-auto bottom-auto right-4"}
+        />
       </a>
     </section>
   );

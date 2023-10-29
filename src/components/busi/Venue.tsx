@@ -41,11 +41,13 @@ const Venue = () => {
               width={128}
               height={128}
               alt=""
-              className="absolute -top-3 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
+              className="absolute -top-1 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
             />
-            <p className="relative break-all">Venue</p>
+            <p className="relative break-all montserrat">Venue</p>
           </div>
-          <span className="relative mt-2 md:mt-6">開催地</span>
+          <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
+            開催地
+          </p>
         </h2>
         <div className="container m-auto">
           <p className="text-center mt-5">
@@ -59,7 +61,7 @@ const Venue = () => {
             {hoveredPrefecture && (
               <>
                 <div className="fixed w-screen h-screen top-0 left-0 md:bg-black bg-opacity-70"></div>
-                <div className="bg-[#024067] rounded-lg p-5 absolute top-[30%] left-[30%] text-white z-50 text-4xl">
+                <div className="bg-[#024067] rounded-lg p-3 top-[30%] left-[40%] absolute text-white z-50 text-lg">
                   {events[hoveredPrefecture]}
                 </div>
               </>

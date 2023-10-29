@@ -12,9 +12,7 @@ const contents = [
   {
     title: "賞品",
     content: `
-    賞金1000万円
-    <br />
-    シリコンバレー渡航・宿泊費用
+    1000万円の株式出資、創業支援
     `,
   },
   {
@@ -68,17 +66,21 @@ const About = () => {
     <div>
       <section id="sponsor" className={"my-20 md:my-40"}>
         <h2
-          className={"text-3xl font-bold container px-5 max-w-2xl mx-auto pb-3"}
+          className={
+            "md:text-[32px] text-2xl font-bold container px-5  md:px-0 md:max-w-2xl mx-auto pb-3"
+          }
         >
           開催概要
         </h2>
-        <div className="container mx-auto px-5 lg:max-w-2xl">
+        <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
           {contents.map((item, index) => (
             <div
               key={index}
               className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] justify-between items-start"
             >
-              <p className={"w-1/4 md:w-1/5 text-sm leading-5 md:leading-8"}>
+              <p
+                className={"w-[100px] md:w-1/6 text-sm leading-5 md:leading-8"}
+              >
                 <span className={"px-2 py-1 text-white inline-block text-base"}>
                   {item.title}
                 </span>
@@ -89,8 +91,15 @@ const About = () => {
             </div>
           ))}
         </div>
-        <a href="" className="button text-2xl font-bold">
+        <a href="" className="button md:text-2xl text-base font-bold relative">
           応募する
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-4"}
+          />
         </a>
       </section>
     </div>

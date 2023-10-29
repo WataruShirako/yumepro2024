@@ -42,22 +42,24 @@ const Committee = () => {
               width={128}
               height={128}
               alt=""
-              className="absolute -top-3 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
+              className="absolute -top-1 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
             />
-            <p className="relative break-all">Committee</p>
+            <p className="relative break-all montserrat ">Committee</p>
           </div>
-          <span className="relative mt-2 md:mt-6 mb-20">審査委員会</span>
+          <p className="relative mt-2 md:mt-6 mb-20 md:text-[32px] text-2xl">
+            審査委員会
+          </p>
         </h2>
-        <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-6xl items-start">
+        <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
           {lists.map((list, index) => (
             <div
               key={index}
               className="item flex flex-col items-center justify-center"
             >
               <Image src={list.src} alt={""} width={200} height={200} />
-              <p className="mt-2 text-center font-bold text-xl">{list.name}</p>
-              <p className="mt-2 text-center text-sm">{list.descri}</p>
-              <p className="mt-2 text-center text-sm">{list.descri2}</p>
+              <p className="my-2 text-center font-bold text-xl">{list.name}</p>
+              <p className="text-center text-[13px]">{list.descri}</p>
+              <p className="text-center text-[13px]">{list.descri2}</p>
             </div>
           ))}
 
