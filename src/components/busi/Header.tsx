@@ -12,6 +12,11 @@ const NavBusi = () => {
       name: "business",
       title: "BUSINESS AWARD 2024",
     },
+    {
+      path: "/business/hyogo",
+      name: "",
+      title: "兵庫大会",
+    },
   ];
   return (
     <nav
