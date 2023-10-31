@@ -144,7 +144,7 @@ const Header = ({ header }: any) => {
   return (
     <>
       <header className="busi flex justify-between px-6 md:px-6 md:justify-center items-center m-auto fixed w-full h-[80px] md:h-[100px] text-white z-10 gap-10">
-        <Link href="/">
+        <a href="/">
           <Image
             priority
             src={"/logo_white.svg"}
@@ -152,7 +152,7 @@ const Header = ({ header }: any) => {
             width={50}
             height={52}
           />
-        </Link>
+        </a>
 
         {/*        <button className="humb md:hidden flex flex-col">
           <Image src={"/icons/humb.svg"} alt={"="} width={36} height={36} />
