@@ -8,6 +8,7 @@ import Header from "@/components/busi/Header";
 import Meetup from "@/components/busi/Meetup";
 import News from "@/components/busi/News";
 import Project from "@/components/busi/Project";
+import Schedule from "@/components/busi/Schedule";
 import Sponsor from "@/components/busi/Sponsor";
 import Venue from "@/components/busi/Venue";
 import Image from "next/image";
@@ -23,6 +24,7 @@ const BusinessPage = () => {
         <Committee />
         <About />
         <Award />
+        <Schedule />
         <Venue />
         {/*        <Meetup />*/}
         <Sponsor />

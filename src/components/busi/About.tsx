@@ -12,13 +12,13 @@ const contents = [
   {
     title: "賞品",
     content: `
-    1000万円の株式出資、創業支援
+    1000万(企業資金)
     `,
   },
   {
     title: "応募資格",
     content: `
-    起業3年以内の起業家、起業志望者
+    国内在学中の学生
     `,
   },
   {
@@ -67,7 +67,7 @@ const About = () => {
       <section id="sponsor" className={"my-20 md:my-40"}>
         <h2
           className={
-            "md:text-[32px] text-2xl font-bold container px-5  md:px-0 md:max-w-2xl mx-auto pb-3"
+            "md:text-[32px] text-2xl font-bold container px-5  md:px-0 md:max-w-2xl mx-auto pb-3 text-center"
           }
         >
           開催概要
@@ -85,7 +85,7 @@ const About = () => {
                   {item.title}
                 </span>
               </p>
-              <div className={"w-[75%] py-1 text-base leading-5 md:leading-8"}>
+              <div className={"w-[75%] text-base leading-5 md:leading-8"}>
                 <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
               </div>
             </div>

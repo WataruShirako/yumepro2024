@@ -46,7 +46,7 @@ const Award = () => {
               <br />
               各賞の募集項目は、「女性起業家賞」「U-18起業家賞」「SDGs起業家賞」「地方創生起業家賞」「夢叶えるプロジェクトドリーム賞」の5つ。
               <br />
-              あなたの事業を有名な企業かのみなさまに披露する絶好のいい機会ですのでご応募お待ちしております。
+              あなたの事業を有名な起業家のみなさまに披露する絶好のいい機会ですのでご応募お待ちしております。
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Award = () => {
         <div className={"mt-5"}>
           <h2
             className={
-              "md:text-[32px] text-2xl font-bold container px-5 md:px-0 md:max-w-2xl mx-auto pb-3"
+              "md:text-[32px] text-2xl font-bold container px-5 md:px-0 md:max-w-2xl mx-auto pb-3 text-center"
             }
           >
             アワード応募概要
@@ -76,9 +76,7 @@ const Award = () => {
                     {item.title}
                   </span>
                 </p>
-                <div
-                  className={"w-[75%] py-1 text-base leading-5 md:leading-8"}
-                >
+                <div className={"w-[75%] text-base leading-5 md:leading-8"}>
                   <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
                 </div>
               </div>

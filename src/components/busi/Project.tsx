@@ -24,7 +24,7 @@ const Project = () => {
           <br />
           参加者は110部問の各カテゴリーから1テーマ選出し、それぞれのテーマにたいしての想いや考えを披露していただきます。
           <br />
-          部門優勝者には、シリコンバレー旅行券などの豪華景品をプレゼント。
+          部門優勝者には、豪華景品をプレゼント。
           <br />
           次世代を担うチャレンジャーを募集します。
           <br />
@@ -50,7 +50,7 @@ const Project = () => {
           <div className="bg-opacity-5 bg-white md:w-80 md:h-38 p-5 md:mt-20 my-5 ml-14 mr-5 md:mr-0">
             <p className="text-lg font-bold mb-2 Montserrat">STEP.4</p>
             <p className="text-sm">
-              受賞者は3/27に某有名ホテルにて10分スピーチをしていただきます
+              受賞者は4/28に幕張メッセにて10分スピーチをしていただきます
             </p>
           </div>
         </div>

@@ -136,7 +136,7 @@ const WinnerBenefit = () => {
                 </div>
               </div>
               <p className="my-auto px-5 min-[900px]:pt-5 min-[900px]:text-center min-[900px]:my-0 min-[900px]:px-0">
-                見事日本一となった優勝者には、賞金1000万円とシリコンバレー渡航・宿泊費用が贈呈されます。
+                見事日本一となった優勝者には、賞金1000万円が贈呈されます。
               </p>
             </div>
           </div>

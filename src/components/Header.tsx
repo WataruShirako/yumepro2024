@@ -12,7 +12,7 @@ const NavBusi = () => {
     {
       path: "/business",
       name: "business",
-      title: "BUSINESS AWARD 2024",
+      title: "全国学生スタートアップアワード",
     },
     {
       path: "/business/hyogo",
@@ -28,7 +28,7 @@ const NavBusi = () => {
   return (
     <nav
       className={
-        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[230px] border rounded-xl overflow-hidden"
+        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[240px] border rounded-xl overflow-hidden"
       }
     >
       <ul className={""}>
@@ -37,7 +37,7 @@ const NavBusi = () => {
             <a
               href={`${contest.path}`}
               className={
-                "px-4 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid"
+                "px-3 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid"
               }
             >
               <Image

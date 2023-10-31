@@ -20,7 +20,7 @@ export const Navigation: FC<Props> = ({ open, id }) => {
           <p className="font-bold text-2xl pt-5">ビジネス部門</p>
         </li>
         <li>
-          <a href="/business">BUSINESS AWARD 2024 {">"}</a>
+          <a href="/business">全国学生スタートアップアワード {">"}</a>
         </li>
         <li>
           <a href="/business/hyogo">兵庫大会 {">"}</a>

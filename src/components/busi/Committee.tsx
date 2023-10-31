@@ -50,7 +50,10 @@ const Committee = () => {
             審査委員会
           </p>
         </h2>
-        <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
+        <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent">
+          — COMING SOON —
+        </p>
+        {/*        <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
           {lists.map((list, index) => (
             <div
               key={index}
@@ -65,6 +68,8 @@ const Committee = () => {
 
           <div className="item"></div>
         </div>
+
+          */}
       </section>
     </>
   );
