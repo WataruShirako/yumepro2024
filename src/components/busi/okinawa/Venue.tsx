@@ -19,7 +19,7 @@ const Venue = () => {
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">開催地</p>
       </h2>
       <div className="container flex m-auto md:max-w-4xl pb-10 px-5">
-        <div className="img">
+        <div className="w-1/3">
           <Image
             src={"/busi/okinawa/venue_logo.webp"}
             width={278}
@@ -28,8 +28,8 @@ const Venue = () => {
             className=""
           />
         </div>
-        <div className="md:pl-10 pl-5">
-          <p className="text-left font-bold mt-2 md:mt-5 text-xl">
+        <div className="md:pl-10 pl-5 w-2/3">
+          <p className="text-left font-bold mt-0 md:mt-5 text-xl">
             沖縄アリーナ
           </p>
           <p className="text-left mt-2 md:mt-5 md:text-base text-sm">
