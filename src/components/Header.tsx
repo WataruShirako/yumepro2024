@@ -17,6 +17,11 @@ const NavBusi = () => {
       name: "",
       title: "兵庫大会",
     },
+    {
+      path: "/business/okinawa",
+      name: "",
+      title: "沖縄大会",
+    },
   ];
   return (
     <nav

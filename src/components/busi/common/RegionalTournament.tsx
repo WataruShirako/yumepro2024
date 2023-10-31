@@ -24,7 +24,7 @@ const RegionalTournament = () => {
       <h3 className="font-bold text-2xl text-center pt-10">ビジネス部門</h3>
       <div className="container grid grid-cols-2 md:grid-cols-3 min-[850px]:grid-cols-8 gap-5 px-4 mt-10 mx-auto min-[850px]:max-w-5xl max-w-md md:max-w-2xl pb-5 ">
         <a
-          href=""
+          href="/business/tokyo"
           className="button2 md:text-xl text-base font-bold relative min-[850px]:col-start-2 min-[850px]:col-span-2"
         >
           東京大会
@@ -37,7 +37,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href=""
+          href="/business/aichi"
           className="button2 md:text-xl text-base font-bold relative min-[850px]:col-start-4 min-[850px]:col-span-2"
         >
           愛知大会
@@ -50,7 +50,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href=""
+          href="/business/ishikawa"
           className="button2 md:text-xl text-base font-bold relative min-[850px]:col-start-6 min-[850px]:col-span-2"
         >
           石川大会
@@ -63,7 +63,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href=""
+          href="/business/osaka"
           className="button2 md:text-xl text-base font-bold relative min-[850px]:col-start-1 min-[850px]:col-span-2"
         >
           大阪大会
@@ -89,7 +89,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href=""
+          href="/business/fukuoka"
           className="button2 md:text-xl text-base font-bold relative min-[850px]:col-start-5 min-[850px]:col-span-2"
         >
           福岡大会
@@ -102,7 +102,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href=""
+          href="/business/okinawa"
           className="button2 md:text-xl text-base font-bold relative min-[850px]:col-start-7 min-[850px]:col-span-2"
         >
           沖縄大会

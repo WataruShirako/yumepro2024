@@ -5685,15 +5685,7 @@ const Venue = () => {
               />
               <path
                 id="HOKKAIDO"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.HOKKAIDO ? "onTitle hover:fill-[#de7454]" : ""
-                }`}
-                {...(events.HOKKAIDO
-                  ? {
-                      onMouseEnter: () => setHoveredPrefecture("HOKKAIDO"),
-                      onMouseLeave: () => setHoveredPrefecture(null),
-                    }
-                  : {})}
+                className="fill-[#c2c2c2]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 3710.00,548.00
@@ -5925,52 +5917,46 @@ const Venue = () => {
             </svg>
             <div className="grid grid-cols-2 container gap-2 pb-24 px-5 w-full">
               <a
-                href=""
-                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[25%] lg:right-[25%] "
-              >
-                1.北海道大会
-              </a>
-              <a
-                href=""
+                href="/business/tokyo"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[45%] lg:right-[33%]"
               >
-                2.東京大会
+                1.東京大会
               </a>
               <a
-                href=""
+                href="/business/aishi"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[48%] lg:right-[42%]"
               >
-                3.愛知大会
+                2.愛知大会
               </a>
               <a
-                href=""
+                href="/business/ishikawa"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[36%] lg:right-[42%]"
               >
-                4.石川大会
+                3.石川大会
               </a>
               <a
-                href=""
+                href="/business/osaka"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[50%] lg:right-[50%]"
               >
-                5.大阪大会
+                4.大阪大会
               </a>
               <a
                 href="/business/hyogo"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[41%] lg:right-[51%]"
               >
-                6.兵庫大会
+                5.兵庫大会
               </a>
               <a
-                href=""
+                href="/business/fukuoka"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[46%] lg:right-[63%]"
               >
-                7.福岡大会
+                6.福岡大会
               </a>
               <a
-                href=""
+                href="/business/okinawa"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[65%] lg:right-[73%]"
               >
-                8.沖縄大会
+                7.沖縄大会
               </a>
             </div>
           </div>
