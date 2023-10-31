@@ -3,6 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { ToggleButton } from "../ToggleButton";
+import { Navigation } from "../Navigation";
 
 // Navigation ビジネス部門
 const NavBusi = () => {
@@ -93,6 +95,10 @@ const NavEntt = () => {
 };
 
 const Header = ({ header }: any) => {
+  const [open, setOpen] = useState(false);
+  const toggleFunction = () => {
+    setOpen((prevState) => !prevState);
+  };
   // ビジネス部門
   const [isNavBusiVisible, setIsNavBusiVisible] = useState(false);
   const hideNavBusi = () => {
@@ -137,7 +143,7 @@ const Header = ({ header }: any) => {
 
   return (
     <>
-      <header className="flex justify-between px-6 md:px-6 md:justify-center items-center m-auto fixed w-full h-[80px] md:h-[100px] text-white z-10 gap-10">
+      <header className="busi flex justify-between px-6 md:px-6 md:justify-center items-center m-auto fixed w-full h-[80px] md:h-[100px] text-white z-10 gap-10">
         <Link href="/">
           <Image
             priority
@@ -148,9 +154,17 @@ const Header = ({ header }: any) => {
           />
         </Link>
 
-        <button className="humb md:hidden flex flex-col">
+        {/*        <button className="humb md:hidden flex flex-col">
           <Image src={"/icons/humb.svg"} alt={"="} width={36} height={36} />
         </button>
+         */}
+        <ToggleButton
+          open={open}
+          controls="navigation"
+          label="メニューを開きます"
+          onClick={toggleFunction}
+        />
+        <Navigation id="navigation" open={open} />
 
         <nav className={"hidden md:block"}>
           <ul className="flex gap-12">

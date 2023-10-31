@@ -3,6 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { ToggleButton } from "./ToggleButton";
+import { Navigation } from "./Navigation";
 
 // Navigation ビジネス部門
 const NavBusi = () => {
@@ -93,6 +95,10 @@ const NavEntt = () => {
 };
 
 const Header = ({ header }: any) => {
+  const [open, setOpen] = useState(false);
+  const toggleFunction = () => {
+    setOpen((prevState) => !prevState);
+  };
   // ビジネス部門
   const [isNavBusiVisible, setIsNavBusiVisible] = useState(false);
   const hideNavBusi = () => {
@@ -142,9 +148,17 @@ const Header = ({ header }: any) => {
           <Image src={"/logo_black.svg"} alt={"logo"} width={50} height={52} />
         </Link>
 
-        <button className="humb md:hidden flex flex-col">
+        {/*        <button className="humb md:hidden flex flex-col">
           <Image src={"/icons/humb.svg"} alt={"="} width={36} height={36} />
         </button>
+  */}
+        <ToggleButton
+          open={open}
+          controls="navigation"
+          label="メニューを開きます"
+          onClick={toggleFunction}
+        />
+        <Navigation id="navigation" open={open} />
 
         <nav className={"hidden md:block"}>
           <ul className="flex gap-12">
