@@ -117,7 +117,10 @@ const RegionalTournament = () => {
       </div>
       <h3 className="font-bold text-2xl text-center pt-10">エンタメ部門</h3>
       <div className="container grid grid-cols-2 md:grid-cols-3 min-[850px]:grid-cols-4 gap-5 px-4 mt-10 mx-auto min-[850px]:max-w-5xl max-w-md pb-5 md:max-w-2xl">
-        <a href="" className="button2 md:text-xl text-base font-bold relative">
+        <a
+          href="/entt/hokkaido"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
           北海道大会
           <Image
             src={"/top/arrow_white.svg"}
@@ -127,7 +130,10 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
-        <a href="" className="button2 md:text-xl text-base font-bold relative">
+        <a
+          href="/entt/tokyo"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
           東京大会
           <Image
             src={"/top/arrow_white.svg"}
@@ -137,7 +143,10 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
-        <a href="" className="button2 md:text-xl text-base font-bold relative">
+        <a
+          href="/entt/aichi"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
           愛知大会
           <Image
             src={"/top/arrow_white.svg"}
@@ -147,7 +156,10 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
-        <a href="" className="button2 md:text-xl text-base font-bold relative">
+        <a
+          href="/entt/ishikawa"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
           石川大会
           <Image
             src={"/top/arrow_white.svg"}
@@ -157,7 +169,10 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
-        <a href="" className="button2 md:text-xl text-base font-bold relative">
+        <a
+          href="/entt/osaka"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
           大阪大会
           <Image
             src={"/top/arrow_white.svg"}
@@ -167,7 +182,10 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
-        <a href="" className="button2 md:text-xl text-base font-bold relative">
+        <a
+          href="/entt/hyogo"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
           兵庫大会
           <Image
             src={"/top/arrow_white.svg"}
@@ -177,7 +195,10 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
-        <a href="" className="button2 md:text-xl text-base font-bold relative">
+        <a
+          href="/entt/fukuoka"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
           福岡大会
           <Image
             src={"/top/arrow_white.svg"}
@@ -187,7 +208,10 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
-        <a href="" className="button2 md:text-xl text-base font-bold relative">
+        <a
+          href="/entt/okinawa"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
           沖縄大会
           <Image
             src={"/top/arrow_white.svg"}
