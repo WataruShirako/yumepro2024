@@ -23,7 +23,7 @@
   @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] w-72 h-16 text-center mx-auto my-5;
 }
 .button2 {
-  @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] w-48 h-16 max-[450px]:w-36 text-center mx-auto;
+  @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] w-48 h-16 md:w-52 lg:w-60 max-[450px]:w-40 text-center mx-auto;
 }
 
 .onTitle {
@@ -46,7 +46,6 @@
 .circleinner {
   display: inline-block;
   text-align: center;
-  line-height: 145px;
   width: 160px;
   height: 160px;
   padding: 10px;
@@ -61,7 +60,6 @@
   }
   .circleinner {
     font-size: 16px;
-    line-height: 115px;
     width: 120px;
     height: 120px;
     padding: 10px;

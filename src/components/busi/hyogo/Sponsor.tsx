@@ -15,10 +15,9 @@ const Sponsor = () => {
           <p className="relative break-all montserrat">Sponsor</p>
         </div>
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-          スポンサー
+          スポンサー企業さま
         </p>
       </h2>
-
       {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
       <div className="flex justify-center py-10">
         <div className="item">
@@ -31,8 +30,9 @@ const Sponsor = () => {
           />
         </div>
       </div>
+      <p className="text-center text-lg">and more...</p>
       <a href="" className="button md:text-xl text-base font-bold relative">
-        スポンサー様募集
+        スポンサーさま募集
         <Image
           src={"/top/arrow_white.svg"}
           alt={"▶︎"}

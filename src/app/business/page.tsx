@@ -24,7 +24,7 @@ const BusinessPage = () => {
         <About />
         <Award />
         <Venue />
-        <Meetup />
+        {/*        <Meetup />*/}
         <Sponsor />
         <News />
       </main>

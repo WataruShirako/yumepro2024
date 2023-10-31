@@ -52,20 +52,48 @@ const Venue = () => {
         <div className="container m-auto">
           <p className="text-center mt-5">
             各地方でトーナメント戦を行い、
-            <br />
+            <br className="md:hidden" />
             それぞれの優勝者が
             <br />
             東京で決勝戦を行います。
           </p>
           <div className="md:content md:mx-auto md:relative">
-            {hoveredPrefecture && (
+            {/*hoveredPrefecture && (
               <>
                 <div className="fixed w-screen h-screen top-0 left-0 md:bg-black bg-opacity-70"></div>
-                <div className="bg-[#024067] rounded-lg p-3 top-[30%] left-[40%] absolute text-white z-50 text-lg">
-                  {events[hoveredPrefecture]}
+                <div
+                  className={
+                    "bg-[#024067] rounded-lg p-3 absolute text-white z-50 text-lg " +
+                    (hoveredPrefecture == "HOKKAIDO"
+                      ? "top-[28%] right-[25%]"
+                      : "") +
+                    (hoveredPrefecture == "TOKYO"
+                      ? "top-[49%] right-[33%]"
+                      : "") +
+                    (hoveredPrefecture == "ISHIKAWA"
+                      ? "top-[38%] right-[40%]"
+                      : "") +
+                    (hoveredPrefecture == "AICHI"
+                      ? "top-[52%] right-[40%]"
+                      : "") +
+                    (hoveredPrefecture == "OSAKA"
+                      ? "top-[52%] right-[45%]"
+                      : "") +
+                    (hoveredPrefecture == "HYOGO"
+                      ? "top-[43%] right-[48%]"
+                      : "") +
+                    (hoveredPrefecture == "FUKUOKA"
+                      ? "top-[48%] right-[65%]"
+                      : "") +
+                    (hoveredPrefecture == "OKINAWA"
+                      ? "top-[70%] right-[75%]"
+                      : "")
+                  }
+                >
+                  <a href="business/hyogo">{events[hoveredPrefecture]}</a>
                 </div>
               </>
-            )}
+                )*/}
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -5895,31 +5923,55 @@ const Venue = () => {
              2789.93,2258.63 2789.77,2242.37 2789.77,2242.37 Z"
               />
             </svg>
-            <div className="md:hidden grid grid-cols-2 container gap-2 pb-24 px-5 w-full">
-              <div className="list bg-[#024067] rounded-lg text-white p-4 text-center">
+            <div className="grid grid-cols-2 container gap-2 pb-24 px-5 w-full">
+              <a
+                href=""
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[25%] lg:right-[25%] "
+              >
                 1.北海道大会
-              </div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4 text-center">
+              </a>
+              <a
+                href=""
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[45%] lg:right-[33%]"
+              >
                 2.東京大会
-              </div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4 text-center">
+              </a>
+              <a
+                href=""
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[48%] lg:right-[42%]"
+              >
                 3.愛知大会
-              </div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4 text-center">
+              </a>
+              <a
+                href=""
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[36%] lg:right-[42%]"
+              >
                 4.石川大会
-              </div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4 text-center">
+              </a>
+              <a
+                href=""
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[50%] lg:right-[50%]"
+              >
                 5.大阪大会
-              </div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4 text-center">
+              </a>
+              <a
+                href="/business/hyogo"
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[41%] lg:right-[51%]"
+              >
                 6.兵庫大会
-              </div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4 text-center">
+              </a>
+              <a
+                href=""
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[46%] lg:right-[63%]"
+              >
                 7.福岡大会
-              </div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4 text-center">
+              </a>
+              <a
+                href=""
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[65%] lg:right-[73%]"
+              >
                 8.沖縄大会
-              </div>
+              </a>
             </div>
           </div>
         </div>

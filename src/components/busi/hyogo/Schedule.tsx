@@ -15,7 +15,7 @@ const contents = [
   },
 ];
 
-const Meetup = () => {
+const Schedule = () => {
   return (
     <section className="">
       <h2 className="sectionTitle text-center items-center Montserrat  mt-20 md:mt-40 mb-10">
@@ -55,4 +55,4 @@ const Meetup = () => {
   );
 };
 
-export default Meetup;
+export default Schedule;

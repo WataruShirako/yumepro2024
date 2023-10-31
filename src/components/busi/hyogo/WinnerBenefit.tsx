@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-const Committee = () => {
+const WinnerBenefit = () => {
   return (
     <>
-      <section className="committee">
+      <section className="winnerBenefit">
         <h2 className="sectionTitle text-center items-center Montserrat  mt-20 md:mt-40 mb-10">
           <div className="relative w-max">
             <Image
@@ -15,7 +15,7 @@ const Committee = () => {
             />
             <p className="relative break-all montserrat ">
               WINNER <br className="sm:hidden" />
-              BEMEFIT
+              BENEFIT
             </p>
           </div>
           <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl ">
@@ -33,7 +33,10 @@ const Committee = () => {
               <div className="">
                 <div className="circle">
                   <div className="circleinner font-bold text-lg ">
-                    地方大会出場
+                    <p className="text-[#c528fd] mt-10 max-[500px]:mt-5">
+                      STEP 1
+                    </p>
+                    エントリー
                   </div>
                 </div>
                 <Image
@@ -45,7 +48,7 @@ const Committee = () => {
                 />
               </div>
               <p className="my-auto pb-10 px-5 min-[900px]:pt-5 min-[900px]:text-center min-[900px]:my-0 min-[900px]:px-0">
-                北海道、東京、愛知、石川、大阪、兵庫、福岡、沖縄各地方でトーナメント戦を行います。
+                各地から地方予選へのエントリーを受付ます。下の応募するボタンからご応募ください。
               </p>
             </div>
             <Image
@@ -62,7 +65,10 @@ const Committee = () => {
               <div className="">
                 <div className="circle">
                   <div className="circleinner font-bold text-lg">
-                    地方大会優勝
+                    <p className="text-[#c528fd] mt-10 max-[500px]:mt-5">
+                      STEP 2
+                    </p>
+                    地方予選出場
                   </div>
                 </div>
                 <Image
@@ -92,6 +98,9 @@ const Committee = () => {
               <div className="">
                 <div className="circle">
                   <div className="circleinner font-bold text-lg">
+                    <p className="text-[#c528fd] mt-10 max-[500px]:mt-5">
+                      STEP 3
+                    </p>
                     東京本戦出場
                   </div>
                 </div>
@@ -120,7 +129,10 @@ const Committee = () => {
             <div className="flex flex-colm min-[900px]:block">
               <div className="circle">
                 <div className="circleinner font-bold text-lg">
-                  東京本戦優勝
+                  <p className="text-[#c528fd] mt-10 max-[500px]:mt-5">
+                    STEP 4
+                  </p>
+                  グランプリ
                 </div>
               </div>
               <p className="my-auto px-5 min-[900px]:pt-5 min-[900px]:text-center min-[900px]:my-0 min-[900px]:px-0">
@@ -144,4 +156,4 @@ const Committee = () => {
   );
 };
 
-export default Committee;
+export default WinnerBenefit;

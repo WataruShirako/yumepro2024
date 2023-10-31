@@ -3,11 +3,11 @@ import Image from "next/image";
 const contents = [
   {
     title: "開催日",
-    content: `2023年3月27日(月)17:00〜21:00`,
+    content: `2024年4月28日(日)`,
   },
   {
     title: "開催場所",
-    content: `某有名ホテル`,
+    content: `幕張メッセ`,
   },
   {
     title: "賞品",

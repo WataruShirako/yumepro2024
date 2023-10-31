@@ -15,13 +15,13 @@ const Sponsor = () => {
           <p className="relative break-all montserrat">Sponsor</p>
         </div>
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-          スポンサー
+          スポンサー企業さま
         </p>
       </h2>
-      <div className="container grid grid-cols-3 md:grid-cols-5 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">
+      <div className="container grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor01.jpg"}
             alt={"TKP"}
             width={"150"}
@@ -30,7 +30,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor02.jpg"}
             alt={"wiz"}
             width={"150"}
@@ -39,7 +39,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor03.jpg"}
             alt={"CRED"}
             width={"150"}
@@ -48,7 +48,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor04.jpg"}
             alt={"KIRIN"}
             width={"150"}
@@ -57,7 +57,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor05.jpg"}
             alt={"DYM"}
             width={"150"}
@@ -66,7 +66,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor06.jpg"}
             alt={"TECOTEC"}
             width={"150"}
@@ -75,7 +75,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor07.jpg"}
             alt={"17LIVE"}
             width={"150"}
@@ -84,7 +84,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor08.jpg"}
             alt={"ミクチャ"}
             width={"150"}
@@ -93,7 +93,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor09.jpg"}
             alt={"USTUS"}
             width={"150"}
@@ -102,7 +102,7 @@ const Sponsor = () => {
         </div>
         <div className="item">
           <Image
-            className={"rounded-md"}
+            className={"rounded-md mx-auto"}
             src={"/busi/sponsor10.jpg"}
             alt={"USEN"}
             width={"150"}
@@ -111,7 +111,7 @@ const Sponsor = () => {
         </div>
       </div>
       <a href="" className="button md:text-xl text-base font-bold relative">
-        スポンサー様募集
+        スポンサーさま募集
         <Image
           src={"/top/arrow_white.svg"}
           alt={"▶︎"}
