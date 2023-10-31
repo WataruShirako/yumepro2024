@@ -85,7 +85,7 @@ const About = () => {
                   {item.title}
                 </span>
               </p>
-              <div className={"w-[75%] text-base leading-5 md:leading-8"}>
+              <div className={"w-[75%] py-1 text-base leading-5 md:leading-8"}>
                 <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
               </div>
             </div>
