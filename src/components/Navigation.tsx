@@ -12,12 +12,12 @@ export const Navigation: FC<Props> = ({ open, id }) => {
     <nav id={id} aria-hidden={!open} className="navigation">
       <ul className="">
         <li className="">
-          <a href="/" className="font-bold text-3xl">
-            TOP
+          <a href="/" className="font-bold text-2xl">
+            TOP {">"}
           </a>
         </li>
         <li className="">
-          <p className="font-bold text-3xl pt-10">ビジネス部門</p>
+          <p className="font-bold text-2xl pt-5">ビジネス部門</p>
         </li>
         <li>
           <a href="/business">BUSINESS AWARD 2024 {">"}</a>
@@ -28,7 +28,7 @@ export const Navigation: FC<Props> = ({ open, id }) => {
         <li>
           <a href="/business/okinawa">沖縄大会 {">"}</a>
         </li>
-        <li className="font-bold text-3xl pt-10">エンタメ部門</li>
+        <li className="font-bold text-2xl pt-5">エンタメ部門</li>
         <li>
           <a href="/project/entertainment/photo">
             夢フォトオーディション {">"}
