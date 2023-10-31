@@ -38,7 +38,7 @@ const Schedule = () => {
             className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] items-start justify-between "
           >
             <p className={"w-[100px] md:w-1/6 text-sm leading-5 md:leading-8"}>
-              <span className={"px-2 py-1 text-white inline-block text-base"}>
+              <span className={"px-2 text-white inline-block text-base"}>
                 {item.title}
               </span>
             </p>

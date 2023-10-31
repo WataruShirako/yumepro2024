@@ -81,7 +81,7 @@ const About = () => {
               <p
                 className={"w-[100px] md:w-1/6 text-sm leading-5 md:leading-8"}
               >
-                <span className={"px-2 py-1 text-white inline-block text-base"}>
+                <span className={"px-2 text-white inline-block text-base"}>
                   {item.title}
                 </span>
               </p>

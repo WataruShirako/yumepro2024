@@ -28,7 +28,7 @@ const NavBusi = () => {
   return (
     <nav
       className={
-        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[240px] border rounded-xl overflow-hidden"
+        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[280px] border rounded-xl overflow-hidden"
       }
     >
       <ul className={""}>
