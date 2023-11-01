@@ -18,7 +18,10 @@ const Sponsor = () => {
           スポンサー企業さま
         </p>
       </h2>
-      <div className="container grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
+      <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent py-20">
+        — COMING SOON —
+      </p>
+      {/*      <div className="container grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
         <div className="item">
           <Image
             className={"rounded-md mx-auto"}
@@ -110,6 +113,7 @@ const Sponsor = () => {
           />
         </div>
       </div>
+  */}
       <a href="" className="button md:text-xl text-base font-bold relative">
         スポンサーさま募集
         <Image

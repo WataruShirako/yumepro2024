@@ -72,8 +72,8 @@ const Fv = () => {
             <SwiperSlide key={`${index}`}>
               <Image
                 src={src}
-                width={1280}
-                height={800}
+                width={1366}
+                height={688}
                 alt={`image${index}`}
                 className={"w-full"}
               />

@@ -27,7 +27,7 @@ const Sponsor = () => {
         <p className="mt-6 md:mt-12 font-semibold">メインスポンサー</p>
         <div className="mt-2">
           <Image
-            src={"/top/sponsor/sakura_logo.jpg"}
+            src={"/top/sponsor/sakura_logo.webp"}
             alt="sakura"
             width={320}
             height={320}

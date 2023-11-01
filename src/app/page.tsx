@@ -82,7 +82,7 @@ const Home = () => {
         <Schedule />
         <Entry />
         <Cta />
-        <Story />
+        {/*        <Story />*/}
         <Sponsor />
         <Ambassadors />
         <Sns />
