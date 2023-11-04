@@ -29,13 +29,9 @@ const Venue = () => {
           />
         </div>
         <div className="md:pl-10 pl-5 w-2/3">
-          <p className="text-left font-bold mt-0 md:mt-5 text-xl">
-            ANCHOR KOBE / アンカー神戸
-          </p>
+          <p className="text-left font-bold mt-0 md:mt-5 text-xl">KIITO神戸</p>
           <p className="text-left mt-2 md:mt-5 md:text-base text-sm">
-            アンカー神戸は、スタートアップ、企業、大学、研究者、市民が、自ら
-            のアイデアや想いを、多様な人々とともにカタチにし、イノベーション
-            を創発するコミュニティスペースです。
+            KIITO神戸は、神戸・三宮の海側にある旧生糸検査所を改修した、神戸市の「デザイン都市・神戸」の拠点施設です。デザインを人々の生活に採り入れ、より豊かに生きることを提案しています。デザインやアートにまつわるイベントなどを開催するほか、レンタルスペース、オフィススペースなどがあります。
           </p>
         </div>
       </div>

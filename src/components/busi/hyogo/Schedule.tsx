@@ -7,7 +7,7 @@ const contents = [
   },
   {
     title: "会場",
-    content: `ANCHOR KOBE / アンカー神戸`,
+    content: `KIITO神戸`,
   },
   {
     title: "授与式",

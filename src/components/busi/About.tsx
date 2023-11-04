@@ -3,7 +3,7 @@ import Image from "next/image";
 const contents = [
   {
     title: "開催日",
-    content: `2024年4月28日(日)10:00~17:00`,
+    content: `2024年4月28日(日)<br class="sm:hidden" />10:00~17:00`,
   },
   {
     title: "開催場所",

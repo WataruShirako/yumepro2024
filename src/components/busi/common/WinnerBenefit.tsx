@@ -26,6 +26,7 @@ const WinnerBenefit = () => {
           <p className="py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] text-lg text-center">
             東京本線出場権
             <br />
+            <br />
             メンターからの東京本戦まで事業計画・ピッチ資料アドバイス
           </p>
         </div>
