@@ -24,7 +24,9 @@ const WinnerBenefit = () => {
         </h2>
         <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
           <p className="py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] text-lg text-center">
-            東京本線出場
+            東京本線出場権
+            <br />
+            メンターからの東京本戦まで事業計画・ピッチ資料アドバイス
           </p>
         </div>
         <div className="container px-5 min-[900px]:flex min-[900px]:flex-colm justify-center my-10 gap-5 m-auto md:max-w-4xl items-start">
@@ -136,12 +138,16 @@ const WinnerBenefit = () => {
                 </div>
               </div>
               <p className="my-auto px-5 min-[900px]:pt-5 min-[900px]:text-center min-[900px]:my-0 min-[900px]:px-0">
-                見事日本一となった優勝者には、賞金1000万円が贈呈されます。
+                見事日本一となった優勝者には、起業資金として賞金1000万円が贈呈されます。
               </p>
             </div>
           </div>
         </div>
-        <a href="" className="button md:text-2xl text-base font-bold relative">
+        <a
+          href="https://forms.gle/f6uJ6DoBpp9c2W2X9"
+          target="_blank"
+          className="button md:text-2xl text-base font-bold relative"
+        >
           応募する
           <Image
             src={"/top/arrow_white.svg"}

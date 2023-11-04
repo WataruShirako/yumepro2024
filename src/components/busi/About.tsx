@@ -3,30 +3,54 @@ import Image from "next/image";
 const contents = [
   {
     title: "開催日",
-    content: `2024年4月28日(日)`,
+    content: `2024年4月28日(日)10:00~17:00`,
   },
   {
     title: "開催場所",
-    content: `幕張メッセ`,
+    content: `幕張メッセ<br />
+    <br />
+    〒261-8550<br />
+    千葉県千葉市美浜区中瀬2丁目1`,
+  },
+  {
+    title: "審査方法",
+    content: `
+    対面ピッチ審査
+    `,
+  },
+  {
+    title: "審査基準",
+    content: `
+    5年後にIPOできるビジネスモデルかどうか<br />
+    <br />
+    ①収益性<br />
+    5年後売上10億、利益1億円以上の利益を残せるモデルか<br />
+    <br />
+    ②市場性<br />
+    グローバル展開・TAM・需要<br />
+    <br />
+    ③持続性<br />
+    サステナブルなビジネスモデルか<br />
+    `,
   },
   {
     title: "賞品",
     content: `
-    1000万(企業資金)
+    起業資金として1000万<br />
+    夢叶えるプロジェクト運営事務局及び提携企業からの起業支援
     `,
   },
   {
     title: "応募資格",
     content: `
-    国内在学中の学生
+    エントリーフォーム送信時点で学生であること（専門学校含む）<br />
+    ※学生であれば年齢に制限はございません
     `,
   },
   {
     title: "目的",
     content: `
-    スタートアップ支援、起業家マインドの育成
-    <br />
-    誰もがチャレンジできる社会の実現
+    「地方からスターを」というコンセプトのもと、日本から世界を代表するスタートアップを輩出するべく、学生が起業しやすい環境の創出
     `,
   },
   {
@@ -48,7 +72,7 @@ const About = () => {
             "md:text-[32px] text-2xl font-bold container px-5  md:px-0 md:max-w-2xl mx-auto pb-3 text-center"
           }
         >
-          開催概要
+          本選概要
         </h2>
         <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
           {contents.map((item, index) => (
@@ -56,20 +80,22 @@ const About = () => {
               key={index}
               className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] justify-between items-start"
             >
-              <p
-                className={"w-[100px] md:w-1/6 text-sm leading-5 md:leading-8"}
-              >
-                <span className={"px-2 text-white inline-block text-base"}>
+              <p className={"w-[100px] md:w-1/6"}>
+                <span className={"px-2 text-white text-base"}>
                   {item.title}
                 </span>
               </p>
-              <div className={"w-[75%] text-base leading-5 md:leading-8"}>
+              <div className={"w-[75%] text-base"}>
                 <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
               </div>
             </div>
           ))}
         </div>
-        <a href="" className="button md:text-2xl text-base font-bold relative">
+        <a
+          href="https://forms.gle/f6uJ6DoBpp9c2W2X9"
+          target="_blank"
+          className="button md:text-2xl text-base font-bold relative"
+        >
           応募する
           <Image
             src={"/top/arrow_white.svg"}

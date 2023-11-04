@@ -33,7 +33,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -46,7 +46,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -59,7 +59,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -72,7 +72,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -85,7 +85,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -98,7 +98,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -111,7 +111,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
       </div>
@@ -127,7 +127,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -140,7 +140,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -153,7 +153,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -166,7 +166,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -179,7 +179,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -192,7 +192,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -205,7 +205,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
         <a
@@ -218,7 +218,7 @@ const RegionalTournament = () => {
             alt={"▶︎"}
             width={8.45}
             height={12.45}
-            className={"absolute top-auto bottom-auto right-4"}
+            className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
       </div>
