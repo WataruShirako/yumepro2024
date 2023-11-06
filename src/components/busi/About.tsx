@@ -1,64 +1,64 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const contents = [
   {
-    title: '開催日',
-    content: `2023年3月27日(月)17:00〜21:00`,
+    title: "開催日",
+    content: `2024年4月28日(日)<br class="sm:hidden" />10:00~17:00`,
   },
   {
-    title: '開催場所',
-    content: `某有名ホテル`,
-  },
-  {
-    title: '賞品',
-    content: `
-    賞金1000万円
+    title: "開催場所",
+    content: `幕張メッセ<br />
     <br />
-    シリコンバレー渡航・宿泊費用
+    〒261-8550<br />
+    千葉県千葉市美浜区中瀬2丁目1`,
+  },
+  {
+    title: "審査方法",
+    content: `
+    対面ピッチ審査
     `,
   },
   {
-    title: '応募資格',
+    title: "審査基準",
     content: `
-    起業3年以内の起業家、起業志望者
-    `,
-  },
-  {
-    title: '目的',
-    content: `
-    スタートアップ支援、起業家マインドの育成
+    5年後にIPOできるビジネスモデルかどうか<br />
     <br />
-    誰もがチャレンジできる社会の実現
+    ①収益性<br />
+    5年後売上10億、利益1億円以上の利益を残せるモデルか<br />
+    <br />
+    ②市場性<br />
+    グローバル展開・TAM・需要<br />
+    <br />
+    ③持続性<br />
+    サステナブルなビジネスモデルか<br />
     `,
   },
   {
-    title: '発表時間',
+    title: "賞品",
+    content: `
+    起業資金として1000万<br />
+    夢叶えるプロジェクト運営事務局及び提携企業からの起業支援
+    `,
+  },
+  {
+    title: "応募資格",
+    content: `
+    エントリーフォーム送信時点で学生であること（専門学校含む）<br />
+    ※学生であれば年齢に制限はございません
+    `,
+  },
+  {
+    title: "目的",
+    content: `
+    「地方からスターを」というコンセプトのもと、日本から世界を代表するスタートアップを輩出するべく、学生が起業しやすい環境の創出
+    `,
+  },
+  {
+    title: "発表時間",
     content: `
     プレゼン10分(パワーポイント使用可)
     <br />
     質疑応答なし
-    `,
-  },
-  {
-    title: 'テーマ',
-    content: `
-    各カテゴリーから1テーマ選出<br/>
-    テーマに対しての、夢・想いをプレゼンで発表<br/>
-    <br/>
-    バーチャル起業<br/>
-    Web3.0/メタバース/AR/VR/インフルエンサー/AI/ディープテック/研究開発/アプリ/ゲーム/ガジェット/eスポーツ<br/>
-    <br/>
-    おもてなし起業<br/>
-    不動産/宿泊/観光/交通/SaaS/システム/DX/飲食<br/>
-    <br/>
-    サービス起業<br/>
-    サステナビリティ/ソーシャルグッド/地方創生/ウェルネスビューティー/サービス<br/>
-    <br/>
-    アパレル起業<br/>
-    D2C/サブスク/EC(コスメ・ファッション)<br/>
-    <br/>
-    芸能エンタメ起業<br/>
-    芸能エンターテインメント(歌・ダンス・スポーツ・コミック・芸術・小説)
     `,
   },
 ];
@@ -66,25 +66,44 @@ const contents = [
 const About = () => {
   return (
     <div>
-      <section id="sponsor" className={''}>
-        <h2 className={'text-2xl container px-5'}>開催概要</h2>
-        <div className="container m-auto px-5 lg:max-w-2xl">
+      <section id="sponsor" className={"my-20 md:my-40"}>
+        <h2
+          className={
+            "md:text-[32px] text-2xl font-bold container px-5  md:px-0 md:max-w-2xl mx-auto pb-3 text-center"
+          }
+        >
+          本選概要
+        </h2>
+        <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
           {contents.map((item, index) => (
             <div
               key={index}
-              className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] items-center justify-between"
+              className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] justify-between items-start"
             >
-              <p className={'w-1/4 md:w-1/5 text-sm leading-5 md:leading-8'}>
-                <span className={'px-2 py-1 text-white inline-block'}>{item.title}</span>
+              <p className={"w-[100px] md:w-1/6"}>
+                <span className={"px-2 text-white text-base"}>
+                  {item.title}
+                </span>
               </p>
-              <div className={'w-[75%] text-sm leading-5 md:leading-8'}>
+              <div className={"w-[75%] text-base"}>
                 <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
               </div>
             </div>
           ))}
         </div>
-        <a href="" className="button">
+        <a
+          href="https://forms.gle/f6uJ6DoBpp9c2W2X9"
+          target="_blank"
+          className="button md:text-2xl text-base font-bold relative"
+        >
           応募する
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-4"}
+          />
         </a>
       </section>
     </div>

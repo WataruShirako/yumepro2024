@@ -1,5 +1,9 @@
+html {
+  font-family: "YuGothic", "Yu Gothic", "Montserrat";
+}
+
 .Montserrat {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .top_footer {
@@ -49,7 +53,7 @@ IE11対策
 }
 
 .slide__item {
-  /* width: calc(100vw / 2.5); */
+  /*width: calc(100vw / 2.5);*/
   margin-left: 10px;
 }
 .slide__item > img {

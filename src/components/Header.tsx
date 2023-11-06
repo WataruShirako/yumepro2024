@@ -1,34 +1,51 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { ToggleButton } from "./ToggleButton";
+import { Navigation } from "./Navigation";
 
 // Navigation ビジネス部門
 const NavBusi = () => {
   const enttContests = [
     {
-      path: '',
-      name: 'comingsoon',
-      title: 'coming soon ...',
+      path: "/business",
+      name: "business",
+      title: "全国学生スタートアップアワード",
+    },
+    {
+      path: "/business/hyogo",
+      name: "",
+      title: "兵庫大会",
+    },
+    {
+      path: "/business/okinawa",
+      name: "",
+      title: "沖縄大会",
     },
   ];
   return (
     <nav
       className={
-        'absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[230px] border rounded-xl overflow-hidden'
+        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[280px] border rounded-xl overflow-hidden"
       }
     >
-      <ul className={''}>
+      <ul className={""}>
         {enttContests.map((contest, index) => (
           <li key={index}>
             <a
               href={`${contest.path}`}
               className={
-                'px-4 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid'
+                "px-3 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid"
               }
             >
-              <Image src={`/icons/${contest.name}.svg`} alt={''} width={16} height={16} />
+              <Image
+                src={`/icons/${contest.name}.svg`}
+                alt={""}
+                width={16}
+                height={16}
+              />
               <span dangerouslySetInnerHTML={{ __html: `${contest.title}` }} />
             </a>
           </li>
@@ -42,27 +59,32 @@ const NavBusi = () => {
 const NavEntt = () => {
   const enttContests = [
     {
-      path: '/project/entertainment/photo',
-      name: 'yumephoto',
-      title: '夢フォトオーディション',
+      path: "/project/entertainment/photo",
+      name: "yumephoto",
+      title: "夢フォトオーディション",
     },
   ];
   return (
     <nav
       className={
-        'absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[230px] border rounded-xl overflow-hidden'
+        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[230px] border rounded-xl overflow-hidden"
       }
     >
-      <ul className={''}>
+      <ul className={""}>
         {enttContests.map((contest, index) => (
           <li key={index}>
             <a
               href={`${contest.path}`}
               className={
-                'px-4 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid'
+                "px-4 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid"
               }
             >
-              <Image src={`/icons/${contest.name}.svg`} alt={''} width={16} height={16} />
+              <Image
+                src={`/icons/${contest.name}.svg`}
+                alt={""}
+                width={16}
+                height={16}
+              />
               <span dangerouslySetInnerHTML={{ __html: `${contest.title}` }} />
             </a>
           </li>
@@ -73,6 +95,10 @@ const NavEntt = () => {
 };
 
 const Header = ({ header }: any) => {
+  const [open, setOpen] = useState(false);
+  const toggleFunction = () => {
+    setOpen((prevState) => !prevState);
+  };
   // ビジネス部門
   const [isNavBusiVisible, setIsNavBusiVisible] = useState(false);
   const hideNavBusi = () => {
@@ -85,12 +111,12 @@ const Header = ({ header }: any) => {
   useEffect(() => {
     if (isNavBusiVisible) {
       // ナビゲーションが表示されている時だけ、document全体のクリックイベントを追加
-      document.addEventListener('click', hideNavBusi);
+      document.addEventListener("click", hideNavBusi);
     }
 
     return () => {
       // コンポーネントがアンマウントされる時に、イベントリスナーを削除
-      document.removeEventListener('click', hideNavBusi);
+      document.removeEventListener("click", hideNavBusi);
     };
   }, [isNavBusiVisible]);
 
@@ -106,12 +132,12 @@ const Header = ({ header }: any) => {
   useEffect(() => {
     if (isNavEnttVisible) {
       // ナビゲーションが表示されている時だけ、document全体のクリックイベントを追加
-      document.addEventListener('click', hideNavEntt);
+      document.addEventListener("click", hideNavEntt);
     }
 
     return () => {
       // コンポーネントがアンマウントされる時に、イベントリスナーを削除
-      document.removeEventListener('click', hideNavEntt);
+      document.removeEventListener("click", hideNavEntt);
     };
   }, [isNavEnttVisible]);
 
@@ -119,19 +145,29 @@ const Header = ({ header }: any) => {
     <>
       <header className="flex justify-between px-6 md:px-6 md:justify-center items-center m-auto fixed w-full h-[80px] md:h-[100px] bg-white z-10 gap-10">
         <Link href="/">
-          <Image src={'/logo_black.svg'} alt={'logo'} width={50} height={52} />
+          <Image src={"/logo_black.svg"} alt={"logo"} width={50} height={52} />
         </Link>
 
-        <button className="humb md:hidden flex flex-col">
-          <Image src={'/icons/humb.svg'} alt={'='} width={36} height={36} />
+        {/*        <button className="humb md:hidden flex flex-col">
+          <Image src={"/icons/humb.svg"} alt={"="} width={36} height={36} />
         </button>
+  */}
+        <ToggleButton
+          open={open}
+          controls="navigation"
+          label="メニューを開きます"
+          onClick={toggleFunction}
+        />
+        <Navigation id="navigation" open={open} />
 
-        <nav className={'hidden md:block'}>
+        <nav className={"hidden md:block"}>
           <ul className="flex gap-12">
-            <li className={'relative'}>
+            <li className={"relative"}>
               <button
                 onClick={toggleNavBusi}
-                className={'text-sm font-semibold flex items-center justify-center gap-1'}
+                className={
+                  "text-sm font-semibold flex items-center justify-center gap-1"
+                }
               >
                 ビジネス部門
                 <svg
@@ -160,7 +196,9 @@ const Header = ({ header }: any) => {
             <li className="relative">
               <button
                 onClick={toggleNavEntt}
-                className={'text-sm font-semibold flex items-center justify-center gap-1'}
+                className={
+                  "text-sm font-semibold flex items-center justify-center gap-1"
+                }
               >
                 エンタメ部門
                 <svg
@@ -189,7 +227,7 @@ const Header = ({ header }: any) => {
             <li>
               <a
                 href="https://yume-pj.com/project/sponsor/"
-                className={'text-sm font-semibold flex'}
+                className={"text-sm font-semibold flex"}
               >
                 スポンサー募集
               </a>
@@ -198,7 +236,7 @@ const Header = ({ header }: any) => {
         </nav>
       </header>
 
-      <div className={'pb-[80px] md:pb-[100px]'}></div>
+      <div className={"pb-[80px] md:pb-[100px]"}></div>
     </>
   );
 };

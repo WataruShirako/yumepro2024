@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { useState } from 'react';
+import Image from "next/image";
+import { useState } from "react";
 
 type EventMap = {
   [key: string]: string | undefined;
@@ -10,22 +10,26 @@ type EventMap = {
   AICHI?: string;
   ISHIKAWA?: string;
   OSAKA?: string;
+  HYOGO?: string;
   FUKUOKA?: string;
   OKINAWA?: string;
 };
 
 const events: EventMap = {
-  HOKKAIDO: '1.北海道大会',
-  TOKYO: '2.東京大会',
-  AICHI: '3.愛知大会',
-  ISHIKAWA: '4.石川大会',
-  OSAKA: '5.大阪大会',
-  FUKUOKA: '6.福岡大会',
-  OKINAWA: '7.沖縄大会',
+  HOKKAIDO: "1.北海道大会",
+  TOKYO: "2.東京大会",
+  AICHI: "3.愛知大会",
+  ISHIKAWA: "4.石川大会",
+  OSAKA: "5.大阪大会",
+  HYOGO: "6.兵庫大会",
+  FUKUOKA: "7.福岡大会",
+  OKINAWA: "8.沖縄大会",
 };
 
 const Venue = () => {
-  const [hoveredPrefecture, setHoveredPrefecture] = useState<string | null>(null);
+  const [hoveredPrefecture, setHoveredPrefecture] = useState<string | null>(
+    null
+  );
 
   return (
     <>
@@ -33,47 +37,77 @@ const Venue = () => {
         <h2 className="sectionTitle text-center items-center Montserrat">
           <div className="relative w-max">
             <Image
-              src={'/busi/business_title_circle.svg'}
+              src={"/busi/business_title_circle.svg"}
               width={128}
               height={128}
               alt=""
-              className="absolute -top-3 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
+              className="absolute -top-1 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
             />
-            <p className="relative break-all">Venue</p>
+            <p className="relative break-all montserrat">Venue</p>
           </div>
-          <span className="relative mt-2 md:mt-6">開催地</span>
+          <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
+            開催地
+          </p>
         </h2>
-        <div className="container w-full m-auto">
+        <div className="container m-auto">
           <p className="text-center mt-5">
             各地方でトーナメント戦を行い、
-            <br />
+            <br className="md:hidden" />
             それぞれの優勝者が
             <br />
             東京で決勝戦を行います。
           </p>
-          <div className="content mx-auto relative">
-            {hoveredPrefecture && (
+          <div className="md:content md:mx-auto md:relative">
+            {/*hoveredPrefecture && (
               <>
-                <div className="fixed w-screen h-screen top-0 left-0 bg-black bg-opacity-70"></div>
-                <div className="bg-[#024067] rounded-lg p-10 absolute top-[30%] left-[50px] text-white z-50 text-[64px]">
-                  {events[hoveredPrefecture]}
+                <div className="fixed w-screen h-screen top-0 left-0 md:bg-black bg-opacity-70"></div>
+                <div
+                  className={
+                    "bg-[#024067] rounded-lg p-3 absolute text-white z-50 text-lg " +
+                    (hoveredPrefecture == "HOKKAIDO"
+                      ? "top-[28%] right-[25%]"
+                      : "") +
+                    (hoveredPrefecture == "TOKYO"
+                      ? "top-[49%] right-[33%]"
+                      : "") +
+                    (hoveredPrefecture == "ISHIKAWA"
+                      ? "top-[38%] right-[40%]"
+                      : "") +
+                    (hoveredPrefecture == "AICHI"
+                      ? "top-[52%] right-[40%]"
+                      : "") +
+                    (hoveredPrefecture == "OSAKA"
+                      ? "top-[52%] right-[45%]"
+                      : "") +
+                    (hoveredPrefecture == "HYOGO"
+                      ? "top-[43%] right-[48%]"
+                      : "") +
+                    (hoveredPrefecture == "FUKUOKA"
+                      ? "top-[48%] right-[65%]"
+                      : "") +
+                    (hoveredPrefecture == "OKINAWA"
+                      ? "top-[70%] right-[75%]"
+                      : "")
+                  }
+                >
+                  <a href="business/hyogo">{events[hoveredPrefecture]}</a>
                 </div>
               </>
-            )}
+                )*/}
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="136.185 -864.696 4364.13 6172.106"
-              className="w-auto mx-auto h-auto opacity-10 md:opacity-100 relative"
+              className="w-auto mx-auto h-auto opacity-100 md:opacity-100 relative md:max-w-5xl"
             >
               <path
                 id="OKINAWA"
                 className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.OKINAWA ? 'onTitle hover:fill-[#de7454]' : ''
+                  events.OKINAWA ? "onTitle hover:fill-[#de7454]" : ""
                 }`}
                 {...(events.OKINAWA
                   ? {
-                      onMouseEnter: () => setHoveredPrefecture('OKINAWA'),
+                      onMouseEnter: () => setHoveredPrefecture("OKINAWA"),
                       onMouseLeave: () => setHoveredPrefecture(null),
                     }
                   : {})}
@@ -617,11 +651,11 @@ const Venue = () => {
               <path
                 id="FUKUOKA"
                 className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.FUKUOKA ? 'onTitle hover:fill-[#de7454]' : ''
+                  events.FUKUOKA ? "onTitle hover:fill-[#de7454]" : ""
                 }`}
                 {...(events.FUKUOKA
                   ? {
-                      onMouseEnter: () => setHoveredPrefecture('FUKUOKA'),
+                      onMouseEnter: () => setHoveredPrefecture("FUKUOKA"),
                       onMouseLeave: () => setHoveredPrefecture(null),
                     }
                   : {})}
@@ -2713,7 +2747,15 @@ const Venue = () => {
               />
               <path
                 id="HYOGO"
-                className="fill-[#c2c2c2]"
+                className={`fill-[#c2c2c2] cursor-pointer ${
+                  events.OKINAWA ? "onTitle hover:fill-[#de7454]" : ""
+                }`}
+                {...(events.HYOGO
+                  ? {
+                      onMouseEnter: () => setHoveredPrefecture("HYOGO"),
+                      onMouseLeave: () => setHoveredPrefecture(null),
+                    }
+                  : {})}
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2020.00,2158.50
@@ -2952,11 +2994,11 @@ const Venue = () => {
                 data-content="大阪"
                 id="OSAKA"
                 className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.OSAKA ? 'onTitle hover:fill-[#de7454]' : ''
+                  events.OSAKA ? "onTitle hover:fill-[#de7454]" : ""
                 }`}
                 {...(events.OSAKA
                   ? {
-                      onMouseEnter: () => setHoveredPrefecture('OSAKA'),
+                      onMouseEnter: () => setHoveredPrefecture("OSAKA"),
                       onMouseLeave: () => setHoveredPrefecture(null),
                     }
                   : {})}
@@ -3531,11 +3573,11 @@ const Venue = () => {
               <path
                 id="ISHIKAWA"
                 className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.ISHIKAWA ? 'onTitle hover:fill-[#de7454]' : ''
+                  events.ISHIKAWA ? "onTitle hover:fill-[#de7454]" : ""
                 }`}
                 {...(events.ISHIKAWA
                   ? {
-                      onMouseEnter: () => setHoveredPrefecture('ISHIKAWA'),
+                      onMouseEnter: () => setHoveredPrefecture("ISHIKAWA"),
                       onMouseLeave: () => setHoveredPrefecture(null),
                     }
                   : {})}
@@ -3807,11 +3849,11 @@ const Venue = () => {
               <path
                 id="AICHI"
                 className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.AICHI ? 'onTitle hover:fill-[#de7454]' : ''
+                  events.AICHI ? "onTitle hover:fill-[#de7454]" : ""
                 }`}
                 {...(events.AICHI
                   ? {
-                      onMouseEnter: () => setHoveredPrefecture('AICHI'),
+                      onMouseEnter: () => setHoveredPrefecture("AICHI"),
                       onMouseLeave: () => setHoveredPrefecture(null),
                     }
                   : {})}
@@ -4472,11 +4514,11 @@ const Venue = () => {
               <path
                 id="TOKYO"
                 className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.TOKYO ? 'onTitle hover:fill-[#de7454]' : ''
+                  events.TOKYO ? "onTitle hover:fill-[#de7454]" : ""
                 }`}
                 {...(events.TOKYO
                   ? {
-                      onMouseEnter: () => setHoveredPrefecture('TOKYO'),
+                      onMouseEnter: () => setHoveredPrefecture("TOKYO"),
                       onMouseLeave: () => setHoveredPrefecture(null),
                     }
                   : {})}
@@ -5643,15 +5685,7 @@ const Venue = () => {
               />
               <path
                 id="HOKKAIDO"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.HOKKAIDO ? 'onTitle hover:fill-[#de7454]' : ''
-                }`}
-                {...(events.HOKKAIDO
-                  ? {
-                      onMouseEnter: () => setHoveredPrefecture('HOKKAIDO'),
-                      onMouseLeave: () => setHoveredPrefecture(null),
-                    }
-                  : {})}
+                className="fill-[#c2c2c2]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 3710.00,548.00
@@ -5881,14 +5915,49 @@ const Venue = () => {
              2789.93,2258.63 2789.77,2242.37 2789.77,2242.37 Z"
               />
             </svg>
-            <div className="md:hidden grid grid-cols-2 absolute top-[100px] left-0 container p-5 gap-2">
-              <div className="list bg-[#024067] rounded-lg text-white p-4">1.北海道大会</div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4">2.東京大会</div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4">3.愛知大会</div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4">4.石川大会</div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4">5.大阪大会</div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4">6.福岡大会</div>
-              <div className="list bg-[#024067] rounded-lg text-white p-4">7.沖縄大会</div>
+            <div className="grid grid-cols-2 container gap-2 pb-24 px-5 w-full">
+              <a
+                href="/business/tokyo"
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[45%] lg:right-[33%]"
+              >
+                1.東京大会
+              </a>
+              <a
+                href="/business/aishi"
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[48%] lg:right-[42%]"
+              >
+                2.愛知大会
+              </a>
+              <a
+                href="/business/ishikawa"
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[36%] lg:right-[42%]"
+              >
+                3.石川大会
+              </a>
+              <a
+                href="/business/osaka"
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[50%] lg:right-[50%]"
+              >
+                4.大阪大会
+              </a>
+              <a
+                href="/business/hyogo"
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[41%] lg:right-[51%]"
+              >
+                5.兵庫大会
+              </a>
+              <a
+                href="/business/fukuoka"
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[46%] lg:right-[63%]"
+              >
+                6.福岡大会
+              </a>
+              <a
+                href="/business/okinawa"
+                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[65%] lg:right-[73%]"
+              >
+                7.沖縄大会
+              </a>
             </div>
           </div>
         </div>

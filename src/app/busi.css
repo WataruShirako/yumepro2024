@@ -4,11 +4,15 @@
 
 .busi {
   color: #eee;
-  font-family: 'Montserrat', 'YuGothic';
+  font-family: "YuGothic", "Yu Gothic", "Montserrat";
+  letter-spacing: 0.03rem;
+}
+.busi .montserrat {
+  font-family: "Montserrat";
 }
 
 .sectionTitle {
-  @apply text-4xl md:text-7xl font-semibold text-center flex flex-col text-white uppercase;
+  @apply text-[40px] md:text-7xl font-semibold text-center flex flex-col text-white uppercase;
 }
 
 .sectionTitle span {
@@ -16,7 +20,10 @@
 }
 
 .button {
-  @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#254DB1] to-[#C52CFD] w-72 h-16 text-center mx-auto my-5;
+  @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] w-72 h-16 text-center mx-auto my-5;
+}
+.button2 {
+  @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] w-48 h-16 md:w-52 lg:w-60 max-[450px]:w-40 text-center mx-auto;
 }
 
 .onTitle {
@@ -26,6 +33,69 @@
 .onTitle:hover {
   fill: #de7454;
   animation: none;
+}
+
+.circle {
+  width: 170px;
+  height: 170px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, #c52cfd, #2d4bb5);
+}
+
+.circleinner {
+  display: inline-block;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+  background: #151d22;
+  border-radius: 50%;
+}
+@media screen and (max-width: 500px) {
+  .circle {
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+  }
+  .circleinner {
+    font-size: 16px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+  }
+}
+.dli-chevron-round-right {
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  line-height: 1;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  transform: translateX(-25%) rotate(45deg);
+}
+
+.dli-chevron-round-right::before,
+.dli-chevron-round-right::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to bottom right, #c52cfd, #2d4bb5);
+  border-radius: 0.1em;
+}
+
+.dli-chevron-round-right::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.3em;
+}
+
+.dli-chevron-round-right::after {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0.3em;
 }
 
 @keyframes flash {

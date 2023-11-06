@@ -1,7 +1,8 @@
-const siteName = '全国学生スタートアップ選手権大会 | 夢叶えるプロジェクト2024';
-const description = '全国学生スタートアップ選手権大会は、';
-const url = 'https://yume-pj.com/business';
-import '../busi.css';
+const siteName = "全国学生スタートアップ選手権大会 | 夢叶えるプロジェクト2024";
+const description =
+  "全国学生スタートアップ選手権大会では、ビジネスに特化し、最新の技術や話題のテーマから、今後次世代を牽引する起業家、事業家たちが３分間のピッチコンテストを行います。優勝者には、シリコンバレー旅行券などの豪華景品をプレゼント。";
+const url = "https://yume-pj.com/business";
+import "../busi.css";
 
 export const metadata = {
   title: {
@@ -15,25 +16,29 @@ export const metadata = {
     description: description,
     url: url,
     siteName: siteName,
-    locale: 'ja_JP',
-    type: 'website',
+    locale: "ja_JP",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: siteName,
     description,
-    site: '@yumepro2023',
-    creator: '@yumepro2023',
+    site: "@yumepro2023",
+    creator: "@yumepro2023",
   },
   verification: {
-    google: 'サーチコンソールのやつ',
+    google: "サーチコンソールのやつ",
   },
   alternates: {
     canonical: url,
   },
 };
 
-export default function BusiLayout({ children }: { children: React.ReactNode }) {
+export default function BusiLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="ja">
       <head>
