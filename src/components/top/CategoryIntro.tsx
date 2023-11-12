@@ -74,7 +74,7 @@ const CategoryIntro = ({ enttContests, star, busi }: any) => {
       </div>
       {/*ビジネス*/}
       <div className="container px-5 py-10 md:py-20 bg-[#151D22] max-w-full relative overflow-hidden">
-        <div className="relative h-24 flex items-center max-w-6xl md:mx-auto relative z-50">
+        <div className="relative h-24 flex items-center max-w-6xl md:mx-auto relative z-10">
           <Image
             className="absolute top-auto bottom-auto md:-left-20 md:w-36"
             src={"/top/busi_symbol.svg"}
@@ -90,7 +90,7 @@ const CategoryIntro = ({ enttContests, star, busi }: any) => {
             height={48}
           />
         </div>
-        <div className="md:flex justify-start items-start md:gap-12 max-w-6xl mx-auto md:mt-12 relative z-50">
+        <div className="md:flex justify-start items-start md:gap-12 max-w-6xl mx-auto md:mt-12 relative z-10">
           <div className="container flex-1 mt-6 md:mt-12">
             {/*            <h6></h6>*/}
             {busi.map((busi: any, index: number) => (
@@ -122,7 +122,7 @@ const CategoryIntro = ({ enttContests, star, busi }: any) => {
           alt=""
           width={606}
           height={362}
-          className="absolute right-0 top-0 object-contain z-auto"
+          className="absolute right-0 top-0 object-contain z-0"
         />
       </div>
     </section>

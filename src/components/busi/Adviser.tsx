@@ -29,7 +29,7 @@ const Adviser = () => {
               width={320}
               height={320}
               alt=""
-              className="w-60 h-60 md:w-[320px] md:h-[320px] object-cover mx-auto"
+              className="w-60  md:w-[320px]  object-cover mx-auto"
             />
           </div>
           <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">

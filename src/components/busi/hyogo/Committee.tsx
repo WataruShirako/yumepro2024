@@ -1,36 +1,22 @@
 import Image from "next/image";
-/*
+
 const lists = [
   {
     id: 1,
-    name: " 釣崎宏",
-    descri: `株式会社テコテック`,
-    descri2: " 代表取締役",
-    src: "/busi/committee01.jpg",
+    name: "中村ひろき",
+    descri: `Studio ENTRE株式会社`,
+    descri2: "プロデューサー",
+    src: "/busi/hyogo/committee01.webp",
   },
   {
     id: 2,
-    name: "佐野健一",
-    descri: `株式会社ビジョン`,
+    name: "宇宙 星太郎",
+    descri: `株式会社うちゅう`,
     descri2: " 代表取締役",
-    src: "/busi/committee02.jpg",
-  },
-  {
-    id: 3,
-    name: "中嶋淳",
-    descri: `アーキタイプ株式会社`,
-    descri2: " 代表取締役",
-    src: "/busi/committee03.jpg",
-  },
-  {
-    id: 4,
-    name: "近藤太香巳",
-    descri: `株式会社ネクシーズグループ`,
-    descri2: " 代表取締役",
-    src: "/busi/committee04.jpg",
+    src: "/busi/hyogo/committee02.webp",
   },
 ];
-*/
+
 const Committee = () => {
   return (
     <>
@@ -50,11 +36,8 @@ const Committee = () => {
             審査委員会
           </p>
         </h2>
-        <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent">
-          — COMING SOON —
-        </p>
-        {/*
-        <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
+
+        <div className="container px-5 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
           {lists.map((list, index) => (
             <div
               key={index}
@@ -69,7 +52,6 @@ const Committee = () => {
 
           <div className="item"></div>
         </div>
-          */}
       </section>
     </>
   );

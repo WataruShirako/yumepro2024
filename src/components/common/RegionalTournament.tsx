@@ -2,25 +2,7 @@ import Image from "next/image";
 
 const RegionalTournament = () => {
   return (
-    <section className={"my-20 md:my-40"}>
-      <h2 className="sectionTitle text-center items-center Montserrat">
-        <div className="relative w-max">
-          <Image
-            src={"/busi/business_title_circle.svg"}
-            width={128}
-            height={128}
-            alt=""
-            className="absolute -top-1 left-3 md:-top-8 md:left-3 w-16 h-16 md:w-32 md:h-32 lg:-left-16"
-          />
-          <p className="relative break-all montserrat">
-            REGIONAL <br className="lg:hidden" />
-            TOURNAMENT
-          </p>
-        </div>
-        <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-          地方大会
-        </p>
-      </h2>
+    <>
       <h3 className="font-bold text-2xl text-center pt-10">ビジネス部門</h3>
       <div className="container grid grid-cols-2 md:grid-cols-3 min-[850px]:grid-cols-8 gap-5 px-4 mt-10 mx-auto min-[850px]:max-w-5xl max-w-md md:max-w-2xl pb-5 ">
         <a
@@ -118,7 +100,7 @@ const RegionalTournament = () => {
       <h3 className="font-bold text-2xl text-center pt-10">エンタメ部門</h3>
       <div className="container grid grid-cols-2 md:grid-cols-3 min-[850px]:grid-cols-4 gap-5 px-4 mt-10 mx-auto min-[850px]:max-w-5xl max-w-md pb-5 md:max-w-2xl">
         <a
-          href="/entt/hokkaido"
+          href="/project/entertainment/hokkaido"
           className="button2 md:text-xl text-base font-bold relative"
         >
           北海道大会
@@ -131,7 +113,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href="/entt/tokyo"
+          href="/project/entertainment/tokyo"
           className="button2 md:text-xl text-base font-bold relative"
         >
           東京大会
@@ -144,7 +126,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href="/entt/aichi"
+          href="/project/entertainment/aichi"
           className="button2 md:text-xl text-base font-bold relative"
         >
           愛知大会
@@ -157,7 +139,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href="/entt/ishikawa"
+          href="/project/entertainment/ishikawa"
           className="button2 md:text-xl text-base font-bold relative"
         >
           石川大会
@@ -170,7 +152,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href="/entt/osaka"
+          href="/project/entertainment/osaka"
           className="button2 md:text-xl text-base font-bold relative"
         >
           大阪大会
@@ -183,7 +165,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href="/entt/hyogo"
+          href="/project/entertainment/hyogo"
           className="button2 md:text-xl text-base font-bold relative"
         >
           兵庫大会
@@ -196,7 +178,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href="/entt/fukuoka"
+          href="/project/entertainment/fukuoka"
           className="button2 md:text-xl text-base font-bold relative"
         >
           福岡大会
@@ -209,7 +191,7 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href="/entt/okinawa"
+          href="/project/entertainment/okinawa"
           className="button2 md:text-xl text-base font-bold relative"
         >
           沖縄大会
@@ -222,7 +204,7 @@ const RegionalTournament = () => {
           />
         </a>
       </div>
-    </section>
+    </>
   );
 };
 

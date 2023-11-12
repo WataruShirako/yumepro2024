@@ -63,6 +63,11 @@ const NavEntt = () => {
       name: "yumephoto",
       title: "夢フォトオーディション",
     },
+    {
+      path: "/project/entertainment/okinawa",
+      name: "ennt_okinawa",
+      title: "沖縄大会",
+    },
   ];
   return (
     <nav

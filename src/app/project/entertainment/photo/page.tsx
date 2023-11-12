@@ -1,33 +1,33 @@
-import '../../../globals.css';
-import '../../../entt.css';
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
-import Image from 'next/image';
-import Prize from '@/components/entt/Prize';
-import About from '@/components/entt/About';
-import Flow from '@/components/entt/Flow';
-import Committee from '@/components/entt/Committee';
-import Chairman from '@/components/entt/Chairman';
-import Comingsoon from '@/components/entt/Comingsoon';
-import ToTop from '@/components/entt/Totop';
-import Instagram from '@/components/entt/Instagram';
-import News from '@/components/entt/News';
-import Sns from '@/components/entt/Sns';
-import Entry from '@/components/entt/Entry';
-import Ambassador from '@/components/entt/Ambassador';
-import Adviser from '@/components/entt/Adviser';
-import Department from '@/components/entt/Department';
-import Cta from '@/components/top/Cta';
-import Category from '@/components/top/Category';
-import Link2023 from '@/components/top/Link2023';
+import "../../../globals.css";
+import "../../../entt.css";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Image from "next/image";
+import Prize from "@/components/entt/Prize";
+import About from "@/components/entt/About";
+import Flow from "@/components/entt/Flow";
+import Committee from "@/components/entt/Committee";
+import Chairman from "@/components/entt/Chairman";
+import Comingsoon from "@/components/entt/Comingsoon";
+import ToTop from "@/components/entt/Totop";
+import Instagram from "@/components/entt/Instagram";
+import News from "@/components/entt/News";
+import Sns from "@/components/entt/Sns";
+import Entry from "@/components/entt/Entry";
+import Ambassador from "@/components/entt/Ambassador";
+import Adviser from "@/components/entt/Adviser";
+import Department from "@/components/entt/Department";
+import Cta from "@/components/top/Cta";
+import Category from "@/components/top/Category";
+import Link2023 from "@/components/top/Link2023";
 
 const Home = () => {
   // 公開済みのコンテスト エンタメコンテスト
   const enttContests = [
     {
       id: 1,
-      name: '夢フォトオーディション',
-      path: '/',
+      name: "夢フォトオーディション",
+      path: "/",
     },
   ];
   // 公開済みのコンテスト スター誕生オーディション
@@ -41,11 +41,11 @@ const Home = () => {
 
   // 賞金・スポンサー賞
   const prize = {
-    title: 'スポンサー賞',
-    sponsor: '/entt/sponsor/min_sponsor/min_sakura.jpg',
-    src: '/entt/prizes/prize_sponsor_spa_100_1.jpg',
-    alt: 'text',
-    SPsrc: '/entt/prizes/sp_prize_sponsor_spa_100_1.jpg',
+    title: "スポンサー賞",
+    sponsor: "/entt/sponsor/min_sponsor/min_sakura.jpg",
+    src: "/entt/prizes/prize_sponsor_spa_100_1.jpg",
+    alt: "text",
+    SPsrc: "/entt/prizes/sp_prize_sponsor_spa_100_1.jpg",
   };
 
   //開催概要
@@ -60,61 +60,61 @@ const Home = () => {
       ・「#夢フォト2024」をつけて投稿している方
     `,
 
-    award: '2024年4月後半に東京近郊にて開催予定',
+    award: "2024年4月後半に東京近郊にて開催予定",
   };
 
   // 審査委員
   const committee = [
     {
       id: 1,
-      name: '岩倉しおり',
-      pro: '写真家',
-      text: '香川県在住の写真家。うつろう季節、光を大切におもにフィルムカメラにて撮影している。地元、香川県で撮影した写真を中心にSNSで作品を発表する他、写真展の開催、CDジャケットや書籍のカバー、広告写真などを手掛ける。2019年3月、初の写真集『さよならは青色』（KADOKAWA）を出版。',
-      src: '/entt/committee/iwakura_shiori.jpg',
-      hp: 'https://iwakurashiori.wixsite.com/photo/',
-      twitter: '@Shiori1012',
-      insta: 'iwakurashiori',
+      name: "岩倉しおり",
+      pro: "写真家",
+      text: "香川県在住の写真家。うつろう季節、光を大切におもにフィルムカメラにて撮影している。地元、香川県で撮影した写真を中心にSNSで作品を発表する他、写真展の開催、CDジャケットや書籍のカバー、広告写真などを手掛ける。2019年3月、初の写真集『さよならは青色』（KADOKAWA）を出版。",
+      src: "/entt/committee/iwakura_shiori.jpg",
+      hp: "https://iwakurashiori.wixsite.com/photo/",
+      twitter: "@Shiori1012",
+      insta: "iwakurashiori",
     },
     {
       id: 2,
-      name: '相武えつ子',
-      pro: 'フォトグラファー',
-      text: '愛知県在住、2人の姉妹のお母さん。結婚を機にカメラを始め、出産後から自身の子どもの写真を撮り続けている。国際フォトコンテスト受賞歴あり。写真展開催。カメラメーカーや暮らしに関する様々な業種の講座で子育てと写真について発信。 Instagramのフォロワーは8万人を超え、ママ世代だけでなく幅広い年齢層のファンに支持されている。',
-      src: '/entt/committee/aimu_etsuko.jpg',
-      hp: 'https://www.etsukoaimu.com/',
-      twitter: '',
-      insta: 'aimue',
+      name: "相武えつ子",
+      pro: "フォトグラファー",
+      text: "愛知県在住、2人の姉妹のお母さん。結婚を機にカメラを始め、出産後から自身の子どもの写真を撮り続けている。国際フォトコンテスト受賞歴あり。写真展開催。カメラメーカーや暮らしに関する様々な業種の講座で子育てと写真について発信。 Instagramのフォロワーは8万人を超え、ママ世代だけでなく幅広い年齢層のファンに支持されている。",
+      src: "/entt/committee/aimu_etsuko.jpg",
+      hp: "https://www.etsukoaimu.com/",
+      twitter: "",
+      insta: "aimue",
     },
     {
       id: 3,
-      name: '別所隆弘',
-      pro: '写真家・フォトグラファー',
-      text: '関西大学社会学部メディア専攻講師。毎日広告デザイン賞最高賞や、National Geographic社主催の世界最大級のフォトコンテストであるNature Photographer of the Year “Aerials” 2位など、国内外での表彰多数。写真と文学という2つの領域を横断しつつ、「その間」の表現を探究している。滋賀、京都を中心とした”Around The Lake”というテーマでの撮影がライフワーク。 ',
-      src: '/entt/committee/bessho_takahiro.jpg',
-      hp: 'https://www.youtube.com/@TakahiroBessho',
-      twitter: 'https://twitter.com/TakahiroBessho',
-      insta: 'takahiro_bessho',
+      name: "別所隆弘",
+      pro: "写真家・フォトグラファー",
+      text: "関西大学社会学部メディア専攻講師。毎日広告デザイン賞最高賞や、National Geographic社主催の世界最大級のフォトコンテストであるNature Photographer of the Year “Aerials” 2位など、国内外での表彰多数。写真と文学という2つの領域を横断しつつ、「その間」の表現を探究している。滋賀、京都を中心とした”Around The Lake”というテーマでの撮影がライフワーク。 ",
+      src: "/entt/committee/bessho_takahiro.jpg",
+      hp: "https://www.youtube.com/@TakahiroBessho",
+      twitter: "https://twitter.com/TakahiroBessho",
+      insta: "takahiro_bessho",
     },
   ];
 
   // 総合司会
   const chairman = {
     id: 1,
-    name: '名前 名前',
-    pro: '職業',
-    text: '香川県在住の写真家。うつろう季節、光を大切におもにフィルムカメラにて撮影している。地元、香川県で撮影した写真を中心にSNSで作品を発表する他、写真展の開催、CDジャケットや書籍のカバー、広告写真などを手掛ける。2019年3月、初の写真集『さよならは青色』（KADOKAWA）を出版。',
-    src: '/entt/committee/iwakura_shiori.jpg',
+    name: "名前 名前",
+    pro: "職業",
+    text: "香川県在住の写真家。うつろう季節、光を大切におもにフィルムカメラにて撮影している。地元、香川県で撮影した写真を中心にSNSで作品を発表する他、写真展の開催、CDジャケットや書籍のカバー、広告写真などを手掛ける。2019年3月、初の写真集『さよならは青色』（KADOKAWA）を出版。",
+    src: "/entt/committee/iwakura_shiori.jpg",
   };
 
   return (
     <>
       <Header />
-      <main id="yumephoto" className={'entt'}>
-        <section id="fv" className={'pt-0'}>
+      <main id="yumephoto" className={"entt"}>
+        <section id="fv" className={"pt-0"}>
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={'/entt/yumephoto/fv_pc5.webp'}
+              src={"/entt/yumephoto/fv_pc5.webp"}
               alt="text"
               width={1920}
               height={930}
@@ -122,7 +122,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={'/entt/yumephoto/fv_sp8.webp'}
+              src={"/entt/yumephoto/fv_sp8.webp"}
               alt="text"
               width={750}
               height={1370}
@@ -133,23 +133,25 @@ const Home = () => {
         <section id="intro">
           <div className="container flex m-auto items-center justify-between flex-wrap flex-col lg:flex-row gap-4">
             <div className="flex-1 px-[4%]">
-              <h3 className={''}>
+              <h3 className={""}>
                 <span>
                   <Image
-                    src={'/entt/yumephoto/yumephoto_intro_title.svg'}
-                    alt={'夢フォト2024テーマ'}
+                    src={"/entt/yumephoto/yumephoto_intro_title.svg"}
+                    alt={"夢フォト2024テーマ"}
                     width={264}
                     height={95}
                   />
                 </span>
                 <span
-                  className={'text-center text-3xl md:text-4xl font-semibold block drop-shadow-lg'}
+                  className={
+                    "text-center text-3xl md:text-4xl font-semibold block drop-shadow-lg"
+                  }
                 >
                   「日本全国の風景景色」
                 </span>
               </h3>
 
-              <p className={'mt-4 md:mt-8'}>
+              <p className={"mt-4 md:mt-8"}>
                 「夢フォトオーディション」は写真を通じて日本の文化・社会・風景などの魅力を国内外に発信していくアンバサダーを選出するコンテストです。業界をけん引するにふさわしい「技術と感性」を身につけた次世代エースを発掘すべくSNS審査・豪華審査員による審査などの選考によりグランプリを決定します。
               </p>
             </div>
@@ -158,7 +160,7 @@ const Home = () => {
               <div className="imgWrap introImgWrap max-w-[92%] m-auto">
                 <Image
                   className="img introImg"
-                  src={'/entt/yumephoto/intro_img3.webp'}
+                  src={"/entt/yumephoto/intro_img3.webp"}
                   alt="text"
                   width={450}
                   height={357}
@@ -175,9 +177,9 @@ const Home = () => {
           <div className="flex flex-col md:flex-row max-w-5xl m-auto items-center md:items-start justify-between md:gap-24">
             <div className="relative w-2/3 md:w-[45%] m-auto mt-8 md:mt-0">
               <Image
-                className={'img m-0'}
-                src={'/entt/yumephoto/yumephoto_ex_grand_prix.jpg'}
-                alt={'去年の受賞作'}
+                className={"img m-0"}
+                src={"/entt/yumephoto/yumephoto_ex_grand_prix.jpg"}
+                alt={"去年の受賞作"}
                 width={450}
                 height={516}
               />
@@ -185,26 +187,39 @@ const Home = () => {
             <div className="text-center mt-4 md:mt-0 md:w-[45%] exGrandPrix contents md:block">
               <h4
                 className={
-                  'title text-[40px] ml-0 text-center md:text-left -order-1 md:order-none w-4/5 md:w-full'
+                  "title text-[40px] ml-0 text-center md:text-left -order-1 md:order-none w-4/5 md:w-full"
                 }
               >
                 <Image
-                  src={'/entt/yumephoto/prize_past.svg'}
-                  alt={'グランプリ受賞作'}
+                  src={"/entt/yumephoto/prize_past.svg"}
+                  alt={"グランプリ受賞作"}
                   width={261}
                   height={160}
-                  className={'w-full md:m-auto'}
+                  className={"w-full md:m-auto"}
                 />
               </h4>
-              <div className={'text-center md:text-left m-auto mt-4 md:mt-8'}>
-                <a href="" className={'flex items-center justify-center gap-2'}>
-                  <Image src={'/monoIcon_instagram.svg'} alt={''} width={20} height={20} />
+              <div className={"text-center md:text-left m-auto mt-4 md:mt-8"}>
+                <a href="" className={"flex items-center justify-center gap-2"}>
+                  <Image
+                    src={"/monoIcon_instagram.svg"}
+                    alt={""}
+                    width={20}
+                    height={20}
+                  />
                   @kazpic2
                 </a>
-                <p className={'text-lg mt-4 md:mt-6 leading-loose p-5 py-1 text-center'}>
+                <p
+                  className={
+                    "text-lg mt-4 md:mt-6 leading-loose p-5 py-1 text-center"
+                  }
+                >
                   〜作品に込めた想い〜
                 </p>
-                <p className={'text-sm mt-2 md:mt-3 leading-loose p-5 pt-1 md:px-0 text-center'}>
+                <p
+                  className={
+                    "text-sm mt-2 md:mt-3 leading-loose p-5 pt-1 md:px-0 text-center"
+                  }
+                >
                   一目でわかる季節感と雰囲気を
                   <br />
                   感じてもらえるよう残した写真です。
@@ -226,10 +241,10 @@ const Home = () => {
         <Entry />
         <Flow />
         <section className="container m-auto max-w-[92%] md:max-w-5xl">
-          <h2 className={'bg-[#485757] px-1 w-full text-[#EFEFEF] text-center'}>
+          <h2 className={"bg-[#485757] px-1 w-full text-[#EFEFEF] text-center"}>
             個人情報の取り扱い
           </h2>
-          <p className={'mt-4 text-sm'}>
+          <p className={"mt-4 text-sm"}>
             本企画の主催は、株式会社クレドインターナショナルが行い、運営業務は株式会社クレドインターナショナルが行います。
             <br />
             本コンテストで取得した個人情報は厳重に管理され、コンテストに関するご連絡、賞品の発送、応募作品の管理、受賞作品の展示などコンテストの実施・運営・宣伝広報活動およびこれらに付随する目的並びに特定の個人を識別できない統計資料を作成する目的、このほか主催者のPR活動で応募作品を使用する際に応募時のInstagramアカウント名を合わせて表示する目的、並びに個人情報保護法等の法令において認められた範囲でのみ利用し、それ以外の目的では利用いたしません。データ（Exif情報など）は統計的に処理され、個人が特定できないように加工して分析し、協力企業など第三者に公開される可能性がありますことをご了承ください。
@@ -258,8 +273,14 @@ const Home = () => {
             <br />
             ※賞品の発送・配送は、株式会社クレドインターナショナルおよび株式会社クレドインターナショナルが委託する企業が行います。
           </p>
-          <h2 className={'bg-[#485757] px-1 w-full text-[#EFEFEF] text-center mt-8'}>注意事項</h2>
-          <p className={'mt-4 text-sm '}>
+          <h2
+            className={
+              "bg-[#485757] px-1 w-full text-[#EFEFEF] text-center mt-8"
+            }
+          >
+            注意事項
+          </h2>
+          <p className={"mt-4 text-sm "}>
             応募者は、応募の際に指定された項目につき、正確な情報を入力するものとします。入力いただいた情報のミスによる落選、その他いかなる損害についても一切責任を負えませんのでご了承ください。
             <br />
             応募作品は未発表のものに限りませんが、トラブル防止のため他のコンテストなどに応募中または応募予定、あるいは過去に受賞して画像が確認できる作品の場合は、他のフォトコンテストなどの応募規約もご確認いただきますようお願いいたします。なお、応募者本人が制作された市販目的のない出版物や本人のSNS、ブログなどに掲載した作品、審査のない写真展に出品した作品は応募いただけます。

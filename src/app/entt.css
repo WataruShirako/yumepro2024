@@ -6,13 +6,13 @@
   background: url(../../public/entt/entt_bg.png) repeat;
   background-size: 100px 100px;
   color: #485757;
-  font-family: 'YuGothic', sans-serif;
+  font-family: "YuGothic", sans-serif;
   font-weight: 400;
   line-height: 2;
 }
 
 .Montserrat {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 section {
@@ -36,7 +36,7 @@ section {
 
 .secTitle {
   text-align: center;
-  font-family: YuGothic, 'YuGothic', sans-serif;
+  font-family: YuGothic, "YuGothic", sans-serif;
   font-weight: 600;
   font-size: 2rem;
   color: #485757;
@@ -46,7 +46,7 @@ section {
 
 .secTitle span {
   font-size: 1rem;
-  font-family: 'Montserrat', Montserrat, serif;
+  font-family: "Montserrat", Montserrat, serif;
   font-weight: 600;
   letter-spacing: 0.03em;
   color: #c52cfd;
@@ -123,7 +123,7 @@ section {
 }
 
 .btnEntt:after {
-  content: '';
+  content: "";
   position: absolute;
   top: auto;
   left: auto;
@@ -147,11 +147,11 @@ section {
 }
 
 #yumephoto .prizeContinue {
-  font-family: 'cinzel', serif;
+  font-family: "cinzel", serif;
 }
 
 #yumephoto .exGrandPrix .title {
-  font-family: 'Shippori Mincho', serif;
+  font-family: "Shippori Mincho", serif;
   font-weight: 300;
 }
 
@@ -170,7 +170,7 @@ section {
 }
 
 .ShipporiMincho {
-  font-family: 'Shippori Mincho', serif;
+  font-family: "Shippori Mincho", serif;
 }
 
 .depBorderWhite {
@@ -185,6 +185,45 @@ section {
   border: #efefef 2px solid;
   width: calc(100% - 6px);
   height: calc(100% - 6px);
-  content: '';
+  content: "";
   pointer-events: none;
+}
+
+/*優勝特典*/
+.circle {
+  width: 170px;
+  height: 170px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, #c52cfd, #2d4bb5);
+}
+
+.circleinner {
+  display: inline-block;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 50%;
+}
+@media screen and (max-width: 500px) {
+  .circle {
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+  }
+  .circleinner {
+    font-size: 16px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+  }
+}
+
+.button {
+  @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] w-72 h-16 text-center mx-auto my-5;
+}
+.button2 {
+  @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] w-48 h-16 md:w-52 lg:w-60 max-[450px]:w-40 text-center mx-auto;
 }

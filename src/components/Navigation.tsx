@@ -34,6 +34,9 @@ export const Navigation: FC<Props> = ({ open, id }) => {
             夢フォトオーディション {">"}
           </a>
         </li>
+        <li>
+          <a href="/project/entertainment/okinawa">沖縄大会 {">"}</a>
+        </li>
         <li className="pt-10">
           <a href="https://yume-pj.com/project/sponsor/">
             スポンサー募集 {">"}
