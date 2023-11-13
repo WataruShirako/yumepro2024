@@ -12,14 +12,14 @@ const auditions = [
     src: '/top/banner/yumephoto.png',
   },
   {
-    name: 'coming soon...',
-    path: '',
-    src: '/top/banner/comingsoon.png',
+    name: '全国学生スタートアップアワード',
+    path: '/project/business',
+    src: '/top/banner/banner_business.png',
   },
   {
-    name: 'coming soon...',
+    name: '夢プロショートドラマオーディション',
     path: '',
-    src: '/top/banner/comingsoon.png',
+    src: '/top/banner/banner_drama.png',
   },
 ];
 
