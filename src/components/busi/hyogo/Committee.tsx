@@ -36,21 +36,68 @@ const Committee = () => {
             審査委員会
           </p>
         </h2>
-
-        <div className="container px-5 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
-          {lists.map((list, index) => (
-            <div
-              key={index}
-              className="item flex flex-col items-center justify-center"
-            >
-              <Image src={list.src} alt={""} width={200} height={200} />
-              <p className="my-2 text-center font-bold text-xl">{list.name}</p>
-              <p className="text-center text-[13px]">{list.descri}</p>
-              <p className="text-center text-[13px]">{list.descri2}</p>
-            </div>
-          ))}
-
-          <div className="item"></div>
+        <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+          <div className="w-1/2">
+            <Image
+              src={"/busi/hyogo/committee01.webp"}
+              width={278}
+              height={360}
+              alt=""
+              className="w-60md:w-[320px] object-cover mx-auto"
+            />
+          </div>
+          <div className="itemText px-5 md:w-1/2 text-left w-4/5 w-full">
+            <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+              中村ひろき
+            </p>
+            <p className="max-w-md text-[13px] mx-auto md:text-left md:mx-0">
+              Studio ENTRE株式会社 プロデューサー
+              <br />
+              一般社団法人スタートアップスタジオ協会 理事
+              <br />
+              <br />
+              1993年生まれ。早稲田大学社会科学部卒。
+              <br />
+              大学在学中からレーベル運営やバンド活動など、音楽についての幅広い活動を展開すると同時に、スタートアップにてプロダクト開発に関わる。
+              <br />
+              大学卒業後、DMM.comに入社し新規事業の担当として複数のエンタメプロダクト/サービスの立ち上げを行う。
+              <br />
+              その後、ブロックチェーンスタートアップにて事業開発を担当し、現在はエンターテインメント領域のスタートアップスタジオStudioENTREの事業プロデューサー。
+              <br />
+              得意領域はXR/AI/ブロックチェーンなどの先端技術を活用したプロダクト開発。
+              <br />
+              <br />
+              <br />
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+          <div className="w-1/2">
+            <Image
+              src={"/busi/hyogo/committee02.webp"}
+              width={278}
+              height={360}
+              alt=""
+              className="w-60md:w-[320px] object-cover mx-auto"
+            />
+          </div>
+          <div className="itemText px-5 md:w-1/2 text-left w-4/5 w-full">
+            <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+              宇宙 星太郎
+            </p>
+            <p className="max-w-md text-[13px] mx-auto md:text-left md:mx-0">
+              株式会社うちゅう代表取締役 共同創業者 CCO兼iCEO
+              <br />
+              <br />
+              ・一般社団法人教育ソリューション研究協議会 研究員
+              <br />
+              ・2020.21.22年度
+              経済産業省「未来の教室」STEAMライブラリー事業　宇宙・デザイン思考・Vtuber教育コンテンツ統括責任者
+              <br />
+              <br />
+              <br />
+            </p>
+          </div>
         </div>
       </section>
     </>

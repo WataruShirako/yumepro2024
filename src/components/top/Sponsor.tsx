@@ -41,7 +41,7 @@ const Sponsor = () => {
         <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
           <Image
             src={"/top/sponsor/asteeda.png"}
-            alt="sakura"
+            alt="asteeda"
             width={190}
             height={190}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
@@ -112,6 +112,27 @@ const Sponsor = () => {
           <Image
             src={"/top/sponsor/fauchon.png"}
             alt="fauchon"
+            width={190}
+            height={190}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
+            src={"/top/sponsor/oneli_navi.webp"}
+            alt="oneli_navi"
+            width={190}
+            height={190}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
+            src={"/top/sponsor/tecotec.webp"}
+            alt="tecotec"
+            width={190}
+            height={190}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
+            src={"/top/sponsor/mixch.webp"}
+            alt="mixch"
             width={190}
             height={190}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"

@@ -78,7 +78,7 @@ const Home = () => {
         <Intro />
         <Category />
         <Cta />
-        <CategoryIntro enttContests={enttContests} star={star} busi={busi} />
+        {/*     <CategoryIntro enttContests={enttContests} star={star} busi={busi} />*/}
         <Schedule />
         <Entry />
         <Cta />

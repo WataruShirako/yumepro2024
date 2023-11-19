@@ -16,12 +16,12 @@ const NavBusi = () => {
     },
     {
       path: "/business/hyogo",
-      name: "",
+      name: "test",
       title: "兵庫大会",
     },
     {
       path: "/business/okinawa",
-      name: "",
+      name: "test",
       title: "沖縄大会",
     },
   ];
@@ -65,7 +65,7 @@ const NavEntt = () => {
     },
     {
       path: "/project/entertainment/okinawa",
-      name: "ennt_okinawa",
+      name: "test",
       title: "沖縄大会",
     },
   ];
