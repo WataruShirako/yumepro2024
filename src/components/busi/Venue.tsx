@@ -102,8 +102,8 @@ const Venue = () => {
             >
               <path
                 id="OKINAWA"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.OKINAWA ? "onTitle hover:fill-[#de7454]" : ""
+                className={`fill-[#40bcc1] cursor-pointer ${
+                  events.OKINAWA ? "onTitle1" : ""
                 }`}
                 {...(events.OKINAWA
                   ? {
@@ -228,7 +228,7 @@ const Venue = () => {
               />
               <path
                 id="NAGASAKI"
-                className="fill-[#c2c2c2]"
+                className="fill-[#e64639]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1237.45,2505.27
@@ -650,8 +650,8 @@ const Venue = () => {
               />
               <path
                 id="FUKUOKA"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.FUKUOKA ? "onTitle hover:fill-[#de7454]" : ""
+                className={`fill-[#e64639] cursor-pointer ${
+                  events.FUKUOKA ? "" : ""
                 }`}
                 {...(events.FUKUOKA
                   ? {
@@ -752,7 +752,7 @@ const Venue = () => {
               />
               <path
                 id="SAGA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#e64639]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1295.50,2543.00
@@ -815,7 +815,7 @@ const Venue = () => {
               />
               <path
                 id="KUMAMOTO"
-                className="fill-[#c2c2c2]"
+                className="fill-[#e64639]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1410.00,2692.50
@@ -971,7 +971,7 @@ const Venue = () => {
               />
               <path
                 id="KAGOSHIMA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#e64639]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1352.00,2824.00
@@ -1277,7 +1277,7 @@ const Venue = () => {
               />
               <path
                 id="MIYAZAKI"
-                className="fill-[#c2c2c2]"
+                className="fill-[#e64639]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1457.00,2765.00
@@ -1376,7 +1376,7 @@ const Venue = () => {
               />
               <path
                 id="OOITA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#e64639]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1463.50,2555.00
@@ -1500,7 +1500,7 @@ const Venue = () => {
               />
               <path
                 id="EHIME"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0997d4]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1798.55,2362.55
@@ -1705,7 +1705,7 @@ const Venue = () => {
               />
               <path
                 id="KOUCHI"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0997d4]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1904.00,2425.00
@@ -1836,7 +1836,7 @@ const Venue = () => {
               />
               <path
                 id="TOKUSHIMA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0997d4]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2044.76,2350.75
@@ -1928,7 +1928,7 @@ const Venue = () => {
               />
               <path
                 id="KAGAWA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0997d4]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1894.50,2382.00
@@ -2747,8 +2747,8 @@ const Venue = () => {
               />
               <path
                 id="HYOGO"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.OKINAWA ? "onTitle hover:fill-[#de7454]" : ""
+                className={`fill-[#0063b3] cursor-pointer ${
+                  events.OKINAWA ? "onTitle3" : ""
                 }`}
                 {...(events.HYOGO
                   ? {
@@ -2878,7 +2878,7 @@ const Venue = () => {
               />
               <path
                 id="KYOTO"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0063b3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2170.00,2186.00
@@ -2993,8 +2993,8 @@ const Venue = () => {
               <path
                 data-content="大阪"
                 id="OSAKA"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.OSAKA ? "onTitle hover:fill-[#de7454]" : ""
+                className={`fill-[#0063b3] cursor-pointer ${
+                  events.OSAKA ? "" : ""
                 }`}
                 {...(events.OSAKA
                   ? {
@@ -3066,7 +3066,7 @@ const Venue = () => {
               />
               <path
                 id="WAKAYAMA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0063b3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2261.50,2459.00
@@ -3143,7 +3143,7 @@ const Venue = () => {
               />
               <path
                 id="NARA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0063b3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2213.50,2320.00
@@ -3216,7 +3216,7 @@ const Venue = () => {
               />
               <path
                 id="SHIGA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0063b3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2234.33,2128.00
@@ -3318,7 +3318,7 @@ const Venue = () => {
               />
               <path
                 id="MIE"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0063b3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2335.11,2161.36
@@ -3464,7 +3464,7 @@ const Venue = () => {
               />
               <path
                 id="HUKUI"
-                className="fill-[#c2c2c2]"
+                className="fill-[#639a33]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2183.16,2101.53
@@ -3572,8 +3572,8 @@ const Venue = () => {
               />
               <path
                 id="ISHIKAWA"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.ISHIKAWA ? "onTitle hover:fill-[#de7454]" : ""
+                className={`fill-[#639a33] cursor-pointer ${
+                  events.ISHIKAWA ? "" : ""
                 }`}
                 {...(events.ISHIKAWA
                   ? {
@@ -3688,7 +3688,7 @@ const Venue = () => {
               />
               <path
                 id="TOYAMA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#639a33]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2516.49,1931.75
@@ -3748,7 +3748,7 @@ const Venue = () => {
               />
               <path
                 id="GUFU"
-                className="fill-[#c2c2c2]"
+                className="fill-[#ee8237]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2370.44,2167.48
@@ -3848,8 +3848,8 @@ const Venue = () => {
               />
               <path
                 id="AICHI"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.AICHI ? "onTitle hover:fill-[#de7454]" : ""
+                className={`fill-[#ee8237] cursor-pointer ${
+                  events.AICHI ? "" : ""
                 }`}
                 {...(events.AICHI
                   ? {
@@ -4081,7 +4081,7 @@ const Venue = () => {
               />
               <path
                 id="SIZUOKA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#ee8237]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2498.88,2261.96
@@ -4235,7 +4235,7 @@ const Venue = () => {
               />
               <path
                 id="NIIGATA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#639a33]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2525.67,1818.33
@@ -4439,7 +4439,7 @@ const Venue = () => {
               />
               <path
                 id="KANAGAWA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0f8330]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2760.50,2075.00
@@ -4513,8 +4513,8 @@ const Venue = () => {
               />
               <path
                 id="TOKYO"
-                className={`fill-[#c2c2c2] cursor-pointer ${
-                  events.TOKYO ? "onTitle hover:fill-[#de7454]" : ""
+                className={`fill-[#0f8330] cursor-pointer ${
+                  events.TOKYO ? "" : ""
                 }`}
                 {...(events.TOKYO
                   ? {
@@ -4577,7 +4577,7 @@ const Venue = () => {
               />
               <path
                 id="SAITAMA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0f8330]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2692.00,2026.75
@@ -4639,7 +4639,7 @@ const Venue = () => {
               />
               <path
                 id="GUNMA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0f8330]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2789.67,1844.33
@@ -4716,7 +4716,7 @@ const Venue = () => {
               />
               <path
                 id="TOCHIGI"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0f8330]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2930.67,1840.67
@@ -4771,7 +4771,7 @@ const Venue = () => {
               />
               <path
                 id="CHIBA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0f8330]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2857.00,1989.67
@@ -4861,7 +4861,7 @@ const Venue = () => {
               />
               <path
                 id="IBARAKI"
-                className="fill-[#c2c2c2]"
+                className="fill-[#0f8330]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 3016.67,1849.33
@@ -4984,7 +4984,7 @@ const Venue = () => {
               />
               <path
                 id="FUKUSHIMA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#74a1c3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2774.33,1808.33
@@ -5076,7 +5076,7 @@ const Venue = () => {
               />
               <path
                 id="MIYAGI"
-                className="fill-[#c2c2c2]"
+                className="fill-[#74a1c3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 3153.00,1456.00
@@ -5175,7 +5175,7 @@ const Venue = () => {
               />
               <path
                 id="YAMAGATA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#74a1c3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2819.45,1514.18
@@ -5252,7 +5252,7 @@ const Venue = () => {
               />
               <path
                 id="IWATE"
-                className="fill-[#c2c2c2]"
+                className="fill-[#74a1c3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 3200.67,1364.33
@@ -5362,7 +5362,7 @@ const Venue = () => {
               />
               <path
                 id="AKITA"
-                className="fill-[#c2c2c2]"
+                className="fill-[#74a1c3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2889.03,1217.07
@@ -5477,7 +5477,7 @@ const Venue = () => {
               />
               <path
                 id="AOMORI"
-                className="fill-[#c2c2c2]"
+                className="fill-[#74a1c3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2882.33,1140.00
@@ -5577,7 +5577,7 @@ const Venue = () => {
               />
               <path
                 id="HOPPOURYOUDO"
-                className="fill-[#c2c2c2]"
+                className="fill-[#3b7faf]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 3810.50,566.50
@@ -5685,7 +5685,7 @@ const Venue = () => {
               />
               <path
                 id="HOKKAIDO"
-                className="fill-[#c2c2c2]"
+                className="fill-[#3b7faf]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 3710.00,548.00
@@ -5917,46 +5917,52 @@ const Venue = () => {
             </svg>
             <div className="grid grid-cols-2 container gap-2 pb-24 px-5 w-full">
               <a
-                href="/business/tokyo"
-                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[45%] lg:right-[33%]"
+                href="/business/hokkaido"
+                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[25%] lg:right-[20%]"
               >
-                1.東京大会
+                北海道大会
+              </a>
+              <a
+                href="/business/tokyo"
+                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[45%] lg:right-[33%]"
+              >
+                東京大会
               </a>
               <a
                 href="/business/aishi"
-                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[48%] lg:right-[42%]"
+                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[48%] lg:right-[42%]"
               >
-                2.愛知大会
+                愛知大会
               </a>
               <a
                 href="/business/ishikawa"
-                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[36%] lg:right-[42%]"
+                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[36%] lg:right-[42%]"
               >
-                3.石川大会
+                石川大会
               </a>
               <a
                 href="/business/osaka"
-                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[50%] lg:right-[50%]"
+                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[50%] lg:right-[50%]"
               >
-                4.大阪大会
+                大阪大会
               </a>
               <a
                 href="/business/hyogo"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[41%] lg:right-[51%]"
               >
-                5.兵庫大会
+                兵庫大会
               </a>
               <a
                 href="/business/fukuoka"
-                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[46%] lg:right-[63%]"
+                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[46%] lg:right-[63%]"
               >
-                6.福岡大会
+                福岡大会
               </a>
               <a
                 href="/business/okinawa"
                 className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[65%] lg:right-[73%]"
               >
-                7.沖縄大会
+                沖縄大会
               </a>
             </div>
           </div>

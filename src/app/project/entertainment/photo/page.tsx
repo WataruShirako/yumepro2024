@@ -11,7 +11,7 @@ import Chairman from "@/components/entt/Chairman";
 import Comingsoon from "@/components/entt/Comingsoon";
 import ToTop from "@/components/entt/Totop";
 import Instagram from "@/components/entt/Instagram";
-import News from "@/components/entt/News";
+import News from "@/components/top/News";
 import Sns from "@/components/entt/Sns";
 import Entry from "@/components/entt/Entry";
 import Ambassador from "@/components/entt/Ambassador";

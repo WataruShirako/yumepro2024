@@ -173,37 +173,6 @@ const Header = ({ header }: any) => {
 
         <nav className={"hidden md:block"}>
           <ul className="flex gap-12">
-            <li className={"relative"}>
-              <button
-                onClick={toggleNavBusi}
-                className={
-                  "text-sm font-semibold flex items-center justify-center gap-1"
-                }
-              >
-                ビジネス部門
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="9.409"
-                  height="5.412"
-                  viewBox="0 0 9.409 5.412"
-                >
-                  <g
-                    id="グループ_579"
-                    data-name="グループ 579"
-                    transform="translate(11708.203 193.205)"
-                  >
-                    <path
-                      id="パス_416"
-                      data-name="パス 416"
-                      d="M-9175.97-193.295l-4-4,.708-.707,4,4,4-4,.707.707-4.7,4.7Z"
-                      transform="translate(-2528.236 4.794)"
-                      fill="#485757"
-                    />
-                  </g>
-                </svg>
-              </button>
-              {isNavBusiVisible && <NavBusi />}
-            </li>
             <li className="relative">
               <button
                 onClick={toggleNavEntt}
@@ -234,6 +203,37 @@ const Header = ({ header }: any) => {
                 </svg>
               </button>
               {isNavEnttVisible && <NavEntt />}
+            </li>
+            <li className={"relative"}>
+              <button
+                onClick={toggleNavBusi}
+                className={
+                  "text-sm font-semibold flex items-center justify-center gap-1"
+                }
+              >
+                ビジネス部門
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="9.409"
+                  height="5.412"
+                  viewBox="0 0 9.409 5.412"
+                >
+                  <g
+                    id="グループ_579"
+                    data-name="グループ 579"
+                    transform="translate(11708.203 193.205)"
+                  >
+                    <path
+                      id="パス_416"
+                      data-name="パス 416"
+                      d="M-9175.97-193.295l-4-4,.708-.707,4,4,4-4,.707.707-4.7,4.7Z"
+                      transform="translate(-2528.236 4.794)"
+                      fill="#485757"
+                    />
+                  </g>
+                </svg>
+              </button>
+              {isNavBusiVisible && <NavBusi />}
             </li>
             <li>
               <a

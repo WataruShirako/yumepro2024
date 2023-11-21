@@ -47,6 +47,27 @@ const Sponsor = () => {
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
+            src={"/top/sponsor/oneli_navi.webp"}
+            alt="oneli_navi"
+            width={190}
+            height={190}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
+            src={"/top/sponsor/tecotec.webp"}
+            alt="tecotec"
+            width={190}
+            height={190}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
+            src={"/top/sponsor/mixch.webp"}
+            alt="mixch"
+            width={190}
+            height={190}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
             src={"/top/sponsor/zen_spa.png"}
             alt="sakura"
             width={190}
@@ -112,27 +133,6 @@ const Sponsor = () => {
           <Image
             src={"/top/sponsor/fauchon.png"}
             alt="fauchon"
-            width={190}
-            height={190}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/oneli_navi.webp"}
-            alt="oneli_navi"
-            width={190}
-            height={190}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/tecotec.webp"}
-            alt="tecotec"
-            width={190}
-            height={190}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/mixch.webp"}
-            alt="mixch"
             width={190}
             height={190}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"

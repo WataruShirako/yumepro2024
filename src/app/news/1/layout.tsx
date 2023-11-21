@@ -1,9 +1,6 @@
-const siteName =
-  "全国学生スタートアップ選手権大会 沖縄大会 | 夢叶えるプロジェクト2024";
-const description =
-  "全国学生スタートアップ選手権大会では、ビジネスに特化し、最新の技術や話題のテーマから、今後次世代を牽引する起業家、事業家たちが３分間のピッチコンテストを行います。優勝者には、シリコンバレー旅行券などの豪華景品をプレゼント。";
-const url = "https://yume-pj.com/business/okinawa";
-import "../../busi.css";
+const siteName = " | 夢叶えるプロジェクト2024";
+const description = " | 夢叶えるプロジェクト202";
+const url = "https://yume-pj.com";
 
 export const metadata = {
   title: {
@@ -14,9 +11,9 @@ export const metadata = {
   description,
   openGraph: {
     title: siteName,
-    description: description,
-    url: url,
-    siteName: siteName,
+    description,
+    url,
+    siteName,
     locale: "ja_JP",
     type: "website",
   },
@@ -35,7 +32,7 @@ export const metadata = {
   },
 };
 
-export default function BusiLayout({
+export default function EnttLayout({
   children,
 }: {
   children: React.ReactNode;

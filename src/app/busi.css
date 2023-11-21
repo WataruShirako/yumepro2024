@@ -26,15 +26,6 @@
   @apply flex items-center justify-center rounded-lg text-white bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] w-48 h-16 md:w-52 lg:w-60 max-[450px]:w-40 text-center mx-auto;
 }
 
-.onTitle {
-  animation: flash 2s linear infinite;
-}
-
-.onTitle:hover {
-  fill: #de7454;
-  animation: none;
-}
-
 .circle {
   width: 170px;
   height: 170px;
@@ -97,16 +88,121 @@
   bottom: 0;
   width: 0.3em;
 }
+.onTitle1 {
+  animation: flash1 2s linear infinite;
+}
+@keyframes flash1 {
+  0% {
+    fill: #c2c2c2;
+  }
+  50% {
+    fill: #40bcc1;
+  }
+  100% {
+    fill: #c2c2c2;
+  }
+}
 
+.onTitle2 {
+  animation: flash2 2s linear infinite;
+}
+@keyframes flash2 {
+  0% {
+    fill: #c2c2c2;
+  }
+  50% {
+    fill: #e64639;
+  }
+  100% {
+    fill: #c2c2c2;
+  }
+}
+
+.onTitle3 {
+  animation: flash3 2s linear infinite;
+}
+@keyframes flash3 {
+  0% {
+    fill: #c2c2c2;
+  }
+  50% {
+    fill: #0063b3;
+  }
+  100% {
+    fill: #c2c2c2;
+  }
+}
+
+.onTitle4 {
+  animation: flash4 2s linear infinite;
+}
+@keyframes flash4 {
+  0% {
+    fill: #c2c2c2;
+  }
+  50% {
+    fill: #ee8237;
+  }
+  100% {
+    fill: #c2c2c2;
+  }
+}
+
+.onTitle5 {
+  animation: flash5 2s linear infinite;
+}
+@keyframes flash5 {
+  0% {
+    fill: #c2c2c2;
+  }
+  50% {
+    fill: #639a33;
+  }
+  100% {
+    fill: #c2c2c2;
+  }
+}
+
+.onTitle6 {
+  animation: flash6 2s linear infinite;
+}
+@keyframes flash6 {
+  0% {
+    fill: #c2c2c2;
+  }
+  50% {
+    fill: #0f8330;
+  }
+  100% {
+    fill: #c2c2c2;
+  }
+}
+
+.onTitle {
+  animation: flash 2s linear infinite;
+}
 @keyframes flash {
   0% {
     fill: #c2c2c2;
   }
-
   50% {
-    fill: #de7454;
+    fill: #40bcc1;
   }
+  100% {
+    fill: #c2c2c2;
+  }
+}
 
+.onTitle {
+  animation: flash 2s linear infinite;
+}
+@keyframes flash {
+  0% {
+    fill: #c2c2c2;
+  }
+  50% {
+    fill: #40bcc1;
+  }
   100% {
     fill: #c2c2c2;
   }

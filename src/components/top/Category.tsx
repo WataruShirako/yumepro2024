@@ -112,20 +112,27 @@ const Category = () => {
               className={"-ml-6 md:w-[150px] md:-ml-8"}
             />
           </h3>
-          <div className={"flex justify-around mt-4 gap-6 "}>
-            <div className={"text-center w-full"}>
-              <Image
-                src={"/busi/busi_top_pc.webp"}
-                alt={"coming soon..."}
-                width={150}
-                height={150}
-                className={"rounded-2xl shadow-md w-full"}
-              />
-              <p className={"text-xs font-semibold mt-2"}>
-                全国学生スタートアップアワード2024
-              </p>
+
+          <Link
+            href={"/business"}
+            className={"text-center w-1/2 hover:brightness-90"}
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            <div className={"flex justify-around mt-4 gap-6 "}>
+              <div className={"text-center w-full"}>
+                <Image
+                  src={"/busi/busi_top_pc.webp"}
+                  alt={"全国学生スタートアップアワード2024"}
+                  width={150}
+                  height={150}
+                  className={"rounded-2xl shadow-md w-full"}
+                />
+                <p className={"text-xs font-semibold mt-2"}>
+                  全国学生スタートアップアワード2024
+                </p>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
