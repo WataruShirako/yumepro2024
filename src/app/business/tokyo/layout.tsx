@@ -2,7 +2,7 @@ const siteName = "全国学生スタートアップ選手権大会 | 夢叶え�
 const description =
   "全国学生スタートアップ選手権大会では、ビジネスに特化し、最新の技術や話題のテーマから、今後次世代を牽引する起業家、事業家たちが３分間のピッチコンテストを行います。優勝者には、シリコンバレー旅行券などの豪華景品をプレゼント。";
 const url = "https://yume-pj.com/business";
-import "../busi.css";
+import "../../busi.css";
 
 export const metadata = {
   title: {

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Sponsor = () => {
   return (
-    <section className={"my-20 md:my-40"}>
+    <section className={"py-40 md:py-40"}>
       <h2 className="sectionTitle text-center items-center Montserrat">
         <div className="relative w-max">
           <Image

@@ -49,7 +49,7 @@ const Venue = () => {
             開催地
           </p>
         </h2>
-        <div className="container m-auto">
+        <div className=" m-auto">
           <p className="text-center mt-5">
             各地方でトーナメント戦を行い、
             <br className="md:hidden" />
@@ -97,14 +97,12 @@ const Venue = () => {
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="136.185 -864.696 4364.13 6172.106"
-              className="w-auto mx-auto h-auto opacity-100 md:opacity-100 relative md:max-w-5xl"
+              viewBox="136.185 -864.696 4364.13 5172"
+              className="w-auto mx-auto h-auto opacity-100 md:opacity-100 relative md:max-w-3xl"
             >
               <path
                 id="OKINAWA"
-                className={`fill-[#40bcc1] cursor-pointer ${
-                  events.OKINAWA ? "onTitle1" : ""
-                }`}
+                className={`fill-[#40bcc1] ${events.OKINAWA ? "onTitle1" : ""}`}
                 {...(events.OKINAWA
                   ? {
                       onMouseEnter: () => setHoveredPrefecture("OKINAWA"),
@@ -650,9 +648,7 @@ const Venue = () => {
               />
               <path
                 id="FUKUOKA"
-                className={`fill-[#e64639] cursor-pointer ${
-                  events.FUKUOKA ? "" : ""
-                }`}
+                className={`fill-[#e64639] ${events.FUKUOKA ? "onTitle2" : ""}`}
                 {...(events.FUKUOKA
                   ? {
                       onMouseEnter: () => setHoveredPrefecture("FUKUOKA"),
@@ -971,7 +967,7 @@ const Venue = () => {
               />
               <path
                 id="KAGOSHIMA"
-                className="fill-[#e64639]"
+                className="fill-[#e64639] onTitle2"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 1352.00,2824.00
@@ -2747,9 +2743,7 @@ const Venue = () => {
               />
               <path
                 id="HYOGO"
-                className={`fill-[#0063b3] cursor-pointer ${
-                  events.OKINAWA ? "onTitle3" : ""
-                }`}
+                className={`fill-[#0063b3] ${events.OKINAWA ? "onTitle3" : ""}`}
                 {...(events.HYOGO
                   ? {
                       onMouseEnter: () => setHoveredPrefecture("HYOGO"),
@@ -2878,7 +2872,7 @@ const Venue = () => {
               />
               <path
                 id="KYOTO"
-                className="fill-[#0063b3]"
+                className="fill-[#0063b3] onTitle3"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2170.00,2186.00
@@ -2993,9 +2987,7 @@ const Venue = () => {
               <path
                 data-content="大阪"
                 id="OSAKA"
-                className={`fill-[#0063b3] cursor-pointer ${
-                  events.OSAKA ? "" : ""
-                }`}
+                className={`fill-[#0063b3] onTitle3${events.OSAKA ? "" : ""}`}
                 {...(events.OSAKA
                   ? {
                       onMouseEnter: () => setHoveredPrefecture("OSAKA"),
@@ -3572,7 +3564,7 @@ const Venue = () => {
               />
               <path
                 id="ISHIKAWA"
-                className={`fill-[#639a33] cursor-pointer ${
+                className={`fill-[#639a33] onTitle5 ${
                   events.ISHIKAWA ? "" : ""
                 }`}
                 {...(events.ISHIKAWA
@@ -3848,9 +3840,7 @@ const Venue = () => {
               />
               <path
                 id="AICHI"
-                className={`fill-[#ee8237] cursor-pointer ${
-                  events.AICHI ? "" : ""
-                }`}
+                className={`fill-[#ee8237] onTitle4  ${events.AICHI ? "" : ""}`}
                 {...(events.AICHI
                   ? {
                       onMouseEnter: () => setHoveredPrefecture("AICHI"),
@@ -4513,9 +4503,7 @@ const Venue = () => {
               />
               <path
                 id="TOKYO"
-                className={`fill-[#0f8330] cursor-pointer ${
-                  events.TOKYO ? "" : ""
-                }`}
+                className={`fill-[#0f8330] onTitle6 ${events.TOKYO ? "" : ""}`}
                 {...(events.TOKYO
                   ? {
                       onMouseEnter: () => setHoveredPrefecture("TOKYO"),
@@ -5915,54 +5903,139 @@ const Venue = () => {
              2789.93,2258.63 2789.77,2242.37 2789.77,2242.37 Z"
               />
             </svg>
-            <div className="grid grid-cols-2 container gap-2 pb-24 px-5 w-full">
-              <a
-                href="/business/hokkaido"
-                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[25%] lg:right-[20%]"
-              >
-                北海道大会
-              </a>
+            <div
+              className="container grid grid-cols-2 md:grid-cols-3 min-[850px]:grid-cols-4 gap-5 px-4 mt-10 mx-auto min-[850px]:max-w-5xl max-w-md pb-5 md:max-w-2xl
+             "
+            >
               <a
                 href="/business/tokyo"
-                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[45%] lg:right-[33%]"
+                className="button2 md:text-xl text-base font-bold relative"
               >
                 東京大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
               </a>
               <a
-                href="/business/aishi"
-                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[48%] lg:right-[42%]"
+                href="/business/aichi"
+                className="button2 md:text-xl text-base font-bold relative"
               >
                 愛知大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
               </a>
               <a
                 href="/business/ishikawa"
-                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[36%] lg:right-[42%]"
+                className="button2 md:text-xl text-base font-bold relative"
               >
                 石川大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
               </a>
               <a
                 href="/business/osaka"
-                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[50%] lg:right-[50%]"
+                className="button2 md:text-xl text-base font-bold relative"
               >
                 大阪大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
+              </a>
+              <a
+                href="/business/kyoto"
+                className="button2 md:text-xl text-base font-bold relative"
+              >
+                京都大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
               </a>
               <a
                 href="/business/hyogo"
-                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[41%] lg:right-[51%]"
+                className="button2 md:text-xl text-base font-bold relative"
               >
                 兵庫大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
+              </a>
+              <a
+                href="/business/kagawa"
+                className="button2 md:text-xl text-base font-bold relative"
+              >
+                香川大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
               </a>
               <a
                 href="/business/fukuoka"
-                className="list bg-[#c2c2c2] rounded-lg text-white p-3 text-center lg:absolute lg:top-[46%] lg:right-[63%]"
+                className="button2 md:text-xl text-base font-bold relative"
               >
                 福岡大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
+              </a>
+              <a
+                href="/business/kagoshima"
+                className="button2 md:text-xl text-base font-bold relative"
+              >
+                鹿児島大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
               </a>
               <a
                 href="/business/okinawa"
-                className="list bg-[#024067] rounded-lg text-white p-3 text-center lg:absolute lg:top-[65%] lg:right-[73%]"
+                className="button2 md:text-xl text-base font-bold relative"
               >
                 沖縄大会
+                <Image
+                  src={"/top/arrow_white.svg"}
+                  alt={"▶︎"}
+                  width={8.45}
+                  height={12.45}
+                  className={"absolute top-auto bottom-auto right-2"}
+                />
               </a>
             </div>
           </div>
