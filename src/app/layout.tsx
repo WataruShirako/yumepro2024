@@ -1,9 +1,9 @@
-import './globals.css';
+import "./globals.css";
 
-const siteName = '夢叶えるプロジェクト2024';
+const siteName = "夢叶えるプロジェクト2024";
 const description =
-  '日本最大級エンタメビジネスコンテストを開催。あらゆる業界を全10部門に分け、ビジネス（ピッチ）コンテストに並行して、より多くの若者へ訴求するためとエンタメ（アンバサダー）コンテンストを実施します。';
-const url = 'https://yume-pj.com';
+  "日本最大級エンタメビジネスコンテストを開催。あらゆる業界を全10部門に分け、ビジネス（ピッチ）コンテストに並行して、より多くの若者へ訴求するためとエンタメ（アンバサダー）コンテンストを実施します。";
+const url = "https://yume-pj.com";
 
 export const metadata = {
   title: {
@@ -18,25 +18,29 @@ export const metadata = {
     description,
     url,
     siteName,
-    locale: 'ja_JP',
-    type: 'website',
+    locale: "ja_JP",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: siteName,
     description,
-    site: '@yumepro2023',
-    creator: '@yumepro2023',
+    site: "@yumepro2023",
+    creator: "@yumepro2023",
   },
   verification: {
-    google: 'サーチコンソールID',
+    google: "サーチコンソールID",
   },
   alternates: {
     canonical: url,
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="ja">
       <head>

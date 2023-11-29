@@ -1,12 +1,12 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const Sns = () => {
   return (
     <>
-      <div className={'svg__container'}>
+      <div className={"svg__container"}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={'svg__content top'}
+          className={"svg__content top"}
           viewBox="0 0 1366 100"
         >
           <path
@@ -18,52 +18,74 @@ const Sns = () => {
           />
         </svg>
       </div>
-      <section id="ambassador" className={'bg-[#CBD6D0]'}>
+      <section id="ambassador" className={"bg-[#CBD6D0]"}>
         <h2 className="text-2xl md:text-3xl text-center font-semibold mb-6">
           夢叶えるプロジェクト
-          <br className={'lg:hidden'} />
+          <br className={"lg:hidden"} />
           公式チャンネル
         </h2>
-        <p className={'text-center'}>フォロー、友達登録で最新情報をGETしよう</p>
-        <div className={'container m-auto mt-12'}>
-          <div className={'list flex gap-4  md:gap-20 justify-center'}>
+        <p className={"text-center"}>フォロー、友達登録で最新情報をGETしよう</p>
+        <div className={"container m-auto mt-12"}>
+          <div className={"list flex gap-4  md:gap-20 justify-center"}>
             <a
               href={
-                'https://liff.line.me/1657596848-xOJZNbmM/landing?follow=%40306ccdiy&lp=ey1QMR&liff_id=1657596848-xOJZNbmM'
+                "https://liff.line.me/1657596848-xOJZNbmM/landing?follow=%40306ccdiy&lp=ey1QMR&liff_id=1657596848-xOJZNbmM"
               }
               target="_blank"
             >
               <Image
-                className={'rounded-[18px] shadow-md hover:shadow-none'}
-                src={'/icon_line.svg'}
-                alt={'line'}
+                className={"rounded-[18px] shadow-md hover:shadow-none"}
+                src={"/icon_line.svg"}
+                alt={"line"}
                 width={80}
                 height={80}
               />
             </a>
-            <a href={'https://www.tiktok.com/@yumekanaeru_project'} target={'_blank'}>
+            <a
+              href={"https://www.tiktok.com/@yumekanaeru_project"}
+              target={"_blank"}
+            >
               <Image
-                className={'rounded-[18px] shadow-md hover:shadow-none'}
-                src={'/icon_tiktok.svg'}
-                alt={'tiktok'}
+                className={"rounded-[18px] shadow-md hover:shadow-none"}
+                src={"/icon_tiktok.svg"}
+                alt={"tiktok"}
                 width={80}
                 height={80}
               />
             </a>
-            <a href={'https://instagram.com/yumekanaeru_project'} target={'_blank'}>
+            <a
+              href={"https://instagram.com/yumekanaeru_project"}
+              target={"_blank"}
+            >
               <Image
-                className={'rounded-[18px] shadow-md hover:shadow-none'}
-                src={'/icon_instagram.svg'}
-                alt={'instagram'}
+                className={"rounded-[18px] shadow-md hover:shadow-none"}
+                src={"/icon_instagram.svg"}
+                alt={"instagram"}
                 width={80}
                 height={80}
               />
             </a>
-            <a href={'https://twitter.com/yumepro2023'} target="_blank">
+            <a href={"https://twitter.com/yumepro2023"} target="_blank">
               <Image
-                className={'rounded-[18px] shadow-md hover:shadow-none transition-all'}
-                src={'/icon_twitter.svg'}
-                alt={'twitter'}
+                className={
+                  "rounded-[18px] shadow-md hover:shadow-none transition-all"
+                }
+                src={"/icon_twitter.svg"}
+                alt={"twitter"}
+                width={80}
+                height={80}
+              />
+            </a>
+            <a
+              href={"https://www.youtube.com/@yumekanaeru.project"}
+              target="_blank"
+            >
+              <Image
+                className={
+                  "rounded-[18px] shadow-md hover:shadow-none transition-all"
+                }
+                src={"/icon_youtube.png"}
+                alt={"youtube"}
                 width={80}
                 height={80}
               />
@@ -71,10 +93,10 @@ const Sns = () => {
           </div>
         </div>
       </section>
-      <div className={'svg__container'}>
+      <div className={"svg__container"}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={'svg__content under'}
+          className={"svg__content under"}
           viewBox="0 0 1366 100"
         >
           <path

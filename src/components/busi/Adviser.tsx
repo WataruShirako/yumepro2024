@@ -36,7 +36,7 @@ const Adviser = () => {
             <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
               丸尾浩一
             </p>
-            <p className="max-w-md text-[13px] mx-auto md:text-left md:mx-0">
+            <p className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
               株式会社Major7th　代表取締役
               <br />
               大和証券株式会社に38年在籍し、専務取締役などの役員を12年間歴任。一貫して投資銀行業務に従事。主幹事として株式会社メルカリやラクスル株式会社等数々の大型スタートアップIPOを実現した他上場企業の資金調達にも携わる。

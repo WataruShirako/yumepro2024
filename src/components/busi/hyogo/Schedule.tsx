@@ -7,7 +7,7 @@ const contents = [
   },
   {
     title: "会場",
-    content: `KIITO神戸`,
+    content: `神戸ポートオアシス`,
   },
   {
     title: "授与式",

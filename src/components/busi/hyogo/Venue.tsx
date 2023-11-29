@@ -21,7 +21,7 @@ const Venue = () => {
       <div className="container flex m-auto md:max-w-4xl pb-10 px-5">
         <div className="w-1/3">
           <Image
-            src={"/busi/hyogo/venue_logo.webp"}
+            src={"/busi/hyogo/venue_logo.png"}
             width={278}
             height={278}
             alt=""
@@ -29,19 +29,22 @@ const Venue = () => {
           />
         </div>
         <div className="md:pl-10 pl-5 w-2/3">
-          <p className="text-left font-bold mt-0 md:mt-5 text-xl">KIITO神戸</p>
+          <p className="text-left font-bold mt-0 md:mt-5 text-xl">
+            神戸ポートオアシス
+          </p>
           <p className="text-left mt-2 md:mt-5 md:text-base text-sm">
-            KIITO神戸は、神戸・三宮の海側にある旧生糸検査所を改修した、神戸市の「デザイン都市・神戸」の拠点施設です。デザインを人々の生活に採り入れ、より豊かに生きることを提案しています。デザインやアートにまつわるイベントなどを開催するほか、レンタルスペース、オフィススペースなどがあります。
+            神戸ポートオアシスは、多目的ホール・会議室・食堂・喫茶等広く市民の皆様が集い、港を感じ、楽しんでいただけるスペースを提供します。
           </p>
         </div>
       </div>
-      <Image
-        src={"/busi/hyogo/venue.webp"}
+      {/*      <Image
+        src={"/busi/hyogo/venue.png"}
         width={895}
         height={152}
         alt=""
         className="mx-auto px-5"
       />
+  */}
     </section>
   );
 };

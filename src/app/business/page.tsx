@@ -12,6 +12,7 @@ import Schedule from "@/components/busi/Schedule";
 import Sponsor from "@/components/busi/Sponsor";
 import Venue from "@/components/busi/Venue";
 import Image from "next/image";
+import Company from "@/components/busi/Company";
 
 const BusinessPage = () => {
   return (
@@ -21,6 +22,7 @@ const BusinessPage = () => {
         <Fv />
         <Project />
         <Adviser />
+        <Company />
         <Committee />
         <About />
         {/*        <Award />*/}

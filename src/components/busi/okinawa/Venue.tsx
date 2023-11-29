@@ -46,6 +46,22 @@ const Venue = () => {
         alt=""
         className="mx-auto px-5"
       />
+      <div className="my-10">
+        <a
+          href="http://ptix.at/VZgCc3"
+          className="button md:text-xl text-base font-bold relative "
+          target="_blank"
+        >
+          チケットを購入する
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-4"}
+          />
+        </a>
+      </div>
     </section>
   );
 };
