@@ -51,6 +51,20 @@ const Project = () => {
             </p>
           </div>
         </div>
+        <a
+          href="https://forms.gle/f6uJ6DoBpp9c2W2X9"
+          target="_blank"
+          className="button md:text-2xl text-base font-bold relative"
+        >
+          応募する
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-4"}
+          />
+        </a>
       </section>
     </>
   );

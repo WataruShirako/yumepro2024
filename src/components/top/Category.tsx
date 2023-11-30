@@ -123,8 +123,8 @@ const Category = () => {
                 <Image
                   src={"/busi/busi_top_pc.webp"}
                   alt={"全国学生スタートアップアワード2024"}
-                  width={150}
-                  height={150}
+                  width={500}
+                  height={250}
                   className={"rounded-2xl shadow-md w-full"}
                 />
                 <p className={"text-xs font-semibold mt-2"}>

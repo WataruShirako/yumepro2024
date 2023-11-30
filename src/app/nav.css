@@ -86,7 +86,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 5rem 2rem;
+  padding: 5rem 1rem;
   position: fixed;
   top: 0;
   right: 0;

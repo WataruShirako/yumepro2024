@@ -21,14 +21,12 @@ const BusinessPage = () => {
       <main className="busi">
         <Fv />
         <Project />
-        <Adviser />
-        <Company />
-        <Committee />
-        <About />
-        {/*        <Award />*/}
-        <Schedule />
         <Venue />
-        {/*        <Meetup />*/}
+        <Schedule />
+        <About />
+        <Adviser />
+        <Committee />
+        <Company />
         <Sponsor />
         <News />
       </main>

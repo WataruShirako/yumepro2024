@@ -15,10 +15,51 @@ const NavBusi = () => {
       title: "全国学生スタートアップアワード",
     },
     {
+      path: "/business/tokyo",
+      name: "test",
+      title: "東京大会",
+    },
+    {
+      path: "/business/aichi",
+      name: "test",
+      title: "愛知大会",
+    },
+    {
+      path: "/business/ishikawa",
+      name: "test",
+      title: "石川大会",
+    },
+    {
+      path: "/business/osaka",
+      name: "test",
+      title: "大阪大会",
+    },
+    {
+      path: "/business/kyoto",
+      name: "test",
+      title: "京都大会",
+    },
+    {
       path: "/business/hyogo",
       name: "test",
       title: "兵庫大会",
     },
+    {
+      path: "/business/kagawa",
+      name: "test",
+      title: "香川大会",
+    },
+    {
+      path: "/business/fukuoka",
+      name: "test",
+      title: "福岡大会",
+    },
+    {
+      path: "/business/kagoshima",
+      name: "test",
+      title: "鹿児島大会",
+    },
+
     {
       path: "/business/okinawa",
       name: "test",
@@ -62,6 +103,11 @@ const NavEntt = () => {
       path: "/project/entertainment/photo",
       name: "yumephoto",
       title: "夢フォトオーディション",
+    },
+    {
+      path: "/project/entertainment/hyogo",
+      name: "test",
+      title: "兵庫大会",
     },
     {
       path: "/project/entertainment/okinawa",

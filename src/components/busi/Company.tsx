@@ -47,7 +47,7 @@ const company = () => {
           </div>
         </div>
         <div>
-          <p className=" text-[14px] mx-auto md:text-left  py-10 w-4/5 md:max-w-4xl">
+          <p className=" text-[14px] mx-auto md:text-left  py-10 w-4/5 md:max-w-3xl">
             スターダストプロモーション所属 2009~2019年 <br />
             ・BUMP OF CHICKEN「宇宙飛行士への手紙」PV出演 2010年10月
             <br />

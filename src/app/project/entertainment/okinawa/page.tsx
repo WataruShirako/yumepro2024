@@ -7,6 +7,7 @@ import Image from "next/image";
 import WinnerBenefit from "@/components/common/WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import ToTop from "@/components/entt/Totop";
+import Fv from "@/components/busi/okinawa/Fv";
 
 const Home = () => {
   // 公開済みのコンテスト エンタメコンテスト
@@ -44,26 +45,7 @@ const Home = () => {
     <>
       <Header />
       <main id="" className={"entt"}>
-        <section id="fv" className={"pt-0"}>
-          <div className="imgWrap">
-            <Image
-              className="img hidden md:lg:block"
-              src={"/busi/okinawa/top_pc.webp"}
-              alt="text"
-              width={1920}
-              height={930}
-              priority
-            />
-            <Image
-              className="img lg:hidden"
-              src={"/busi/okinawa/top_sp.webp"}
-              alt="text"
-              width={750}
-              height={1370}
-              priority
-            />
-          </div>
-        </section>
+        <Fv />
         <section id="venue">
           <h2 className={`secTitle`}>
             <span className={`flex gap-2 justify-center Montserrat`}>
