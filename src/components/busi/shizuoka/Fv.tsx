@@ -10,7 +10,7 @@ const Fv = () => {
         />
         <source
           media="(min-width: 321px)"
-          srcSet="/busi/shizu9oka/top_sp.webp"
+          srcSet="/busi/shizuoka/top_sp.webp"
         />
         <Image
           src="/busi/shizuoka/top_sp.webp"

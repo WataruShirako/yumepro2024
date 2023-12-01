@@ -1,5 +1,6 @@
-const siteName = "エンタメコンテスト　沖縄大会 | 夢叶えるプロジェクト2024";
-const description = "エンタメコンテスト　沖縄大会";
+const siteName =
+  "夢プロスター誕生オーディション2024　沖縄大会 | 夢叶えるプロジェクト2024";
+const description = "夢プロスター誕生オーディション2024　沖縄大会";
 const url = "https://yume-pj.com";
 
 export const metadata = {

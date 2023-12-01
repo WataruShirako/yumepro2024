@@ -12,7 +12,7 @@ const NavBusi = () => {
     {
       path: "/business",
       name: "business",
-      title: "全国学生スタートアップアワード",
+      title: "全国学生スタートアップ甲子園",
     },
     {
       path: "/business/tokyo",
@@ -20,12 +20,12 @@ const NavBusi = () => {
       title: "東京大会",
     },
     {
-      path: "/business/aichi",
+      path: "/business/miyagi",
       name: "test",
       title: "宮城大会",
     },
     {
-      path: "/business/aichi",
+      path: "/business/shizuoka",
       name: "test",
       title: "静岡大会",
     },

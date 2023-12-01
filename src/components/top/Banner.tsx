@@ -12,9 +12,9 @@ const auditions = [
     src: "/top/banner/yumephoto.png",
   },
   {
-    name: "全国学生スタートアップアワード",
+    name: "全国学生スタートアップ甲子園",
     path: "/business",
-    src: "/top/banner/banner_business.png",
+    src: "/top/banner/banner_business.webp",
   },
   {
     name: "夢プロショートドラマオーディション",

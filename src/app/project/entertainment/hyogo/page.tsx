@@ -4,7 +4,7 @@ import "../../../entt.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import WinnerBenefit from "@/components/common/WinnerBenefit";
+import WinnerBenefit from "@/components/common/ennt_WinnerBenefi";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import ToTop from "@/components/entt/Totop";
 import Fv from "@/components/busi/hyogo/Fv";
@@ -146,27 +146,9 @@ const Home = () => {
             ))}
           </div>
         </section>
-        <section id="winnerbenefit">
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/winnerbenefit.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              Winner Benefit
-            </span>
-            優勝特典
-          </h2>
-          <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
-            <p className="py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] text-lg text-center">
-              東京本線出場権
-              <br />
-            </p>
-          </div>
-          <WinnerBenefit />
-        </section>
+
+        <WinnerBenefit />
+
         <section id="sponsor" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>

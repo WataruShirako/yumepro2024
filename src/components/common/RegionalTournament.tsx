@@ -6,10 +6,10 @@ const RegionalTournament = () => {
       <h3 className="font-bold text-2xl text-center pt-10">ビジネス部門</h3>
       <div className="container grid grid-cols-2 md:grid-cols-3 min-[850px]:grid-cols-4 gap-5 px-4 mt-10 mx-auto min-[850px]:max-w-5xl max-w-md pb-5 md:max-w-2xl">
         <a
-          href="/business/tokyo"
+          href="/business/miyagi"
           className="button2 md:text-xl text-base font-bold relative"
         >
-          東京大会
+          宮城大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}
@@ -19,10 +19,10 @@ const RegionalTournament = () => {
           />
         </a>
         <a
-          href="/business/miyagi"
+          href="/business/tokyo"
           className="button2 md:text-xl text-base font-bold relative"
         >
-          宮城大会
+          東京大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}
@@ -178,10 +178,36 @@ const RegionalTournament = () => {
           />
         </a>
         <a
+          href="/project/entertainment/miyagi"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
+          宮城大会
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-2"}
+          />
+        </a>
+        <a
           href="/project/entertainment/tokyo"
           className="button2 md:text-xl text-base font-bold relative"
         >
           東京大会
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-2"}
+          />
+        </a>
+        <a
+          href="/project/entertainment/shizuoka"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
+          静岡大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}
@@ -230,6 +256,19 @@ const RegionalTournament = () => {
           />
         </a>
         <a
+          href="/project/entertainment/kyoto"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
+          京都大会
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-2"}
+          />
+        </a>
+        <a
           href="/project/entertainment/hyogo"
           className="button2 md:text-xl text-base font-bold relative"
         >
@@ -243,10 +282,36 @@ const RegionalTournament = () => {
           />
         </a>
         <a
+          href="/project/entertainment/kagawa"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
+          香川大会
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-2"}
+          />
+        </a>
+        <a
           href="/project/entertainment/fukuoka"
           className="button2 md:text-xl text-base font-bold relative"
         >
           福岡大会
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-2"}
+          />
+        </a>
+        <a
+          href="/project/entertainment/kagoshima"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
+          鹿児島大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}
