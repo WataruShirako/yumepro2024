@@ -14,15 +14,16 @@ const NavBusi = () => {
       name: "business",
       title: "全国学生スタートアップ甲子園",
     },
-    {
-      path: "/business/tokyo",
-      name: "test",
-      title: "東京大会",
-    },
+
     {
       path: "/business/miyagi",
       name: "test",
       title: "宮城大会",
+    },
+    {
+      path: "/business/tokyo",
+      name: "test",
+      title: "東京大会",
     },
     {
       path: "/business/shizuoka",
@@ -115,10 +116,67 @@ const NavEntt = () => {
       title: "夢フォトオーディション",
     },
     {
+      path: "/project/entertainment/hokkaido",
+      name: "test",
+      title: "北海道大会",
+    },
+
+    {
+      path: "/project/entertainment/miyagi",
+      name: "test",
+      title: "宮城大会",
+    },
+    {
+      path: "/project/entertainment/tokyo",
+      name: "test",
+      title: "東京大会",
+    },
+    {
+      path: "/project/entertainment/shizuoka",
+      name: "test",
+      title: "静岡大会",
+    },
+    {
+      path: "/project/entertainment/aichi",
+      name: "test",
+      title: "愛知大会",
+    },
+    {
+      path: "/project/entertainment/ishikawa",
+      name: "test",
+      title: "石川大会",
+    },
+    {
+      path: "/project/entertainment/osaka",
+      name: "test",
+      title: "大阪大会",
+    },
+    {
+      path: "/project/entertainment/kyoto",
+      name: "test",
+      title: "京都大会",
+    },
+    {
       path: "/project/entertainment/hyogo",
       name: "test",
       title: "兵庫大会",
     },
+    {
+      path: "/project/entertainment/kagawa",
+      name: "test",
+      title: "香川大会",
+    },
+    {
+      path: "/project/entertainment/fukuoka",
+      name: "test",
+      title: "福岡大会",
+    },
+    {
+      path: "/project/entertainment/kagoshima",
+      name: "test",
+      title: "鹿児島大会",
+    },
+
     {
       path: "/project/entertainment/okinawa",
       name: "test",
@@ -290,6 +348,14 @@ const Header = ({ header }: any) => {
                 </svg>
               </button>
               {isNavBusiVisible && <NavBusi />}
+            </li>
+            <li>
+              <a
+                href="http://localhost:3000/news"
+                className={"text-sm font-semibold flex"}
+              >
+                ニュース
+              </a>
             </li>
             <li>
               <a
