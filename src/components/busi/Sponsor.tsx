@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Sponsor = () => {
   return (
-    <section className={"py-40 md:py-40"}>
+    <section className={"py-10"}>
       <h2 className="sectionTitle text-center items-center Montserrat">
         <div className="relative w-max">
           <Image
@@ -114,16 +114,18 @@ const Sponsor = () => {
         </div>
       </div>
   */}
-      <a href="" className="button md:text-xl text-base font-bold relative">
-        スポンサーさま募集
-        <Image
-          src={"/top/arrow_white.svg"}
-          alt={"▶︎"}
-          width={8.45}
-          height={12.45}
-          className={"absolute top-auto bottom-auto right-4"}
-        />
-      </a>
+      <div className="pb-20">
+        <a href="" className="button md:text-xl text-base font-bold relative">
+          スポンサーさま募集
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-4"}
+          />
+        </a>
+      </div>
     </section>
   );
 };

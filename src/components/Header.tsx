@@ -23,6 +23,16 @@ const NavBusi = () => {
     {
       path: "/business/aichi",
       name: "test",
+      title: "宮城大会",
+    },
+    {
+      path: "/business/aichi",
+      name: "test",
+      title: "静岡大会",
+    },
+    {
+      path: "/business/aichi",
+      name: "test",
       title: "愛知大会",
     },
     {

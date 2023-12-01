@@ -19,6 +19,32 @@ const RegionalTournament = () => {
           />
         </a>
         <a
+          href="/business/miyagi"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
+          宮城大会
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-2"}
+          />
+        </a>
+        <a
+          href="/business/shizuoka"
+          className="button2 md:text-xl text-base font-bold relative"
+        >
+          静岡大会
+          <Image
+            src={"/top/arrow_white.svg"}
+            alt={"▶︎"}
+            width={8.45}
+            height={12.45}
+            className={"absolute top-auto bottom-auto right-2"}
+          />
+        </a>
+        <a
           href="/business/aichi"
           className="button2 md:text-xl text-base font-bold relative"
         >
