@@ -61,7 +61,7 @@ export default function RootLayout({
         />
         <noscript
           dangerouslySetInnerHTML={{
-            __html: `img height="1" width="1" style="display:none"
+            __html: `<img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=206007815881095&ev=PageView&noscript=1"
             />`,
           }}
