@@ -1,9 +1,9 @@
-import '../../globals.css';
+import "../../globals.css";
 
-const siteName = 'エンタメコンテスト | 夢叶えるプロジェクト2024';
-const description =
-  '「夢フォトオーディション」は写真を通じて日本の文化・社会・風景などの魅力を国内外に発信していくアンバサダーを選出するコンテストです。業界をけん引するにふさわしい「技術と感性」を身につけた次世代エースを発掘すべくSNS審査・豪華審査員による審査などの選考によりグランプリを決定します。今回の題材は「日本全国の風景景色」です。';
-const url = 'https://yume-pj.com';
+const siteName =
+  "夢プロスター誕生オーディション2024 | 夢叶えるプロジェクト2024";
+const description = "夢プロスター誕生オーディション2024";
+const url = "https://yume-pj.com";
 
 export const metadata = {
   title: {
@@ -17,25 +17,29 @@ export const metadata = {
     description,
     url,
     siteName,
-    locale: 'ja_JP',
-    type: 'website',
+    locale: "ja_JP",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: siteName,
     description,
-    site: '@yumepro2023',
-    creator: '@yumepro2023',
+    site: "@yumepro2023",
+    creator: "@yumepro2023",
   },
   verification: {
-    google: 'サーチコンソールの',
+    google: "サーチコンソールの",
   },
   alternates: {
     canonical: url,
   },
 };
 
-export default function EnttLayout({ children }: { children: React.ReactNode }) {
+export default function EnttLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="ja">
       <head></head>
