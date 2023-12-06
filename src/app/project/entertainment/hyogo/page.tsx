@@ -120,12 +120,7 @@ const Home = () => {
         <section id="schedule" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
+              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
               Schedule
             </span>
             開催日程

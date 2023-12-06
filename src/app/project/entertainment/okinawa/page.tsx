@@ -29,7 +29,8 @@ const Home = () => {
   const contents = [
     {
       title: "開催日",
-      content: `2023年12月23日(土)`,
+      content: `2023年12月23日(土)14時〜15時<br />
+      2023年12月24日(日)11時〜12時`,
     },
     {
       title: "会場",
@@ -270,12 +271,7 @@ const Home = () => {
         <section id="schedule" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
+              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
               Schedule
             </span>
             開催日程

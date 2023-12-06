@@ -3,7 +3,7 @@ import Fv from "@/components/busi/kagoshima/Fv";
 import Venue from "@/components/busi/kagoshima/Venue";
 import Committee from "@/components/busi/comingsoon/Committee";
 import Schedule from "@/components/busi/kagoshima/Schedule";
-import Sponsor from "@/components/busi/comingsoon/Sponsor";
+import Sponsor from "@/components/busi/kagoshima/Sponsor";
 import WinnerBenefit from "@/components/common/WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";

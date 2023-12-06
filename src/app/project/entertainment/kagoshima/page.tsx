@@ -122,12 +122,7 @@ const Home = () => {
         <section id="schedule" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
+              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
               Schedule
             </span>
             開催日程
@@ -164,9 +159,18 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="my-10">
-            <ComingSoon />
+          <div className="flex justify-center py-10">
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/top/sponsor/kagoshimashi.png"}
+                alt={"鹿児島市"}
+                width={"150"}
+                height={"150"}
+              />
+            </div>
           </div>
+          <p className="text-center text-lg">and more...</p>
           <a href="" className="button md:text-xl text-base font-bold relative">
             スポンサーさま募集
             <Image

@@ -7,7 +7,7 @@ const WinnerBenefit = () => {
         <h2 className="secTitle">
           <span className={"flex gap-2 justify-center"}>
             <Image
-              src={"/entt/winnerbenefit.svg"}
+              src={"/entt/winner_benefits.svg"}
               alt=""
               width={15}
               height={20}
