@@ -21,7 +21,7 @@ const events: EventMap = {
   AICHI: "3.愛知大会",
   ISHIKAWA: "4.石川大会",
   OSAKA: "5.大阪大会",
-  HYOGO: "6.兵庫大会",
+  HYOGO: "6.神戸大会",
   FUKUOKA: "7.福岡大会",
   OKINAWA: "8.沖縄大会",
 };
@@ -5976,7 +5976,7 @@ const Venue = () => {
                 href="/business/hyogo"
                 className="button2 md:text-xl text-base font-bold relative"
               >
-                兵庫大会
+                神戸大会
                 <Image
                   src={"/top/arrow_white.svg"}
                   alt={"▶︎"}

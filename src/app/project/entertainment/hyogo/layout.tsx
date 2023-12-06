@@ -1,6 +1,6 @@
 const siteName =
-  "夢プロスター誕生オーディション2024　兵庫大会 | 夢叶えるプロジェクト2024";
-const description = "夢プロスター誕生オーディション2024　兵庫大会";
+  "夢プロスター誕生オーディション2024　神戸大会 | 夢叶えるプロジェクト2024";
+const description = "夢プロスター誕生オーディション2024　神戸大会";
 const url = "https://yume-pj.com";
 
 export const metadata = {

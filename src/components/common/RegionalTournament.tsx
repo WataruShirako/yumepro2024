@@ -100,7 +100,7 @@ const RegionalTournament = () => {
           href="/business/hyogo"
           className="button2 md:text-xl text-base font-bold relative"
         >
-          兵庫大会
+          神戸大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}
@@ -272,7 +272,7 @@ const RegionalTournament = () => {
           href="/project/entertainment/hyogo"
           className="button2 md:text-xl text-base font-bold relative"
         >
-          兵庫大会
+          神戸大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}

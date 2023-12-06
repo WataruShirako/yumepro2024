@@ -53,7 +53,7 @@ const NavBusi = () => {
     {
       path: "/business/hyogo",
       name: "test",
-      title: "兵庫大会",
+      title: "神戸大会",
     },
     {
       path: "/business/kagawa",
@@ -159,7 +159,7 @@ const NavEntt = () => {
     {
       path: "/project/entertainment/hyogo",
       name: "test",
-      title: "兵庫大会",
+      title: "神戸大会",
     },
     {
       path: "/project/entertainment/kagawa",
