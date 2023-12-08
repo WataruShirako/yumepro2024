@@ -8,9 +8,8 @@ const News = () => {
   const news = [
     {
       path: "/",
-      title: "2022.12.29",
-      content:
-        "ミクチャユーザーによる営業妨害行為への株式会社クレドインターナショナルおよび株式会社DONUTSの対応について",
+      title: "",
+      content: "",
     },
   ];
   return (

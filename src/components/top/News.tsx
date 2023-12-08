@@ -25,7 +25,7 @@ const News = () => {
           </span>
           <p className={"font-bold text-2xl md:text-3xl mt-1"}>ニュース</p>
         </h2>
-
+        {/*
         <div className={"container m-auto max-w-6xl px-[4%] mt-6"}>
           {news.map((news, index) => (
             <div key={index} className={""}>
@@ -47,6 +47,7 @@ const News = () => {
             </div>
           ))}
         </div>
+        */}
         <a
           href="/news"
           className="viewall text-center Montserrat mt-8 underline block"

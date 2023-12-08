@@ -28,7 +28,7 @@ const News = () => {
           ニュース
         </p>
       </h2>
-
+      {/* 
       <div className={"container m-auto max-w-5xl px-[4%] mb-10"}>
         {news.map((news, index) => (
           <div key={index} className={""}>
@@ -54,6 +54,7 @@ const News = () => {
       >
         View all
       </a>
+      */}
     </section>
   );
 };

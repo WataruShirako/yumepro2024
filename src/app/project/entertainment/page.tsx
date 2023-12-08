@@ -21,6 +21,7 @@ import Cta from "@/components/top/Cta";
 import Category from "@/components/top/Category";
 import Link2023 from "@/components/top/Link2023";
 import Sponsor from "@/components/star/Sponsor";
+import Project from "@/components/star/Project";
 
 const Home = () => {
   // 公開済みのコンテスト エンタメコンテスト
@@ -123,7 +124,7 @@ const Home = () => {
             />
           </div>
         </section>
-
+        <Project />
         <Prize prize={prize} />
 
         <About about={about} />
