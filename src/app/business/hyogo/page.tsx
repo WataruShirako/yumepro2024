@@ -8,6 +8,7 @@ import Sponsor from "@/components/busi/hyogo/Sponsor";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
+import Backup from "@/components/busi/hyogo/Backup";
 
 const BusinessPage = () => {
   return (
@@ -22,6 +23,7 @@ const BusinessPage = () => {
         <WinnerBenefit />
 
         <Sponsor />
+        <Backup />
         <section id="regional_tournament" className={"my-20 md:my-40"}>
           <h2 className="sectionTitle text-center items-center Montserrat">
             <div className="relative w-max">

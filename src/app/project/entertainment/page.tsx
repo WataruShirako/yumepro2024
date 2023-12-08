@@ -1,4 +1,5 @@
 import "../../globals.css";
+import "../../busi.css";
 import "../../entt.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -22,6 +23,7 @@ import Category from "@/components/top/Category";
 import Link2023 from "@/components/top/Link2023";
 import Sponsor from "@/components/star/Sponsor";
 import Project from "@/components/star/Project";
+import Venue from "@/components/star/Venue";
 
 const Home = () => {
   // 公開済みのコンテスト エンタメコンテスト
@@ -53,19 +55,25 @@ const Home = () => {
   //開催概要
   const about = {
     sched: `
-    【受付終了】<br/>【北海道ブロック】<br/>北海道大会<br/><br/>
-    【エントリー受付中】<br/>2023/12/24<br/>【沖縄ブロック】沖縄大会@沖縄アリーナ<br/><br/>
-    【エントリー受付中】<br/>2023/1/13 <br/>【関西ブロック第1弾】神戸大会@ポートアオシス神戸<br/><br/>
-    【エントリー受付中】<br/>2024/1/20<br/>【九州ブロック第2弾】鹿児島大会@鹿児島市中央公民館<br/><br/>
-    【エントリー受付中】<br/>2024/2/3<br/>【九州ブロック第1弾】福岡大会@北九州芸術劇場<br/><br/>
-    【エントリー受付中】<br/>2024/2/3<br/>【関西ブロック第2弾】京都大会@オンライン<br/><br/>
-    【エントリー受付中】<br/>2024/3/16<br/>【北陸ブロック】石川大会@金沢市アートホール<br/><br/>
-    【エントリー受付中】<br/>2024/3/30<br/> 【関東ブロック】東京予選@慶應義塾大学<br/><br/>
+    【受付終了】<br/>
+    北海道大会<br/><br/>
 
-    【開催準備中】<br/>【関西ブロック第3弾】<br/>大阪大会<br/><br/>
-    【開催準備中】<br/>【東海ブロック第1弾】<br/>愛知大会<br/><br/>
-    【開催準備中】<br/>【東海ブロック第2弾】<br/>静岡大会<br/><br/>
-    【開催準備中】<br/>【四国ブロック】<br/>高松大会<br/><br/>
+    【エントリー受付中】<br/>
+    2023/12/24 沖縄大会<br/>
+    2023/ 1/13  神戸大会<br/>
+    2024/ 1/20  鹿児島大会<br/>
+    2024/ 2/ 3   福岡大会<br/>
+    2024/ 2/ 3   京都大会<br/>
+    2024/ 3/16  石川大会<br/>
+    2024/ 3/30  東京予選<br/><br/>
+
+    【開催準備中】<br/>
+    2024/2/17 香川大会<br/>
+     2024/2/28 大阪大会<br/>
+     日付未定   愛知大会<br/>
+     日付未定   静岡大会<br/>
+
+
     <br/>
     <br/>
     上記予定は変更になる場合がございます。<br/>
@@ -104,11 +112,11 @@ const Home = () => {
     <>
       <Header />
       <main id="yumestar" className={"entt"}>
-        <section id="fv" className={"pt-0"}>
+        <section id="fv" className={"pt-0 bg-white"}>
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={"/entt/star/fv_star_pc.webp"}
+              src={"/star/fv_star_pc.jpg"}
               alt="text"
               width={1920}
               height={930}
@@ -116,7 +124,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={"/entt/star/fv_star_sp.webp"}
+              src={"/star/fv_star_sp.jpg"}
               alt="text"
               width={750}
               height={1370}
@@ -125,9 +133,10 @@ const Home = () => {
           </div>
         </section>
         <Project />
-        <Prize prize={prize} />
+        <Venue />
 
         <About about={about} />
+        <Prize prize={prize} />
         <Chairman chairman={chairman} />
         <Committee committee={committee} />
         {/* <Instagram /> */}

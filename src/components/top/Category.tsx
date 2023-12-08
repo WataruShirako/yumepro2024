@@ -52,12 +52,16 @@ const Category = () => {
             />
           </h3>
           <div className={"flex justify-around mt-4 gap-6 "}>
-            <div className={"text-center w-1/2"}>
+            <Link
+              href={"/project/entertainment"}
+              className={"text-center w-1/2 hover:brightness-90"}
+              onClick={() => window.scrollTo(0, 0)}
+            >
               <Image
-                src={"/top/busi_1_1.webp"}
-                alt={"coming soon..."}
-                width={150}
-                height={150}
+                src={"/top/top_star.jpg"}
+                alt={"夢プロスター誕生オーディション"}
+                width={400}
+                height={400}
                 className={"rounded-2xl shadow-md w-full"}
               />
               <p className={"text-xs font-semibold mt-2"}>
@@ -65,7 +69,7 @@ const Category = () => {
                 <br />
                 オーディション2024
               </p>
-            </div>
+            </Link>
             <Link
               href={"/project/entertainment/photo"}
               className={"text-center w-1/2 hover:brightness-90"}
@@ -74,8 +78,8 @@ const Category = () => {
               <Image
                 src={"/top/top_entt_enttcontest.webp"}
                 alt={"エンタメコンテスト"}
-                width={150}
-                height={150}
+                width={400}
+                height={400}
                 className={"rounded-2xl shadow-md w-full"}
               />
               <p className={"text-xs font-semibold mt-2"}>

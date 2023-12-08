@@ -33,21 +33,13 @@ const Venue = () => {
 
   return (
     <>
-      <section id="venue">
-        <h2 className="sectionTitle text-center items-center Montserrat">
-          <div className="relative w-max">
-            <Image
-              src={"/busi/business_title_circle.svg"}
-              width={128}
-              height={128}
-              alt=""
-              className="absolute -top-1 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
-            />
-            <p className="relative break-all montserrat">Venue</p>
-          </div>
-          <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-            開催地
-          </p>
+      <section id="venue" className={""}>
+        <h2 className="secTitle">
+          <span className={"flex gap-2 m-auto items-center justify-center "}>
+            <Image src={"/entt/venue.svg"} alt="" width={15} height={20} />
+            Venue
+          </span>
+          開催地
         </h2>
         <div className=" m-auto">
           <p className="text-center mt-5">
@@ -5903,11 +5895,31 @@ const Venue = () => {
              2789.93,2258.63 2789.77,2242.37 2789.77,2242.37 Z"
               />
             </svg>
-            <div className="container grid grid-cols-2  gap-5 mx-auto pt-10 w-11/12">
-              <div className="md:absolute right-[15%] top-[40%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+            <div className="container grid grid-cols-2  gap-5 mx-auto pt-10 w-11/12 text-[15px] font-bold">
+              <div className="md:absolute right-[8%] top-[30%]">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/miyagi"
+                    href="/project/entertainment/hokkaido"
+                    target="_blank"
+                    className="font-bold"
+                  >
+                    北海道大会
+                    <Image
+                      src={"/top/arrow_white.svg"}
+                      alt={"▶︎"}
+                      width={6}
+                      height={6}
+                      className={"absolute top-[40%]  right-2"}
+                    />
+                  </a>
+                </div>
+                <p className="mt-2"></p>
+                <p className="mb-5"></p>
+              </div>
+              <div className="md:absolute right-[15%] top-[40%]">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
+                  <a
+                    href="/project/entertainment/miyagi"
                     target="_blank"
                     className="font-bold"
                   >
@@ -5926,9 +5938,9 @@ const Venue = () => {
               </div>
 
               <div className="md:absolute right-[15%] top-[51%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/tokyo"
+                    href="/project/entertainment/tokyo"
                     target="_blank"
                     className="font-bold"
                   >
@@ -5947,9 +5959,9 @@ const Venue = () => {
               </div>
 
               <div className="md:absolute right-[20%] top-[62%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/shizuoka"
+                    href="/project/entertainment/shizuoka"
                     target="_blank"
                     className="font-bold"
                   >
@@ -5967,9 +5979,9 @@ const Venue = () => {
                 <p className="mb-5"></p>
               </div>
               <div className="md:absolute right-[37%] top-[64%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/aichi"
+                    href="/project/entertainment/aichi"
                     target="_blank"
                     className="font-bold"
                   >
@@ -5986,10 +5998,10 @@ const Venue = () => {
                 <p className="mt-2"></p>
                 <p className="mb-5"></p>
               </div>
-              <div className="md:absolute right-[40%] top-[37%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+              <div className="md:absolute right-[40%] top-[35%]">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/ishikawa"
+                    href="/project/entertainment/ishikawa"
                     target="_blank"
                     className="font-bold"
                   >
@@ -6007,9 +6019,9 @@ const Venue = () => {
                 <p className="mb-5">金沢市アートホール</p>
               </div>
               <div className="md:absolute right-[35%] top-[73%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/osaka"
+                    href="/project/entertainment/osaka"
                     target="_blank"
                     className="font-bold"
                   >
@@ -6027,9 +6039,9 @@ const Venue = () => {
                 <p className="mb-5">近畿大学</p>
               </div>
               <div className="md:absolute right-[62%] top-[35%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/kyoto"
+                    href="/project/entertainment/kyoto"
                     target="_blank"
                     className="font-bold"
                   >
@@ -6046,10 +6058,10 @@ const Venue = () => {
                 <p className="mt-2">2023年2月3日</p>
                 <p className="mb-5">オンライン開催</p>
               </div>
-              <div className="md:absolute right-[63%] top-[46%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+              <div className="md:absolute right-[64%] top-[46%]">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/hyogo"
+                    href="/project/entertainment/hyogo"
                     target="_blank"
                     className="font-bold"
                   >
@@ -6067,9 +6079,9 @@ const Venue = () => {
                 <p className="mb-5">ポートオアシス神戸</p>
               </div>
               <div className="md:absolute right-[52%] top-[70%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/kagawa"
+                    href="/project/entertainment/kagawa"
                     target="_blank"
                     className="font-bold"
                   >
@@ -6087,9 +6099,9 @@ const Venue = () => {
                 <p className="mb-5">イートピア香川</p>
               </div>
               <div className="md:absolute right-[79%] top-[58%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/fukuoka"
+                    href="/project/entertainment/fukuoka"
                     target="_blank"
                     className="font-bold"
                   >
@@ -6106,10 +6118,10 @@ const Venue = () => {
                 <p className="mt-2">2024年2月3日</p>
                 <p className="mb-5">北九州芸術劇場</p>
               </div>
-              <div className="md:absolute right-[73%] top-[70%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+              <div className="md:absolute right-[75%] top-[70%]">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/kagoshima"
+                    href="/project/entertainment/kagoshima"
                     target="_blank"
                     className="font-bold"
                   >
@@ -6127,9 +6139,9 @@ const Venue = () => {
                 <p className="mb-5">鹿児島市民文化ホール</p>
               </div>
               <div className="md:absolute right-[60%] top-[85%]">
-                <div className="w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 px-6 relative text-center">
+                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
                   <a
-                    href="/business/okinawa"
+                    href="/project/entertainment/okinawa"
                     target="_blank"
                     className="font-bold"
                   >

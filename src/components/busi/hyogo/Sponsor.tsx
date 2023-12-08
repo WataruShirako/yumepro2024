@@ -1,3 +1,4 @@
+import ComingSoon from "@/components/common/ComingSoon";
 import Image from "next/image";
 
 const Sponsor = () => {
@@ -20,6 +21,8 @@ const Sponsor = () => {
       </h2>
       {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
       <div className="flex justify-center py-10">
+        <ComingSoon />
+        {/** 
         <div className="item">
           <Image
             className={"rounded-md"}
@@ -28,9 +31,13 @@ const Sponsor = () => {
             width={"150"}
             height={"150"}
           />
+          
         </div>
+        */}
       </div>
+      {/** 
       <p className="text-center text-lg">and more...</p>
+      */}
       <a href="" className="button md:text-xl text-base font-bold relative">
         スポンサーさま募集
         <Image

@@ -116,6 +116,11 @@ const NavEntt = () => {
       title: "夢フォトオーディション",
     },
     {
+      path: "/project/entertainment",
+      name: "star",
+      title: "スター誕生オーディション",
+    },
+    {
       path: "/project/entertainment/hokkaido",
       name: "test",
       title: "北海道大会",
@@ -186,7 +191,7 @@ const NavEntt = () => {
   return (
     <nav
       className={
-        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[230px] border rounded-xl overflow-hidden"
+        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[250px] border rounded-xl overflow-hidden"
       }
     >
       <ul className={""}>

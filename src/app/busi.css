@@ -184,8 +184,8 @@
   }
 }
 
-/*-----*/
-.onTitle {
+/*--四国---*/
+.onTitle7 {
   animation: flash 2s linear infinite;
 }
 @keyframes flash {
@@ -193,15 +193,15 @@
     fill: #c2c2c2;
   }
   50% {
-    fill: #40bcc1;
+    fill: #0997d4;
   }
   100% {
     fill: #c2c2c2;
   }
 }
 
-/*-----*/
-.onTitle {
+/*--東北---*/
+.onTitle8 {
   animation: flash 2s linear infinite;
 }
 @keyframes flash {
@@ -209,7 +209,23 @@
     fill: #c2c2c2;
   }
   50% {
-    fill: #40bcc1;
+    fill: #74a1c3;
+  }
+  100% {
+    fill: #c2c2c2;
+  }
+}
+
+/*--北海道---*/
+.onTitle9 {
+  animation: flash 2s linear infinite;
+}
+@keyframes flash {
+  0% {
+    fill: #c2c2c2;
+  }
+  50% {
+    fill: #3b7faf;
   }
   100% {
     fill: #c2c2c2;

@@ -8,6 +8,7 @@ import WinnerBenefit from "@/components/common/WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
+import Backup from "@/components/busi/kagoshima/Backup";
 
 const BusinessPage = () => {
   return (
@@ -29,7 +30,7 @@ const BusinessPage = () => {
 
         {/*-----Sponsor -----*/}
         <Sponsor />
-
+        <Backup />
         {/*-----RegionalTournament -----*/}
         <section id="regional_tournament" className={"my-20 md:my-40"}>
           <h2 className="sectionTitle text-center items-center Montserrat">
