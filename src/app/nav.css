@@ -4,12 +4,14 @@
   font-family: "YuGothic", "Yu Gothic", "Montserrat";
   letter-spacing: 0.03rem;
 }
+/*
 .busi .navigation {
   background: #151d22;
   color: #eee;
   font-family: "YuGothic", "Yu Gothic", "Montserrat";
   letter-spacing: 0.03rem;
 }
+**/
 
 *,
 *::before,
@@ -84,9 +86,9 @@ button {
 .navigation {
   display: none;
   align-items: center;
-  justify-content: center;
+
   flex-direction: column;
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   position: fixed;
   top: 0;
   right: 0;
