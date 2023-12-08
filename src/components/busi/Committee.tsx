@@ -3,31 +3,10 @@ import Image from "next/image";
 const lists = [
   {
     id: 1,
-    name: " 釣崎宏",
-    descri: `株式会社テコテック`,
-    descri2: " 代表取締役",
-    src: "/busi/committee01.jpg",
-  },
-  {
-    id: 2,
-    name: "佐野健一",
-    descri: `株式会社ビジョン`,
-    descri2: " 代表取締役",
-    src: "/busi/committee02.jpg",
-  },
-  {
-    id: 3,
-    name: "中嶋淳",
-    descri: `アーキタイプ株式会社`,
-    descri2: " 代表取締役",
-    src: "/busi/committee03.jpg",
-  },
-  {
-    id: 4,
-    name: "近藤太香巳",
-    descri: `株式会社ネクシーズグループ`,
-    descri2: " 代表取締役",
-    src: "/busi/committee04.jpg",
+    name: " 早川周作",
+    descri: `琉球アスティーダ`,
+    descri2: "会長",
+    src: "/busi/okinawa/committee01.webp",
   },
 ];
 
@@ -50,16 +29,14 @@ const Committee = () => {
             審査委員会
           </p>
         </h2>
-        <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent">
-          — COMING SOON —
-        </p>
-        {/*        <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
+        {/*<div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start"> */}
+        <div className="container px-5 grid  justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
           {lists.map((list, index) => (
             <div
               key={index}
               className="item flex flex-col items-center justify-center"
             >
-              <Image src={list.src} alt={""} width={200} height={200} />
+              <Image src={list.src} alt={""} width={300} height={300} />
               <p className="my-2 text-center font-bold text-xl">{list.name}</p>
               <p className="text-center text-[13px]">{list.descri}</p>
               <p className="text-center text-[13px]">{list.descri2}</p>
@@ -68,8 +45,6 @@ const Committee = () => {
 
           <div className="item"></div>
         </div>
-
-          */}
       </section>
     </>
   );

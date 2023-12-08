@@ -9,10 +9,6 @@ const contents = [
     title: "会場",
     content: `神戸ポートオアシス`,
   },
-  {
-    title: "授与式",
-    content: `未定`,
-  },
 ];
 
 const Schedule = () => {

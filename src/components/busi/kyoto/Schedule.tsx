@@ -9,10 +9,6 @@ const contents = [
     title: "会場",
     content: `オンライン開催`,
   },
-  {
-    title: "授与式",
-    content: `未定`,
-  },
 ];
 
 const Schedule = () => {

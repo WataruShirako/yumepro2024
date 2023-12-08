@@ -26,8 +26,8 @@ const Intro = () => {
         <Image
           src={"/top/whatweare_img.webp"}
           alt={"夢叶えるプロジェクトとは？"}
-          width={500}
-          height={500}
+          width={1000}
+          height={1000}
           className={"rounded-2xl overflow-hidden flex-1"}
         />
         <div className="flex-1">

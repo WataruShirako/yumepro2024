@@ -4,7 +4,7 @@ import "../../../entt.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import WinnerBenefit from "@/components/common/WinnerBenefit";
+import WinnerBenefit from "@/components/common/ennt_WinnerBenefi";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import ToTop from "@/components/entt/Totop";
 import Fv from "@/components/busi/okinawa/Fv";
@@ -35,10 +35,6 @@ const Home = () => {
     {
       title: "会場",
       content: `沖縄アリーナ`,
-    },
-    {
-      title: "授与式",
-      content: `未定`,
     },
   ];
 
@@ -79,8 +75,8 @@ const Home = () => {
           <div className="px-5">
             <Image
               src={"/busi/okinawa/venue.webp"}
-              width={895}
-              height={152}
+              width={850}
+              height={900}
               alt=""
               className="mx-auto  rounded-3xl"
             />
@@ -118,9 +114,9 @@ const Home = () => {
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2">
               <Image
-                src={"/entt/okinawa/ambassador.webp"}
-                width={278}
-                height={360}
+                src={"/entt/okinawa/ambassador.jpg"}
+                width={800}
+                height={800}
                 alt=""
                 className="w-60md:w-[320px] object-cover mx-auto"
               />
@@ -292,27 +288,9 @@ const Home = () => {
             ))}
           </div>
         </section>
-        <section id="winnerbenefit">
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/winnerbenefit.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              Winner Benefit
-            </span>
-            優勝特典
-          </h2>
-          <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
-            <p className="py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] text-lg text-center">
-              東京本線出場権
-              <br />
-            </p>
-          </div>
-          <WinnerBenefit />
-        </section>
+
+        <WinnerBenefit />
+
         <section id="sponsor" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>

@@ -36,10 +36,6 @@ const Home = () => {
       title: "会場",
       content: `BBスクエア（イートピア香川）`,
     },
-    {
-      title: "授与式",
-      content: `未定`,
-    },
   ];
 
   return (

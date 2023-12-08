@@ -36,10 +36,6 @@ const Home = () => {
       title: "会場",
       content: `近畿大学`,
     },
-    {
-      title: "授与式",
-      content: `未定`,
-    },
   ];
 
   return (

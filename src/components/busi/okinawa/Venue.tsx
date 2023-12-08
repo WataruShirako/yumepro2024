@@ -41,8 +41,8 @@ const Venue = () => {
       </div>
       <Image
         src={"/busi/okinawa/venue.webp"}
-        width={895}
-        height={152}
+        width={900}
+        height={800}
         alt=""
         className="mx-auto px-5"
       />

@@ -3,16 +3,12 @@ import Image from "next/image";
 const contents = [
   {
     title: "開催日",
-    content: `2023年12月23日(土)14時〜15時<br />
-    2023年12月24日(日)11時〜12時`,
+    content: `2023年12月24日(日)11時〜12時<br />
+    `,
   },
   {
     title: "会場",
     content: `沖縄アリーナ`,
-  },
-  {
-    title: "授与式",
-    content: `未定`,
   },
 ];
 

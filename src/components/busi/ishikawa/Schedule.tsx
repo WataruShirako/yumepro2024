@@ -9,10 +9,6 @@ const contents = [
     title: "会場",
     content: `金沢市アートホール`,
   },
-  {
-    title: "授与式",
-    content: `未定`,
-  },
 ];
 
 const Schedule = () => {

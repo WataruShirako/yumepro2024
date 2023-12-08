@@ -16,15 +16,15 @@ const Project = () => {
             <p className="relative montserrat">Project</p>
           </div>
           <p className="relative mt-3 md:mt-6 mb-20 md:text-[32px] text-2xl">
-            ビジネスピッチコンテストとは？
+            全国学生スタートアップ甲子園とは？
           </p>
         </h2>
         <p className="container text-left mx-auto px-5 md:px-0 md:max-w-2xl pb-20 text-[15px] leading-[1.3rem]">
-          ビジネスに特化し、最新の技術や話題のテーマから、今後次世代を牽引する起業家、事業家たちが３分間のピッチコンテストを行います。
+          全国学生スタートアップ甲子園とは、日本から世界を代表するスタートアップ企業を生み出すべく誕生したピッチコンテスト。
           <br />
-          参加者は、それぞれのテーマにたいしての想いや考えを披露していただきます。
+          各地の予選通過者が東京にて最終決戦を行い、優勝者には賞金として起業・事業資金1,000万が与えられる。
           <br />
-          優勝者には、起業資金として1000万をプレゼント。次世代を担うチャレンジャーを募集します。
+          日本最大級の学生ピッチコンテストの映えある第一回大会優勝者に乞うご期待。
           <br />
         </p>
         <div className="md:flex md:space-x-4 justify-center md:max-w-6xl mx-auto">
@@ -56,7 +56,7 @@ const Project = () => {
           target="_blank"
           className="button md:text-2xl text-base font-bold relative"
         >
-          応募する
+          エントリー
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}

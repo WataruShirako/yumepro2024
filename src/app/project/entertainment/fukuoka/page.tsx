@@ -36,10 +36,6 @@ const Home = () => {
       title: "会場",
       content: `北九州芸術劇場`,
     },
-    {
-      title: "授与式",
-      content: `未定`,
-    },
   ];
 
   return (

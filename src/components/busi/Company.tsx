@@ -23,7 +23,7 @@ const company = () => {
           <div className="w-1/2 mx-auto">
             <Image
               src={"/busi/company01.jpg"}
-              width={320}
+              width={900}
               height={320}
               alt=""
               className="w-60  md:w-[320px]  object-cover mx-auto"

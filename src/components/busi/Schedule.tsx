@@ -70,7 +70,7 @@ const Schedule = () => {
         target="_blank"
         className="button md:text-2xl text-base font-bold relative"
       >
-        応募する
+        エントリー
         <Image
           src={"/top/arrow_white.svg"}
           alt={"▶︎"}

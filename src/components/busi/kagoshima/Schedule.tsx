@@ -9,10 +9,6 @@ const contents = [
     title: "会場",
     content: `鹿児島市民文化ホール`,
   },
-  {
-    title: "授与式",
-    content: `未定`,
-  },
 ];
 
 const Schedule = () => {

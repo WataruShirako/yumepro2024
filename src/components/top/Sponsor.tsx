@@ -29,8 +29,8 @@ const Sponsor = () => {
           <Image
             src={"/top/sponsor/sakura_logo.webp"}
             alt="sakura"
-            width={320}
-            height={320}
+            width={600}
+            height={600}
             className="rounded-2xl m-auto md:w-80"
           />
         </div>
@@ -42,106 +42,106 @@ const Sponsor = () => {
           <Image
             src={"/top/sponsor/asteeda.png"}
             alt="asteeda"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
             src={"/top/sponsor/oneli_navi.webp"}
             alt="oneli_navi"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/tecotec.webp"}
             alt="tecotec"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/mixch.webp"}
             alt="mixch"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/showroom.png"}
             alt="showroom"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/zen_spa.png"}
             alt="sakura"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
             src={"/top/sponsor/an_spa.png"}
             alt="an_spa"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/sanatio_spa.png"}
             alt="sanatio_spa"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/sora_spa.png"}
             alt="sola_spa"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/spa_solani.png"}
             alt="spa_solani"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/landmark_spa.png"}
             alt="landmark_spa"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/la_villa.png"}
             alt="la_villa"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/hammam_spa.png"}
             alt="hammam_spa"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/inroom_spa.png"}
             alt="inroom_spa"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/top/sponsor/fauchon.png"}
             alt="fauchon"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
         </div>
@@ -150,15 +150,15 @@ const Sponsor = () => {
           <Image
             src={"/top/sponsor/kobe.png"}
             alt="kobe"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
             src={"/top/sponsor/kagoshimashi.png"}
             alt="kagoshima"
-            width={190}
-            height={190}
+            width={500}
+            height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
         </div>
