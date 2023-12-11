@@ -45,7 +45,7 @@ const Home = () => {
 
   // 賞金・スポンサー賞
   const prize = {
-    title: "スポンサー賞",
+    title: "グランプリ特典",
     sponsor: "/star/sponsor/sakura.jpg",
     src: "/entt/prizes/prize_sponsor_spa_100_1.jpg",
     alt: "text",

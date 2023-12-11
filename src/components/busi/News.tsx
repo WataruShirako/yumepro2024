@@ -55,6 +55,12 @@ const News = () => {
         View all
       </a>
       */}
+      <a
+        href="/news"
+        className="viewall text-center Montserrat mt-8 underline block"
+      >
+        View all
+      </a>
     </section>
   );
 };

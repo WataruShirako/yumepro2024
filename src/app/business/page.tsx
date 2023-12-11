@@ -13,6 +13,7 @@ import Sponsor from "@/components/busi/Sponsor";
 import Venue from "@/components/busi/Venue";
 import Image from "next/image";
 import Company from "@/components/busi/Company";
+import Backup from "@/components/busi/Backup";
 
 const BusinessPage = () => {
   return (
@@ -28,6 +29,7 @@ const BusinessPage = () => {
         <Committee />
         <Company />
         <Sponsor />
+        <Backup />
         <News />
       </main>
       <Footer />

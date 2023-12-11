@@ -42,18 +42,6 @@ const Sns = () => {
               />
             </a>
             <a
-              href={"https://www.tiktok.com/@yumekanaeru_project"}
-              target={"_blank"}
-            >
-              <Image
-                className={"rounded-[18px] shadow-md hover:shadow-none"}
-                src={"/icon_tiktok.svg"}
-                alt={"tiktok"}
-                width={80}
-                height={80}
-              />
-            </a>
-            <a
               href={"https://instagram.com/yumekanaeru_project"}
               target={"_blank"}
             >
@@ -61,6 +49,20 @@ const Sns = () => {
                 className={"rounded-[18px] shadow-md hover:shadow-none"}
                 src={"/icon_instagram.svg"}
                 alt={"instagram"}
+                width={80}
+                height={80}
+              />
+            </a>
+            <a
+              href={"https://www.youtube.com/@yumekanaeru.project"}
+              target="_blank"
+            >
+              <Image
+                className={
+                  "rounded-[18px] shadow-md hover:shadow-none transition-all"
+                }
+                src={"/icon_youtube.png"}
+                alt={"youtube"}
                 width={80}
                 height={80}
               />
@@ -77,15 +79,13 @@ const Sns = () => {
               />
             </a>
             <a
-              href={"https://www.youtube.com/@yumekanaeru.project"}
-              target="_blank"
+              href={"https://www.tiktok.com/@yumekanaeru_project"}
+              target={"_blank"}
             >
               <Image
-                className={
-                  "rounded-[18px] shadow-md hover:shadow-none transition-all"
-                }
-                src={"/icon_youtube.png"}
-                alt={"youtube"}
+                className={"rounded-[18px] shadow-md hover:shadow-none"}
+                src={"/icon_tiktok.svg"}
+                alt={"tiktok"}
                 width={80}
                 height={80}
               />

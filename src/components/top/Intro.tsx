@@ -36,7 +36,7 @@ const Intro = () => {
             <br className={"md:hidden"} />
             「エンタメ」x「地方創生」x「SDGs」
             <br />
-            若者も大人もが夢に
+            若者も大人も夢に
             <br className={"md:hidden"} />
             チャレンジしやすい社会を
           </h3>

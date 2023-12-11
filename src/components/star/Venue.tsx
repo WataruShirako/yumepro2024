@@ -5896,267 +5896,254 @@ const Venue = () => {
               />
             </svg>
             <div className="container grid grid-cols-2  gap-5 mx-auto pt-10 w-11/12 text-[15px] font-bold">
-              <div className="md:absolute right-[8%] top-[30%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/hokkaido"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    北海道大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2"></p>
-                <p className="mb-5"></p>
+              <div className="md:absolute right-[0%] top-[28%]">
+                <a
+                  href="/project/entertainment/hokkaido"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  北海道大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm"></p>
+                <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[15%] top-[40%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/miyagi"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    宮城大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2"></p>
-                <p className="mb-5"></p>
+              <div className="md:absolute right-[13%] top-[40%]">
+                <a
+                  href="/project/entertainment/miyagi"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  宮城大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm"></p>
+                <p className="mb-5 text-sm"></p>
               </div>
 
-              <div className="md:absolute right-[15%] top-[51%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/tokyo"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    東京大会(予選)
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2024年3月30日</p>
-                <p className="mb-5">慶應大学</p>
+              <div className="md:absolute right-[10%] top-[51%]">
+                <a
+                  href="/project/entertainment/tokyo"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  東京大会(予選)
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2024年3月30日</p>
+                <p className="mb-5 text-sm">慶應大学</p>
               </div>
 
-              <div className="md:absolute right-[20%] top-[62%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/shizuoka"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    静岡大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2024年2月3日</p>
-                <p className="mb-5"></p>
+              <div className="md:absolute right-[16%] top-[63%]">
+                <a
+                  href="/project/entertainment/shizuoka"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  静岡大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2024年2月3日</p>
+                <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[37%] top-[64%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/aichi"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    愛知大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2"></p>
-                <p className="mb-5"></p>
+              <div className="md:absolute right-[33%] top-[65%]">
+                <a
+                  href="/project/entertainment/aichi"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  愛知大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm"></p>
+                <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[40%] top-[35%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/ishikawa"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    石川大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2024年3月16日</p>
-                <p className="mb-5">金沢市アートホール</p>
+              <div className="md:absolute right-[42%] top-[35%]">
+                <a
+                  href="/project/entertainment/ishikawa"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  石川大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2024年3月16日</p>
+                <p className="mb-5 text-sm">金沢市アートホール</p>
               </div>
-              <div className="md:absolute right-[35%] top-[73%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/osaka"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    大阪大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2024年2月28日</p>
-                <p className="mb-5">近畿大学</p>
+              <div className="md:absolute right-[35%] top-[75%]">
+                <a
+                  href="/project/entertainment/osaka"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  大阪大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2024年2月28日</p>
+                <p className="mb-5 text-sm">近畿大学</p>
               </div>
-              <div className="md:absolute right-[62%] top-[35%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/kyoto"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    京都大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2023年2月3日</p>
-                <p className="mb-5">オンライン開催</p>
+              <div className="md:absolute right-[65%] top-[33%]">
+                <a
+                  href="/project/entertainment/kyoto"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  京都大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2023年2月3日</p>
+                <p className="mb-5 text-sm">オンライン開催</p>
               </div>
-              <div className="md:absolute right-[64%] top-[46%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/hyogo"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    神戸大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2024年1月13日</p>
-                <p className="mb-5">ポートオアシス神戸</p>
+              <div className="md:absolute right-[67%] top-[46%]">
+                <a
+                  href="/project/entertainment/hyogo"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  神戸大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2024年1月13日</p>
+                <p className="mb-5 text-sm">ポートオアシス神戸</p>
               </div>
               <div className="md:absolute right-[52%] top-[70%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/kagawa"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    香川大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2024年2月17日</p>
-                <p className="mb-5">イートピア香川</p>
+                <a
+                  href="/project/entertainment/kagawa"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  香川大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2024年2月17日</p>
+                <p className="mb-5 text-sm">イートピア香川</p>
               </div>
-              <div className="md:absolute right-[79%] top-[58%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/fukuoka"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    福岡大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2024年2月3日</p>
-                <p className="mb-5">北九州芸術劇場</p>
+              <div className="md:absolute left-[6%] top-[58%]">
+                <a
+                  href="/project/entertainment/fukuoka"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  福岡大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2024年2月3日</p>
+                <p className="mb-5 text-sm">北九州芸術劇場</p>
               </div>
-              <div className="md:absolute right-[75%] top-[70%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/kagoshima"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    鹿児島大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2024年1月20日</p>
-                <p className="mb-5">鹿児島市民文化ホール</p>
+              <div className="md:absolute left-[3%] top-[70%]">
+                <a
+                  href="/project/entertainment/kagoshima"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  鹿児島大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2024年1月20日</p>
+                <p className="mb-5 text-sm">鹿児島市民文化ホール</p>
               </div>
-              <div className="md:absolute right-[60%] top-[85%]">
-                <div className="w-full bg-[#888888] rounded-md py-2 px-6 relative text-center text-white">
-                  <a
-                    href="/project/entertainment/okinawa"
-                    target="_blank"
-                    className="font-bold"
-                  >
-                    沖縄大会
-                    <Image
-                      src={"/top/arrow_white.svg"}
-                      alt={"▶︎"}
-                      width={6}
-                      height={6}
-                      className={"absolute top-[40%]  right-2"}
-                    />
-                  </a>
-                </div>
-                <p className="mt-2">2023年12月24日</p>
-                <p className="mb-5">沖縄アリーナ</p>
+              <div className="md:absolute left-[1%] top-[82%]">
+                <a
+                  href="/project/entertainment/okinawa"
+                  target="_blank"
+                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
+                >
+                  沖縄大会
+                  <Image
+                    src={"/top/arrow_white.svg"}
+                    alt={"▶︎"}
+                    width={6}
+                    height={6}
+                    className={"absolute top-[40%]  right-2"}
+                  />
+                </a>
+
+                <p className="mt-2 text-sm">2023年12月24日</p>
+                <p className="mb-5 text-sm">沖縄アリーナ</p>
               </div>
             </div>
             {/** 
