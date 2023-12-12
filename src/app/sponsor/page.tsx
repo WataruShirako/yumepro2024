@@ -98,58 +98,58 @@ const Sponsor = () => {
                   </th>
                 </tr>
                 <tr>
-                  <th className="border border-inherit border-2 md:[writing-mode:vertical-rl]  md:whitespace-pre  py-3 px-2  text-white">
+                  <th className="border border-inherit border-2 lg:[writing-mode:vertical-rl]  lg:whitespace-pre  py-3 px-2  text-white">
                     <span className="">映画・テレビ出演権</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">ラジオ番組出演権</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">映画広告放送権</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">ＳＮＳ　ＰＲ</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">銀座サイネージ</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">プレスリリース配信</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">講演枠</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">審査員</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">企業ブース出展</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">最終ステージ登壇</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">授賞式招待</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">サンプリング</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">パンフレット掲載</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className=" ">市松パネル</span>
                   </th>
-                  <th className="   md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-1  text-white">
+                  <th className="   lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-1  text-white">
                     レストラン
                     <br />
                     ＳＡＫＵＲＡ貸切権
                   </th>
 
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">高級ＳＰＡ利用券</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">サウナ・入浴券</span>
                   </th>
                 </tr>
@@ -439,40 +439,40 @@ const Sponsor = () => {
                   </th>
                 </tr>
                 <tr>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">テレビ番組出演権</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">映画広告放送権</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">ＳＮＳ　ＰＲ</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">銀座サイネージ</span>
                   </th>
 
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">授賞式招待</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">サンプリング</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">パンフレット掲載</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">市松パネル</span>
                   </th>
-                  <th className="md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-1  text-white">
+                  <th className="lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-1  text-white">
                     レストラン
                     <br />
                     ＳＡＫＵＲＡ貸切権
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">高級ＳＰＡ利用券</span>
                   </th>
-                  <th className="border border-inherit border-2  md:[writing-mode:vertical-rl]  md:whitespace-pre py-3 px-2  text-white">
+                  <th className="border border-inherit border-2  lg:[writing-mode:vertical-rl]  lg:whitespace-pre py-3 px-2  text-white">
                     <span className="">サウナ・入浴券</span>
                   </th>
                 </tr>
