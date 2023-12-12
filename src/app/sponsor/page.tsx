@@ -141,11 +141,12 @@ const Sponsor = () => {
                     <span className=" ">市松パネル</span>
                   </th>
                   <th className="   sm:[writing-mode:vertical-rl] [writing-mode:sideways-rl] whitespace-pre py-3 px-1  text-white">
-                    ＳＡＫＵＲＡ貸切権
-                  </th>
-                  <th className="   sm:[writing-mode:vertical-rl] [writing-mode:sideways-rl] whitespace-pre py-3 px-1  text-white">
                     レストラン
                   </th>
+                  <th className="   sm:[writing-mode:vertical-rl] [writing-mode:sideways-rl] whitespace-pre py-3 px-1  text-white">
+                    ＳＡＫＵＲＡ貸切権
+                  </th>
+
                   <th className="border border-inherit border-2  sm:[writing-mode:vertical-rl] [writing-mode:sideways-rl] whitespace-pre py-3 px-2  text-white">
                     <span className="">高級ＳＰＡ利用券</span>
                   </th>
