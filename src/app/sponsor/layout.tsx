@@ -1,5 +1,5 @@
-const siteName = "ニュース | 夢叶えるプロジェクト2024";
-const description = "ニュース | 夢叶えるプロジェクト2024";
+const siteName = "スポンサー募集 | 夢叶えるプロジェクト2024";
+const description = "スポンサー募集 | 夢叶えるプロジェクト2024";
 const url = "https://yume-pj.com";
 
 export const metadata = {

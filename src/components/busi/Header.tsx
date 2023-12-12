@@ -235,7 +235,7 @@ const Header = ({ header }: any) => {
             </li>
             <li>
               <a
-                href="https://yume-pj.com/project/sponsor/"
+                href="https://yume-pj.com/sponsor/"
                 className={"text-sm font-semibold flex"}
               >
                 スポンサー募集

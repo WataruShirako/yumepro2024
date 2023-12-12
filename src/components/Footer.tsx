@@ -19,7 +19,7 @@ const Footer = () => {
             <Link href="">夢叶えるプロジェクトとは</Link>
           </li> */}
           <li className={"text-xs font-semibold"}>
-            <a href="https://yume-pj.com/project/sponsor/" target="_blank">
+            <a href="https://yume-pj.com/sponsor/" target="_blank">
               スポンサー募集
             </a>
           </li>
