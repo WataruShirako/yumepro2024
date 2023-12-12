@@ -717,9 +717,11 @@ const Sponsor = () => {
                 <tr>
                   <td
                     rowSpan={4}
-                    className="border border-inherit border-2 p-2 bg-white [writing-mode:vertical-rl] text-center text-sm sm:text-base"
+                    className="border border-inherit border-2 p-2 bg-white text-center text-sm sm:text-base"
                   >
-                    メディア特典
+                    <span className="[writing-mode:vertical-rl] inline-block">
+                      メディア特典
+                    </span>
                   </td>
                   <td className="border border-inherit border-2 p-2 bg-white text-sm sm:text-base">
                     映画・テレビ出演権
