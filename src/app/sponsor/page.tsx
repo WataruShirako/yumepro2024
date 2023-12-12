@@ -98,88 +98,60 @@ const Sponsor = () => {
                   </th>
                 </tr>
                 <tr>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      映画・テレビ出演権
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">映画・テレビ出演権</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      ラジオ番組出演権
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">ラジオ番組出演権</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      映画広告放送権
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">映画広告放送権</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      ＳＮＳ　ＰＲ
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">ＳＮＳ　ＰＲ</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      銀座サイネージ
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">銀座サイネージ</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      プレスリリース配信
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">プレスリリース配信</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">講演枠</span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">講演枠</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">審査員</span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">審査員</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      企業ブース出展
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">企業ブース出展</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      最終ステージ登壇
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">最終ステージ登壇</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      授賞式招待
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">授賞式招待</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      サンプリング
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">サンプリング</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      パンフレット掲載
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">パンフレット掲載</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      市松パネル
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className=" ">市松パネル</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-1  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-1  text-white">
+                    <span className=" ">
                       レストラン
                       <br />
                       ＳＡＫＵＲＡ貸切権
                     </span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      高級ＳＰＡ利用券
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">高級ＳＰＡ利用券</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      サウナ・入浴券
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">サウナ・入浴券</span>
                   </th>
                 </tr>
               </thead>
@@ -468,63 +440,43 @@ const Sponsor = () => {
                   </th>
                 </tr>
                 <tr>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      テレビ番組出演権
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">テレビ番組出演権</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      映画広告放送権
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">映画広告放送権</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      ＳＮＳ　ＰＲ
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">ＳＮＳ　ＰＲ</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      銀座サイネージ
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">銀座サイネージ</span>
                   </th>
 
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      授賞式招待
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">授賞式招待</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      サンプリング
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">サンプリング</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      パンフレット掲載
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">パンフレット掲載</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      市松パネル
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">市松パネル</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-1  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-1  text-white">
+                    <span className="">
                       レストラン
                       <br />
                       ＳＡＫＵＲＡ貸切権
                     </span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      高級ＳＰＡ利用券
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">高級ＳＰＡ利用券</span>
                   </th>
-                  <th className="border border-inherit border-2  py-3 px-2  text-white">
-                    <span className="[writing-mode:vertical-rl] ">
-                      サウナ・入浴券
-                    </span>
+                  <th className="border border-inherit border-2 [writing-mode:vertical-rl] py-3 px-2  text-white">
+                    <span className="">サウナ・入浴券</span>
                   </th>
                 </tr>
               </thead>
@@ -696,8 +648,8 @@ const Sponsor = () => {
             <table className="table-fixed mx-auto  border border-inherit border-2 ">
               <thead>
                 <tr>
-                  <th className="border border-inherit border-2 p-3  text-white bg-[#888888] text-center">
-                    <span className="[writing-mode:vertical-rl]">区分</span>
+                  <th className="border border-inherit border-2 p-3 [writing-mode:sideways-rl] text-white bg-[#888888] text-center">
+                    <span className="">区分</span>
                   </th>
                   <th className="border border-inherit border-2 p-3  text-white bg-[#888888]">
                     特典名
@@ -711,7 +663,7 @@ const Sponsor = () => {
                 <tr>
                   <td
                     rowSpan={4}
-                    className="border border-inherit border-2 p-2 [writing-mode:vertical-rl] bg-white text-center text-sm sm:text-base"
+                    className="border border-inherit border-2 p-2 [writing-mode:sideways-rl] bg-white text-center text-sm sm:text-base"
                   >
                     <span className="">メディア特典</span>
                   </td>
