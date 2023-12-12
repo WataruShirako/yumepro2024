@@ -349,10 +349,7 @@ const Header = ({ header }: any) => {
               {isNavBusiVisible && <NavBusi />}
             </li>
             <li>
-              <a
-                href="http://localhost:3000/news"
-                className={"text-sm font-semibold flex"}
-              >
+              <a href="/news" className={"text-sm font-semibold flex"}>
                 ニュース
               </a>
             </li>
