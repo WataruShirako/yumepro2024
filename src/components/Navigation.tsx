@@ -39,7 +39,7 @@ export const Navigation: FC<Props> = ({ open, id }) => {
       </a>
 
       <p className="py-10">
-        <a href="https://yume-pj.com/project/sponsor/">スポンサー募集 {">"}</a>
+        <a href="/sponsor">スポンサー募集 {">"}</a>
       </p>
     </nav>
   );

@@ -68,7 +68,7 @@ const Sponsor = () => {
             </div>
           </div>
 
-          <div className=" overflow-x-auto p-5 pb-24">
+          <div className=" overflow-x-auto p-5">
             <table className="table-fixed mx-auto  border border-inherit border-2 bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5]">
               <thead>
                 <tr>
@@ -384,15 +384,15 @@ const Sponsor = () => {
                 </tr>
               </tbody>
             </table>
-            <div className="text-center p-5">
-              ※協賛特典の詳細は
-              <a
-                href="#sponsor_detail"
-                className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
-              >
-                こちら
-              </a>
-            </div>
+          </div>
+          <div className="text-center p-5 pb-24">
+            ※協賛特典の詳細は
+            <a
+              href="#sponsor_detail"
+              className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
+            >
+              こちら
+            </a>
           </div>
 
           <div className="mx-auto max-w-4xl p-5 m-10">
