@@ -648,7 +648,7 @@ const Sponsor = () => {
             <table className="table-fixed mx-auto  border border-inherit border-2 ">
               <thead>
                 <tr>
-                  <th className="border border-inherit border-2 p-3 [writing-mode:sideways-rl] text-white bg-[#888888] text-center">
+                  <th className="border border-inherit border-2 p-3 [writing-mode:vertical-rl] [writing-mode:sideways-rl] text-white bg-[#888888] text-center">
                     <span className="">区分</span>
                   </th>
                   <th className="border border-inherit border-2 p-3  text-white bg-[#888888]">
@@ -663,7 +663,7 @@ const Sponsor = () => {
                 <tr>
                   <td
                     rowSpan={4}
-                    className="border border-inherit border-2 p-2 [writing-mode:sideways-rl] bg-white text-center text-sm sm:text-base"
+                    className="border border-inherit border-2 p-2 [writing-mode:vertical-rl] [writing-mode:sideways-rl]  bg-white text-center text-sm sm:text-base"
                   >
                     <span className="">メディア特典</span>
                   </td>
