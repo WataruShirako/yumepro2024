@@ -38,7 +38,10 @@ const Sponsor = () => {
       {/** 
       <p className="text-center text-lg">and more...</p>
       */}
-      <a href="" className="button md:text-xl text-base font-bold relative">
+      <a
+        href="/sponsor"
+        className="button md:text-xl text-base font-bold relative"
+      >
         スポンサーさま募集
         <Image
           src={"/top/arrow_white.svg"}
