@@ -355,7 +355,10 @@ const Header = ({ header }: any) => {
               {isNavBusiVisible && <NavBusi />}
             </li>
             <li>
-              <a href="/news" className={"text-sm font-semibold flex"}>
+              <a
+                href="https://www.yume-pj.com/news"
+                className={"text-sm font-semibold flex"}
+              >
                 ニュース
               </a>
             </li>
