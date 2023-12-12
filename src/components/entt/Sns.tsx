@@ -61,7 +61,7 @@ const Sns = () => {
                 className={
                   "rounded-[18px] shadow-md hover:shadow-none transition-all"
                 }
-                src={"/icon_youtube.png"}
+                src={"/icon__youtube.png"}
                 alt={"youtube"}
                 width={80}
                 height={80}

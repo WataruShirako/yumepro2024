@@ -27,7 +27,7 @@ export const Navigation: FC<Props> = ({ open, id }) => {
         夢フォトオーディション {">"}
       </a>
       <a className="py-2" href="/project/entertainment">
-        夢プロスター誕生オーディション {">"}
+        夢プロスター誕生オーディション2024 {">"}
       </a>
 
       <p className="font-bold text-2xl pt-8  border-b  border-dashed w-10/12 text-center">
@@ -35,7 +35,7 @@ export const Navigation: FC<Props> = ({ open, id }) => {
       </p>
 
       <a className="py-2" href="/business">
-        全国学生スタートアップアワード {">"}
+        全国学生スタートアップ甲子園2024 {">"}
       </a>
 
       <p className="py-10">
