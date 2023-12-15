@@ -4,7 +4,7 @@ import "../../../entt.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import WinnerBenefit from "@/components/common/ennt_WinnerBenefi";
+import WinnerBenefit from "@/components/common/ennt_WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import ToTop from "@/components/entt/Totop";
 import Fv from "@/components/busi/shizuoka/Fv";

@@ -137,7 +137,7 @@ const WinnerBenefit = () => {
           </div>
         </div>
         <a
-          href="https://forms.gle/f6uJ6DoBpp9c2W2X9"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdgPo6CgHk5W8y-aF8B-ZDqS5k5ohie4JhtYGsqqL9mxCPT9Q/viewform"
           target="_blank"
           className="button md:text-2xl text-base font-bold relative"
         >

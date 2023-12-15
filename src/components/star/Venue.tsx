@@ -5999,7 +5999,7 @@ const Venue = () => {
                   target="_blank"
                   className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
                 >
-                  石川大会
+                  金沢大会
                   <Image
                     src={"/top/arrow_white.svg"}
                     alt={"▶︎"}
@@ -6075,7 +6075,7 @@ const Venue = () => {
                   target="_blank"
                   className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
                 >
-                  香川大会
+                  高松大会
                   <Image
                     src={"/top/arrow_white.svg"}
                     alt={"▶︎"}
