@@ -61,7 +61,7 @@ const RegionalTournament = () => {
           href="/business/ishikawa"
           className="button2 md:text-xl text-base font-bold relative"
         >
-          石川大会
+          金沢大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}
@@ -113,7 +113,7 @@ const RegionalTournament = () => {
           href="/business/kagawa"
           className="button2 md:text-xl text-base font-bold relative"
         >
-          香川大会
+          高松大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}
@@ -233,7 +233,7 @@ const RegionalTournament = () => {
           href="/project/entertainment/ishikawa"
           className="button2 md:text-xl text-base font-bold relative"
         >
-          石川大会
+          金沢大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}
@@ -285,7 +285,7 @@ const RegionalTournament = () => {
           href="/project/entertainment/kagawa"
           className="button2 md:text-xl text-base font-bold relative"
         >
-          香川大会
+          高松大会
           <Image
             src={"/top/arrow_white.svg"}
             alt={"▶︎"}

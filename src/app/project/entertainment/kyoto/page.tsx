@@ -52,25 +52,10 @@ const Home = () => {
             開催地
           </h2>
 
-          <div className="container flex m-auto md:max-w-4xl pb-10 px-5">
-            <div className="w-1/3">
-              <Image
-                src={"/busi/kagoshima/venue_logo.png"}
-                width={278}
-                height={278}
-                alt=""
-                className=""
-              />
-            </div>
-
-            <div className="md:pl-10 pl-5 w-2/3">
-              <p className="text-left font-bold mt-0 md:mt-5 text-xl">
-                鹿児島市民文化ホール
-              </p>
-              <p className="text-left mt-2 md:mt-5 md:text-base text-sm">
-                鹿児島市民文化ホール（川商ホール）は、鹿児島県鹿児島市与次郎二丁目にあるコンサートホールです。
-              </p>
-            </div>
+          <div className="container m-auto md:max-w-4xl pb-10 px-5">
+            <p className="font-bold mt-0 md:mt-5 text-xl text-center">
+              オンライン開催
+            </p>
           </div>
 
           {/*      <Image
