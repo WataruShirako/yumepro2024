@@ -5896,7 +5896,7 @@ const Venue = () => {
               />
             </svg>
             <div className="container grid grid-cols-2  gap-5 mx-auto pt-10 w-11/12 text-[15px] font-bold">
-              <div className="md:absolute right-[0%] top-[28%]">
+              <div className="md:absolute right-[0%] top-[7%]">
                 <a
                   href="/project/entertainment/hokkaido"
                   target="_blank"
@@ -5912,8 +5912,8 @@ const Venue = () => {
                   />
                 </a>
 
-                <p className="mt-2 text-sm"></p>
-                <p className="mb-5 text-sm"></p>
+                <p className="mt-2 text-sm">2023年10月10日〜2023年10月31日</p>
+                <p className="mb-5 text-sm">ミクチャアプリ</p>
               </div>
               <div className="md:absolute right-[13%] top-[40%]">
                 <a
@@ -5952,7 +5952,7 @@ const Venue = () => {
                 </a>
 
                 <p className="mt-2 text-sm">2024年3月30日</p>
-                <p className="mb-5 text-sm">慶應大学</p>
+                <p className="mb-5 text-sm"></p>
               </div>
 
               <div className="md:absolute right-[16%] top-[63%]">
@@ -6142,7 +6142,7 @@ const Venue = () => {
                   />
                 </a>
 
-                <p className="mt-2 text-sm">2023年12月24日</p>
+                <p className="mt-2 text-sm">2023年12月23日</p>
                 <p className="mb-5 text-sm">沖縄アリーナ</p>
               </div>
             </div>
