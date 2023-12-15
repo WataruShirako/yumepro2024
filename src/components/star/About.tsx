@@ -91,6 +91,19 @@ const About = ({ about }: any) => {
             </div>
           </div>
         </div>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdgPo6CgHk5W8y-aF8B-ZDqS5k5ohie4JhtYGsqqL9mxCPT9Q/viewform"
+          className={"btn btnEntt"}
+        >
+          エントリー
+          <Image
+            className={"absolute right-[20px] top-1/2 -translate-y-1/2"}
+            src={"/entt/entt_btn_arrow.svg"}
+            alt={"▶︎"}
+            width={26}
+            height={26}
+          />
+        </a>
       </section>
       <div className="svg__container">
         <svg
