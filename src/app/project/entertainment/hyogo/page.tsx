@@ -80,7 +80,7 @@ const Home = () => {
       />
   */}
         </section>
-        <section id="ambassador" className={""}>
+        <section id="" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
               <Image
@@ -89,11 +89,33 @@ const Home = () => {
                 width={15}
                 height={20}
               />
-              Ambassador
+              Chairman
             </span>
-            アンバサダー兼司会
+            司会
           </h2>
-          <ComingSoon />
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2 mx-auto">
+              <Image
+                src={"/busi/company01.jpg"}
+                width={900}
+                height={320}
+                alt=""
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+                大平ひかる
+              </p>
+              <p className="text-[15px] mx-auto md:text-left md:mx-0 pb-10">
+                2002年7月23日生まれ。東京都出身。青山学院文学部3年生。ミス青山2023グランプリ、女子高生ミスコン2020グランプリ受賞。
+                <br />
+                特技は歌って踊ることであり、小学生の頃から8年間のアイドル経験がある。
+                <br />
+                3Bjunior、マジェスティックセブン、アメフラっシ、A♡Zの元メンバー。
+              </p>
+            </div>
+          </div>
         </section>
 
         <section id="committee" className={""}>
@@ -109,9 +131,69 @@ const Home = () => {
             </span>
             審査委員会
           </h2>
-          <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent">
-            — COMING SOON —
-          </p>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2 md:w-1/3">
+              <Image
+                src={"/busi/hyogo/committee01.webp"}
+                width={278}
+                height={360}
+                alt=""
+                className="w-60md:w-[320px] object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 md:w-2/3 text-left w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+                中村ひろき
+              </p>
+              <p className="max-w-md text-[13px] mx-auto md:text-left md:mx-0 md:max-w-full">
+                Studio ENTRE株式会社 プロデューサー
+                <br />
+                一般社団法人スタートアップスタジオ協会 理事
+                <br />
+                <br />
+                1993年生まれ。早稲田大学社会科学部卒。
+                <br />
+                大学在学中からレーベル運営やバンド活動など、音楽についての幅広い活動を展開すると同時に、スタートアップにてプロダクト開発に関わる。
+                <br />
+                大学卒業後、DMM.comに入社し新規事業の担当として複数のエンタメプロダクト/サービスの立ち上げを行う。
+                <br />
+                その後、ブロックチェーンスタートアップにて事業開発を担当し、現在はエンターテインメント領域のスタートアップスタジオStudioENTREの事業プロデューサー。
+                <br />
+                得意領域はXR/AI/ブロックチェーンなどの先端技術を活用したプロダクト開発。
+                <br />
+                <br />
+                <br />
+              </p>
+            </div>
+          </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2 md:w-1/3">
+              <Image
+                src={"/busi/hyogo/committee02.webp"}
+                width={278}
+                height={360}
+                alt=""
+                className="w-60md:w-[320px] object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 md:w-2/3 text-left w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+                宇宙 星太郎
+              </p>
+              <p className="max-w-md text-[13px] mx-auto md:text-left md:mx-0 md:max-w-full">
+                株式会社うちゅう代表取締役 共同創業者 CCO兼iCEO
+                <br />
+                <br />
+                ・一般社団法人教育ソリューション研究協議会 研究員
+                <br />
+                ・2020.21.22年度
+                経済産業省「未来の教室」STEAMライブラリー事業　宇宙・デザイン思考・Vtuber教育コンテンツ統括責任者
+                <br />
+                <br />
+                <br />
+              </p>
+            </div>
+          </div>
         </section>
         <section id="schedule" className={""}>
           <h2 className="secTitle">

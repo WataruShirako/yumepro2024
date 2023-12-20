@@ -97,7 +97,7 @@ const Home = () => {
             </a>
           </div>
         </section>
-        <section id="ambassador" className={""}>
+        <section id="" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
               <Image
@@ -106,7 +106,7 @@ const Home = () => {
                 width={15}
                 height={20}
               />
-              Ambassador
+              Ambassador and Chairman
             </span>
             アンバサダー兼司会
           </h2>

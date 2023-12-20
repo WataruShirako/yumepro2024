@@ -14,6 +14,7 @@ import Venue from "@/components/busi/Venue";
 import Image from "next/image";
 import Company from "@/components/busi/Company";
 import Backup from "@/components/busi/Backup";
+import Chairman from "@/components/common/Chairman";
 
 const BusinessPage = () => {
   return (
@@ -23,6 +24,7 @@ const BusinessPage = () => {
         <Fv />
         <Project />
         <Venue />
+        {/**         <Chairman />*/}
         <Schedule />
         <About />
         <Adviser />

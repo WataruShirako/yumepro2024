@@ -8,6 +8,7 @@ import WinnerBenefit from "@/components/common/WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
+import Chairman from "@/components/common/Chairman";
 
 const BusinessPage = () => {
   return (
@@ -18,6 +19,7 @@ const BusinessPage = () => {
         {/*-----Venue-----*/}
         <Venue />
         {/*-----Committee-----*/}
+        <Chairman />
         <Committee />
         {/*-----chedule -----*/}
         <Schedule />

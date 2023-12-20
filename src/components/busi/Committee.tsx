@@ -4,7 +4,7 @@ const lists = [
   {
     id: 1,
     name: " 早川周作",
-    descri: `琉球アスティーダ`,
+    descri: `琉球アスティーダスポーツクラブ株式会社`,
     descri2: "会長",
     src: "/busi/okinawa/committee01.webp",
   },

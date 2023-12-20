@@ -81,7 +81,7 @@ const Home = () => {
       />
   */}
         </section>
-        <section id="ambassador" className={""}>
+        <section id="" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
               <Image
@@ -90,11 +90,33 @@ const Home = () => {
                 width={15}
                 height={20}
               />
-              Ambassador
+              Ambassador and Chairman
             </span>
             アンバサダー兼司会
           </h2>
-          <ComingSoon />
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2 mx-auto">
+              <Image
+                src={"/busi/fukuoka/chairman.jpg"}
+                width={900}
+                height={320}
+                alt=""
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+                高梨 優佳
+              </p>
+              <p className="text-[15px] mx-auto md:text-left md:mx-0 pb-10">
+                2001年7月21日生まれ、福岡県出身。Z世代の女性を中心に支持を集める。
+                <br />
+                総フォロワー150万人超を誇り、TikTokでは多くの演技コンテンツが話題に!!
+                <br />
+                現在はテレビや雑誌へ活動の幅を広げ、JELLY専属モデルとしても活躍中。
+              </p>
+            </div>
+          </div>
         </section>
 
         <section id="committee" className={""}>

@@ -25,6 +25,16 @@ const Ambassadors = () => {
         <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
           <div>
             <Image
+              src={"/top/ambassodors/yokotamirai.jpg"}
+              alt=""
+              width={190}
+              height={190}
+              className="rounded-2xl  block "
+            />
+            横田未来
+          </div>
+          <div>
+            <Image
               src={"/top/ambassodors/oguriyui.webp"}
               alt=""
               width={190}
