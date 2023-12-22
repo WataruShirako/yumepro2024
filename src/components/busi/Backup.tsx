@@ -15,7 +15,7 @@ const Backup = () => {
           <p className="relative break-all montserrat">Backup</p>
         </div>
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-          後援企業さま
+          後援企業
         </p>
       </h2>
       {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}

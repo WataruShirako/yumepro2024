@@ -76,16 +76,16 @@ const Home = () => {
      日付未定   愛知大会<br/>
      日付未定   静岡大会<br/>
 
-
-    <br/>
     <br/>
     上記予定は変更になる場合がございます。<br/>
     `,
     status: `
-      ・日本国内在住の夢を持ったすべての方
+      日本国内在住の夢を持ったすべての方
     `,
 
-    award: "2024年4月27日（土）10:00~18:00",
+    award: `2024年4月27日（土）10:00~18:00<br /><br />
+      幕張メッセ<br />
+      〒261-8550 千葉県千葉市美浜区中瀬2丁目1`,
   };
 
   // 審査委員
@@ -131,7 +131,7 @@ const Home = () => {
 
         <About about={about} />
         <Prize prize={prize} />
-        <Chairman />
+        {/*    <Chairman />*/}
         <Committee committee={committee} />
         {/* <Instagram /> */}
 

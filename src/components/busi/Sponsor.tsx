@@ -15,7 +15,7 @@ const Sponsor = () => {
           <p className="relative break-all montserrat">Sponsor</p>
         </div>
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-          スポンサー企業さま
+          スポンサー企業
         </p>
       </h2>
       <div className="container grid grid-cols-3 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">

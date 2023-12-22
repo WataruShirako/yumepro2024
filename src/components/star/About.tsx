@@ -47,6 +47,24 @@ const About = ({ about }: any) => {
               <span
                 className={"px-2 py-1 bg-[#888888] text-white inline-block"}
               >
+                東京本戦
+              </span>
+            </p>
+            <div
+              className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+            >
+              <p dangerouslySetInnerHTML={{ __html: `${about.award}` }} />
+            </div>
+          </div>
+          <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between">
+            <p
+              className={
+                "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
+              }
+            >
+              <span
+                className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+              >
                 参加資格
               </span>
             </p>
@@ -65,13 +83,13 @@ const About = ({ about }: any) => {
               <span
                 className={"px-2 py-1 bg-[#888888] text-white inline-block"}
               >
-                最終審査・授賞式
+                審査基準
               </span>
             </p>
             <div
               className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
             >
-              <p dangerouslySetInnerHTML={{ __html: `${about.award}` }} />
+              スター性・カリスマ性・人間性
             </div>
           </div>
         </div>

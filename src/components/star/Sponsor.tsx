@@ -7,17 +7,17 @@ const Sponsor = ({ sponsors }: any) => {
       <section id="sponsor" className={""}>
         <h2 className="secTitle">
           <span className={"block"}>Sponsor</span>
-          スポンサー企業さま
+          スポンサー企業
         </h2>
         <div className="container flex flex-wrap justify-center gap-3 md:gap-4 m-auto max-w-[1100px]">
-          <div className="container grid grid-cols-3 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
+          <div className="container grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
             <div className="item mx-auto">
               <Image
                 className={"rounded-md "}
                 src={"/top/sponsor/oneli_navi.webp"}
                 alt={"oneli_navi"}
-                width={"150"}
-                height={"150"}
+                width={"200"}
+                height={"200"}
               />
             </div>
             <div className="item">
@@ -25,8 +25,8 @@ const Sponsor = ({ sponsors }: any) => {
                 className={"rounded-md mx-auto"}
                 src={"/top/sponsor/tecotec.webp"}
                 alt={"tecotec"}
-                width={"150"}
-                height={"150"}
+                width={"200"}
+                height={"200"}
               />
             </div>
             <div className="item">
@@ -34,8 +34,26 @@ const Sponsor = ({ sponsors }: any) => {
                 className={"rounded-md mx-auto"}
                 src={"/top/sponsor/asteeda.png"}
                 alt={"asteeda"}
-                width={"150"}
-                height={"150"}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                src={"/top/sponsor/mixch.webp"}
+                alt="mixch"
+                width={"200"}
+                height={"200"}
+                className={"rounded-md mx-auto"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                src={"/top/sponsor/showroom.png"}
+                alt="showroom"
+                width={"200"}
+                height={"200"}
+                className={"rounded-md mx-auto"}
               />
             </div>
           </div>

@@ -46,21 +46,6 @@ const Prize = ({ prize }: any) => {
           and more ...
         </p>
       </section>
-      <div className="svg__container">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className={"svg__content under"}
-          viewBox="0 0 1366 100"
-        >
-          <path
-            className={"w-full"}
-            id="パス_286"
-            data-name="パス 286"
-            d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
-            fill="#fff"
-          />
-        </svg>
-      </div>
     </>
   );
 };

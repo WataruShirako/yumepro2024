@@ -5971,7 +5971,7 @@ const Venue = () => {
                   />
                 </a>
 
-                <p className="mt-2 text-sm">2024年2月3日</p>
+                <p className="mt-2 text-sm"></p>
                 <p className="mb-5 text-sm"></p>
               </div>
               <div className="md:absolute right-[33%] top-[65%]">
