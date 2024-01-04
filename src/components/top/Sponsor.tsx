@@ -75,6 +75,20 @@ const Sponsor = () => {
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
+            src={"/top/sponsor/utattemitacollection.jpg"}
+            alt="showroom"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
+            src={"/busi/kagoshima/TYH.jpg"}
+            alt="showroom"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
             src={"/top/sponsor/zen_spa.png"}
             alt="sakura"
             width={500}
@@ -157,6 +171,13 @@ const Sponsor = () => {
           <Image
             src={"/top/sponsor/kagoshimashi.png"}
             alt="kagoshima"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
+          <Image
+            src={"/busi/kagawa/takamatsushi.jpg"}
+            alt="takamatsu"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "

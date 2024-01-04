@@ -255,7 +255,7 @@ const Home = () => {
             />
           </a>
         </section>
-        <section id="sponsor" className={""}>
+        <section id="backup" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
               <Image

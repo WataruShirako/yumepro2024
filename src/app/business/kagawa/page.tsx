@@ -3,12 +3,13 @@ import Fv from "@/components/busi/kagawa/Fv";
 import Venue from "@/components/busi/kagawa/Venue";
 import Committee from "@/components/busi/comingsoon/Committee";
 import Schedule from "@/components/busi/kagawa/Schedule";
-import Sponsor from "@/components/busi/comingsoon/Sponsor";
+import Sponsor from "@/components/busi/kagawa/Sponsor";
 import WinnerBenefit from "@/components/common/WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
 import Chairman from "@/components/common/Chairman";
+import Backup from "@/components/busi/kagawa/Backup";
 
 const BusinessPage = () => {
   return (
@@ -31,7 +32,7 @@ const BusinessPage = () => {
 
         {/*-----Sponsor -----*/}
         <Sponsor />
-
+        <Backup />
         {/*-----RegionalTournament -----*/}
         <section id="regional_tournament" className={"my-20 md:my-40"}>
           <h2 className="sectionTitle text-center items-center Montserrat">

@@ -18,7 +18,7 @@ const Sponsor = () => {
           スポンサー企業
         </p>
       </h2>
-      <div className="container grid grid-cols-3 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
+      <div className="container grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
         <div className="item mx-auto">
           <Image
             className={"rounded-md "}
@@ -42,6 +42,15 @@ const Sponsor = () => {
             className={"rounded-md mx-auto"}
             src={"/top/sponsor/asteeda.png"}
             alt={"asteeda"}
+            width={"150"}
+            height={"150"}
+          />
+        </div>
+        <div className="item">
+          <Image
+            className={"rounded-md mx-auto"}
+            src={"/busi/kagoshima/TYH.jpg"}
+            alt={"TYH"}
             width={"150"}
             height={"150"}
           />

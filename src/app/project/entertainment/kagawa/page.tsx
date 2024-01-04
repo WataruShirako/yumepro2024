@@ -196,6 +196,32 @@ const Home = () => {
             />
           </a>
         </section>
+        <section id="backup" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image
+                src={"/entt/committee.svg"}
+                alt=""
+                width={15}
+                height={20}
+              />
+              Backup
+            </span>
+            後援
+          </h2>
+          <div className="flex justify-center py-10">
+            <div className="item">
+              <Image
+                src={"/busi/kagawa/takamatsushi.jpg"}
+                alt="takamatsu"
+                width={500}
+                height={500}
+                className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+              />
+            </div>
+          </div>
+          <p className="text-center text-lg">and more...</p>
+        </section>
         <section id="regional_tournament" className={"mt-20"}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>

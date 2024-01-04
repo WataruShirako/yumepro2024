@@ -16,32 +16,29 @@ const Sponsor = () => {
           <p className="relative break-all montserrat">Sponsor</p>
         </div>
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-          スポンサー企業さま
+          スポンサー企業
         </p>
       </h2>
       {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
       <div className="flex justify-center py-10">
-        <ComingSoon />
-        {/** 
         <div className="item">
           <Image
+            src={"/busi/kagoshima/TYH.jpg"}
+            alt="showroom"
+            width={200}
+            height={200}
             className={"rounded-md"}
-            src={"/top/sponsor/kagoshimashi.png"}
-            alt={"鹿児島市"}
-            width={"150"}
-            height={"150"}
           />
         </div>
-        */}
       </div>
-      {/** 
+
       <p className="text-center text-lg">and more...</p>
-              */}
+
       <a
         href="/sponsor"
         className="button md:text-xl text-base font-bold relative"
       >
-        スポンサーさま募集
+        スポンサー募集
         <Image
           src={"/top/arrow_white.svg"}
           alt={"▶︎"}

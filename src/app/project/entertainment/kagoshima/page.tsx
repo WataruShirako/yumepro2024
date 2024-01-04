@@ -215,23 +215,21 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="flex justify-center py-10">
-            {/** 
+          {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
+          <div className="flex justify-center">
             <div className="item">
               <Image
+                src={"/busi/kagoshima/TYH.jpg"}
+                alt="showroom"
+                width={200}
+                height={200}
                 className={"rounded-md"}
-                src={"/top/sponsor/kagoshimashi.png"}
-                alt={"鹿児島市"}
-                width={"150"}
-                height={"150"}
               />
             </div>
-            */}
-            <ComingSoon />
           </div>
-          {/** 
+
           <p className="text-center text-lg">and more...</p>
-                 */}
+
           <a
             href="/sponsor"
             className="button md:text-xl text-base font-bold relative"
@@ -260,14 +258,14 @@ const Home = () => {
             </span>
             後援
           </h2>
-          <div className="flex justify-center py-10">
+          <div className="flex justify-center">
             <div className="item">
               <Image
                 className={"rounded-md"}
                 src={"/top/sponsor/kagoshimashi.png"}
                 alt={"鹿児島市"}
-                width={"150"}
-                height={"150"}
+                width={"200"}
+                height={"200"}
               />
             </div>
           </div>

@@ -56,6 +56,15 @@ const Sponsor = ({ sponsors }: any) => {
                 className={"rounded-md mx-auto"}
               />
             </div>
+            <div className="item">
+              <Image
+                src={"/top/sponsor/utattemitacollection.jpg"}
+                alt="showroom"
+                width={"200"}
+                height={"200"}
+                className={"rounded-md mx-auto"}
+              />
+            </div>
           </div>
         </div>
 
