@@ -356,13 +356,28 @@ const Sponsor = () => {
               </tbody>
             </table>
           </div>
-          <div className="text-center p-5 pb-24">
+          <div className="text-center p-5">
             ※協賛特典の詳細は
             <a
               href="#sponsor_detail"
               className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
             >
               こちら
+            </a>
+          </div>
+          <div className="pb-20">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScS0atgV2D7QydCRXmnWJdCXwN-aPacqIhQ-_TPBAZ5opb2Ow/viewform"
+              className="button md:text-xl text-base font-bold relative"
+            >
+              スポンサー申込
+              <Image
+                src={"/top/arrow_white.svg"}
+                alt={"▶︎"}
+                width={8.45}
+                height={12.45}
+                className={"absolute top-auto bottom-auto right-4"}
+              />
             </a>
           </div>
 
@@ -637,6 +652,21 @@ const Sponsor = () => {
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className="">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScS0atgV2D7QydCRXmnWJdCXwN-aPacqIhQ-_TPBAZ5opb2Ow/viewform"
+              className="button md:text-xl text-base font-bold relative"
+            >
+              スポンサー申込
+              <Image
+                src={"/top/arrow_white.svg"}
+                alt={"▶︎"}
+                width={8.45}
+                height={12.45}
+                className={"absolute top-auto bottom-auto right-4"}
+              />
+            </a>
           </div>
           <div id="sponsor_detail" className="py-10 px-2">
             <div className="text-xl sm:text-3xl text-center p-5 mt-32">

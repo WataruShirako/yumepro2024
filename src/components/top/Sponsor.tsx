@@ -25,12 +25,12 @@ const Sponsor = () => {
 
       <div className="container text-center m-auto">
         <p className="mt-6 md:mt-12 font-semibold">メインスポンサー</p>
-        <div className="mt-2">
+        <div className="mt-2 px-5">
           <Image
-            src={"/top/sponsor/sakura_logo.webp"}
+            src={"/top/sponsor/sakura_logo.jpg"}
             alt="sakura"
-            width={600}
-            height={600}
+            width={300}
+            height={300}
             className="rounded-2xl m-auto md:w-80"
           />
         </div>

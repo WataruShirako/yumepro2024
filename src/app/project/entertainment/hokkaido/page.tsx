@@ -30,11 +30,11 @@ const Home = () => {
   const contents = [
     {
       title: "開催日",
-      content: `2024年3月30日(土)`,
+      content: `2023年10月10日~2023年10月31日`,
     },
     {
       title: "会場",
-      content: `未定`,
+      content: `ミクチャアプリ`,
     },
   ];
 
@@ -43,59 +43,6 @@ const Home = () => {
       <Header />
       <main id="" className={"entt"}>
         <Fv />
-        <section id="venue">
-          <h2 className={`secTitle`}>
-            <span className={`flex gap-2 justify-center Montserrat`}>
-              <Image src={"/entt/venue.svg"} alt="" width={15} height={20} />
-              Venue
-            </span>
-            開催地
-          </h2>
-
-          <ComingSoon />
-
-          {/*      <Image
-        src={"/busi/hyogo/venue.png"}
-        width={895}
-        height={152}
-        alt=""
-        className="mx-auto px-5"
-      />
-  */}
-        </section>
-        <section id="ambassador" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              Ambassador
-            </span>
-            アンバサダー兼司会
-          </h2>
-          <ComingSoon />
-        </section>
-
-        <section id="committee" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              Committee
-            </span>
-            審査委員会
-          </h2>
-          <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent">
-            — COMING SOON —
-          </p>
-        </section>
         <section id="schedule" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -105,8 +52,6 @@ const Home = () => {
             開催日程
           </h2>
           <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
-            <ComingSoon />
-            {/* 
             {contents.map((item, index) => (
               <div
                 key={index}
@@ -120,7 +65,6 @@ const Home = () => {
                 </div>
               </div>
             ))}
-            */}
           </div>
         </section>
 

@@ -43,29 +43,46 @@ const Home = () => {
       <Header />
       <main id="" className={"entt"}>
         <Fv />
-        <section id="venue">
-          <h2 className={`secTitle`}>
-            <span className={`flex gap-2 justify-center Montserrat`}>
-              <Image src={"/entt/venue.svg"} alt="" width={15} height={20} />
-              Venue
+        <section id="schedule" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
+              Schedule
             </span>
-            開催地
+            開催日程
           </h2>
-
-          <div className="container m-auto md:max-w-4xl pb-10 px-5">
-            <p className="font-bold mt-0 md:mt-5 text-xl text-center">
-              オンライン開催
-            </p>
+          <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
+            {contents.map((item, index) => (
+              <div
+                key={index}
+                className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] items-center justify-between"
+              >
+                <p className={"w-[100px] md:w-1/5"}>
+                  <span className={"px-2 py-1 text-base"}>{item.title}</span>
+                </p>
+                <div className={"w-[75%] text-base"}>
+                  <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
+                </div>
+              </div>
+            ))}
           </div>
+        </section>
 
-          {/*      <Image
-        src={"/busi/hyogo/venue.png"}
-        width={895}
-        height={152}
-        alt=""
-        className="mx-auto px-5"
-      />
-  */}
+        <WinnerBenefit />
+        <section id="ambassador" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image
+                src={"/entt/committee.svg"}
+                alt=""
+                width={15}
+                height={20}
+              />
+              AMBASSADOR
+            </span>
+            アンバサダー
+          </h2>
+          <ComingSoon />
         </section>
         <section id="" className={""}>
           <h2 className="secTitle">
@@ -104,7 +121,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-
+        {/** 
         <section id="committee" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -122,33 +139,7 @@ const Home = () => {
             — COMING SOON —
           </p>
         </section>
-        <section id="schedule" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
-              Schedule
-            </span>
-            開催日程
-          </h2>
-          <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
-            {contents.map((item, index) => (
-              <div
-                key={index}
-                className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] items-center justify-between"
-              >
-                <p className={"w-[100px] md:w-1/5"}>
-                  <span className={"px-2 py-1 text-base"}>{item.title}</span>
-                </p>
-                <div className={"w-[75%] text-base"}>
-                  <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <WinnerBenefit />
-
+*/}
         <section id="sponsor" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -178,6 +169,21 @@ const Home = () => {
               className={"absolute top-auto bottom-auto right-4"}
             />
           </a>
+        </section>
+        <section id="backup" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image
+                src={"/entt/committee.svg"}
+                alt=""
+                width={15}
+                height={20}
+              />
+              Backup
+            </span>
+            後援
+          </h2>
+          <ComingSoon />
         </section>
         <section id="regional_tournament" className={"mt-20"}>
           <h2 className="secTitle">

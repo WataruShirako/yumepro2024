@@ -43,13 +43,37 @@ const Home = () => {
       <Header />
       <main id="" className={"entt"}>
         <Fv />
+        <section id="schedule" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
+              Schedule
+            </span>
+            開催日程
+          </h2>
+          <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
+            {contents.map((item, index) => (
+              <div
+                key={index}
+                className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] items-center justify-between"
+              >
+                <p className={"w-[100px] md:w-1/5"}>
+                  <span className={"px-2 py-1 text-base"}>{item.title}</span>
+                </p>
+                <div className={"w-[75%] text-base"}>
+                  <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
         <section id="venue">
           <h2 className={`secTitle`}>
             <span className={`flex gap-2 justify-center Montserrat`}>
               <Image src={"/entt/venue.svg"} alt="" width={15} height={20} />
               Venue
             </span>
-            開催概要
+            開催地
           </h2>
           <div className="container flex m-auto md:max-w-4xl pb-10 px-5">
             <div className="w-1/3">
@@ -80,6 +104,22 @@ const Home = () => {
       />
   */}
         </section>
+        <WinnerBenefit />
+        <section id="ambassador" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image
+                src={"/entt/committee.svg"}
+                alt=""
+                width={15}
+                height={20}
+              />
+              AMBASSADOR
+            </span>
+            アンバサダー
+          </h2>
+          <ComingSoon />
+        </section>
         <section id="" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -94,6 +134,8 @@ const Home = () => {
             司会
           </h2>
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <ComingSoon />
+            {/** 
             <div className="w-1/2 mx-auto">
               <Image
                 src={"/busi/company01.jpg"}
@@ -115,9 +157,10 @@ const Home = () => {
                 3Bjunior、マジェスティックセブン、アメフラっシ、A♡Zの元メンバー。
               </p>
             </div>
+            */}
           </div>
         </section>
-
+        {/** 
         <section id="committee" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -195,33 +238,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section id="schedule" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
-              Schedule
-            </span>
-            開催日程
-          </h2>
-          <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
-            {contents.map((item, index) => (
-              <div
-                key={index}
-                className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] items-center justify-between"
-              >
-                <p className={"w-[100px] md:w-1/5"}>
-                  <span className={"px-2 py-1 text-base"}>{item.title}</span>
-                </p>
-                <div className={"w-[75%] text-base"}>
-                  <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <WinnerBenefit />
-
+*/}
         <section id="sponsor" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
