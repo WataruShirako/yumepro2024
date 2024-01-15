@@ -7,7 +7,7 @@ const contents = [
   },
   {
     title: "会場",
-    content: `近畿大学`,
+    content: `未定`,
   },
 ];
 

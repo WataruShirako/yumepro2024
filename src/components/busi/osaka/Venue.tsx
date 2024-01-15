@@ -1,5 +1,6 @@
 "use client";
 
+import ComingSoon from "@/components/common/ComingSoon";
 import Image from "next/image";
 
 const Venue = () => {
@@ -18,6 +19,8 @@ const Venue = () => {
         </div>
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">開催地</p>
       </h2>
+      <ComingSoon />
+      {/** *
       <div className="container flex m-auto md:max-w-4xl pb-10 px-5">
         <div className="w-1/3">
           <Image
@@ -35,6 +38,7 @@ const Venue = () => {
           </p>
         </div>
       </div>
+      /}
       {/*      <Image
         src={"/busi/hyogo/venue.png"}
         width={895}

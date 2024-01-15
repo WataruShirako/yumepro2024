@@ -34,7 +34,7 @@ const Home = () => {
     },
     {
       title: "会場",
-      content: `近畿大学`,
+      content: `未定`,
     },
   ];
 
@@ -76,7 +76,8 @@ const Home = () => {
             </span>
             開催地
           </h2>
-
+          <ComingSoon />
+          {/** 
           <div className="container flex m-auto md:max-w-4xl pb-10 px-5">
             <div className="w-1/3">
               <Image
@@ -96,7 +97,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-
+*/}
           {/*      <Image
         src={"/busi/hyogo/venue.png"}
         width={895}
