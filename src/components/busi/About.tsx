@@ -70,7 +70,7 @@ const About = () => {
             "md:text-[32px] text-2xl font-bold container px-5  md:px-0 md:max-w-2xl mx-auto pb-3 text-center"
           }
         >
-          本選概要
+          最終審査
         </h2>
         <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
           {contents.map((item, index) => (

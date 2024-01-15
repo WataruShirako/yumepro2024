@@ -12,7 +12,7 @@ const News = () => {
     },
   ];
   return (
-    <section className="py-10">
+    <section className="py-20">
       <h2 className="sectionTitle text-center items-center Montserrat">
         <div className="relative w-max">
           <Image

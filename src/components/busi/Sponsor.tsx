@@ -57,7 +57,7 @@ const Sponsor = () => {
         </div>
       </div>
 
-      <div className="pb-20">
+      <div className="pb-10">
         <a
           href="/sponsor"
           className="button md:text-xl text-base font-bold relative"

@@ -159,7 +159,7 @@ const Sponsor = () => {
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
         </div>
-        <p className="mt-6 md:mt-12 font-semibold">後援企業</p>
+        <p className="mt-6 md:mt-12 font-semibold">後援</p>
         <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
           <Image
             src={"/top/sponsor/kobe.png"}
