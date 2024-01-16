@@ -1,5 +1,6 @@
-const siteName = "夢フォトオーディション | 夢叶えるプロジェクト2024";
-const description = "夢フォトオーディション";
+const siteName =
+  "夢プロショートドラマオーディション | 夢叶えるプロジェクト2024";
+const description = "夢プロショートドラマオーディション";
 const url = "https://yume-pj.com";
 
 export const metadata = {

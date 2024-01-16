@@ -21,7 +21,7 @@ const Backup = () => {
         <div className="item mx-auto">
           <Image
             className={"rounded-md"}
-            src={"/busi/hyogo/sponsor01.webp"}
+            src={"/busi/hyogo/sponsor01.jpg"}
             alt={"神戸市"}
             width={"150"}
             height={"150"}

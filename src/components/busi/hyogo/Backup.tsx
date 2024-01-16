@@ -21,7 +21,7 @@ const Backup = () => {
         <div className="item">
           <Image
             className={"rounded-md"}
-            src={"/busi/hyogo/sponsor01.webp"}
+            src={"/busi/hyogo/sponsor01.jpg"}
             alt={""}
             width={"150"}
             height={"150"}

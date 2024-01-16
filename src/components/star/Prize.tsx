@@ -4,7 +4,7 @@ import Comingsoon from "./Comingsoon";
 const Prize = ({ prize }: any) => {
   return (
     <>
-      <section id="sponsor" className={""}>
+      <section id="prize" className={""}>
         <h2 className="secTitle">
           <span className={"flex gap-2 m-auto items-center justify-center "}>
             <Image

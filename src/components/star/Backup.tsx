@@ -13,8 +13,8 @@ const Backup = ({ sponsors }: any) => {
           <div className="item mx-auto">
             <Image
               className={"rounded-md"}
-              src={"/busi/hyogo/sponsor01.webp"}
-              alt={""}
+              src={"/busi/hyogo/sponsor01.jpg"}
+              alt={"神戸市"}
               width={"200"}
               height={"200"}
             />
