@@ -39,7 +39,7 @@ const Venue = () => {
             <Image src={"/entt/venue.svg"} alt="" width={15} height={20} />
             Venue
           </span>
-          開催地
+          予選大会 開催地
         </h2>
         <div className=" m-auto">
           <p className="text-center mt-5">
@@ -5993,25 +5993,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm"></p>
                 <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[42%] top-[35%]">
-                <a
-                  href="/project/entertainment/ishikawa"
-                  target="_blank"
-                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
-                >
-                  金沢大会
-                  <Image
-                    src={"/top/arrow_white.svg"}
-                    alt={"▶︎"}
-                    width={6}
-                    height={6}
-                    className={"absolute top-[40%]  right-2"}
-                  />
-                </a>
 
-                <p className="mt-2 text-sm">2024年3月16日</p>
-                <p className="mb-5 text-sm">金沢市アートホール</p>
-              </div>
               <div className="md:absolute right-[35%] top-[75%]">
                 <a
                   href="/project/entertainment/osaka"
@@ -6031,7 +6013,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年2月28日</p>
                 <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[65%] top-[33%]">
+              <div className="md:absolute right-[50%] top-[37%]">
                 <a
                   href="/project/entertainment/kyoto"
                   target="_blank"

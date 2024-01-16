@@ -25,7 +25,7 @@ const BusinessPage = () => {
         <Project />
         <Venue />
         {/**         <Chairman />*/}
-        <Schedule />
+        {/** <Schedule />*/}
         <About />
         <Adviser />
         <Committee />

@@ -57,19 +57,7 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
-        <a
-          href="/business/ishikawa"
-          className="button2 md:text-xl text-base font-bold relative"
-        >
-          金沢大会
-          <Image
-            src={"/top/arrow_white.svg"}
-            alt={"▶︎"}
-            width={8.45}
-            height={12.45}
-            className={"absolute top-auto bottom-auto right-2"}
-          />
-        </a>
+
         <a
           href="/business/osaka"
           className="button2 md:text-xl text-base font-bold relative"
@@ -229,19 +217,7 @@ const RegionalTournament = () => {
             className={"absolute top-auto bottom-auto right-2"}
           />
         </a>
-        <a
-          href="/project/entertainment/ishikawa"
-          className="button2 md:text-xl text-base font-bold relative"
-        >
-          金沢大会
-          <Image
-            src={"/top/arrow_white.svg"}
-            alt={"▶︎"}
-            width={8.45}
-            height={12.45}
-            className={"absolute top-auto bottom-auto right-2"}
-          />
-        </a>
+
         <a
           href="/project/entertainment/osaka"
           className="button2 md:text-xl text-base font-bold relative"

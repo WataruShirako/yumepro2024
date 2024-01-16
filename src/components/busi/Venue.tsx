@@ -46,7 +46,7 @@ const Venue = () => {
             <p className="relative break-all montserrat">Venue</p>
           </div>
           <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-            開催地
+            予選大会 開催地
           </p>
         </h2>
         <div className=" m-auto">
@@ -97,7 +97,7 @@ const Venue = () => {
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="136.185 -864.696 4364.13 5172"
+              viewBox="136.185 -464.696 4364.13 5172"
               className="w-auto mx-auto h-auto opacity-100 md:opacity-100 relative md:max-w-4xl"
             >
               <path
@@ -5904,7 +5904,7 @@ const Venue = () => {
               />
             </svg>
             <div className="container grid grid-cols-2  gap-5 mx-auto pt-10 w-11/12">
-              <div className="md:absolute right-[13%] top-[40%]">
+              <div className="md:absolute right-[13%] top-[30%]">
                 <a
                   href="/business/miyagi"
                   target="_blank"
@@ -5923,7 +5923,7 @@ const Venue = () => {
                 <p className="mb-5 text-sm"></p>
               </div>
 
-              <div className="md:absolute right-[10%] top-[51%]">
+              <div className="md:absolute right-[10%] top-[41%]">
                 <a
                   href="/business/tokyo"
                   target="_blank"
@@ -5942,7 +5942,7 @@ const Venue = () => {
                 <p className="mb-5 text-sm">慶應義塾大学</p>
               </div>
 
-              <div className="md:absolute right-[16%] top-[63%]">
+              <div className="md:absolute right-[16%] top-[53%]">
                 <a
                   href="/business/shizuoka"
                   target="_blank"
@@ -5960,7 +5960,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm"></p>
                 <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[33%] top-[65%]">
+              <div className="md:absolute right-[33%] top-[55%]">
                 <a
                   href="/business/aichi"
                   target="_blank"
@@ -5978,25 +5978,8 @@ const Venue = () => {
                 <p className="mt-2 text-sm"></p>
                 <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[42%] top-[35%]">
-                <a
-                  href="/business/ishikawa"
-                  target="_blank"
-                  className="font-bold w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
-                >
-                  金沢大会
-                  <Image
-                    src={"/top/arrow_white.svg"}
-                    alt={"▶︎"}
-                    width={6}
-                    height={6}
-                    className={"absolute top-[40%]  right-2"}
-                  />
-                </a>
-                <p className="mt-2 text-sm">2024年3月16日</p>
-                <p className="mb-5 text-sm">金沢市アートホール</p>
-              </div>
-              <div className="md:absolute right-[35%] top-[75%]">
+
+              <div className="md:absolute right-[35%] top-[65%]">
                 <a
                   href="/business/osaka"
                   target="_blank"
@@ -6014,7 +5997,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年2月28日</p>
                 <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[65%] top-[33%]">
+              <div className="md:absolute right-[50%] top-[27%]">
                 <a
                   href="/business/kyoto"
                   target="_blank"
@@ -6032,7 +6015,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2023年2月3日</p>
                 <p className="mb-5 text-sm">オンライン開催</p>
               </div>
-              <div className="md:absolute right-[67%] top-[46%]">
+              <div className="md:absolute right-[67%] top-[36%]">
                 <a
                   href="/business/hyogo"
                   target="_blank"
@@ -6050,7 +6033,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年1月13日</p>
                 <p className="mb-5 text-sm">神戸ポートオアシス</p>
               </div>
-              <div className="md:absolute right-[52%] top-[70%]">
+              <div className="md:absolute right-[52%] top-[60%]">
                 <a
                   href="/business/kagawa"
                   target="_blank"
@@ -6068,7 +6051,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年2月17日</p>
                 <p className="mb-5 text-sm">イートピア香川</p>
               </div>
-              <div className="md:absolute left-[6%] top-[58%]">
+              <div className="md:absolute left-[6%] top-[48%]">
                 <a
                   href="/business/fukuoka"
                   target="_blank"
@@ -6086,7 +6069,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年2月3日</p>
                 <p className="mb-5 text-sm">北九州芸術劇場</p>
               </div>
-              <div className="md:absolute left-[3%] top-[70%]">
+              <div className="md:absolute left-[3%] top-[60%]">
                 <a
                   href="/business/kagoshima"
                   target="_blank"
@@ -6104,7 +6087,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年1月20日</p>
                 <p className="mb-5 text-sm">鹿児島市民文化ホール</p>
               </div>
-              <div className="md:absolute left-[1%] top-[82%]">
+              <div className="md:absolute left-[1%] top-[72%]">
                 <a
                   href="/business/okinawa"
                   target="_blank"

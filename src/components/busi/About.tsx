@@ -64,7 +64,7 @@ const contents = [
 const About = () => {
   return (
     <div>
-      <section id="sponsor" className={"my-20 md:my-40"}>
+      <section id="sponsor" className={"my-10"}>
         <h2
           className={
             "md:text-[32px] text-2xl font-bold container px-5  md:px-0 md:max-w-2xl mx-auto pb-3 text-center"
