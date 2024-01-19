@@ -3448,7 +3448,7 @@ const Venue = () => {
               />
               <path
                 id="HUKUI"
-                className="fill-[#639a33]"
+                className="fill-[#c2c2c2]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2183.16,2101.53
@@ -3556,9 +3556,7 @@ const Venue = () => {
               />
               <path
                 id="ISHIKAWA"
-                className={`fill-[#639a33] onTitle5 ${
-                  events.ISHIKAWA ? "" : ""
-                }`}
+                className={`fill-[#c2c2c2]  ${events.ISHIKAWA ? "" : ""}`}
                 {...(events.ISHIKAWA
                   ? {
                       onMouseEnter: () => setHoveredPrefecture("ISHIKAWA"),
@@ -3672,7 +3670,7 @@ const Venue = () => {
               />
               <path
                 id="TOYAMA"
-                className="fill-[#639a33]"
+                className="fill-[#c2c2c2]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2516.49,1931.75
@@ -4217,7 +4215,7 @@ const Venue = () => {
               />
               <path
                 id="NIIGATA"
-                className="fill-[#639a33]"
+                className="fill-[#c2c2c2]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2525.67,1818.33
@@ -5952,7 +5950,7 @@ const Venue = () => {
                 </a>
 
                 <p className="mt-2 text-sm">2024年3月30日</p>
-                <p className="mb-5 text-sm"></p>
+                <p className="mb-5 text-sm">ワンリーライブ</p>
               </div>
 
               <div className="md:absolute right-[16%] top-[63%]">

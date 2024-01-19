@@ -1,6 +1,6 @@
 import Header from "@/components/busi/Header";
 import Fv from "@/components/busi/tokyo/Fv";
-import Venue from "@/components/busi/comingsoon/Venue";
+import Venue from "@/components/busi/tokyo/Venue";
 import Committee from "@/components/busi/comingsoon/Committee";
 import Schedule from "@/components/busi/tokyo/Schedule";
 import Sponsor from "@/components/busi/comingsoon/Sponsor";

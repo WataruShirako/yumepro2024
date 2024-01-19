@@ -7,7 +7,7 @@ const contents = [
   },
   {
     title: "会場",
-    content: `未定`,
+    content: `丸ビルホール<br />東京都千代田区丸の内２丁目４−１ 丸ビル７F・８F`,
   },
 ];
 
