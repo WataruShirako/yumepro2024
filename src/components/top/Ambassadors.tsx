@@ -3,7 +3,7 @@ import Comingsoon from "./Comingsoon";
 
 const Ambassadors = () => {
   return (
-    <section id="ambassodor" className="pt-12 md:pt-24">
+    <section id="ambassador" className="pt-12 md:pt-24">
       <h2 className={"text-center"}>
         <span
           className={
@@ -11,12 +11,12 @@ const Ambassadors = () => {
           }
         >
           <Image
-            src={"/icons/ambassodors.svg"}
+            src={"/icons/ambassadors.svg"}
             alt={""}
             width={17}
             height={20}
           />
-          Ambassodors
+          Ambassadors
         </span>
         <p className={"font-bold text-2xl md:text-3xl mt-1"}>アンバサダー</p>
       </h2>

@@ -3,7 +3,7 @@ import Image from "next/image";
 const Project = () => {
   return (
     <>
-      <section className="project my-20 md:my-40">
+      <section id="project" className=" my-20 md:my-40">
         <h2 className="sectionTitle text-center items-center Montserrat">
           <div className="relative w-max">
             <Image

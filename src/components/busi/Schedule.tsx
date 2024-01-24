@@ -35,7 +35,7 @@ const contents = [
 
 const Schedule = () => {
   return (
-    <section className=" my-20 md:my-40">
+    <section id="schedule" className=" my-20 md:my-40">
       <h2 className="sectionTitle text-center items-center Montserrat  mt-20 md:mt-40 mb-10">
         <div className="relative w-max">
           <Image

@@ -5,14 +5,14 @@ import Instagram from "../entt/Instagram";
 const News = () => {
   const news = [
     {
-      path: "/#sponsor",
+      path: "/project/entertainment/#sponsor",
       title: "2024.1.24",
       content: "スポンサーを更新しました。",
     },
     {
-      path: "/#ambassador",
+      path: "/project/entertainment/#backup",
       title: "2024.1.24",
-      content: "アンバサダーを更新しました。",
+      content: "後援を更新しました。",
     },
   ];
   return (

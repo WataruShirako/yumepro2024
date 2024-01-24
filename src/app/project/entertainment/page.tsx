@@ -17,7 +17,7 @@ import Adviser from "@/components/star/Adviser";
 import Department from "@/components/entt/Department";
 import ToTop from "@/components/entt/Totop";
 import Sns from "@/components/entt/Sns";
-import News from "@/components/top/News";
+import News from "@/components/star/News";
 import Cta from "@/components/top/Cta";
 import Category from "@/components/top/Category";
 import Link2023 from "@/components/top/Link2023";

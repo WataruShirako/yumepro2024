@@ -28,7 +28,7 @@ const Ambassador = () => {
               width={20}
               height={20}
             />
-            Ambassador
+            Ambassadors
           </span>
           アンバサダー
         </h2>

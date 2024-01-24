@@ -6010,7 +6010,7 @@ const Venue = () => {
                     className={"absolute top-[40%]  right-2"}
                   />
                 </a>
-                <p className="mt-2 text-sm">2023年2月3日</p>
+                <p className="mt-2 text-sm">2024年2月3日</p>
                 <p className="mb-5 text-sm">オンライン開催</p>
               </div>
               <div className="md:absolute right-[67%] top-[36%]">

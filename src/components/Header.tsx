@@ -219,6 +219,7 @@ const Header = ({ header }: any) => {
               </button>
               {isNavBusiVisible && <NavBusi />}
             </li>
+            {/** 
             <li>
               <a
                 href="https://www.yume-pj.com/news"
@@ -227,6 +228,8 @@ const Header = ({ header }: any) => {
                 ニュース
               </a>
             </li>
+            
+*/}
             <li>
               <a
                 href="https://yume-pj.com/sponsor/"

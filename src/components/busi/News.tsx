@@ -5,10 +5,14 @@ import Image from "next/image";
 const News = () => {
   const news = [
     {
-      path: "/",
-      title: "2022.12.29",
-      content:
-        "ミクチャユーザーによる営業妨害行為への株式会社クレドインターナショナルおよび株式会社DONUTSの対応について",
+      path: "/business/#sponsor",
+      title: "2024.1.24",
+      content: "スポンサーを更新しました。",
+    },
+    {
+      path: "/business/#backup",
+      title: "2024.1.24",
+      content: "後援を更新しました。",
     },
   ];
   return (
@@ -28,7 +32,7 @@ const News = () => {
           ニュース
         </p>
       </h2>
-      {/* 
+
       <div className={"container m-auto max-w-5xl px-[4%] mb-10"}>
         {news.map((news, index) => (
           <div key={index} className={""}>
@@ -48,6 +52,7 @@ const News = () => {
           </div>
         ))}
       </div>
+      {/* 
       <a
         href="/news"
         className="viewall text-center Montserrat mt-8 underline block"
@@ -55,12 +60,6 @@ const News = () => {
         View all
       </a>
       */}
-      <a
-        href="/news"
-        className="viewall text-center Montserrat mt-8 underline block"
-      >
-        View all
-      </a>
     </section>
   );
 };

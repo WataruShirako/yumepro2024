@@ -3,7 +3,7 @@ import Comingsoon from "./Comingsoon";
 
 const Sponsor = () => {
   return (
-    <section id="sronsor" className="pt-12 md:pt-24">
+    <section id="sponsor" className="pt-12 md:pt-24">
       <h2 className={"text-center"}>
         <span
           className={

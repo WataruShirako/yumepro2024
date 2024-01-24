@@ -3,7 +3,7 @@ import Image from "next/image";
 const Project = ({ about }: any) => {
   return (
     <>
-      <section id="about" className={"bg-white"}>
+      <section id="project" className={"bg-white"}>
         <h2 className={`secTitle`}>
           <span className={`flex gap-2 justify-center Montserrat`}>
             <Image

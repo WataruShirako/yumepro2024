@@ -18,7 +18,7 @@ const Sns = () => {
           />
         </svg>
       </div>
-      <section id="ambassador" className={"bg-white"}>
+      <section id="sns" className={"bg-white"}>
         <h2 className="text-2xl md:text-3xl text-center font-semibold mb-6">
           夢叶えるプロジェクト
           <br className={"lg:hidden"} />
