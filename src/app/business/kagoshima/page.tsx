@@ -10,6 +10,7 @@ import Footer from "@/components/busi/Footer";
 import Image from "next/image";
 import Backup from "@/components/busi/kagoshima/Backup";
 import Chairman from "@/components/common/Chairman";
+import Ambassador from "@/components/busi/comingsoon/Ambassador";
 
 const BusinessPage = () => {
   return (
@@ -17,20 +18,11 @@ const BusinessPage = () => {
       <Header />
       <main className="busi">
         <Fv />
-        {/*-----Venue-----*/}
-        <Venue />
-        {/*-----Committee-----*/}
-        <Chairman />
-        <Committee />
-
-        {/*-----chedule -----*/}
         <Schedule />
-
-        {/*-----winnerBenefit----- */}
-
+        <Venue />
         <WinnerBenefit />
-
-        {/*-----Sponsor -----*/}
+        <Ambassador />
+        <Chairman />
         <Sponsor />
         <Backup />
         {/*-----RegionalTournament -----*/}

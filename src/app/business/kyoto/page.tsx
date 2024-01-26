@@ -9,6 +9,8 @@ import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
 import Chairman from "@/components/common/Chairman";
+import Ambassador from "@/components/busi/comingsoon/Ambassador";
+import Backup from "@/components/busi/comingsoon/Backup";
 
 const BusinessPage = () => {
   return (
@@ -16,18 +18,13 @@ const BusinessPage = () => {
       <Header />
       <main className="busi">
         <Fv />
-        {/*-----Venue-----*/}
-        <Venue />
-        {/*-----Committee-----*/}
-        <Chairman />
-        <Committee />
-        {/*-----chedule -----*/}
         <Schedule />
-        {/*-----winnerBenefit----- */}
-        \
+        <Venue />
         <WinnerBenefit />
-        {/*-----Sponsor -----*/}
+        <Ambassador />
+        <Chairman />
         <Sponsor />
+        <Backup />
         {/*-----RegionalTournament -----*/}
         <section id="regional_tournament" className={"my-20 md:my-40"}>
           <h2 className="sectionTitle text-center items-center Montserrat">

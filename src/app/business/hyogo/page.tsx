@@ -11,6 +11,7 @@ import Image from "next/image";
 import Backup from "@/components/busi/hyogo/Backup";
 import Chairman from "@/components/common/Chairman";
 import ComingSoon from "@/components/common/ComingSoon";
+import Ambassador from "@/components/busi/comingsoon/Ambassador";
 
 const BusinessPage = () => {
   return (
@@ -18,7 +19,10 @@ const BusinessPage = () => {
       <Header />
       <main className="busi">
         <Fv />
+        <Schedule />
         <Venue />
+        <WinnerBenefit />
+        {/** 
         <section className=" my-20 md:my-40">
           <h2 className="sectionTitle text-center items-center">
             <div className="relative w-max montserrat">
@@ -37,7 +41,7 @@ const BusinessPage = () => {
           </h2>
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <ComingSoon />
-            {/** 
+           
           <div className="w-1/2 mx-auto">
             <Image
               src={"/busi/company01.jpg"}
@@ -59,14 +63,11 @@ const BusinessPage = () => {
               3Bjunior、マジェスティックセブン、アメフラっシ、A♡Zの元メンバー。
             </p>
           </div>
-          */}
+          
           </div>
         </section>
+        */}
         <Committee />
-
-        <Schedule />
-
-        <WinnerBenefit />
 
         <Sponsor />
         <Backup />

@@ -9,6 +9,7 @@ import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
 import Chairman from "@/components/common/Chairman";
+import Backup from "@/components/busi/comingsoon/Backup";
 
 const BusinessPage = () => {
   return (
@@ -16,9 +17,9 @@ const BusinessPage = () => {
       <Header />
       <main className="busi">
         <Fv />
-        {/*-----Venue-----*/}
+        <Schedule />
         <Venue />
-        {/*-----Committee-----*/}
+        <WinnerBenefit />
         <section className=" my-20 md:my-40">
           <h2 className="sectionTitle text-center items-center">
             <div className="relative w-max montserrat">
@@ -27,12 +28,18 @@ const BusinessPage = () => {
                 width={128}
                 height={128}
                 alt=""
-                className="absolute -top-1 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
+                className="absolute -top-1 -left-0 md:-top-8 md:-left-1 w-16 h-16 md:w-32 md:h-32"
               />
-              <p className="relative break-all">CHAIRMAN</p>
+              <p className="relative break-all">
+                CHAIRMAN
+                <br />
+                and
+                <br />
+                AMBASSADOR
+              </p>
             </div>
             <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-              総合司会
+              司会兼アンバサダー
             </p>
           </h2>
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
@@ -59,18 +66,9 @@ const BusinessPage = () => {
             </div>
           </div>
         </section>
-        <Committee />
 
-        {/*-----chedule -----*/}
-        <Schedule />
-
-        {/*-----winnerBenefit----- */}
-
-        <WinnerBenefit />
-
-        {/*-----Sponsor -----*/}
         <Sponsor />
-
+        <Backup />
         {/*-----RegionalTournament -----*/}
         <section id="regional_tournament" className={"my-20 md:my-40"}>
           <h2 className="sectionTitle text-center items-center Montserrat">

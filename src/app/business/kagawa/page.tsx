@@ -11,6 +11,7 @@ import Image from "next/image";
 import Chairman from "@/components/common/Chairman";
 import Backup from "@/components/busi/kagawa/Backup";
 import ComingSoon from "@/components/common/ComingSoon";
+import Ambassador from "@/components/busi/comingsoon/Ambassador";
 
 const BusinessPage = () => {
   return (
@@ -18,8 +19,10 @@ const BusinessPage = () => {
       <Header />
       <main className="busi">
         <Fv />
-        {/*-----Venue-----*/}
+        <Schedule />
         <Venue />
+        <WinnerBenefit />
+        <Ambassador />
         {/*-----Committee-----*/}
         <section className=" my-20 md:my-40">
           <h2 className="sectionTitle text-center items-center">
@@ -64,16 +67,6 @@ const BusinessPage = () => {
           */}
           </div>
         </section>
-        <Committee />
-
-        {/*-----chedule -----*/}
-        <Schedule />
-
-        {/*-----winnerBenefit----- */}
-
-        <WinnerBenefit />
-
-        {/*-----Sponsor -----*/}
         <Sponsor />
         <Backup />
         {/*-----RegionalTournament -----*/}

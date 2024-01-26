@@ -15,9 +15,7 @@ const Chairman = () => {
             />
             <p className="relative break-all">CHAIRMAN</p>
           </div>
-          <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-            総合司会
-          </p>
+          <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">司会</p>
         </h2>
         <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
           <div className="w-1/2 mx-auto">
