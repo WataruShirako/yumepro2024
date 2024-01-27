@@ -22,12 +22,14 @@ export const Navigation: FC<Props> = ({ open, id }) => {
       <p className="font-bold text-2xl pt-2 border-b border-dashed w-10/12 text-center">
         エンタメ部門
       </p>
-
+      <a className="py-2" href="/project/entertainment">
+        スター誕生オーディション2024 {">"}
+      </a>
       <a className="py-2" href="/project/entertainment/photo">
         夢フォトオーディション {">"}
       </a>
-      <a className="py-2" href="/project/entertainment">
-        夢プロスター誕生オーディション2024 {">"}
+      <a className="py-2" href="/project/entertainment/shortdrama">
+        ショートドラマオーディション {">"}
       </a>
 
       <p className="font-bold text-2xl pt-8  border-b  border-dashed w-10/12 text-center">
@@ -35,7 +37,7 @@ export const Navigation: FC<Props> = ({ open, id }) => {
       </p>
 
       <a className="py-2" href="/business">
-        全国学生スタートアップ甲子園2024 {">"}
+        学生ピッチ甲子園2024 {">"}
       </a>
 
       <p className="py-10">

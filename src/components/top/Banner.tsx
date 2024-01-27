@@ -7,19 +7,25 @@ import Link from "next/link";
 
 const auditions = [
   {
+    name: "スター誕生オーディション",
+    path: "/project/entertainment",
+    src: "/top/banner/banner_star.jpg",
+  },
+  {
     name: "夢フォトオーディション",
     path: "/project/entertainment/photo",
     src: "/top/banner/yumephoto.png",
   },
-  {
-    name: "全国学生スタートアップ甲子園",
-    path: "/business",
-    src: "/top/banner/banner_business.webp",
-  },
+
   {
     name: "夢プロショートドラマオーディション",
-    path: "",
+    path: "/project/entertainment/shortdrama",
     src: "/top/banner/banner_drama.png",
+  },
+  {
+    name: "学生ピッチ甲子園",
+    path: "/business",
+    src: "/top/banner/banner_business.jpg",
   },
 ];
 

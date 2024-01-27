@@ -12,13 +12,13 @@ const NavBusi = () => {
     {
       path: "/business",
       name: "business",
-      title: "全国学生スタートアップ甲子園",
+      title: "学生ピッチ甲子園",
     },
   ];
   return (
     <nav
       className={
-        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[280px] border rounded-xl overflow-hidden"
+        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[180px] border rounded-xl overflow-hidden"
       }
     >
       <ul className={""}>
@@ -27,7 +27,7 @@ const NavBusi = () => {
             <a
               href={`${contest.path}`}
               className={
-                "px-3 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid"
+                "px-3 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid font-[YuGothic]"
               }
             >
               <Image
@@ -58,11 +58,16 @@ const NavEntt = () => {
       name: "yumephoto",
       title: "夢フォトオーディション",
     },
+    {
+      path: "/project/entertainment/shortdrama",
+      name: "shortdrama",
+      title: "ショートドラマオーディション",
+    },
   ];
   return (
     <nav
       className={
-        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[250px] border rounded-xl overflow-hidden"
+        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[280px] border rounded-xl overflow-hidden"
       }
     >
       <ul className={""}>
@@ -71,7 +76,7 @@ const NavEntt = () => {
             <a
               href={`${contest.path}`}
               className={
-                "px-4 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid"
+                "px-4 py-2 text-sm text-[#252525] flex hover:bg-slate-50 gap-4 border-b-2 border-slate-50 border-solid font-[YuGothic]"
               }
             >
               <Image

@@ -125,14 +125,14 @@ const Category = () => {
             <div className={"flex justify-around mt-4 gap-6 "}>
               <div className={"text-center w-full"}>
                 <Image
-                  src={"/busi/busi_top_pc.webp"}
-                  alt={"全国学生スタートアップ甲子園"}
+                  src={"/busi/busi_top_pc.jpg"}
+                  alt={"学生ピッチ甲子園"}
                   width={500}
                   height={250}
                   className={"rounded-2xl shadow-md w-full"}
                 />
                 <p className={"text-xs font-semibold mt-2"}>
-                  全国学生スタートアップ甲子園 2024
+                  学生ピッチ甲子園 2024
                 </p>
               </div>
             </div>

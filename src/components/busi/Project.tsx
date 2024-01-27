@@ -16,11 +16,11 @@ const Project = () => {
             <p className="relative montserrat">Project</p>
           </div>
           <p className="relative mt-3 md:mt-6 mb-20 md:text-[32px] text-2xl">
-            全国学生スタートアップ甲子園とは？
+            学生ピッチ甲子園とは？
           </p>
         </h2>
         <p className="container text-left mx-auto px-5 md:px-0 md:max-w-2xl pb-20 text-[15px] leading-[1.3rem]">
-          全国学生スタートアップ甲子園とは、日本から世界を代表するスタートアップ企業を生み出すべく誕生したピッチコンテスト。
+          学生ピッチ甲子園とは、日本から世界を代表するスタートアップ企業を生み出すべく誕生したピッチコンテスト。
           <br />
           各地の予選通過者が東京にて最終決戦を行い、優勝者には賞金として起業・事業資金1,000万が与えられる。
           <br />
