@@ -628,7 +628,6 @@ const Home = () => {
         {/*<Cta />*/}
         <Category />
         <Link2023 />
-        <News />
       </main>
       <ToTop />
       <Footer />

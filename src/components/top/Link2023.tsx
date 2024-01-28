@@ -4,7 +4,7 @@ const Link2023 = () => {
   return (
     <a
       href="http://www.2023.yume-pj.com/"
-      className={"block relative mt-12 md:mt-24 hover:brightness-90"}
+      className={"block relative mt-12 md:mt-24 hover:brightness-90 pb-10"}
     >
       <div
         className={
