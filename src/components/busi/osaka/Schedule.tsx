@@ -3,11 +3,15 @@ import Image from "next/image";
 const contents = [
   {
     title: "開催日",
-    content: `2024年2月28日(水)`,
+    content: `2024年3月11日(月)`,
   },
   {
     title: "会場",
     content: `未定`,
+  },
+  {
+    title: "発表時間",
+    content: `プレゼン5分、質疑応答3分`,
   },
 ];
 

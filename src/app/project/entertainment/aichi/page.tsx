@@ -31,11 +31,11 @@ const Home = () => {
   const contents = [
     {
       title: "開催日",
-      content: `2024年3月30日(土)`,
+      content: `2024年4月6日(土)`,
     },
     {
       title: "会場",
-      content: `未定`,
+      content: `北文化小劇場`,
     },
   ];
 
@@ -53,8 +53,6 @@ const Home = () => {
             開催日程
           </h2>
           <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
-            <ComingSoon />
-            {/* 
             {contents.map((item, index) => (
               <div
                 key={index}
@@ -68,7 +66,6 @@ const Home = () => {
                 </div>
               </div>
             ))}
-            */}
           </div>
         </section>
         <section id="venue">
@@ -79,17 +76,30 @@ const Home = () => {
             </span>
             開催地
           </h2>
+          <div className="container flex m-auto md:max-w-4xl pb-10 px-5 justify-center">
+            <div className="w-1/3 md:w-max">
+              <Image
+                src={"/busi/aichi/venue.jpg"}
+                width={278}
+                height={278}
+                alt=""
+                className=""
+              />
+            </div>
 
-          <ComingSoon />
-
-          {/*      <Image
-        src={"/busi/hyogo/venue.png"}
-        width={895}
-        height={152}
-        alt=""
-        className="mx-auto px-5"
-      />
-  */}
+            <div className="md:pl-10 pl-5  w-2/3 md:w-max">
+              <p className="text-left font-bold mt-0 md:mt-5 text-xl">
+                北文化小劇場
+              </p>
+              <p className="text-left mt-2 md:mt-5 md:text-base text-sm">
+                <br />
+                〒462-0037
+                <br />
+                愛知県名古屋市北区志賀町４丁目６０−３１
+                <br />
+              </p>
+            </div>
+          </div>
         </section>
         <WinnerBenefit />
         <section id="ambassador" className={""}>
@@ -120,6 +130,8 @@ const Home = () => {
             </span>
             司会
           </h2>
+          <ComingSoon />
+          {/** 
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2 mx-auto">
               <Image
@@ -143,6 +155,7 @@ const Home = () => {
               </p>
             </div>
           </div>
+          */}
         </section>
         {/** 
         <section id="committee" className={""}>

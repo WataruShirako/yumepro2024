@@ -31,6 +31,12 @@ export const Navigation: FC<Props> = ({ open, id }) => {
       <a className="py-2" href="/project/entertainment/shortdrama">
         ショートドラマオーディション {">"}
       </a>
+      <a className="py-2" href="/project/entertainment/shinzentaishi">
+        親善大使オーディション {">"}
+      </a>
+      <a className="py-2" href="/project/entertainment/liver">
+        ライバーオーディション {">"}
+      </a>
 
       <p className="font-bold text-2xl pt-8  border-b  border-dashed w-10/12 text-center">
         ビジネス部門

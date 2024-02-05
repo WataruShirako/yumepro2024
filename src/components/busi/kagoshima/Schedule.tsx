@@ -9,6 +9,10 @@ const contents = [
     title: "会場",
     content: `鹿児島市民文化ホール`,
   },
+  {
+    title: "発表時間",
+    content: `プレゼン5分、質疑応答3分`,
+  },
 ];
 
 const Schedule = () => {

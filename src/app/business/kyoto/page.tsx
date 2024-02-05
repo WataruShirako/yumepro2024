@@ -19,7 +19,7 @@ const BusinessPage = () => {
       <main className="busi">
         <Fv />
         <Schedule />
-        <Venue />
+
         <WinnerBenefit />
         <Ambassador />
         <Chairman />

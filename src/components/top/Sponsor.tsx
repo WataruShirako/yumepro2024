@@ -163,21 +163,35 @@ const Sponsor = () => {
         <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
           <Image
             src={"/top/sponsor/kobe.png"}
-            alt="kobe"
+            alt="神戸市"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
             src={"/top/sponsor/kagoshimashi.png"}
-            alt="kagoshima"
+            alt="鹿児島市"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
             src={"/busi/kagawa/takamatsushi.jpg"}
-            alt="takamatsu"
+            alt="高松市"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
+          <Image
+            src={"/busi/fukuoka/kitakyusyu.jpg"}
+            alt="北九州市"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
+          <Image
+            src={"/busi/fukuoka/yukuhashi.jpg"}
+            alt="行橋市"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "

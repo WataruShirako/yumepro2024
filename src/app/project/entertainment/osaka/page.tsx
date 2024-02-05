@@ -30,7 +30,7 @@ const Home = () => {
   const contents = [
     {
       title: "開催日",
-      content: `2024年2月28日(水)`,
+      content: `2024年3月11日(月)`,
     },
     {
       title: "会場",

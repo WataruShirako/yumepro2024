@@ -69,7 +69,7 @@ const Home = () => {
         </section>
 
         <WinnerBenefit />
-
+        {/** */}
         <section id="sponsor" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>

@@ -20,7 +20,7 @@ const Home = () => {
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={"/top/top_comingsoon.webp"}
+              src={"/shinzentaishi/shinzentaishi_Fv.jpg"}
               alt="text"
               width={1920}
               height={930}
@@ -28,7 +28,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={"/top/top_comingsoon.webp"}
+              src={"/shinzentaishi/shinzentaishi_Fv.jpg"}
               alt="text"
               width={750}
               height={1370}
@@ -114,25 +114,7 @@ const Home = () => {
                 2/1(木) 12:00 〜2/11(日) 24:00
               </div>
             </div>
-            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
-              <p
-                className={
-                  "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
-                }
-              >
-                <span
-                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
-                >
-                  都市
-                </span>
-              </p>
-              <div
-                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
-              >
-                [関東] 3/30東京都 3/24宮城県
-                <br /> [関西] 2/28大阪府 2/17香川県
-              </div>
-            </div>
+
             <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between gap-3">
               <p
                 className={
@@ -199,14 +181,13 @@ const Home = () => {
                 🏆関西 / 関東の1位のうち より多くポイントを獲得した方🏆
               </p>
             </div>
-            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center">
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
               <br />
-              <p className="font-bold">
+              <p className="font-bold mb-2">
                 夢プロ親善大使に就任
                 <br />
                 台湾大会にご招待
               </p>
-              <br />
               交通費&宿泊費は夢プロが手配します。
               <br />
               台湾で動画を撮影してシェアしていただきます。
@@ -217,15 +198,18 @@ const Home = () => {
               関西 / 関東 各ポイントランキング1位
               <p className="text-sm"></p>
             </div>
-            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center">
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
               <br />
-              <p className="font-bold">
+              <p className="font-bold mb-2">
                 夢プロ親善大使に就任
                 <br />
                 地方大会のアシスタントMC
               </p>
+              【関東】 3/30東京都 3/24宮城県
+              <br /> 【関西】 2/28大阪府 2/17香川県
               <br />
-              先に、参加したい都市を選べます。
+              先に上記都市から1つ、参加したい都市を選べます。
+              <br />
               <br />
               1泊2日分の交通費&宿泊費は夢プロが手配します。
               <br />
@@ -237,16 +221,18 @@ const Home = () => {
               関西 / 関東 各ポイントランキング2位
               <p className="text-sm"></p>
             </div>
-            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center">
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
               <br />
-              <p className="font-bold">
+              <p className="font-bold mb-2">
                 夢プロ親善大使に就任
                 <br />
                 地方大会のアシスタントMC
               </p>
+              【関東】 3/30東京都 3/24宮城県
+              <br /> 【関西】 2/28大阪府 2/17香川県
               <br />
               1位が選ばなかった方の都市に参加できます。
-              <br />
+              <br /> <br />
               1泊2日分の交通費&宿泊費は夢プロが手配します。
               <br />
               各都市で動画を撮影してシェアしていただきます。

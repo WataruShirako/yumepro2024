@@ -10,6 +10,10 @@ const contents = [
     title: "会場",
     content: `沖縄アリーナ`,
   },
+  {
+    title: "発表時間",
+    content: `プレゼン5分、質疑応答3分`,
+  },
 ];
 
 const Schedule = () => {

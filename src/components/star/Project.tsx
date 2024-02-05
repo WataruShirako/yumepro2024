@@ -19,10 +19,22 @@ const Project = ({ about }: any) => {
         <div className="container m-auto max-w-[92%] lg:max-w-2xl">
           日本最大級エンタメオーディションを開催。
           <br />
-          地方からスターを発掘するべく「夢プロスターオーディション」と
+          地方からスターを発掘するべく「夢プロスター誕生オーディション」と
           アイドル・声優などあらゆる業界別エンタメオーディションを実施します。
           <br />
+          <br />
           予選は地方予選および配信や動画、書類などを使って実施し、最終審査・授賞式をニコニコ超会議で実施します。
+          <br />
+          <br />
+          歌い手については「歌ってみた Collection 〜2024
+          Spring〜」への投稿が前提となります。参加ルールは
+          <a
+            href="https://utattemita-collection.jp/project#special"
+            target="_blank"
+            className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
+          >
+            こちら
+          </a>
         </div>
       </section>
       <div className="svg__container">

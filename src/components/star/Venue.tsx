@@ -5929,8 +5929,8 @@ const Venue = () => {
                   />
                 </a>
 
-                <p className="mt-2 text-sm"></p>
-                <p className="mb-5 text-sm"></p>
+                <p className="mt-2 text-sm">2024年3月24日</p>
+                <p className="mb-5 text-sm">イオンモール新利府</p>
               </div>
 
               <div className="md:absolute right-[10%] top-[51%]">
@@ -5953,7 +5953,7 @@ const Venue = () => {
                 <p className="mb-5 text-sm">ワンリーライブ</p>
               </div>
 
-              <div className="md:absolute right-[16%] top-[63%]">
+              <div className="md:absolute right-[14%] top-[63%]">
                 <a
                   href="/project/entertainment/shizuoka"
                   target="_blank"
@@ -5969,10 +5969,10 @@ const Venue = () => {
                   />
                 </a>
 
-                <p className="mt-2 text-sm"></p>
-                <p className="mb-5 text-sm"></p>
+                <p className="mt-2 text-sm">2024年4月7日</p>
+                <p className="mb-5 text-sm">浜松市総合産業展示館</p>
               </div>
-              <div className="md:absolute right-[33%] top-[65%]">
+              <div className="md:absolute right-[36%] top-[64%]">
                 <a
                   href="/project/entertainment/aichi"
                   target="_blank"
@@ -5988,8 +5988,8 @@ const Venue = () => {
                   />
                 </a>
 
-                <p className="mt-2 text-sm"></p>
-                <p className="mb-5 text-sm"></p>
+                <p className="mt-2 text-sm">2024年4月6日</p>
+                <p className="mb-5 text-sm">北文化小劇場</p>
               </div>
 
               <div className="md:absolute right-[35%] top-[75%]">
@@ -6008,7 +6008,7 @@ const Venue = () => {
                   />
                 </a>
 
-                <p className="mt-2 text-sm">2024年2月28日</p>
+                <p className="mt-2 text-sm">2024年3月11日</p>
                 <p className="mb-5 text-sm"></p>
               </div>
               <div className="md:absolute right-[50%] top-[37%]">

@@ -117,6 +117,8 @@ const Home = () => {
             </span>
             司会
           </h2>
+          <ComingSoon />
+          {/** 
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2 mx-auto">
               <Image
@@ -140,6 +142,7 @@ const Home = () => {
               </p>
             </div>
           </div>
+          */}
         </section>
         {/** 
         <section id="committee" className={""}>

@@ -9,6 +9,10 @@ const contents = [
     title: "会場",
     content: `オンライン開催`,
   },
+  {
+    title: "発表時間",
+    content: `プレゼン5分、質疑応答3分`,
+  },
 ];
 
 const Schedule = () => {

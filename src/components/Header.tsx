@@ -63,6 +63,16 @@ const NavEntt = () => {
       name: "shortdrama",
       title: "ショートドラマオーディション",
     },
+    {
+      path: "/project/entertainment/shinzentaishi",
+      name: "shinzentaishi",
+      title: "親善大使オーディション",
+    },
+    {
+      path: "/project/entertainment/liver",
+      name: "liver",
+      title: "ライバーオーディション",
+    },
   ];
   return (
     <nav

@@ -8,7 +8,7 @@ import WinnerBenefit from "@/components/common/WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
-import Chairman from "@/components/common/Chairman";
+import Chairman from "@/components/busi/comingsoon/Chairman";
 import Ambassador from "@/components/busi/comingsoon/Ambassador";
 import Backup from "@/components/busi/comingsoon/Backup";
 

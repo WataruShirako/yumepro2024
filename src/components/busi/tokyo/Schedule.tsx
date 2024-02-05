@@ -9,6 +9,10 @@ const contents = [
     title: "会場",
     content: `丸ビルホール<br />東京都千代田区丸の内２丁目４−１ 丸ビル７F・８F`,
   },
+  {
+    title: "発表時間",
+    content: `プレゼン5分、質疑応答3分`,
+  },
 ];
 
 const Schedule = () => {
