@@ -9,7 +9,7 @@ const Backup = ({ sponsors }: any) => {
           <span className={"block"}>Backup</span>
           後援
         </h2>
-        <div className="container grid grid-cols-3 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
+        <div className="container grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
           <div className="item mx-auto">
             <Image
               className={"rounded-md"}
@@ -32,6 +32,24 @@ const Backup = ({ sponsors }: any) => {
             <Image
               src={"/busi/kagawa/takamatsushi.jpg"}
               alt="高松市"
+              width={"200"}
+              height={"200"}
+              className={"rounded-md"}
+            />
+          </div>
+          <div className="item mx-auto">
+            <Image
+              src={"/busi/fukuoka/kitakyusyu.jpg"}
+              alt="北九州市"
+              width={"200"}
+              height={"200"}
+              className={"rounded-md"}
+            />
+          </div>
+          <div className="item mx-auto">
+            <Image
+              src={"/busi/fukuoka/yukuhashi.jpg"}
+              alt="行橋市"
               width={"200"}
               height={"200"}
               className={"rounded-md"}

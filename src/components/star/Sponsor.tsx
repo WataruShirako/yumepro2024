@@ -14,8 +14,8 @@ const Sponsor = ({ sponsors }: any) => {
             <div className="item mx-auto">
               <Image
                 className={"rounded-md "}
-                src={"/top/sponsor/oneli_navi.webp"}
-                alt={"oneli_navi"}
+                src={"/top/sponsor/onelilive.jpg"}
+                alt={"oneli_live"}
                 width={"200"}
                 height={"200"}
               />
@@ -59,7 +59,16 @@ const Sponsor = ({ sponsors }: any) => {
             <div className="item">
               <Image
                 src={"/top/sponsor/utattemitacollection.jpg"}
-                alt="showroom"
+                alt="utattemitacollection"
+                width={"200"}
+                height={"200"}
+                className={"rounded-md mx-auto"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                src={"/top/sponsor/onedining.jpg"}
+                alt="onedining"
                 width={"200"}
                 height={"200"}
                 className={"rounded-md mx-auto"}

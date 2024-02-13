@@ -15,7 +15,7 @@ const contents = [
   {
     title: "審査方法",
     content: `
-    対面ピッチ審査
+    ピッチ審査(7分)
     `,
   },
   {
@@ -49,14 +49,6 @@ const contents = [
     title: "目的",
     content: `
     「地方からスターを」というコンセプトのもと、日本から世界を代表するスタートアップを輩出するべく、学生が起業しやすい環境の創出
-    `,
-  },
-  {
-    title: "発表時間",
-    content: `
-    プレゼン7分(パワーポイント使用可)
-    <br />
-    質疑応答なし
     `,
   },
 ];
@@ -103,6 +95,15 @@ const About = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
+        <div className="text-center font-bold my-10">
+          メンタ―募集中!
+          <br />
+          下記メールアドレスからお問い合わせください。
+          <br />
+          <a href="mailto:info@hostechjapan.com?subject=お問い合わせ">
+            info@hostechjapan.com
+          </a>
+        </div>
       </section>
     </div>
   );

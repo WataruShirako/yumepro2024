@@ -17,7 +17,7 @@ const Backup = () => {
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">後援</p>
       </h2>
       {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
-      <div className="container grid grid-cols-3 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
+      <div className="container grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5 px-5 mt-10 mx-auto md:max-w-4xl max-w-lg pb-10">
         <div className="item mx-auto">
           <Image
             className={"rounded-md"}
@@ -41,6 +41,24 @@ const Backup = () => {
             className={"rounded-md"}
             src={"/busi/kagawa/takamatsushi.jpg"}
             alt={"高松市"}
+            width={"150"}
+            height={"150"}
+          />
+        </div>
+        <div className="item mx-auto">
+          <Image
+            className={"rounded-md"}
+            src={"/busi/fukuoka/kitakyusyu.jpg"}
+            alt="北九州市"
+            width={"150"}
+            height={"150"}
+          />
+        </div>
+        <div className="item mx-auto">
+          <Image
+            className={"rounded-md"}
+            src={"/busi/fukuoka/yukuhashi.jpg"}
+            alt="行橋市"
             width={"150"}
             height={"150"}
           />

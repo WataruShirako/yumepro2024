@@ -47,8 +47,8 @@ const Sponsor = () => {
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
-            src={"/top/sponsor/oneli_navi.webp"}
-            alt="oneli_navi"
+            src={"/top/sponsor/onelilive.jpg"}
+            alt="oneli_live"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
@@ -76,25 +76,33 @@ const Sponsor = () => {
           />
           <Image
             src={"/top/sponsor/utattemitacollection.jpg"}
-            alt="showroom"
+            alt="utattemitacollection"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
             src={"/busi/kagoshima/TYH.jpg"}
-            alt="showroom"
+            alt="TYH"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
           />
           <Image
-            src={"/top/sponsor/zen_spa.png"}
-            alt="sakura"
+            src={"/top/sponsor/onedining.jpg"}
+            alt="onedining"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
+          <Image
+            src={"/top/sponsor/zen_spa.png"}
+            alt="zen_spa"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
+
           <Image
             src={"/top/sponsor/an_spa.png"}
             alt="an_spa"

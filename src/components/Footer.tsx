@@ -23,6 +23,11 @@ const Footer = () => {
               スポンサー募集
             </a>
           </li>
+          <li className={"text-xs font-semibold"}>
+            <a href="mailto:info@hostechjapan.com?subject=お問い合わせ">
+              お問い合わせ：info@hostechjapan.com
+            </a>
+          </li>
         </ul>
       </div>
     </footer>

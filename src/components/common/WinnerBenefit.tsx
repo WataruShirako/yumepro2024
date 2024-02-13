@@ -158,6 +158,15 @@ const WinnerBenefit = () => {
             className={"absolute top-auto bottom-auto right-4"}
           />
         </a>
+        <div className="text-center font-bold my-10">
+          メンタ―募集中!
+          <br />
+          下記メールアドレスからお問い合わせください。
+          <br />
+          <a href="mailto:info@hostechjapan.com?subject=お問い合わせ">
+            info@hostechjapan.com
+          </a>
+        </div>
       </section>
     </>
   );

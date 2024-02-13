@@ -180,7 +180,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/** 
+
         <section id="committee" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -194,11 +194,33 @@ const Home = () => {
             </span>
             審査委員会
           </h2>
-          <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent">
-            — COMING SOON —
-          </p>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/busi/fukuoka/munehisa.jpg"}
+                width={642}
+                height={642}
+                alt=""
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                棟久 裕文
+              </p>
+              <p className="font-bold text-[15px] text-center md:text-left">
+                株式会社イーストウッド 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                1977年山口県生まれ。大学進学で福岡県北九州市へ移った後、2002年に北九州市内の居酒屋フードコートにて『やきとり哦流』をオープン。その後、『焼鳥酒膳
+                鸞』、居酒屋業態『ごちや』などを次々と出店。
+                2005年、多店舗化に伴い有限会社イーストウッドを設立し法人化。2009年、株式会社へ組織変更。現在、福岡県北九州市および福岡市に16店舗を展開。代表取締役として経営全般に携わる傍ら、社会貢献団体等でも活動をおこない、2017年度には一般社団法人北九州青年会議所第65代理事長を務めるなど、地域の町づくりにも積極的に関わっている。
+              </div>
+            </div>
+          </div>
         </section>
-*/}
+
         <section id="sponsor" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
