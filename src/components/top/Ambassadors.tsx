@@ -11,7 +11,7 @@ const Ambassadors = () => {
           }
         >
           <Image
-            src={"/icons/ambassadors.svg"}
+            src={"/icons/ambassodors.svg"}
             alt={""}
             width={17}
             height={20}
