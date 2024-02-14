@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <Header />
       <main id="shinzentaishi" className={"entt"}>
-        <section id="fv" className={"pt-0"}>
+        <section id="fv" className={"pt-0 bg-white"}>
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
         </section>
         {/**イベント概要 */}
-        <section id="" className="">
+        <section id="" className="bg-white">
           <h2 className="secTitle">
             <span className={"flex gap-2 m-auto items-center justify-center "}>
               Project
@@ -50,6 +50,95 @@ const Home = () => {
             オーディションは、ミクチャアプリでの動画投稿、ライブ配信で行います。
             <br />
             親善大使に就任すると、行ってみたかったあの都市＆台湾にも行けるチャンス！たくさん魅力をシェアしよう!
+          </div>
+        </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content under"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              className={"w-full"}
+              id="パス_286"
+              data-name="パス 286"
+              d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+        {/**オーディション結果 */}
+        <section id="" className="">
+          <h2 className="secTitle">
+            <span className={"flex gap-2 m-auto items-center justify-center "}>
+              Audition results
+            </span>
+            オーディション結果
+          </h2>
+          <div className="mx-auto max-w-3xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-t-3xl text-white font-bold">
+              総合優勝
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
+              <p className="font-bold">1位 りり姫🍑🖤</p>
+              <a
+                href="https://mixch.tv/u/15384704"
+                target="_blank"
+                className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
+              >
+                https://mixch.tv/u/15384704
+              </a>
+            </div>
+          </div>
+          <div className="md:flex max-w-4xl mx-auto gap-5 justify-center">
+            <div className="  p-5">
+              <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-[#485757] rounded-t-3xl text-white font-bold">
+                関東エリア
+                <p className="text-sm"></p>
+              </div>
+              <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3 md:px-10">
+                <p className="font-bold">1位 りり姫🍑🖤</p>
+                <a
+                  href="https://mixch.tv/u/15384704"
+                  target="_blank"
+                  className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
+                >
+                  https://mixch.tv/u/15384704
+                </a>
+                <p className="font-bold mt-10">2位 心音💛🎵</p>
+                <a
+                  href="https://mixch.tv/u/17852329 "
+                  target="_blank"
+                  className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
+                >
+                  https://mixch.tv/u/17852329
+                </a>
+              </div>
+            </div>
+            <div className=" p-5">
+              <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-[#485757] rounded-t-3xl text-white font-bold">
+                関西エリア
+                <p className="text-sm"></p>
+              </div>
+              <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3 md:px-10">
+                <p className="font-bold">1位 楓🍁💃</p>
+                <a
+                  href="https://mixch.tv/u/16189645"
+                  target="_blank"
+                  className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
+                >
+                  https://mixch.tv/u/16189645
+                </a>
+                <p className="font-bold mt-10">2位 みこと🍜</p>
+                <a
+                  href="https://mixch.tv/u/17445052"
+                  target="_blank"
+                  className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
+                >
+                  https://mixch.tv/u/17445052
+                </a>
+              </div>
+            </div>
           </div>
         </section>
         <div className="svg__container">
@@ -192,7 +281,7 @@ const Home = () => {
               <br />
               台湾で動画を撮影してシェアしていただきます。
             </div>
-          </div>{" "}
+          </div>
           <div className="mx-auto max-w-4xl p-5 m-10">
             <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#CAA846] to-[#E0CA82] rounded-t-3xl text-white font-bold">
               関西 / 関東 各ポイントランキング1位
