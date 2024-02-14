@@ -24,9 +24,11 @@ const Sns = () => {
           <br className={"lg:hidden"} />
           公式チャンネル
         </h2>
-        <p className={"text-center"}>フォロー、友達登録で最新情報をGETしよう</p>
+        <p className={"text-center mx-2"}>
+          フォロー、友達登録で最新情報をGETしよう
+        </p>
         <div className={"container m-auto mt-12"}>
-          <div className={"list flex gap-4  md:gap-20 justify-center"}>
+          <div className={"list flex gap-4  md:gap-20 justify-center mx-2"}>
             <a
               href={
                 "https://liff.line.me/1657596848-xOJZNbmM/landing?follow=%40306ccdiy&lp=ey1QMR&liff_id=1657596848-xOJZNbmM"

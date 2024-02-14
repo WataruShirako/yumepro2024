@@ -5973,8 +5973,8 @@ const Venue = () => {
                     className={"absolute top-[40%]  right-2"}
                   />
                 </a>
-                <p className="mt-2 text-sm">2024年4月6日</p>
-                <p className="mb-5 text-sm">北文化小劇場</p>
+                <p className="mt-2 text-sm">2024年3月31日</p>
+                <p className="mb-5 text-sm">名古屋市内</p>
               </div>
 
               <div className="md:absolute right-[35%] top-[65%]">

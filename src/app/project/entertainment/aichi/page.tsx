@@ -31,11 +31,11 @@ const Home = () => {
   const contents = [
     {
       title: "開催日",
-      content: `2024年4月6日(土)`,
+      content: `2024年3月31日(日)`,
     },
     {
       title: "会場",
-      content: `北文化小劇場`,
+      content: `名古屋市内`,
     },
   ];
 
