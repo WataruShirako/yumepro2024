@@ -24,10 +24,9 @@ const Project = ({ about }: any) => {
           <br />
           <br />
           予選は地方予選および配信や動画、書類などを使って実施し、最終審査・授賞式をニコニコ超会議で実施します。
-        </div>
-        {/**          <br />
           <br />
-          歌い手については「歌ってみた Collection 〜2024
+          <br />
+          ボーカルオーディションについては「歌ってみた Collection 〜2024
           Spring〜」への投稿が前提となります。参加ルールは
           <a
             href="https://utattemita-collection.jp/project#special"
@@ -35,7 +34,8 @@ const Project = ({ about }: any) => {
             className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
           >
             こちら
-          </a> */}
+          </a>
+        </div>
       </section>
       <div className="svg__container">
         <svg

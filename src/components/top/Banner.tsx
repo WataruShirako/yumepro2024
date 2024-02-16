@@ -33,6 +33,16 @@ const auditions = [
     src: "/top/banner/banner_liver.jpg",
   },
   {
+    name: "ダンスオーディション",
+    path: "/project/entertainment/dance",
+    src: "/top/banner/banner_dance.jpg",
+  },
+  {
+    name: "ボーカルオーディション",
+    path: "/project/entertainment/vocal",
+    src: "/top/banner/banner_vocal.jpg",
+  },
+  {
     name: "学生ピッチ甲子園",
     path: "/business",
     src: "/top/banner/banner_business.jpg",
@@ -63,7 +73,7 @@ const Banner = () => {
         </h2>
         <div
           className={
-            "container m-auto max-w-6xl px-[4%] mt-6 flex flex-wrap gap-3 md:justify-between justify-center"
+            "container m-auto max-w-6xl px-[4%] mt-6 flex flex-wrap gap-3  justify-center"
           }
         >
           {auditions.map((audi: any, index: number) => {
