@@ -193,9 +193,19 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="my-10">
-            <ComingSoon />
+
+          <div className="flex justify-center py-2">
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/top/sponsor/onedining.jpg"}
+                alt={""}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
           </div>
+
           <a
             href="/sponsor"
             className="button md:text-xl text-base font-bold relative"
@@ -210,6 +220,7 @@ const Home = () => {
             />
           </a>
         </section>
+
         <section id="backup" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>

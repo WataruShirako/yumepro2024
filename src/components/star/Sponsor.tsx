@@ -74,6 +74,15 @@ const Sponsor = ({ sponsors }: any) => {
                 className={"rounded-md mx-auto"}
               />
             </div>
+            <div className="item">
+              <Image
+                src={"/busi/miyagi/tumiki.png"}
+                alt="tumiki"
+                width={"200"}
+                height={"200"}
+                className={"rounded-md mx-auto"}
+              />
+            </div>
           </div>
         </div>
 

@@ -2864,7 +2864,7 @@ const Venue = () => {
               />
               <path
                 id="KYOTO"
-                className="fill-[#0063b3] onTitle3"
+                className="fill-[#0063b3]"
                 stroke="#000000"
                 strokeWidth="1"
                 d="M 2170.00,2186.00
@@ -6011,25 +6011,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年3月11日</p>
                 <p className="mb-5 text-sm"></p>
               </div>
-              <div className="md:absolute right-[50%] top-[37%]">
-                <a
-                  href="/project/entertainment/kyoto"
-                  target="_blank"
-                  className="font-bold w-full bg-[#888888] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
-                >
-                  京都大会
-                  <Image
-                    src={"/top/arrow_white.svg"}
-                    alt={"▶︎"}
-                    width={6}
-                    height={6}
-                    className={"absolute top-[40%]  right-2"}
-                  />
-                </a>
 
-                <p className="mt-2 text-sm">2024年2月3日</p>
-                <p className="mb-5 text-sm">オンライン開催</p>
-              </div>
               <div className="md:absolute right-[67%] top-[46%]">
                 <a
                   href="/project/entertainment/hyogo"

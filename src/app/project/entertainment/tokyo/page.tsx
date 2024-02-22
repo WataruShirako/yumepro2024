@@ -30,11 +30,11 @@ const Home = () => {
   const contents = [
     {
       title: "開催日",
-      content: `2024年3月30日(土)`,
+      content: `2024年3月30日 (土)`,
     },
     {
       title: "会場",
-      content: `未定`,
+      content: `ワンリーライブ`,
     },
   ];
 
@@ -43,52 +43,227 @@ const Home = () => {
       <Header />
       <main id="" className={"entt"}>
         <Fv />
-        <section id="schedule" className={""}>
+
+        {/** スケジュール*/}
+        <section id="" className="bg-white">
           <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
-              Schedule
+            <span className={"flex gap-2 m-auto items-center justify-center "}>
+              About
             </span>
-            開催日程
+            開催概要
           </h2>
-          <div className="container mx-auto px-5 md:px-0 md:max-w-2xl">
-            {contents.map((item, index) => (
-              <div
-                key={index}
-                className="list flex py-5 md:py-8 border-solid border-t last-of-type:border-b border-[#485757] items-center justify-between"
+
+          <div className="container m-auto max-w-[92%] lg:max-w-2xl">
+            <div className="py-5">
+              一次選考は、{" "}
+              <a
+                href="https://onelinavi.com/live/event-page/"
+                target="_blank"
+                className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
               >
-                <p className={"w-[100px] md:w-1/5"}>
-                  <span className={"px-2 py-1 text-base"}>{item.title}</span>
-                </p>
-                <div className={"w-[75%] text-base"}>
-                  <p dangerouslySetInnerHTML={{ __html: `${item.content}` }} />
-                </div>
+                ワンリーライブ
+              </a>
+              で行います。
+              <br />
+              本イベントは、イベント期間中のライブコイン獲得数によるランキングバトルとなります。
+              配信中にギフトが送られるとライブコインを獲得することができます。
+              <br />
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
+              <p
+                className={
+                  "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  募集期間
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                2024年3月7日（木）22:00まで
               </div>
-            ))}
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
+              <p
+                className={
+                  "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  イベント期間
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                2024年3月8日（金）0:00 〜 3月12日（火） 21:59:59
+                <br />
+                ワンリーライブ
+              </div>
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
+              <p
+                className={
+                  "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  関東予選
+                  <br />
+                  THE STAGE
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                2024年3月30日 (土)
+                <br />
+                丸ビルホール＆コンファレンススクエア （丸ビルH&C）
+              </div>
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between gap-3">
+              <p
+                className={
+                  "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  応募資格
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                ・スターになりたい男女
+                <br />
+                （年齢/性別は問いません。未成年者は保護者の同意が必要です。）
+                <br />
+                ・本イベントで上位10名に入賞された場合、2024/03/30(土)の最終審査にお越しになれる方。
+                <br />
+                ・本イベントで上位3名に入賞された場合、2024/04/27(土)のニコニコ超会議2024にお越しになれる方。
+                <br />
+                ・本イベントで上位1名に入賞された場合、映画の撮影（5,6月予定）にお越しになれる方。
+                <br />
+                ・メディア出演の可能な方
+                <br />
+                <br />
+                ※応募条件を満たさない場合は失格となり、会参加者の順位が繰り上がりになりますのでご注意ください。
+                <br />
+              </div>
+            </div>
+          </div>
+          <a
+            href="https://onelinavi.com/live/event-page/"
+            target="_blank"
+            className={"btn btnEntt"}
+          >
+            エントリー・詳細こちら
+            <Image
+              className={"absolute right-[20px] top-1/2 -translate-y-1/2"}
+              src={"/entt/entt_btn_arrow.svg"}
+              alt={"▶︎"}
+              width={26}
+              height={26}
+            />
+          </a>
+        </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content under"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              className={"w-full"}
+              id="パス_286"
+              data-name="パス 286"
+              d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+        {/** 特典*/}
+        <section id="prize" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 m-auto items-center justify-center "}>
+              Prize
+            </span>
+            特典
+          </h2>
+          <div className="mx-auto max-w-4xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#CAA846] to-[#E0CA82] rounded-t-3xl text-white font-bold">
+              ランキング 1位
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
+              <br />
+              <p className="font-bold mb-2">
+                ・ニコニコ超会議 夢叶えるプロジェクト2024ステージ出演権
+                <br />
+                ・映画『夢叶えるプロジェクト(仮)』出演権（内容が変更となる可能性があります）
+                <br />
+                ・TOKYO MX番組出演権（事前審査あり)
+                <br />
+                ・3月30日関東予選THE STAGE出演
+                <br />
+                ・高級スパサウナ招待券40万円分
+                <br />
+                ・銀座サイネージモデル出演
+                <br />
+                ・その他メディア出演のチャンスあり
+                <br />
+              </p>
+            </div>
+          </div>
+          <div className="mx-auto max-w-4xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#979C9A] to-[#BDC3C9] rounded-t-3xl text-white font-bold">
+              ランキング 2~3位
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
+              <br />
+              <p className="font-bold mb-2">
+                ・ニコニコ超会議 夢叶えるプロジェクト2024ステージ出演権
+                <br />
+                ・TOKYO MX番組出演権（事前審査あり)
+                <br />
+                ・3月30日関東予選THE STAGE出演
+                <br />
+                ・高級スパサウナ招待券30万円分
+                <br />
+                ・銀座サイネージモデル出演
+                <br />
+              </p>
+            </div>
+          </div>
+          <div className="mx-auto max-w-4xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#b87333] to-[#b8a593] rounded-t-3xl text-white font-bold">
+              ランキング 4~10位
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
+              <br />
+              <p className="font-bold mb-2">
+                ・TOKYO MX番組出演権（事前審査あり)
+                <br />
+                ・3月30日関東予選THE STAGEへ通過
+                <br />
+                当日パフォーマンスを行なっていただき、審査員賞を受賞した2名がニコニコ超会議への出演権を獲得。
+                <br />
+                ・銀座サイネージモデル出演
+                <br />
+              </p>
+            </div>
           </div>
         </section>
 
-        <section id="venue">
-          <h2 className={`secTitle`}>
-            <span className={`flex gap-2 justify-center Montserrat`}>
-              <Image src={"/entt/venue.svg"} alt="" width={15} height={20} />
-              Venue
-            </span>
-            開催地
-          </h2>
-
-          <ComingSoon />
-
-          {/*      <Image
-        src={"/busi/hyogo/venue.png"}
-        width={895}
-        height={152}
-        alt=""
-        className="mx-auto px-5"
-      />
-  */}
-        </section>
-        <WinnerBenefit />
         <section id="ambassador" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -177,8 +352,16 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="my-10">
-            <ComingSoon />
+          <div className="flex justify-center py-2">
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/top/sponsor/onelilive.jpg"}
+                alt={""}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
           </div>
           <a
             href="/sponsor"

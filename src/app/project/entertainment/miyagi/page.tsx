@@ -253,8 +253,16 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="my-10">
-            <ComingSoon />
+          <div className="flex justify-center py-10">
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/busi/miyagi/tumiki.png"}
+                alt={""}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
           </div>
           <a
             href="/sponsor"
@@ -283,9 +291,19 @@ const Home = () => {
             </span>
             後援
           </h2>
-          <ComingSoon />
+          <div className="flex justify-center py-2">
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/busi/miyagi/rihutyo.png"}
+                alt={""}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+          </div>
         </section>
-        <section id="regional_tournament" className={"mt-20"}>
+        <section id="regional_tournament" className={"mt-10"}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
               <Image

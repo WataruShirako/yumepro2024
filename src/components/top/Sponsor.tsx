@@ -96,6 +96,13 @@ const Sponsor = () => {
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
           <Image
+            src={"/busi/miyagi/tumiki.png"}
+            alt="tumiki"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
+          <Image
             src={"/top/sponsor/zen_spa.png"}
             alt="zen_spa"
             width={500}
@@ -199,6 +206,13 @@ const Sponsor = () => {
           />
           <Image
             src={"/busi/fukuoka/yukuhashi.jpg"}
+            alt="行橋市"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
+          <Image
+            src={"/busi/miyagi/rihutyo.png"}
             alt="行橋市"
             width={500}
             height={500}
