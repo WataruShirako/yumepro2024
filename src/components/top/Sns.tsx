@@ -44,7 +44,7 @@ const Sns = () => {
               />
             </a>
             <a
-              href={"https://instagram.com/yumekanaeru_project"}
+              href={"https://www.instagram.com/yumekanaeru_pj/"}
               target={"_blank"}
             >
               <Image

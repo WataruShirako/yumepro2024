@@ -84,7 +84,7 @@ const Home = () => {
               <div
                 className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
               >
-                2024年3月7日（木）22:00まで
+                2024年3月14日（木）22:00まで
               </div>
             </div>
             <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
@@ -102,7 +102,7 @@ const Home = () => {
               <div
                 className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
               >
-                2024年3月8日（金）0:00 〜 3月12日（火） 21:59:59
+                2024年3月15日（金）0:00 〜 3月19日（火） 21:59:59
                 <br />
                 ワンリーライブ
               </div>
@@ -126,7 +126,11 @@ const Home = () => {
               >
                 2024年3月30日 (土)
                 <br />
-                丸ビルホール＆コンファレンススクエア （丸ビルH&C）
+                <br />
+                BASE GRANBELL
+                <br />
+                〒104-0061 東京都中央区銀座7丁目2番18号
+                グランベルスクエアB2F,B3F
               </div>
             </div>
             <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between gap-3">
@@ -367,7 +371,7 @@ const Home = () => {
             href="/sponsor"
             className="button md:text-xl text-base font-bold relative"
           >
-            スポンサーさま募集
+            スポンサー募集
             <Image
               src={"/top/arrow_white.svg"}
               alt={"▶︎"}

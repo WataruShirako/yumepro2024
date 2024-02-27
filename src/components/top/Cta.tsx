@@ -48,7 +48,7 @@ const Cta = () => {
             className="btn bg-gradient-to-bl from-[#254DB1] to-[#C52CFD] rounded-2xl  w-full md:w-1/2 h-16 md:h-20 max-w-[85%] m-auto grid place-items-center text-white font-semibold md:text-xl relative hover:brightness-90"
             target="_blank"
           >
-            スポンサーさま募集
+            スポンサー募集
             <Image
               src={"/top/arrow_white.svg"}
               alt={"▶︎"}

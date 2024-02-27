@@ -7,7 +7,7 @@ const contents = [
   },
   {
     title: "会場",
-    content: `未定`,
+    content: `近畿大学　実学ホール<br />16時半開場 17時〜20時`,
   },
   {
     title: "発表時間",

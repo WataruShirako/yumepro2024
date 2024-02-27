@@ -1,12 +1,12 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const Entry = () => {
   return (
     <>
-      <div className={'svg__container'}>
+      <div className={"svg__container"}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={'svg__content top'}
+          className={"svg__content top"}
           viewBox="0 0 1366 100"
         >
           <path
@@ -18,75 +18,100 @@ const Entry = () => {
           />
         </svg>
       </div>
-      <section id="entry" className={'bg-[#252525]'}>
+      <section id="entry" className={"bg-[#252525]"}>
         <h2 className="secTitle">
-          <span className={'flex justify-center gap-2 items-center '}>
-            <Image src={'/entt/yumephoto/icons/entry.svg'} alt="" width={15} height={20} />
+          <span className={"flex justify-center gap-2 items-center "}>
+            <Image
+              src={"/entt/yumephoto/icons/entry.svg"}
+              alt=""
+              width={15}
+              height={20}
+            />
             Entry
           </span>
           応募方法
         </h2>
         <div className="ctaBtnArea flex flex-col gap-8 md:flex-row items-center max-w-5xl m-auto container">
           <div className="list relative bg-[#EFEFEF] mx-auto w-[92%] md:w-1/3 max-w-full">
-            <span className={'absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho'}>01</span>
-            <h5 className={'text-xl text-center pt-10 w-[]'}>
+            <span
+              className={
+                "absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho"
+              }
+            >
+              01
+            </span>
+            <h5 className={"text-xl text-center pt-10 w-[]"}>
               夢叶えるプロジェクトの
               <br />
               Instagramをフォロー
             </h5>
             <Image
-              className={'mt-10 mx-auto'}
-              src={'/entt/yumephoto/entry/entry_1.png'}
-              alt={''}
+              className={"mt-10 mx-auto"}
+              src={"/entt/yumephoto/entry/entry_1.png"}
+              alt={""}
               width={320}
               height={300}
             />
           </div>
           <div className="list relative bg-[#EFEFEF] mx-auto w-[92%] md:w-1/3 max-w-full">
-            <span className={'absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho'}>02</span>
-            <h5 className={'text-xl text-center pt-10 w-[]'}>
+            <span
+              className={
+                "absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho"
+              }
+            >
+              02
+            </span>
+            <h5 className={"text-xl text-center pt-10 w-[]"}>
               「#夢フォト2024」をつけて
               <br />
               写真をInstagramに投稿
             </h5>
             <Image
-              className={'mt-10 mx-auto'}
-              src={'/entt/yumephoto/entry/entry_2.png'}
-              alt={''}
+              className={"mt-10 mx-auto"}
+              src={"/entt/yumephoto/entry/entry_2.png"}
+              alt={""}
               width={320}
               height={300}
             />
           </div>
           <div className="list relative bg-[#EFEFEF] mx-auto w-[92%] max-w-full md:w-1/3 ">
-            <span className={'absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho'}>03</span>
-            <h5 className={'text-xl text-center pt-10 w-[]'}>
+            <span
+              className={
+                "absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho"
+              }
+            >
+              03
+            </span>
+            <h5 className={"text-xl text-center pt-10 w-[]"}>
               受賞候補者にはDMにて
               <br />
               ご連絡いたします
             </h5>
             <Image
-              className={'mt-10 mx-auto'}
-              src={'/entt/yumephoto/entry/entry_3.png'}
-              alt={''}
+              className={"mt-10 mx-auto"}
+              src={"/entt/yumephoto/entry/entry_3.png"}
+              alt={""}
               width={320}
               height={300}
             />
           </div>
         </div>
-        <p className={'text-center text-white mt-8'}>Instagram公式アカウントはこちら</p>
+        <p className={"text-center text-white mt-8"}>
+          Instagram公式アカウントはこちら
+        </p>
         <a
-          href={'https://instagram.com/yumekanaeru_project'}
+          href={"https://www.instagram.com/yumekanaeru_pj/"}
           className={
-            'bg-[#485757] w-72 flex items-center justify-center col-start-auto rounded-full m-auto text-white py-1 mt-4 hover:opacity-60'
+            "bg-[#485757] w-72 flex items-center justify-center col-start-auto rounded-full m-auto text-white py-1 mt-4 hover:opacity-60"
           }
         >
-          @yumekanaeru_project
+          @yumekanaeru_pj
         </a>
       </section>
       <div className="svg__container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={'svg__content under'}
+          className={"svg__content under"}
           viewBox="0 0 1366 100"
         >
           <path

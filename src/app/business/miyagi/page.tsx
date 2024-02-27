@@ -8,8 +8,10 @@ import WinnerBenefit from "@/components/common/WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
-import Chairman from "@/components/busi/comingsoon/Chairman";
+import Chairman from "@/components/common/Chairman";
 import Ambassador from "@/components/busi/comingsoon/Ambassador";
+import { Coming_Soon } from "next/font/google";
+import Comingsoon from "@/components/common/ComingSoon";
 const contents = [
   {
     title: "開催日",
@@ -229,6 +231,8 @@ const BusinessPage = () => {
           </h2>
 
           <div className="flex justify-center py-10">
+            <Comingsoon />
+            {/* 
             <div className="item">
               <Image
                 className={"rounded-md"}
@@ -238,6 +242,7 @@ const BusinessPage = () => {
                 height={"200"}
               />
             </div>
+            */}
           </div>
 
           <a
@@ -271,11 +276,20 @@ const BusinessPage = () => {
             </p>
           </h2>
           {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
-          <div className="flex justify-center py-10">
+          <div className="flex justify-center py-10 gap-10">
             <div className="item">
               <Image
                 className={"rounded-md"}
                 src={"/busi/miyagi/rihutyo.png"}
+                alt={""}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/busi/miyagi/tumiki.png"}
                 alt={""}
                 width={"200"}
                 height={"200"}

@@ -59,7 +59,8 @@ const Home = () => {
       
     `,
 
-    status2: "①テーマに沿った作品か<br />②オリジナリティ<br />③技術面",
+    status2:
+      "・SHOWROOM予選3名<br />・YouTube予選1名<br />・TikTok予選1名<br />上記5名が「東京最終審査」に参加可能",
     status3:
       "2024年4月27日 10:00~18:00<br /><br />幕張メッセ<br />〒261-8550 千葉県千葉市美浜区中瀬2丁目1",
   };
@@ -115,7 +116,7 @@ const Home = () => {
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={"/dance/dance_fv.jpg"}
+              src={"/dance/dance.jpg"}
               alt="text"
               width={1920}
               height={930}
@@ -123,7 +124,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={"/dance/sp_dance_fv.jpg"}
+              src={"/dance/dance.jpg"}
               alt="text"
               width={750}
               height={1370}
@@ -284,7 +285,26 @@ const Home = () => {
                 <p dangerouslySetInnerHTML={{ __html: `${about.status1}` }} />
               </div>
             </div>
-
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between">
+              <p
+                className={
+                  "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  審査の流れ
+                </span>
+              </p>
+              <div
+                className={
+                  "w-[75%]  text-xs md:text-sm leading-5 md:leading-8 m-2"
+                }
+              >
+                <p dangerouslySetInnerHTML={{ __html: `${about.status2}` }} />
+              </div>
+            </div>
             <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between">
               <p
                 className={
@@ -307,7 +327,46 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <section id="sponsor" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image
+                src={"/entt/committee.svg"}
+                alt=""
+                width={15}
+                height={20}
+              />
+              Sponsor
+            </span>
+            スポンサー
+          </h2>
 
+          <div className="flex justify-center gap-5">
+            <div className="item">
+              <Image
+                src={"/top/sponsor/showroom.png"}
+                alt="showroom"
+                width={"200"}
+                height={"200"}
+                className={"rounded-md mx-auto"}
+              />
+            </div>
+          </div>
+
+          <a
+            href="/sponsor"
+            className="button md:text-xl text-base font-bold relative"
+          >
+            スポンサー募集
+            <Image
+              src={"/top/arrow_white.svg"}
+              alt={"▶︎"}
+              width={8.45}
+              height={12.45}
+              className={"absolute top-auto bottom-auto right-4"}
+            />
+          </a>
+        </section>
         {/*<Entry />*/}
         {/**<Flow />*/}
 

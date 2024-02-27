@@ -34,7 +34,7 @@ const Home = () => {
     },
     {
       title: "会場",
-      content: `未定`,
+      content: `近畿大学 実学ホール`,
     },
   ];
 
@@ -76,8 +76,7 @@ const Home = () => {
             </span>
             開催地
           </h2>
-          <ComingSoon />
-          {/** 
+
           <div className="container flex m-auto md:max-w-4xl pb-10 px-5">
             <div className="w-1/3">
               <Image
@@ -97,7 +96,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-*/}
+
           {/*      <Image
         src={"/busi/hyogo/venue.png"}
         width={895}
@@ -210,7 +209,7 @@ const Home = () => {
             href="/sponsor"
             className="button md:text-xl text-base font-bold relative"
           >
-            スポンサーさま募集
+            スポンサー募集
             <Image
               src={"/top/arrow_white.svg"}
               alt={"▶︎"}

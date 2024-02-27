@@ -19,7 +19,7 @@ const Sponsor = () => {
         <section id="sponsor" className="pt-12 md:pt-24">
           <h2 className={"text-center"}>
             <p className={"font-bold text-2xl md:text-4xl sm:p-10"}>
-              スポンサー企業さま募集
+              スポンサー企業募集
             </p>
           </h2>
           <div className="mx-auto max-w-4xl p-5 m-10">

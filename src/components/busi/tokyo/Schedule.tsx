@@ -7,7 +7,8 @@ const contents = [
   },
   {
     title: "会場",
-    content: `丸ビルホール<br />東京都千代田区丸の内２丁目４−１ 丸ビル７F・８F`,
+    content: `BASE GRANBELL<br /><br />〒104-0061<br />東京都中央区銀座7丁目2番18号
+    グランベルスクエアB2F,B3F`,
   },
   {
     title: "発表時間",

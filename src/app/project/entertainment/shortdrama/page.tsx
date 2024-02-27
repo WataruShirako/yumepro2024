@@ -52,7 +52,7 @@ const Home = () => {
   //開催概要
   const about = {
     sched: `
-      2023年8月20日〜
+      2024年3月1日〜〜3月31日
     `,
     status1: `
       TikTokにて「#ドリームショートドラマ2024」を付けて投稿した中から5名が決勝進出。<br />
@@ -68,16 +68,6 @@ const Home = () => {
   const committee = [
     {
       id: 1,
-      name: "大橋孝史",
-      pro: "モバコン株式会社代表取締役 プロデューサー/監督",
-      text: "1974年7月27日生まれ。21歳の時に実写映画「ろくでなしBLUSE」プロデューサーデビューし、これまでに数々の映画・ドラマ・アニメ・音楽などエンタテインメント作品をプロデュース。近年は地方創生・インバウンドを目的とした、ふるさと映画祭を開催し、新しい日本のエンタテインメント業界を牽引している。",
-      src: "/shortdrama/ohashi.jpg",
-      hp: "",
-      twitter: "",
-      insta: "",
-    },
-    {
-      id: 2,
       name: "齊藤進之介",
       pro: "映画感想TikTokクリエイター 映像作家 専門学校講師",
       text: "1988年、京都府生まれ。映画感想TikTokクリエイター。映像作家、専門学校講師。京都芸術大学映画学科卒業後、東映京都撮影所にて時代劇ドラマ『水戸黄門』助監督として業界入り。2014年に拠点を東京へ移し、映画『HiGH&LOW』シリーズ等の助監督を経て18年独立。19年夏よりTikTokで活動開始。映画レビュージャンルを開拓し人気を集める。現在は監督業を始め、ジョニー・デップらハリウッド俳優へのインタビューも行う。TikTok TOHO Film Festivalで三池崇史監督らと審査員を務める。22年、株式会社MEW Creatorsを設立。著書に『シネマライフハック 人生の悩みに５０の映画で答えてみた』。",
@@ -87,11 +77,21 @@ const Home = () => {
       insta: "",
     },
     {
-      id: 3,
+      id: 2,
       name: "横田未来",
       pro: "インフルエンサー",
       text: "2022 年 4 月に発表された「10 代に人気な女性インフルエンサー」ランキングで 4 位に ランクイン。2023 年 、日本テレビ Z ドラマ第 4 弾「沼る。港区女子高生」に出演、「今田耕 司のネタバレ MTG」出演、映画「貧困女子」主演するなど、女優/タレントとしても活躍中。SNS 総フォロワー数が 120 万人を超え、Z 世代女の子に大人気!!",
       src: "/shortdrama/yokota.jpg",
+      hp: "",
+      twitter: "",
+      insta: "",
+    },
+    {
+      id: 3,
+      name: "大橋孝史",
+      pro: "モバコン株式会社代表取締役 プロデューサー/監督",
+      text: "1974年7月27日生まれ。21歳の時に実写映画「ろくでなしBLUSE」プロデューサーデビューし、これまでに数々の映画・ドラマ・アニメ・音楽などエンタテインメント作品をプロデュース。近年は地方創生・インバウンドを目的とした、ふるさと映画祭を開催し、新しい日本のエンタテインメント業界を牽引している。",
+      src: "/shortdrama/ohashi.jpg",
       hp: "",
       twitter: "",
       insta: "",
@@ -409,7 +409,127 @@ const Home = () => {
             ))}
           </div>
         </section>
-        {/*<Entry />*/}
+        {/** 
+        <div className={"svg__container"}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content top"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              id="パス_285"
+              data-name="パス 285"
+              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
+              transform="translate(0 -20)"
+              fill="#252525"
+            />
+          </svg>
+        </div>
+        <section id="entry" className={"bg-[#252525]"}>
+          <h2 className="secTitle text-white">
+            <span className={"flex justify-center gap-2 items-center "}>
+              <Image
+                src={"/entt/yumephoto/icons/entry.svg"}
+                alt=""
+                width={15}
+                height={20}
+              />
+              Entry
+            </span>
+            応募方法
+          </h2>
+          <div className="ctaBtnArea flex flex-col gap-8 md:flex-row items-center max-w-5xl m-auto container">
+            <div className="list relative bg-[#EFEFEF] mx-auto w-[92%] md:w-1/3 max-w-full">
+              <span
+                className={
+                  "absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho"
+                }
+              >
+                01
+              </span>
+              <h5 className={"text-xl text-center pt-10 w-[]"}>
+                夢叶えるプロジェクトの
+                <br />
+                Instagramをフォロー
+              </h5>
+              <Image
+                className={"mt-10 mx-auto"}
+                src={"/entt/yumephoto/entry/entry_1.png"}
+                alt={""}
+                width={320}
+                height={300}
+              />
+            </div>
+            <div className="list relative bg-[#EFEFEF] mx-auto w-[92%] md:w-1/3 max-w-full">
+              <span
+                className={
+                  "absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho"
+                }
+              >
+                02
+              </span>
+              <h5 className={"text-xl text-center pt-10 w-[]"}>
+                「#ドリームショートドラマ2024」をつけて
+                <br />
+                写真をTiktokに投稿
+              </h5>
+              <Image
+                className={"mt-10 mx-auto"}
+                src={"/entt/yumephoto/entry/entry_2.png"}
+                alt={""}
+                width={320}
+                height={300}
+              />
+            </div>
+            <div className="list relative bg-[#EFEFEF] mx-auto w-[92%] max-w-full md:w-1/3 ">
+              <span
+                className={
+                  "absolute top-4 left-4 text-6xl opacity-10 ShipporiMincho"
+                }
+              >
+                03
+              </span>
+              <h5 className={"text-xl text-center pt-10 w-[]"}>
+                受賞候補者にはDMにて
+                <br />
+                ご連絡いたします
+              </h5>
+              <Image
+                className={"mt-10 mx-auto"}
+                src={"/entt/yumephoto/entry/entry_3.png"}
+                alt={""}
+                width={320}
+                height={300}
+              />
+            </div>
+          </div>
+          <p className={"text-center text-white mt-8"}>
+            Instagram公式アカウントはこちら
+          </p>
+          <a
+            href={"https://www.instagram.com/yumekanaeru_pj/"}
+            className={
+              "bg-[#485757] w-72 flex items-center justify-center col-start-auto rounded-full m-auto text-white py-1 mt-4 hover:opacity-60"
+            }
+          >
+            @yumekanaeru_project
+          </a>
+        </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content under"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              id="パス_286"
+              data-name="パス 286"
+              d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
+              fill="#252525"
+            />
+          </svg>
+        </div>
+        */}
         {/**<Flow />*/}
         {/** 
         <section className="container m-auto max-w-[92%] md:max-w-5xl">

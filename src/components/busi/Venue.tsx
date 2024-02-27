@@ -5937,7 +5937,7 @@ const Venue = () => {
                   />
                 </a>
                 <p className="mt-2 text-sm">2024年3月30日</p>
-                <p className="mb-5 text-sm">丸ビルホール</p>
+                <p className="mb-5 text-sm">銀座 BASE GRANBELL</p>
               </div>
 
               <div className="md:absolute right-[14%] top-[53%]">
@@ -5993,7 +5993,7 @@ const Venue = () => {
                   />
                 </a>
                 <p className="mt-2 text-sm">2024年3月11日</p>
-                <p className="mb-5 text-sm"></p>
+                <p className="mb-5 text-sm">近畿大学</p>
               </div>
 
               <div className="md:absolute right-[67%] top-[36%]">

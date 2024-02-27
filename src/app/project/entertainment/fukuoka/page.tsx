@@ -241,7 +241,7 @@ const Home = () => {
             href="/sponsor"
             className="button md:text-xl text-base font-bold relative"
           >
-            スポンサーさま募集
+            スポンサー募集
             <Image
               src={"/top/arrow_white.svg"}
               alt={"▶︎"}

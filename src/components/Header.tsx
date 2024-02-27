@@ -73,6 +73,16 @@ const NavEntt = () => {
       name: "liver",
       title: "ライバーオーディション",
     },
+    {
+      path: "/project/entertainment/dance",
+      name: "dance",
+      title: "ダンスオーディション",
+    },
+    {
+      path: "/project/entertainment/vocal",
+      name: "vocal",
+      title: "ボーカルオーディション",
+    },
   ];
   return (
     <nav

@@ -77,6 +77,8 @@ const Home = () => {
             開催地
           </h2>
           <div className="container flex m-auto md:max-w-4xl pb-10 px-5 justify-center">
+            <ComingSoon />
+            {/** 
             <div className="w-1/3 md:w-max">
               <Image
                 src={"/busi/aichi/venue.jpg"}
@@ -99,6 +101,7 @@ const Home = () => {
                 <br />
               </p>
             </div>
+            */}
           </div>
         </section>
         <WinnerBenefit />
@@ -130,8 +133,7 @@ const Home = () => {
             </span>
             司会
           </h2>
-          <ComingSoon />
-          {/** 
+
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2 mx-auto">
               <Image
@@ -155,7 +157,6 @@ const Home = () => {
               </p>
             </div>
           </div>
-          */}
         </section>
         {/** 
         <section id="committee" className={""}>
@@ -196,7 +197,7 @@ const Home = () => {
             href="/sponsor"
             className="button md:text-xl text-base font-bold relative"
           >
-            スポンサーさま募集
+            スポンサー募集
             <Image
               src={"/top/arrow_white.svg"}
               alt={"▶︎"}

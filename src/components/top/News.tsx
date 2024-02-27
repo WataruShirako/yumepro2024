@@ -51,14 +51,14 @@ const News = () => {
             </div>
           ))}
         </div>
-        {/*
+
         <a
-          href="/news"
-          className="viewall text-center Montserrat mt-8 underline block"
+          href="https://prtimes.jp/topics/keywords/夢叶えるプロジェクト"
+          className="text-center Montserrat mt-8 underline block"
+          target="_blank"
         >
-          View all
+          プレスリリース
         </a>
-        */}
       </section>
       {/* <Instagram /> */}
     </>

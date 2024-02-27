@@ -95,80 +95,10 @@ const Sponsor = () => {
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
-          <Image
-            src={"/busi/miyagi/tumiki.png"}
-            alt="tumiki"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
-          />
-          <Image
-            src={"/top/sponsor/zen_spa.png"}
-            alt="zen_spa"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
-          />
 
           <Image
             src={"/top/sponsor/an_spa.png"}
             alt="an_spa"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/sanatio_spa.png"}
-            alt="sanatio_spa"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/sora_spa.png"}
-            alt="sola_spa"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/spa_solani.png"}
-            alt="spa_solani"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/landmark_spa.png"}
-            alt="landmark_spa"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/la_villa.png"}
-            alt="la_villa"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/hammam_spa.png"}
-            alt="hammam_spa"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/inroom_spa.png"}
-            alt="inroom_spa"
-            width={500}
-            height={500}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
-          />
-          <Image
-            src={"/top/sponsor/fauchon.png"}
-            alt="fauchon"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
@@ -214,6 +144,13 @@ const Sponsor = () => {
           <Image
             src={"/busi/miyagi/rihutyo.png"}
             alt="行橋市"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
+          <Image
+            src={"/busi/miyagi/tumiki.png"}
+            alt="tumiki"
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "

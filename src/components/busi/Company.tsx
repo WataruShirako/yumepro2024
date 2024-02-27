@@ -13,10 +13,14 @@ const company = () => {
               alt=""
               className="absolute -top-1 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
             />
-            <p className="relative break-all">COMPANY</p>
+            <p className="relative break-all">
+              Committee
+              <br className="sm:hidden" />
+              Chairman
+            </p>
           </div>
           <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
-            運営会社
+            実行委員長
           </p>
         </h2>
         <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">

@@ -68,7 +68,7 @@ const BusinessPage = () => {
         </section>
         */}
         <Committee />
-
+        <Chairman />
         <Backup />
         <section id="regional_tournament" className={"my-20 md:my-40"}>
           <h2 className="sectionTitle text-center items-center Montserrat">

@@ -72,6 +72,15 @@ const Backup = () => {
             height={"150"}
           />
         </div>
+        <div className="item mx-auto">
+          <Image
+            className={"rounded-md"}
+            src={"/busi/miyagi/tumiki.png"}
+            alt={"tumiki"}
+            width={"150"}
+            height={"150"}
+          />
+        </div>
       </div>
       <p className="text-center text-lg">and more...</p>
     </section>

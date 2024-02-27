@@ -30,6 +30,7 @@ const Committee = () => {
           </p>
         </h2>
         <div className="md:grid grid-cols-2 md:max-w-6xl mx-auto">
+          {/* 
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
@@ -54,6 +55,7 @@ const Committee = () => {
               </div>
             </div>
           </div>
+          */}
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image

@@ -138,8 +138,7 @@ const Home = () => {
             </span>
             司会
           </h2>
-          <ComingSoon />
-          {/** 
+
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2 mx-auto">
               <Image
@@ -163,7 +162,6 @@ const Home = () => {
               </p>
             </div>
           </div>
-          */}
         </section>
 
         <section id="committee" className={""}>
@@ -254,6 +252,8 @@ const Home = () => {
             スポンサー
           </h2>
           <div className="flex justify-center py-10">
+            <ComingSoon />
+            {/** 
             <div className="item">
               <Image
                 className={"rounded-md"}
@@ -263,12 +263,13 @@ const Home = () => {
                 height={"200"}
               />
             </div>
+            */}
           </div>
           <a
             href="/sponsor"
             className="button md:text-xl text-base font-bold relative"
           >
-            スポンサーさま募集
+            スポンサー募集
             <Image
               src={"/top/arrow_white.svg"}
               alt={"▶︎"}
@@ -291,11 +292,20 @@ const Home = () => {
             </span>
             後援
           </h2>
-          <div className="flex justify-center py-2">
+          <div className="flex justify-center py-2 gap-10">
             <div className="item">
               <Image
                 className={"rounded-md"}
                 src={"/busi/miyagi/rihutyo.png"}
+                alt={""}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/busi/miyagi/tumiki.png"}
                 alt={""}
                 width={"200"}
                 height={"200"}

@@ -25,6 +25,8 @@ const Committee = ({ committee }: any) => {
           </span>
           審査委員会
         </h2>
+        <Comingsoon />
+        {/* 
         <div className="container px-5 grid  justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
           {lists.map((list, index) => (
             <div
@@ -40,6 +42,7 @@ const Committee = ({ committee }: any) => {
 
           <div className="item"></div>
         </div>
+          */}
       </section>
       <div className="svg__container">
         <svg

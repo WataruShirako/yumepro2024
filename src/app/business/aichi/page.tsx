@@ -8,9 +8,10 @@ import WinnerBenefit from "@/components/common/WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import Footer from "@/components/busi/Footer";
 import Image from "next/image";
-import Chairman from "@/components/busi/comingsoon/Chairman";
+import Chairman from "@/components/common/Chairman";
 import Backup from "@/components/busi/comingsoon/Backup";
 import Ambassador from "@/components/busi/comingsoon/Ambassador";
+import ComingSoon from "@/components/common/ComingSoon";
 const contents = [
   {
     title: "開催日",
@@ -83,6 +84,8 @@ const BusinessPage = () => {
             </p>
           </h2>
           <div className="container flex m-auto md:max-w-4xl pb-10 px-5 justify-center">
+            <ComingSoon />
+            {/** 
             <div className="w-1/3 md:w-max">
               <Image
                 src={"/busi/aichi/venue.jpg"}
@@ -105,6 +108,7 @@ const BusinessPage = () => {
                 <br />
               </p>
             </div>
+            */}
           </div>
           {/*      <Image
         src={"/busi/hyogo/venue.png"}
