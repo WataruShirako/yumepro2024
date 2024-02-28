@@ -29,12 +29,29 @@ const Home = () => {
   ];
   const contents = [
     {
-      title: "開催日",
-      content: `2024年3月24日(日)`,
+      title: "応募締切",
+      content: `2024年3月1日(金) `,
+    },
+    {
+      title: "書類審査",
+      content: `2024年3月2日(土)~3月9日(土) `,
+    },
+    {
+      title: "予選出場者決定",
+      content: `2024年3月10日(日)`,
+    },
+    {
+      title: "予選開催日",
+      content: `2024年3月24日(日) `,
     },
     {
       title: "会場",
-      content: `イオンモール新利府`,
+      content: `イオンモール新利府 南館 1階 ライブスクエア`,
+    },
+
+    {
+      title: "審査方法",
+      content: `対面審査（5分間を基準とするパフォーマンス）`,
     },
   ];
 
@@ -67,7 +84,43 @@ const Home = () => {
             ))}
           </div>
         </section>
-
+        <section id="schedule" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image src={"/entt/schedule.svg"} alt="" width={15} height={20} />
+              Timeline
+            </span>
+            予選当日の流れ
+          </h2>
+          <div className="container mx-auto px-5 md:px-0 md:max-w-md">
+            12：30～13：00　開場・登壇者受付
+            <br />
+            13：00～13：05　開会
+            <br />
+            13：05～13：10　挨拶　利府町長
+            <br />
+            13：10～13：20　全体概要＆ルール説明・審査員の紹介
+            <br />
+            13：20～14：10　利府チャレンジアワード
+            <br />
+            14：10～15：00　学生ピッチ甲子園
+            <br />
+            15：00～15：10　休憩・スター誕生オーディション準備
+            <br />
+            15：10～16：00　スター誕生オーディション
+            <br />
+            16：00～16：15　審査員講評・総評
+            <br />
+            16：15～16：30　審査結果発表・表彰
+            <br />
+            16：30～16：50　記念撮影
+            <br />
+            16：50～16：55　町長総評
+            <br />
+            16：55～17：00　閉会
+            <br />
+          </div>
+        </section>
         <section id="venue">
           <h2 className={`secTitle`}>
             <span className={`flex gap-2 justify-center Montserrat`}>
@@ -93,18 +146,11 @@ const Home = () => {
               </p>
               <p className="text-left mt-2 md:mt-5 md:text-base text-sm">
                 <br />
-                ・南館
+                ・南館 1階 ライブスクエア
                 <br />
                 〒981-0114
                 <br />
                 宮城県宮城郡利府町新中道3丁目1-1
-                <br />
-                <br />
-                ・北館
-                <br />
-                〒981-0112
-                <br />
-                宮城県宮城郡利府町利府字新屋田前22
               </p>
             </div>
           </div>
@@ -138,7 +184,29 @@ const Home = () => {
             </span>
             司会
           </h2>
-
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2 mx-auto">
+              <Image
+                src={"/busi/miyagi/asano_takehumi.jpg"}
+                width={900}
+                height={320}
+                alt=""
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+                アサノタケフミ
+              </p>
+              <p className="text-[15px] mx-auto md:text-left md:mx-0 pb-10">
+                2023年6月に利府町観光大使に就任。
+                <br />
+                アーティストや劇団公演への楽曲提供、TVCMソング、PRソング、ラジオジングル制作作品歌唱など幅広く活動。
+                <br />
+                2007年からラジオ局・ベイウェーブにて　平日お昼の顔として番組を担当。年間300日程度生放送担当。
+              </p>
+            </div>
+          </div>
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2 mx-auto">
               <Image
@@ -181,38 +249,10 @@ const Home = () => {
             <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
               <div className="">
                 <Image
-                  src={"/busi/miyagi/fukudome_hideki.jpg"}
-                  width={642}
-                  height={642}
-                  alt=""
-                  className="w-60  md:w-[320px]  object-cover mx-auto"
-                />
-              </div>
-              <div className="itemText px-5 text-left ">
-                <p className="mt-5 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                  福留 秀基
-                </p>
-                <p className="font-bold text-[15px] text-center ">
-                  <br className="hidden md:block" />
-                  スパークル株式会社 代表取締役
-                  <br className="hidden md:block" />
-                  <br className="hidden md:block" />
-                  <br className="hidden md:block" />
-                </p>
-                <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
-                  <br />
-                  東北大学大学院通信工学専攻修了後、株式会社シグマクシスにてデジタル戦略コンサルタントとして飲料メーカー・金融業・専門商社・小売業などのクライアントへの新規事業開発・PMO
-                  案件・ビジネスデューデリジェンス・データ解析に従事後、スパークルに参画、現在代表取締役。
-                </div>
-              </div>
-            </div>
-            <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
-              <div className="">
-                <Image
                   src={"/busi/miyagi/tiba_daiki.jpg"}
                   width={642}
                   height={642}
-                  alt="島川敏明"
+                  alt="千葉 大貴"
                   className="w-60  md:w-[320px]  object-cover mx-auto"
                 />
               </div>
@@ -231,7 +271,68 @@ const Home = () => {
                 </p>
                 <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                   <br />
-                  1976年仙台市生まれ。システム会社を２年で退社後、米国放浪を経て2002年に帰国。食品を中心としたECサイトを開設し、数々の賞を受賞する。2011年には大手企業と連携し、東日本大震災の復興支援を実施。一次産業の再生や経営者の育成など数々の地方創生プロジェクトを実施。2017年には仙台市秋保温泉でまちづくり会社を設立。古民家カフェの経営や観光地再生に取り組む。2022年からは農林水産省などの支援事業で審査委員、統括プロデューサーなどを務める。現在は全国で魅力的な商品開発や商業施設のプロデュースなど幅広く活躍している。
+                  1976年仙台市生まれ。
+                  システム会社を２年で退社後、米国放浪を経て2002年に帰国。
+                  食品を中心としたECサイトを開設し、数々の賞を受賞する。
+                  2011年には大手企業と連携し、東日本大震災の復興支援を実施。
+                  一次産業の再生や経営者の育成など数々の地方創生プロジェクトを実施。
+                  2017年には仙台市秋保温泉でまちづくり会社を設立。
+                  古民家カフェの経営や観光地再生に取り組む。2022年からは農林水産省などの支援事業で審査委員、統括プロデューサーなどを務める。
+                  現在は全国で魅力的な商品開発や商業施設のプロデュースなど幅広く活躍している。
+                </div>
+              </div>
+            </div>
+            <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+              <div className="">
+                <Image
+                  src={"/busi/miyagi/monou.jpg"}
+                  width={642}
+                  height={642}
+                  alt="桃生 和成"
+                  className="w-60  md:w-[320px]  object-cover mx-auto"
+                />
+              </div>
+              <div className="itemText px-5 text-left">
+                <p className="mt-5 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                  桃生 和成
+                </p>
+                <p className="font-bold text-[15px] text-center ">
+                  一般社団法人Granny Rideto代表理事
+                </p>
+                <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                  <br />
+                  1982年仙台市生まれ、いわき市育ち。
+                  宮城大学大学院事業構想学科空間デザイン領域博士前期課程修了。
+                  2008年、NPO法人せんだい・みやぎNPOセンター入職。多賀城市市民活動サポートセンター長を務めたのち、2016年退職。
+                  同年、一般社団法人Granny Ridetoを立ち上げ。
+                  利府町まち・ひと・しごと創造ステーションtsumikiディレクター（2016年～）、シェア型複合施設THE6ディレクター（2016年～）、
+                  東北文化学園大学非常勤講師（2018年～）。
+                  『復興から学ぶ市民参加型のまちづくりー中間支援とネットワーキングー』（創成社・2018年）共著ほか。
+                  東北の日常をおもしろく、をテーマにしたつれづれ団の団長や衣食住ユニットすまいとしても活動。
+                </div>
+              </div>
+            </div>
+            <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+              <div className="">
+                <Image
+                  src={"/busi/miyagi/fukudome_hideki.jpg"}
+                  width={642}
+                  height={642}
+                  alt="福留 秀基"
+                  className="w-60  md:w-[320px]  object-cover mx-auto"
+                />
+              </div>
+              <div className="itemText px-5 text-left ">
+                <p className="mt-5 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                  福留 秀基
+                </p>
+                <p className="font-bold text-[15px] text-center ">
+                  スパークル株式会社 代表取締役
+                </p>
+                <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                  <br />
+                  東北大学大学院通信工学専攻修了後、株式会社シグマクシスにてデジタル戦略コンサルタントとして飲料メーカー・金融業・専門商社・小売業などのクライアントへの新規事業開発・PMO
+                  案件・ビジネスデューデリジェンス・データ解析に従事後、スパークルに参画、現在代表取締役。
                 </div>
               </div>
             </div>

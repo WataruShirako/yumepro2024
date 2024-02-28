@@ -155,6 +155,13 @@ const Sponsor = () => {
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
+          <Image
+            src={"/busi/osaka/higashiosaka.jpg"}
+            alt="東大阪市"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
         </div>
       </div>
     </section>

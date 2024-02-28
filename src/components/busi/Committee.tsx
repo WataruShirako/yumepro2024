@@ -177,6 +177,54 @@ const Committee = () => {
               </div>
             </div>
           </div>
+          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+            <div className="">
+              <Image
+                src={"/busi/funabiki.jpg"}
+                width={642}
+                height={642}
+                alt="舟引美咲"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left ">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                舟引美咲
+              </p>
+              <p className="font-bold text-[15px] text-center ">
+                東京大学大学院 Graduate fellow
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                慶応義塾大学法学部政治学科卒業後、テレビ局のアナウンサーやニュースキャスターの経験を積んだ後、University
+                Of The Arts London（UAL）に留学。
+                その際、福島復興支援のチャリティープロジェクトを英国貴族院議員らの協力を経て、アジア人初となる英国国会議事堂にてイベント開催した経験を経て、帰国後はLuxury業界で主にブランド・マーケティングやCSRに従事。現在は東京大学大学院にてLuxuryとCSRの研究を行っている。
+              </div>
+            </div>
+          </div>
+          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+            <div className="">
+              <Image
+                src={"/busi/shibata.jpg"}
+                width={642}
+                height={642}
+                alt="柴田秀樹"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left ">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                柴田秀樹
+              </p>
+              <p className="font-bold text-[15px] text-center ">
+                株式会社HSPB 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                りそな銀行、SBIグループプライベートバンキング本部長兼企画室長を経て、2021年より株式会社HSPBの代表としての活動を本格始動。徳川宗家、全国寺社観光協会など数多くの団体、企業の取締役、理事、顧問、アドバイザー等として活動。主に経営コンサル、ファイナンス、インベストメントの他、事業強化・ネットワーク支援、事業再生などにも取り組む。
+              </div>
+            </div>
+          </div>
         </div>
         {/** 
         <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">

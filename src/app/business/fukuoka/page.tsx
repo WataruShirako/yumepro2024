@@ -108,6 +108,32 @@ const BusinessPage = () => {
               </div>
             </div>
           </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/busi/fukuoka/itto.jpg"}
+                width={642}
+                height={642}
+                alt="一戸悠里"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                一戸悠里
+              </p>
+              <p className="font-bold text-[15px] text-center md:text-left">
+                株式会社honeyboy&co. 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                お酒のD2Cスタートアップ。 <br />
+                鹿児島で蜂蜜酒専門の工場「HONEY
+                CRAFT」を立ち上げ、オンラインで販売をしている。2023年5月カフェ運営を開始し、
+                現在は蜂蜜の商品開発をメイン事業としている。
+              </div>
+            </div>
+          </div>
         </section>
         <Sponsor />
         <section className={"my-20"}>

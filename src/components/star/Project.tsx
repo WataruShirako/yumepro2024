@@ -17,24 +17,15 @@ const Project = ({ about }: any) => {
           開催目的
         </h2>
         <div className="container m-auto max-w-[92%] lg:max-w-2xl">
-          日本最大級エンタメオーディションを開催。
-          <br />
-          地方からスターを発掘するべく「夢プロスター誕生オーディション」と
-          アイドル・声優などあらゆる業界別エンタメオーディションを実施します。
+          夢叶えるプロジェクトは、80億分の１の才能の輝き、というテーマのもと
+          夢を持つ全ての人に夢を叶える為の機会を与え、応援、激励、そして支えるプロジェクトです。
           <br />
           <br />
-          予選は地方予選および配信や動画、書類などを使って実施し、最終審査・授賞式をニコニコ超会議で実施します。
+          ジャンルは無し。
           <br />
           <br />
-          ボーカルオーディションについては「歌ってみた Collection 〜2024
-          Spring〜」への投稿が前提となります。参加ルールは
-          <a
-            href="https://utattemita-collection.jp/project#special"
-            target="_blank"
-            className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
-          >
-            こちら
-          </a>
+          あなたが一番自信のある才能を輝かせ、ニコニコ超会議で行われる『夢叶えるプロジェクト2024
+          スター誕生オーディション決勝』でグランプリを勝ち取り、世界的スターへの第一歩を踏み出しましょう。
         </div>
       </section>
       <div className="svg__container">
