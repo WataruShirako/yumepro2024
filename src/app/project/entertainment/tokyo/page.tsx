@@ -212,14 +212,14 @@ const Home = () => {
           </h2>
           <div className="container m-auto max-w-[92%] xl:max-w-5xl py-10">
             <Image
-              src={"/star/tokyo/flow1_pc1.png"}
+              src={"/star/tokyo/flow_pc2.png"}
               alt=""
               width={900}
               height={900}
               className="mx-auto hidden md:block"
             />
             <Image
-              src={"/star/tokyo/flow_sp1.png"}
+              src={"/star/tokyo/flow_sp2.png"}
               alt=""
               width={900}
               height={900}
@@ -267,6 +267,18 @@ const Home = () => {
                   ニコニコ超会議
                   <br />
                   夢叶えるプロジェクト2024ステージ出演権
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_07.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  ニコニコ超会議
+                  <br />
+                  夢叶えるプロジェクト2024ファッションショー出演権
                 </div>
                 <div>
                   <Image
@@ -492,7 +504,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/** 
+
         <section id="committee" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -506,11 +518,27 @@ const Home = () => {
             </span>
             審査委員会
           </h2>
-          <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent">
-            — COMING SOON —
-          </p>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2 mx-auto">
+              <Image
+                src={"/star/tokyo/yukipoyo.jpg"}
+                width={900}
+                height={320}
+                alt="ゆきぽよ"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+                木村有希（ゆきぽよ）
+              </p>
+              <p className="text-[15px] mx-auto md:text-left md:mx-0 pb-10">
+                モデル、タレント。1996年10月23日生まれ、神奈川県出身。O型。エイジアプロモーション所属。愛称は“ゆきぽよ”。2012年、雑誌『egg』の読者モデルとしてデビュー。17年、恋愛リアリティ番組『バチェラー・ジャパン』に出演。天真爛漫なキャラクターが人気を博し、出演後はテレビのバラエティー番組を中心に活躍している。
+                <br />
+              </p>
+            </div>
+          </div>
         </section>
-*/}
 
         <section id="sponsor" className={""}>
           <h2 className="secTitle">

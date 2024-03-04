@@ -84,6 +84,31 @@ const BusinessPage = () => {
             <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
               <div className="">
                 <Image
+                  src={"/busi/tokyo/minowa.png"}
+                  width={642}
+                  height={642}
+                  alt="箕輪 厚介"
+                  className="w-60  md:w-[320px]  object-cover mx-auto"
+                />
+              </div>
+              <div className="itemText px-5 text-left ">
+                <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                  箕輪 厚介
+                </p>
+
+                <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                  <br />
+                  日本の編集者、実業家、YouTuber。 血液型はB型。
+                  幻冬舎で編集者として勤務。 株式会社エクソダス取締役。
+                  CAMPFIREチェアマン。合同会社波の上商店代表。
+                  アーティスト「箕輪☆狂介」の出版プロデューサー。
+                  オンラインサロン「箕輪編集室」を主宰し、「堀江貴文イノベーション大学校」で特任教授を務める。
+                </div>
+              </div>
+            </div>
+            <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+              <div className="">
+                <Image
                   src={"/busi/funabiki.jpg"}
                   width={642}
                   height={642}
@@ -129,31 +154,6 @@ const BusinessPage = () => {
                   20代にして光通信取締役、クレイフィッシュ（現・e-まちタウン）代表取締役就任し、ユニバーサルソリューションシステムズ（現・INEST、JASDAQ上場）社長、
                   光通信常務取締役などを務めた。その後アリババを知り、今後の日本経済や中小企業にとって非常に魅力的で有益なサービスであると確信。
                   ソフトバンクの孫正義、光通信の重田康光を何年も説得し、2009年、アリババマーケティングを発起人として設立し、社長に就任。
-                </div>
-              </div>
-            </div>
-            <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
-              <div className="">
-                <Image
-                  src={"/busi/tokyo/minowa.png"}
-                  width={642}
-                  height={642}
-                  alt="箕輪 厚介"
-                  className="w-60  md:w-[320px]  object-cover mx-auto"
-                />
-              </div>
-              <div className="itemText px-5 text-left ">
-                <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                  箕輪 厚介
-                </p>
-
-                <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
-                  <br />
-                  日本の編集者、実業家、YouTuber。 血液型はB型。
-                  幻冬舎で編集者として勤務。 株式会社エクソダス取締役。
-                  CAMPFIREチェアマン。合同会社波の上商店代表。
-                  アーティスト「箕輪☆狂介」の出版プロデューサー。
-                  オンラインサロン「箕輪編集室」を主宰し、「堀江貴文イノベーション大学校」で特任教授を務める。
                 </div>
               </div>
             </div>
