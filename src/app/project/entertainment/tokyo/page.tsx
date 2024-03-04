@@ -45,7 +45,7 @@ const Home = () => {
         <div>
           <picture className=" w-full">
             <source media="(min-width: 768px)" srcSet="/star/tokyo/fv.jpg" />
-            <source media="(min-width: 321px)" srcSet="/star/tokyo/fv.jpg" />
+            <source media="(min-width: 321px)" srcSet="/star/tokyo/fv_sp.jpg" />
             <Image
               src="/star/tokyo/fv.jpg"
               alt="IAキャラクター"
