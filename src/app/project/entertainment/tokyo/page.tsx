@@ -42,7 +42,19 @@ const Home = () => {
     <>
       <Header />
       <main id="" className={"entt"}>
-        <Fv />
+        <div>
+          <picture className=" w-full">
+            <source media="(min-width: 768px)" srcSet="/star/tokyo/fv.jpg" />
+            <source media="(min-width: 321px)" srcSet="/star/tokyo/fv.jpg" />
+            <Image
+              src="/star/tokyo/fv.jpg"
+              alt="IAキャラクター"
+              width={375}
+              height={750}
+              className="w-full"
+            />
+          </picture>
+        </div>
 
         {/** スケジュール*/}
         <section id="" className="">
@@ -449,21 +461,6 @@ const Home = () => {
           </div>
         </section>
 
-        <section id="ambassador" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              AMBASSADOR
-            </span>
-            アンバサダー
-          </h2>
-          <ComingSoon />
-        </section>
         <section id="" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
