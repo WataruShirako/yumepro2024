@@ -6050,24 +6050,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年2月3日</p>
                 <p className="mb-5 text-sm">北九州芸術劇場</p>
               </div>
-              <div className="md:absolute left-[3%] top-[60%]">
-                <a
-                  href="/business/kagoshima"
-                  target="_blank"
-                  className="font-bold w-full bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-md py-2 md:px-6 relative text-center text-white inline-block"
-                >
-                  鹿児島大会
-                  <Image
-                    src={"/top/arrow_white.svg"}
-                    alt={"▶︎"}
-                    width={6}
-                    height={6}
-                    className={"absolute top-[40%]  right-2"}
-                  />
-                </a>
-                <p className="mt-2 text-sm">2024年1月20日</p>
-                <p className="mb-5 text-sm">鹿児島市民文化ホール</p>
-              </div>
+
               <div className="md:absolute left-[1%] top-[72%]">
                 <a
                   href="/business/okinawa"

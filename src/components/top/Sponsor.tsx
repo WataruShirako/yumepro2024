@@ -95,7 +95,13 @@ const Sponsor = () => {
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
           />
-
+          <Image
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+            src={"/busi/osaka/venue_logo.png"}
+            alt={"近畿大学"}
+            width={500}
+            height={500}
+          />
           <Image
             src={"/top/sponsor/an_spa.png"}
             alt="an_spa"
@@ -158,6 +164,13 @@ const Sponsor = () => {
           <Image
             src={"/busi/osaka/higashiosaka.jpg"}
             alt="東大阪市"
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+          />
+          <Image
+            src={"/busi/hyogo/life-tech-kobe.png"}
+            alt={"life-tech-kobe"}
             width={500}
             height={500}
             className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "

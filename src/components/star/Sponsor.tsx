@@ -74,6 +74,15 @@ const Sponsor = ({ sponsors }: any) => {
                 className={"rounded-md mx-auto"}
               />
             </div>
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/busi/osaka/venue_logo.png"}
+                alt={"近畿大学"}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
           </div>
         </div>
 

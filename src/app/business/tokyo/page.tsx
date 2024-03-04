@@ -22,7 +22,48 @@ const BusinessPage = () => {
         <Venue />
         <WinnerBenefit />
         <Ambassador />
-        <Chairman />
+        <section className=" my-20 md:my-40">
+          <h2 className="sectionTitle text-center items-center Montserrat  mt-20 md:mt-40 mb-10">
+            <div className="relative w-max montserrat">
+              <Image
+                src={"/busi/business_title_circle.svg"}
+                width={128}
+                height={128}
+                alt=""
+                className="absolute -top-1 -left-8 md:-top-8 md:-left-16 w-16 h-16 md:w-32 md:h-32"
+              />
+              <p className="relative break-all">CHAIRMAN</p>
+            </div>
+            <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">
+              司会
+            </p>
+          </h2>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2 mx-auto">
+              <Image
+                src={"/busi/tokyo/west.png"}
+                width={900}
+                height={320}
+                alt="ウエストランド"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+                ウエストランド
+              </p>
+              <p className="text-[15px] mx-auto md:text-left md:mx-0 pb-10">
+                ウエストランドは、タイタンに所属する井口浩之と河本太からなる日本のお笑いコンビ。
+                <br />
+                M-1グランプリ2022王者。
+                <br />
+                2人とも岡山県津山市出身であり、2021年6月1日より、つやま産業支援センター特命大使。
+                津山ふるさと大使。
+                <br />
+              </p>
+            </div>
+          </div>
+        </section>
         <section id="committee" className=" my-20 md:my-40">
           <h2 className="sectionTitle text-center items-center Montserrat">
             <div className="relative w-max">
@@ -88,6 +129,31 @@ const BusinessPage = () => {
                   20代にして光通信取締役、クレイフィッシュ（現・e-まちタウン）代表取締役就任し、ユニバーサルソリューションシステムズ（現・INEST、JASDAQ上場）社長、
                   光通信常務取締役などを務めた。その後アリババを知り、今後の日本経済や中小企業にとって非常に魅力的で有益なサービスであると確信。
                   ソフトバンクの孫正義、光通信の重田康光を何年も説得し、2009年、アリババマーケティングを発起人として設立し、社長に就任。
+                </div>
+              </div>
+            </div>
+            <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+              <div className="">
+                <Image
+                  src={"/busi/tokyo/minowa.png"}
+                  width={642}
+                  height={642}
+                  alt="箕輪 厚介"
+                  className="w-60  md:w-[320px]  object-cover mx-auto"
+                />
+              </div>
+              <div className="itemText px-5 text-left ">
+                <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                  箕輪 厚介
+                </p>
+
+                <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                  <br />
+                  日本の編集者、実業家、YouTuber。 血液型はB型。
+                  幻冬舎で編集者として勤務。 株式会社エクソダス取締役。
+                  CAMPFIREチェアマン。合同会社波の上商店代表。
+                  アーティスト「箕輪☆狂介」の出版プロデューサー。
+                  オンラインサロン「箕輪編集室」を主宰し、「堀江貴文イノベーション大学校」で特任教授を務める。
                 </div>
               </div>
             </div>

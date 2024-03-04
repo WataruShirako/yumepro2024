@@ -237,14 +237,23 @@ const Home = () => {
             </span>
             後援
           </h2>
-          <div className="flex justify-center py-2">
+          <div className="flex justify-center py-2 gap-10">
             <div className="item">
               <Image
                 className={"rounded-md"}
                 src={"/busi/hyogo/sponsor01.jpg"}
-                alt={""}
-                width={"150"}
-                height={"150"}
+                alt={"神戸市"}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/busi/hyogo/life-tech-kobe.png"}
+                alt={"life-tech-kobe"}
+                width={"200"}
+                height={"200"}
               />
             </div>
           </div>

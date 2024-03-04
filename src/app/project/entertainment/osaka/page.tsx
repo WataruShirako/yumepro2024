@@ -212,12 +212,21 @@ const Home = () => {
             スポンサー
           </h2>
 
-          <div className="flex justify-center py-2">
+          <div className="flex justify-center py-2 gap-10">
             <div className="item">
               <Image
                 className={"rounded-md"}
                 src={"/top/sponsor/onedining.jpg"}
-                alt={""}
+                alt={"ワンダイニング"}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/busi/osaka/venue_logo.png"}
+                alt={"近畿大学"}
                 width={"200"}
                 height={"200"}
               />

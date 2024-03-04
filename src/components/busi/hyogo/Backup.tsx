@@ -17,14 +17,23 @@ const Backup = () => {
         <p className="relative mt-2 md:mt-6 md:text-[32px] text-2xl">後援</p>
       </h2>
       {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
-      <div className="flex justify-center py-10">
+      <div className="flex justify-center py-10 gap-10">
         <div className="item">
           <Image
             className={"rounded-md"}
             src={"/busi/hyogo/sponsor01.jpg"}
-            alt={""}
-            width={"150"}
-            height={"150"}
+            alt={"神戸市"}
+            width={"200"}
+            height={"200"}
+          />
+        </div>
+        <div className="item">
+          <Image
+            className={"rounded-md"}
+            src={"/busi/hyogo/life-tech-kobe.png"}
+            alt={"life-tech-kobe"}
+            width={"200"}
+            height={"200"}
           />
         </div>
       </div>

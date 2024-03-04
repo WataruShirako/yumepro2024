@@ -7,7 +7,7 @@ import Image from "next/image";
 import WinnerBenefit from "@/components/common/ennt_WinnerBenefit";
 import RegionalTournament from "@/components/common/RegionalTournament";
 import ToTop from "@/components/entt/Totop";
-import Fv from "@/components/busi/kagoshima/Fv";
+
 import ComingSoon from "@/components/common/ComingSoon";
 
 const Home = () => {
@@ -42,7 +42,25 @@ const Home = () => {
     <>
       <Header />
       <main id="" className={"entt"}>
-        <Fv />
+        <div>
+          <picture className=" w-full">
+            <source
+              media="(min-width: 768px)"
+              srcSet="/busi/kagoshima/top_pc.webp"
+            />
+            <source
+              media="(min-width: 321px)"
+              srcSet="/busi/kagoshima/top_sp.webp"
+            />
+            <Image
+              src="/busi/kagoshima/top_sp.webp"
+              alt="IAキャラクター"
+              width={375}
+              height={750}
+              className="w-full"
+            />
+          </picture>
+        </div>
 
         <section id="schedule" className={""}>
           <h2 className="secTitle">

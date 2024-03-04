@@ -64,6 +64,15 @@ const Sponsor = () => {
             height={"150"}
           />
         </div>
+        <div className="item">
+          <Image
+            className={"rounded-md mx-auto"}
+            src={"/busi/osaka/venue_logo.png"}
+            alt={"近畿大学"}
+            width={"150"}
+            height={"150"}
+          />
+        </div>
       </div>
 
       <div className="pb-10">

@@ -45,7 +45,7 @@ const Home = () => {
         <Fv />
 
         {/** スケジュール*/}
-        <section id="" className="bg-white">
+        <section id="" className="">
           <h2 className="secTitle">
             <span className={"flex gap-2 m-auto items-center justify-center "}>
               About
@@ -181,6 +181,52 @@ const Home = () => {
             />
           </a>
         </section>
+
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content top"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              id="パス_285"
+              data-name="パス 285"
+              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
+              transform="translate(0 -20)"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+        <section id="flow" className={"bg-white"}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image
+                src={"/entt/yumephoto/icons/flow.svg"}
+                alt=""
+                width={20}
+                height={20}
+              />
+              Flow
+            </span>
+            選考フロー
+          </h2>
+          <div className="container m-auto max-w-[92%] xl:max-w-5xl py-10">
+            <Image
+              src={"/star/tokyo/flow1_pc1.png"}
+              alt=""
+              width={900}
+              height={900}
+              className="mx-auto hidden md:block"
+            />
+            <Image
+              src={"/star/tokyo/flow_sp1.png"}
+              alt=""
+              width={900}
+              height={900}
+              className="mx-auto md:hidden max-w-[400px] w-[90%]"
+            />
+          </div>
+        </section>
         <div className="svg__container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -204,66 +250,189 @@ const Home = () => {
             </span>
             特典
           </h2>
-          <div className="mx-auto max-w-4xl p-5 m-10">
+          <div className="mx-auto max-w-7xl p-5 m-10">
             <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#CAA846] to-[#E0CA82] rounded-t-3xl text-white font-bold">
               ランキング 1位
             </div>
-            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
-              <br />
-              <p className="font-bold mb-2">
-                ・ニコニコ超会議 夢叶えるプロジェクト2024ステージ出演権
-                <br />
-                ・映画『夢叶えるプロジェクト(仮)』出演権（内容が変更となる可能性があります）
-                <br />
-                ・TOKYO MX番組出演権（事前審査あり)
-                <br />
-                ・3月30日関東予選THE STAGE出演
-                <br />
-                ・高級スパサウナ招待券40万円分
-                <br />
-                ・銀座サイネージモデル出演
-                <br />
-                ・その他メディア出演のチャンスあり
-                <br />
-              </p>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_01.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  ニコニコ超会議
+                  <br />
+                  夢叶えるプロジェクト2024ステージ出演権
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_02.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  映画『夢叶えるプロジェクト(仮)』出演権
+                  <br />
+                  <p className="font-normal text-sm">
+                    （内容が変更となる可能性があります）
+                  </p>
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_03.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  TOKYO MX番組出演権 <br />
+                  <p className="font-normal text-sm">（事前審査あり)</p>
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_04.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  3月30日関東予選 THE STAGE出演
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_05.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  高級スパサウナ招待券40万円分
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_06.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  銀座サイネージモデル出演
+                </div>
+              </div>
+              <div className="py-10">その他メディア出演のチャンスあり</div>
             </div>
           </div>
-          <div className="mx-auto max-w-4xl p-5 m-10">
+          <div className="mx-auto max-w-7xl p-5 m-10">
             <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#979C9A] to-[#BDC3C9] rounded-t-3xl text-white font-bold">
               ランキング 2~3位
             </div>
-            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
-              <br />
-              <p className="font-bold mb-2">
-                ・ニコニコ超会議 夢叶えるプロジェクト2024ステージ出演権
-                <br />
-                ・TOKYO MX番組出演権（事前審査あり)
-                <br />
-                ・3月30日関東予選THE STAGE出演
-                <br />
-                ・高級スパサウナ招待券30万円分
-                <br />
-                ・銀座サイネージモデル出演
-                <br />
-              </p>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_01.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  ニコニコ超会議
+                  <br />
+                  夢叶えるプロジェクト2024ステージ出演権
+                </div>
+
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_03.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  TOKYO MX番組出演権 <br />
+                  <p className="font-normal text-sm">（事前審査あり)</p>
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_04.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  3月30日関東予選 THE STAGE出演
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_05.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  高級スパサウナ招待券30万円分
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_06.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  銀座サイネージモデル出演
+                </div>
+              </div>
             </div>
           </div>
-          <div className="mx-auto max-w-4xl p-5 m-10">
+          <div className="mx-auto max-w-7xl p-5 m-10">
             <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#b87333] to-[#b8a593] rounded-t-3xl text-white font-bold">
               ランキング 4~10位
             </div>
-            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
-              <br />
-              <p className="font-bold mb-2">
-                ・TOKYO MX番組出演権（事前審査あり)
-                <br />
-                ・3月30日関東予選THE STAGEへ通過
-                <br />
-                当日パフォーマンスを行なっていただき、審査員賞を受賞した2名がニコニコ超会議への出演権を獲得。
-                <br />
-                ・銀座サイネージモデル出演
-                <br />
-              </p>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_03.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  TOKYO MX番組出演権 <br />
+                  （事前審査あり)
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_04.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  3月30日関東予選 THE STAGE出演
+                  <br />
+                  <p className="font-normal text-sm">
+                    当日パフォーマンスを行なっていただき、審査員賞を受賞した2名がニコニコ超会議への出演権を獲得
+                  </p>
+                </div>
+
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_06.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  銀座サイネージモデル出演
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -296,32 +465,32 @@ const Home = () => {
             </span>
             司会
           </h2>
-          <ComingSoon />
-          {/** 
+
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2 mx-auto">
               <Image
-                src={"/busi/company01.jpg"}
+                src={"/busi/tokyo/west.png"}
                 width={900}
                 height={320}
-                alt=""
+                alt="ウエストランド"
                 className="w-60  md:w-[320px]  object-cover mx-auto"
               />
             </div>
             <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
-                大平ひかる
+                ウエストランド
               </p>
               <p className="text-[15px] mx-auto md:text-left md:mx-0 pb-10">
-                2002年7月23日生まれ。東京都出身。青山学院文学部3年生。ミス青山2023グランプリ、女子高生ミスコン2020グランプリ受賞。
+                ウエストランドは、タイタンに所属する井口浩之と河本太からなる日本のお笑いコンビ。
                 <br />
-                特技は歌って踊ることであり、小学生の頃から8年間のアイドル経験がある。
+                M-1グランプリ2022王者。
                 <br />
-                3Bjunior、マジェスティックセブン、アメフラっシ、A♡Zの元メンバー。
+                2人とも岡山県津山市出身であり、2021年6月1日より、つやま産業支援センター特命大使。
+                津山ふるさと大使。
+                <br />
               </p>
             </div>
           </div>
-          */}
         </section>
         {/** 
         <section id="committee" className={""}>

@@ -225,6 +225,31 @@ const Committee = () => {
               </div>
             </div>
           </div>
+          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+            <div className="">
+              <Image
+                src={"/busi/minami.jpg"}
+                width={642}
+                height={642}
+                alt="南 章行"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left ">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                南 章行
+              </p>
+              <p className="font-bold text-[15px] text-center ">
+                株式会社ココナラ 取締役
+                <br />
+                株式会社ココナラスキルパートナーズ 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                慶応義塾大学を卒業後、住友銀行を経て、企業買収ファンドのアドバンテッジパートナーズに入社し、5件の投資案件を担当。2009年に英国オックスフォード大学MBAを修了後、複数のNPO法人の立ち上げに参加。2012年1月、自ら代表として株式会社ウェルセルフ（現株式会社ココナラ）を設立、スキルのマーケットプレイス「ココナラ」を運営。現在同社取締役。2022年よりベンチャー投資子会社である株式会社ココナラスキルパートナーズの代表取締役に就任。
+              </div>
+            </div>
+          </div>
         </div>
         {/** 
         <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">
