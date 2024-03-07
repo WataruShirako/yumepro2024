@@ -76,7 +76,9 @@ const BusinessPage = () => {
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
                 世耕 石弘
               </p>
-
+              <p className="font-bold text-[15px] text-center md:text-left">
+                近畿大学　経営戦略本部　本部長
+              </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
                 奈良県出身。大学を卒業後、1992年近畿日本鉄道株式会社に入社。以降、ホテル事業、海外派遣、広報担当を経て、2007年に近畿大学に奉職。入試広報課長、入学センター事務長、広報部長、総務部長を歴任。2020年4月から広報室を配下に置く経営戦略本部長となり、現在に至る。
