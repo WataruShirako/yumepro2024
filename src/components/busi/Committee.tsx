@@ -250,6 +250,31 @@ const Committee = () => {
               </div>
             </div>
           </div>
+          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+            <div className="">
+              <Image
+                src={"/busi/kojima_.jpg"}
+                width={642}
+                height={642}
+                alt="小嶋彗史"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left ">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                小嶋彗史
+              </p>
+              <p className="font-bold text-[15px] text-center ">
+                株式会社Unpacked 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                中高生の進路学習の可能性に気づき、立教大学在学中にUnpackedを創業。
+                「みらいの不安をみらい世代と共に解決する」をコンセプトに、探究型学習と事業開発を掛け合わせたビジネスモデルを日系企業かグローバル企業まで延べ１００社以上に展開。
+                「自立共生」をミッションに、今後はハイクラスU18市場を確立し、意志を持ったキャリア選択ができるインフラをアジア圏を中心に展開予定。
+              </div>
+            </div>
+          </div>
         </div>
         {/** 
         <div className="container px-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-center mb-10 gap-5 m-auto md:max-w-4xl items-start">

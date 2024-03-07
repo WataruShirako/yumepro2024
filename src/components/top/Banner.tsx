@@ -20,7 +20,7 @@ const auditions = [
   {
     name: "夢プロショートドラマオーディション",
     path: "/project/entertainment/shortdrama",
-    src: "/top/banner/banner_drama.png",
+    src: "/top/banner/banner_drama2.jpg",
   },
   {
     name: "親善大使オーディション",

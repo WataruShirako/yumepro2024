@@ -247,36 +247,6 @@ const Home = () => {
           </div>
         </section>
 
-        <section id="sponsor" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              Sponsor
-            </span>
-            スポンサー
-          </h2>
-          <div className="my-10">
-            <ComingSoon />
-          </div>
-          <a
-            href="/sponsor"
-            className="button md:text-xl text-base font-bold relative"
-          >
-            スポンサー募集
-            <Image
-              src={"/top/arrow_white.svg"}
-              alt={"▶︎"}
-              width={8.45}
-              height={12.45}
-              className={"absolute top-auto bottom-auto right-4"}
-            />
-          </a>
-        </section>
         <section id="backup" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>

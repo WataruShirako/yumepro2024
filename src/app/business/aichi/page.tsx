@@ -19,7 +19,8 @@ const contents = [
   },
   {
     title: "会場",
-    content: `名古屋市内`,
+    content: `SLOW ART CENTER NAGOYA<br /><br />
+    〒460-0003 <br />愛知県名古屋市中区錦３丁目１６０２`,
   },
   {
     title: "発表時間",
@@ -83,32 +84,28 @@ const BusinessPage = () => {
               開催地
             </p>
           </h2>
-          <div className="container flex m-auto md:max-w-4xl pb-10 px-5 justify-center">
-            <ComingSoon />
-            {/** 
-            <div className="w-1/3 md:w-max">
+          <div className="container sm:flex m-auto md:max-w-4xl pb-10 px-5 justify-center">
+            <div className="sm:w-1/3">
               <Image
-                src={"/busi/aichi/venue.jpg"}
+                src={"/busi/aichi/venue1.jpg"}
                 width={278}
                 height={278}
                 alt=""
-                className=""
+                className="mx-auto"
               />
             </div>
 
-            <div className="md:pl-10 pl-5  w-2/3 md:w-max">
-              <p className="text-left font-bold mt-0 md:mt-5 text-xl">
-                北文化小劇場
+            <div className="sm:pl-10   sm:w-2/3 ">
+              <p className="text-left font-bold mt-2 md:mt-5 text-xl">
+                SLOW ART CENTER NAGOYA
               </p>
               <p className="text-left mt-2 md:mt-5 md:text-base text-sm">
                 <br />
-                〒462-0037
-                <br />
-                愛知県名古屋市北区志賀町４丁目６０−３１
-                <br />
+                「SLOW ART CENTER
+                NAGOYA」は、名古屋市旧教育館跡地に2024年3月開業する暫定活用施設です。
+                文化的価値の高い栄地区で、スローアート活動を通じ、人と人、人と環境の新たな関係性を作り、「個人×地域×地球のWell-being」を生み出す市民コミュニティの形成拠点を目的としています。
               </p>
             </div>
-            */}
           </div>
           {/*      <Image
         src={"/busi/hyogo/venue.png"}

@@ -135,7 +135,7 @@ const BusinessPage = () => {
             </div>
           </div>
         </section>
-        <Sponsor />
+
         <section className={"my-20"}>
           <h2 className="sectionTitle text-center items-center Montserrat">
             <div className="relative w-max">

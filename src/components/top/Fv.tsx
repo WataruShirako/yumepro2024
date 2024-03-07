@@ -31,6 +31,24 @@ const images = {
 const Fv = () => {
   return (
     <section className={"fv"}>
+      <picture className=" w-full">
+        <source
+          media="(min-width: 768px)"
+          srcSet="/top/fv_slide/fv_top_pc.jpg"
+        />
+        <source
+          media="(min-width: 321px)"
+          srcSet="/top/fv_slide/fv_top_sp.jpg"
+        />
+        <Image
+          src="/top/fv_slide/fv_top_pc.jpg"
+          alt=""
+          width={375}
+          height={750}
+          className="w-full"
+        />
+      </picture>
+      {/** 
       <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
         slidesPerView={1} //一度に表示するスライドの数
@@ -81,6 +99,7 @@ const Fv = () => {
           );
         })}
       </Swiper>
+      */}
     </section>
   );
 };

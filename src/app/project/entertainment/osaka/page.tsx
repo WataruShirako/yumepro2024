@@ -34,7 +34,9 @@ const Home = () => {
     },
     {
       title: "会場",
-      content: `近畿大学 実学ホール`,
+      content: `KINCUBA Basecamp<br /><br />
+      〒577-0818<br />
+      大阪府東大阪市小若江3-6-9<br />`,
     },
   ];
 
@@ -89,10 +91,11 @@ const Home = () => {
             </div>
             <div className="md:pl-10 pl-5 w-2/3">
               <p className="text-left font-bold mt-0 md:mt-5 text-xl">
-                近畿大学
+                KINCUBA Basecamp
               </p>
               <p className="text-left mt-2 md:mt-5 md:text-base text-sm">
-                近畿大学は、大阪府東大阪市小若江三丁目4番1号に本部を置く日本の私立大学。1925年創立、1943年大学設置。略称は近大。文理合わせて15学部49学科を擁する総合大学である。
+                「起業」というチャレンジを山に例えたとき、目標到達を目指す拠点となる場所、それがKINCUBA
+                Basecamp。このインキュベーション施設は、近畿大学東大阪キャンパスを象徴する西門の目の前に位置し、24時間利用可能、登記利用もでき、環境面からも起業を支援しています。同じ夢と志をもった仲間といつでも集うことができる共創空間で、近畿大学発ベンチャーの創出を後押しします。
               </p>
             </div>
           </div>

@@ -52,15 +52,21 @@ const Home = () => {
   //開催概要
   const about = {
     sched: `
-      2024年3月1日〜〜3月31日
+      2024年3月10日〜3月31日
     `,
     status1: `
-      TikTokにて「#ドリームショートドラマ2024」を付けて投稿した中から5名が決勝進出。<br />
+      TikTokにて「#夢プロショートドラマ2024」を付けて投稿した中から5名が決勝進出。<br />
+      応募作品数に上限はございません。たくさんのご応募お待ちしております。
       
     `,
+    status2: `
+    ・縦型（9:16）<br />
+    ・TikTokに投稿が可能な形式
+    
+  `,
 
-    status2: "①テーマに沿った作品か<br />②オリジナリティ<br />③技術面",
-    status3:
+    status3: "①テーマに沿った作品か<br />②オリジナリティ<br />③技術面",
+    status4:
       "2024年4月27日 10:00~18:00<br /><br />幕張メッセ<br />〒261-8550 千葉県千葉市美浜区中瀬2丁目1",
   };
 
@@ -272,7 +278,7 @@ const Home = () => {
             開催概要
           </h2>
           <div className="container m-auto max-w-[92%] lg:max-w-2xl">
-            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between">
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-5">
               <p
                 className={
                   "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
@@ -281,7 +287,7 @@ const Home = () => {
                 <span
                   className={"px-2 py-1 bg-[#888888] text-white inline-block"}
                 >
-                  開催期間
+                  TikTok審査
                 </span>
               </p>
               <div
@@ -290,7 +296,7 @@ const Home = () => {
                 <p dangerouslySetInnerHTML={{ __html: `${about.sched}` }} />
               </div>
             </div>
-            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between">
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-5">
               <p
                 className={
                   "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
@@ -308,7 +314,25 @@ const Home = () => {
                 <p dangerouslySetInnerHTML={{ __html: `${about.status1}` }} />
               </div>
             </div>
-            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between">
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-5">
+              <p
+                className={
+                  "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  応募形式
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                <p dangerouslySetInnerHTML={{ __html: `${about.status2}` }} />
+              </div>
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-5">
               <p
                 className={
                   "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
@@ -323,10 +347,10 @@ const Home = () => {
               <div
                 className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
               >
-                <p dangerouslySetInnerHTML={{ __html: `${about.status2}` }} />
+                <p dangerouslySetInnerHTML={{ __html: `${about.status3}` }} />
               </div>
             </div>
-            <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between">
+            <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between gap-5">
               <p
                 className={
                   "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
@@ -335,18 +359,80 @@ const Home = () => {
                 <span
                   className={"px-2 py-1 bg-[#888888] text-white inline-block"}
                 >
-                  授賞式
+                  最終審査
+                  <br className="sm:hidden" />
+                  ＆授賞式
                 </span>
               </p>
               <div
                 className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
               >
-                <p dangerouslySetInnerHTML={{ __html: `${about.status3}` }} />
+                <p dangerouslySetInnerHTML={{ __html: `${about.status4}` }} />
               </div>
             </div>
           </div>
         </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content top"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              id="パス_285"
+              data-name="パス 285"
+              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
+              transform="translate(0 -20)"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+        <section id="flow" className={"bg-white"}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image
+                src={"/entt/yumephoto/icons/flow.svg"}
+                alt=""
+                width={20}
+                height={20}
+              />
+              Flow
+            </span>
+            選考フロー
+          </h2>
+          <div className="container m-auto max-w-[92%] xl:max-w-5xl py-10">
+            <Image
+              src={"/shortdrama/flow_pc5.png"}
+              alt=""
+              width={900}
+              height={900}
+              className="mx-auto hidden md:block"
+            />
+            <Image
+              src={"/shortdrama/flow_sp2.png"}
+              alt=""
+              width={900}
+              height={900}
+              className="mx-auto md:hidden max-w-[400px] w-[90%]"
+            />
+          </div>
+        </section>
 
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content under"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              className={"w-full"}
+              id="パス_286"
+              data-name="パス 286"
+              d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
+              fill="#fff"
+            />
+          </svg>
+        </div>
         <section id="committee" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -625,8 +711,7 @@ const Home = () => {
           </svg>
         </div>
         */}
-        {/**<Flow />*/}
-        {/** 
+
         <section className="container m-auto max-w-[92%] md:max-w-5xl">
           <h2 className={"bg-[#485757] px-1 w-full text-[#EFEFEF] text-center"}>
             個人情報の取り扱い
@@ -634,7 +719,7 @@ const Home = () => {
           <p className={"mt-4 text-sm"}>
             本企画の主催は、株式会社クレドインターナショナルが行い、運営業務は株式会社クレドインターナショナルが行います。
             <br />
-            本コンテストで取得した個人情報は厳重に管理され、コンテストに関するご連絡、賞品の発送、応募作品の管理、受賞作品の展示などコンテストの実施・運営・宣伝広報活動およびこれらに付随する目的並びに特定の個人を識別できない統計資料を作成する目的、このほか主催者のPR活動で応募作品を使用する際に応募時のInstagramアカウント名を合わせて表示する目的、並びに個人情報保護法等の法令において認められた範囲でのみ利用し、それ以外の目的では利用いたしません。データ（Exif情報など）は統計的に処理され、個人が特定できないように加工して分析し、協力企業など第三者に公開される可能性がありますことをご了承ください。
+            本コンテストで取得した個人情報は厳重に管理され、コンテストに関するご連絡、賞品の発送、応募作品の管理、受賞作品の展示などコンテストの実施・運営・宣伝広報活動およびこれらに付随する目的並びに特定の個人を識別できない統計資料を作成する目的、このほか主催者のPR活動で応募作品を使用する際に応募時のTiktokアカウント名を合わせて表示する目的、並びに個人情報保護法等の法令において認められた範囲でのみ利用し、それ以外の目的では利用いたしません。データ（Exif情報など）は統計的に処理され、個人が特定できないように加工して分析し、協力企業など第三者に公開される可能性がありますことをご了承ください。
             <br />
             本コンテストで取得した個人情報は、コンテストの結果の発表や作品を紹介する場合、コンテストの実施・運営・宣伝広報活動のために業務委託先に業務を委託する場合、そのほか、法令に定められた場合を除き、応募者の同意なく、個人情報を第三者に開示することはありません。
             <br />
@@ -648,7 +733,7 @@ const Home = () => {
             <br />
             株式会社クレドインターナショナル 利用の目的
             <br />
-            コンテストに関するご連絡、賞品の発送、応募作品の管理、受賞作品の展示などコンテストの実施・運営・宣伝広報活動およびこれらに付随する目的並びに特定の個人を識別できない統計資料を作成する目的、このほか主催者のPR活動で応募作品を使用する際に応募時のInstagramアカウント名を合わせて表示する目的
+            コンテストに関するご連絡、賞品の発送、応募作品の管理、受賞作品の展示などコンテストの実施・運営・宣伝広報活動およびこれらに付随する目的並びに特定の個人を識別できない統計資料を作成する目的、このほか主催者のPR活動で応募作品を使用する際に応募時のTiktokアカウント名を合わせて表示する目的
             <br />
             個人情報管理責任者 株式会社クレドインターナショナル
             <br />
@@ -712,15 +797,14 @@ const Home = () => {
             <br />
             本コンテストに応募するにあたり、応募者は事務局の運営方法にしたがうものとし、その運営方法について一切異議を申し立てないものとします。
             <br />
-            本コンテストは、株式会社クレドインターナショナルが主催・運営を行っております。Meta社およびInstagramは本コンテストの後援、承認、運営を一切行っておらず、Meta社およびInstagramとは一切関係がありません。また本コンテストへの参加、および賞品に関して、Meta社およびInstagramは一切の関与をせず、応募者はそのことに同意したものとみなされます。
+            本コンテストは、株式会社クレドインターナショナルが主催・運営を行っております。ByteDance社およびTiktokは本コンテストの後援、承認、運営を一切行っておらず、ByteDance社およびTiktokとは一切関係がありません。また本コンテストへの参加、および賞品に関して、ByteDance社およびTiktokは一切の関与をせず、応募者はそのことに同意したものとみなされます。
             <br />
-            Facebook /
-            Instagramおよび本コンテストの中断、または中止によって生じるいかなる損害についても、株式会社クレドインターナショナルが責任を負うものではありません。本コンテストの内容は、予告なく変更する場合があります。
+            本コンテストの中断、または中止によって生じるいかなる損害についても、株式会社クレドインターナショナルが責任を負うものではありません。本コンテストの内容は、予告なく変更する場合があります。
             <br />
             本コンテストの関係者、および関係グループ企業・団体に勤務する方は応募できません。
           </p>
         </section>
-        */}
+
         {/* <Instagram /> */}
         {/*<Chairman chairman={chairman} />*/}
         {/*<Adviser />*/}

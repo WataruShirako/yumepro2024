@@ -7,7 +7,9 @@ const contents = [
   },
   {
     title: "会場",
-    content: `近畿大学　実学ホール<br />16時半開場 17時〜20時`,
+    content: `KINCUBA Basecamp<br /><br />
+    〒577-0818<br />
+    大阪府東大阪市小若江3-6-9<br />`,
   },
   {
     title: "発表時間",
