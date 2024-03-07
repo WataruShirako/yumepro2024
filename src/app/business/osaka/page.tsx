@@ -65,6 +65,27 @@ const BusinessPage = () => {
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2">
               <Image
+                src={"/busi/osaka/sekou.jpg"}
+                width={642}
+                height={642}
+                alt="世耕 石弘"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                世耕 石弘
+              </p>
+
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                奈良県出身。大学を卒業後、1992年近畿日本鉄道株式会社に入社。以降、ホテル事業、海外派遣、広報担当を経て、2007年に近畿大学に奉職。入試広報課長、入学センター事務長、広報部長、総務部長を歴任。2020年4月から広報室を配下に置く経営戦略本部長となり、現在に至る。
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
                 src={"/busi/osaka/izumisawa.png"}
                 width={642}
                 height={642}
