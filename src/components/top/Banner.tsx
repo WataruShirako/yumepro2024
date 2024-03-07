@@ -9,7 +9,7 @@ const auditions = [
   {
     name: "スター誕生オーディション",
     path: "/project/entertainment",
-    src: "/top/banner/banner_star.jpg",
+    src: "/top/banner/banner_star1.jpg",
   },
   {
     name: "夢フォトオーディション",
@@ -20,7 +20,7 @@ const auditions = [
   {
     name: "夢プロショートドラマオーディション",
     path: "/project/entertainment/shortdrama",
-    src: "/top/banner/banner_drama2.jpg",
+    src: "/top/banner/banner_drama3.jpg",
   },
   {
     name: "親善大使オーディション",

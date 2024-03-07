@@ -121,7 +121,7 @@ const Home = () => {
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={"/shortdrama/fv_pc.jpg"}
+              src={"/shortdrama/fv_pc1.jpg"}
               alt="text"
               width={1920}
               height={930}
@@ -129,7 +129,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={"/shortdrama/fv_sp.jpg"}
+              src={"/shortdrama/fv_sp1.jpg"}
               alt="text"
               width={750}
               height={1370}
