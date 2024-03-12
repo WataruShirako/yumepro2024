@@ -103,6 +103,13 @@ const Sponsor = () => {
             height={500}
           />
           <Image
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+            src={"/top/sponsor/amaterasu.jpg"}
+            alt={"アマテラス"}
+            width={500}
+            height={500}
+          />
+          <Image
             src={"/top/sponsor/an_spa.png"}
             alt="an_spa"
             width={500}

@@ -179,23 +179,47 @@ const Home = () => {
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2">
               <Image
-                src={"/busi/osaka/takahashi.jpg"}
+                src={"/busi/osaka/sekou.jpg"}
                 width={642}
                 height={642}
-                alt="髙橋 淳"
+                alt="世耕 石弘"
                 className="w-60  md:w-[320px]  object-cover mx-auto"
               />
             </div>
             <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
-                髙橋 淳
+                世耕 石弘
               </p>
               <p className="font-bold text-[15px] text-center md:text-left">
-                株式会社１＆Ｄホールディングス　代表取締役社長
+                近畿大学　経営戦略本部　本部長
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                外食チェーン「ワンカルビ」「あぶりや」「きんのぶた」を中心に関西、九州、関東に１３０店舗、食肉小売「ダイリキ」を関西、中京、中四国に４９店舗、計１７９店舗をチェーン展開。株式会社ワン・ダイニング、ダイリキ株式会社両社の代表取締役社長を兼務。
+                奈良県出身。大学を卒業後、1992年近畿日本鉄道株式会社に入社。以降、ホテル事業、海外派遣、広報担当を経て、2007年に近畿大学に奉職。入試広報課長、入学センター事務長、広報部長、総務部長を歴任。2020年4月から広報室を配下に置く経営戦略本部長となり、現在に至る。
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/busi/osaka/maeda.png"}
+                width={642}
+                height={642}
+                alt="前田 啓太"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                前田 啓太
+              </p>
+              <p className="font-bold text-[15px] text-center md:text-left">
+                株式会社BrandingCreation 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                ライブ配信事業、インフルエンサー事業を行う株式会社ライズアースの立ち上げに携わり、COOとして事業を牽引。大手雑誌や有名番組などマスメディアで活躍するインフルエンサーを複数名プロデュース。同社在籍中に株式会社DonutsへのM&Aを経験。その後、インフルエンサープロデュースの経験を活かし、企業向けにマーケティング支援を行うBrandingCreation（ブランディングクリエイション）を立ち上げる。自身の総フォロワーも30万人を超える。
+                また、マーケティングノウハウを活かし、自社でも多数のメディアでも取り上げられる韓国カフェiii（アイ）や全国のドンキホーテなどに置かれるはちみーちゅのプロデュース・経営も行っている。
               </div>
             </div>
           </div>

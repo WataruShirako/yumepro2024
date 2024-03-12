@@ -7,7 +7,7 @@ const contents = [
   },
   {
     title: "開催場所",
-    content: `幕張メッセ<br />
+    content: `幕張メッセ in ニコニコ超会議2024<br />
     <br />
     〒261-8550<br />
     千葉県千葉市美浜区中瀬2丁目1`,

@@ -40,15 +40,6 @@ const Home = () => {
     },
   ];
 
-  // 賞金・スポンサー賞
-  const prize = {
-    title: "優勝特典",
-    sponsor: "",
-    src: "",
-    alt: "",
-    SPsrc: "",
-  };
-
   //開催概要
   const about = {
     sched: `
@@ -133,7 +124,7 @@ const Home = () => {
           </div>
         </section>
         {/**イベント概要 */}
-        <section id="" className="">
+        <section id="" className="bg-white">
           <h2 className="secTitle">
             <span className={"flex gap-2 m-auto items-center justify-center "}>
               Project
@@ -152,68 +143,14 @@ const Home = () => {
               ✔ダンサーになりたい ✔有名になりたい ✔芸能活動に興味がある方
               <br />
             </div>
+            <a
+              href="https://www.showroom-live.com/event/yume_pj"
+              target="_blank"
+              className="text-[#1D9BF0] border-[#1D9BF0] border-b font-bold"
+            >
+              詳しくはこちら
+            </a>
           </div>
-        </section>
-
-        <div className="svg__container">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className={"svg__content top"}
-            viewBox="0 0 1366 100"
-          >
-            <path
-              id="パス_285"
-              data-name="パス 285"
-              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
-              transform="translate(0 -20)"
-              fill="#fff"
-            />
-          </svg>
-        </div>
-        <section id="prize" className={"bg-white"}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 m-auto items-center justify-center "}>
-              <Image
-                src={"/entt/yumephoto/icons/prize.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              Prize
-            </span>
-
-            <p dangerouslySetInnerHTML={{ __html: `${prize.title}` }} />
-            {/** 
-            <div className={"mt-2 flex items-center justify-center gap-2"}>
-              <p className={"text-xs"}>スポンサー企業</p>
-              <Image
-                src={prize.sponsor}
-                alt={prize.alt}
-                width={70}
-                height={17}
-              />
-            </div>
-            */}
-          </h2>
-
-          <div className="text-base md:text-xl text-center font-bold p-5">
-            ・SAKURA専属ダンサーに就任
-            <br />
-            <br />
-            ・高級スパサウナ券
-            <br />
-            <br />
-            ・ラジオ出演権
-            <br />
-            <br />
-            ・銀座駅直結大型サイネージ映像出演権
-            <br />
-          </div>
-
-          <p className={"text-center  my-6 md:my-12"}>and more ...</p>
-          <p className={"text-center  my-6 md:my-12 p-5"}>
-            オーディション上位3名にはSAKURA歌舞伎店専属ダンサーになれるチャンスも！
-          </p>
         </section>
         <div className="svg__container">
           <svg
@@ -231,7 +168,161 @@ const Home = () => {
           </svg>
         </div>
 
-        <section id="about" className={""}>
+        <section id="prize" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 m-auto items-center justify-center "}>
+              <Image
+                src={"/entt/yumephoto/icons/prize.svg"}
+                alt=""
+                width={15}
+                height={20}
+              />
+              Prize
+            </span>
+            特典
+          </h2>
+          <div className="mx-auto max-w-7xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#CAA846] to-[#E0CA82] rounded-t-3xl text-white font-bold">
+              ランキング 1位
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_01.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  オーディション最終審査出場権
+                  <br />
+                  夢叶えるプロジェクト in ニコニコ超会議
+                </div>
+
+                <div>
+                  <Image
+                    src={"/dance/radio.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  FMラジオ出演権 <br />
+                </div>
+
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_05.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  高級スパサウナ招待券50万円分
+                </div>
+                <div>
+                  <Image
+                    src={"/dance/restaurant.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  SAKURAレストラン券30万円分
+                </div>
+                <div>
+                  <Image
+                    src={"/dance/sakura.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  SAKURA歌舞伎店専属ダンサー権
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_06.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  銀座駅直結大型サイネージ1週間出稿権
+                </div>
+              </div>
+              <div className="py-10">その他メディア出演のチャンスあり</div>
+            </div>
+          </div>
+          <div className="mx-auto max-w-7xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#979C9A] to-[#BDC3C9] rounded-t-3xl text-white font-bold">
+              ランキング 2~3位
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 gap-10">
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_01.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  オーディション最終審査出場権
+                  <br />
+                  夢叶えるプロジェクト in ニコニコ超会議
+                </div>
+                <div>
+                  <Image
+                    src={"/dance/sakura.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  SAKURA歌舞伎店専属ダンサー権
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mx-auto max-w-7xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#b87333] to-[#b8a593] rounded-t-3xl text-white font-bold">
+              ランキング 4~5位
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" gap-10">
+                <div>
+                  <Image
+                    src={"/dance/sakura.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  SAKURA歌舞伎店専属ダンサー権
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content top"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              id="パス_285"
+              data-name="パス 285"
+              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
+              transform="translate(0 -20)"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+
+        <section id="about" className={"bg-white"}>
           <h2 className={`secTitle`}>
             <span className={`flex gap-2 justify-center Montserrat`}>
               <Image
@@ -327,6 +418,21 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content under"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              className={"w-full"}
+              id="パス_286"
+              data-name="パス 286"
+              d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
+              fill="#fff"
+            />
+          </svg>
+        </div>
         <section id="sponsor" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>

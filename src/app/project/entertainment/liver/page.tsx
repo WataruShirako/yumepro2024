@@ -154,7 +154,7 @@ const Home = () => {
               <div
                 className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
               >
-                4/28(日) ニコニコ超会議 幕張メッセ
+                4/28(日) 幕張メッセ in ニコニコ超会議
               </div>
             </div>
             <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between gap-3">
@@ -225,7 +225,16 @@ const Home = () => {
             </div>
             <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center">
               <br />
-              <p className="font-bold">スパ券 プレゼント </p>
+              <div className="font-bold">
+                <Image
+                  src={"/star/tokyo/prize_05.jpg"}
+                  alt=""
+                  width={500}
+                  height={500}
+                  className="mx-auto"
+                />
+                高級スパサウナ招待券
+              </div>
               <br />
               ▼受け取りはこちらから▼
               <br />
@@ -254,8 +263,17 @@ const Home = () => {
               </p>
             </div>
             <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center">
-              <br />
-              <p className="font-bold">ニコニコ超会議2024 出演</p>
+              <Image
+                src={"/star/tokyo/prize_01.jpg"}
+                alt=""
+                width={500}
+                height={500}
+                className="mx-auto"
+              />
+              <p className="font-bold">
+                夢叶えるプロジェクト2024ステージ出演権
+              </p>
+              <p className="font-bold">in ニコニコ超会議2024</p>
               <br />
               ステージ上でFINAL最終決戦を実施
             </div>
@@ -265,15 +283,31 @@ const Home = () => {
               FINAL最終決戦 グランプリ特典
               <p className="text-sm"></p>
             </div>
-            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center">
-              <br />
-              <p className="font-bold">
+            <div className="grid md:grid-cols-2 bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center font-bold">
+              <div>
+                <Image
+                  src={"/liver/100.jpg"}
+                  alt=""
+                  width={500}
+                  height={500}
+                  className="mx-auto"
+                />
                 賞金100万円
+              </div>
+              <div>
+                <Image
+                  src={"/star/tokyo/prize_02.jpg"}
+                  alt=""
+                  width={500}
+                  height={500}
+                  className="mx-auto"
+                />
+                映画『夢叶えるプロジェクト(仮)』出演権
                 <br />
-                映画「夢叶えるプロジェクト2024」(仮) 出演決定
-              </p>
-              <br />
-              and more !
+                <p className="font-normal text-sm">
+                  （内容が変更となる可能性があります）
+                </p>
+              </div>
             </div>
           </div>
         </section>

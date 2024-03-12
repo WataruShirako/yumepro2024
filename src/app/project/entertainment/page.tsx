@@ -4,7 +4,7 @@ import "../../entt.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import Prize from "@/components/star/Prize";
+
 import About from "@/components/star/About";
 import Flow from "@/components/star/Flow";
 import Committee from "@/components/star/Committee";
@@ -44,15 +44,6 @@ const Home = () => {
     },
   ];
 
-  // 賞金・スポンサー賞
-  const prize = {
-    title: "グランプリ特典",
-    sponsor: "/star/sponsor/sakura.jpg",
-    src: "/entt/prizes/prize_sponsor_spa_100_1.jpg",
-    alt: "text",
-    SPsrc: "/entt/prizes/sp_prize_sponsor_spa_100_1.jpg",
-  };
-
   //開催概要
   const about = {
     sched: `
@@ -82,7 +73,7 @@ const Home = () => {
     `,
 
     award: `2024年4月27日（土）10:00~18:00<br /><br />
-      幕張メッセ<br />
+      幕張メッセ in ニコニコ超会議2024<br />
       〒261-8550 千葉県千葉市美浜区中瀬2丁目1`,
   };
 
@@ -128,7 +119,90 @@ const Home = () => {
         <Venue />
 
         <About about={about} />
-        <Prize prize={prize} />
+
+        {/** 特典*/}
+        <section id="prize" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 m-auto items-center justify-center "}>
+              Prize
+            </span>
+            特典
+          </h2>
+          <div className="mx-auto max-w-7xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#CAA846] to-[#E0CA82] rounded-t-3xl text-white font-bold">
+              グランプリ特典
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 gap-10">
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_02.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  映画『夢叶えるプロジェクト(仮)』出演権
+                  <br />
+                  <p className="font-normal text-sm">
+                    （内容が変更となる可能性があります）
+                  </p>
+                </div>
+
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_05.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  高級スパサウナ招待券100万円分
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_06.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  銀座サイネージモデル出演
+                </div>
+                <div>
+                  <Image
+                    src={"/star/ray.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  雑誌「Ray」での特集企画掲載
+                </div>
+              </div>
+              <div className="py-10">
+                その他スポンサー賞
+                <br />
+                メディア出演のチャンスあり
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content top"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              id="パス_285"
+              data-name="パス 285"
+              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
+              transform="translate(0 -20)"
+              fill="#fff"
+            />
+          </svg>
+        </div>
         {/*    <Chairman />*/}
         <Committee committee={committee} />
         {/* <Instagram /> */}

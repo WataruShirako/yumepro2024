@@ -42,7 +42,7 @@ const Home = () => {
 
   // 賞金・スポンサー賞
   const prize = {
-    title: "優勝特典",
+    title: "特典",
     sponsor: "",
     src: "",
     alt: "",
@@ -142,7 +142,7 @@ const Home = () => {
           <div className="container m-auto max-w-2xl p-5">
             夢プロボーカルオーディションを開催します。
             <br />
-            歌ってみたcollectionにて#夢プロ2024をつけた中から、夢プロ独自の審査基準をクリアした5名の方を選定後、ニコニコ超会議で最終審査をします。
+            歌ってみたcollectionにて#夢プロ2024をつけた中から、夢プロ独自の審査基準をクリアした5名の方を選定後、幕張メッセinニコニコ超会議で最終審査をします。
             <br />
             <br />
             <br />
@@ -201,32 +201,66 @@ const Home = () => {
             */}
           </h2>
 
-          <div className="mx-auto max-w-4xl p-5 m-10">
+          <div className="mx-auto max-w-7xl p-5 m-10">
             <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] rounded-t-3xl text-white font-bold">
               優勝特典
             </div>
-            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
-              <br />
-              <p className="font-bold mb-2">
-                ・高級スパ券100万円分
-                <br />
-                ・SAKURA歌舞伎貸切券(LIVE可能)
-                <br />
-                ・銀座駅直結大型サイネージ1週間出稿権
-                <br />
-              </p>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_05.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  高級スパサウナ招待券100万円分
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_06.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  銀座駅直結大型サイネージ1週間出稿権
+                </div>
+                <div>
+                  <Image
+                    src={"/dance/sakura.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  SAKURA歌舞伎貸切券(LIVE可能)
+                </div>
+              </div>
             </div>
           </div>
+
           <div className="mx-auto max-w-4xl p-5 m-10">
             <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#CAA846] to-[#E0CA82] rounded-t-3xl text-white font-bold">
               上位5名
               <p className="text-sm"></p>
             </div>
             <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
+              <div className="font-bold">
+                <Image
+                  src={"/star/tokyo/prize_01.jpg"}
+                  alt=""
+                  width={500}
+                  height={500}
+                  className="mx-auto"
+                />
+                <br />
+                ステージオーディション最終審査出場権
+                <br />
+                夢叶えるプロジェクト in ニコニコ超会議2024
+              </div>
               <br />
-              <p className="font-bold mb-2">
-                ニコニコ超会議2024内「夢プロステージ」でのオーディション最終審査出場権
-              </p>
             </div>
           </div>
           <div className="mx-auto max-w-4xl p-5 m-10">
@@ -236,7 +270,16 @@ const Home = () => {
             </div>
             <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
               <br />
-              <p className="font-bold mb-2">スパ5000円割引券</p>
+              <div className="font-bold">
+                <Image
+                  src={"/star/tokyo/prize_05.jpg"}
+                  alt=""
+                  width={500}
+                  height={500}
+                  className="mx-auto"
+                />
+                高級スパサウナ招待券5000円分
+              </div>
               ※参加作品多数の場合、抽選となる場合がございます。
             </div>
           </div>

@@ -109,6 +109,32 @@ const BusinessPage = () => {
             <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
               <div className="">
                 <Image
+                  src={"/busi/adviser.jpg"}
+                  width={642}
+                  height={642}
+                  alt="丸尾浩一"
+                  className="w-60  md:w-[320px]  object-cover mx-auto"
+                />
+              </div>
+              <div className="itemText px-5 text-left ">
+                <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                  丸尾浩一
+                </p>
+                <p className="font-bold text-[15px] text-center ">
+                  株式会社Major7th　代表取締役
+                </p>
+                <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                  <br />
+                  大和証券株式会社に38年在籍し、専務取締役などの役員を12年間歴任。
+                  主幹事として株式会社メルカリやラクスル株式会社等、数々の大型スタートアップIPOを実現した他、経営破綻した日本航空株式会社の再上場や、楽天グループ株式会社、KDDI
+                  株式会社等、上場企業の資金調達にも携わる。
+                  現在、起業家支援サービスを提供する株式会社Major7thの代表取締役を務めながら、上場会社を含む複数社の社外役員等を兼務。
+                </div>
+              </div>
+            </div>
+            <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+              <div className="">
+                <Image
                   src={"/busi/funabiki.jpg"}
                   width={642}
                   height={642}

@@ -40,15 +40,6 @@ const Home = () => {
     },
   ];
 
-  // 賞金・スポンサー賞
-  const prize = {
-    title: "グランプリ特典",
-    sponsor: "/entt/sponsor/min_sponsor/min_sakura.jpg",
-    src: "/entt/prizes/prize_sponsor_spa_100_1.jpg",
-    alt: "text",
-    SPsrc: "/entt/prizes/sp_prize_sponsor_spa_100_1.jpg",
-  };
-
   //開催概要
   const about = {
     sched: `
@@ -137,7 +128,7 @@ const Home = () => {
             />
           </div>
         </section>
-        <section id="intro">
+        <section id="intro" className="bg-white">
           <div className="container flex m-auto items-center justify-between flex-wrap flex-col lg:flex-row gap-4 max-w-6xl">
             <div className="flex-1 px-[4%]">
               <h3>
@@ -178,79 +169,6 @@ const Home = () => {
         <div className="svg__container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className={"svg__content top"}
-            viewBox="0 0 1366 100"
-          >
-            <path
-              id="パス_285"
-              data-name="パス 285"
-              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
-              transform="translate(0 -20)"
-              fill="#fff"
-            />
-          </svg>
-        </div>
-        <section id="prize" className={"bg-white"}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 m-auto items-center justify-center "}>
-              <Image
-                src={"/entt/yumephoto/icons/prize.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              Prize
-            </span>
-
-            <p dangerouslySetInnerHTML={{ __html: `${prize.title}` }} />
-            {/** 
-            <div className={"mt-2 flex items-center justify-center gap-2"}>
-              <p className={"text-xs"}>スポンサー企業</p>
-              <Image
-                src={prize.sponsor}
-                alt={prize.alt}
-                width={70}
-                height={17}
-              />
-            </div>
-            */}
-          </h2>
-
-          <div className="text-xl text-center font-bold">
-            ・高級スパ・サウナ招待券100万円
-            <br />
-            <br />
-            ・銀座駅コンコース内サイネージ掲載
-            <br />
-            <br />
-          </div>
-          {/** 
-        <div className="container m-auto max-w-[92%] lg:max-w-4xl">
-          <Image
-            className={"img prizeImg hidden md:block"}
-            src={prize.src}
-            alt={prize.alt}
-            width={850}
-            height={262}
-            priority
-          />
-          <Image
-            className={"img prizeImg md:hidden"}
-            src={prize.SPsrc}
-            alt={prize.alt}
-            width={670}
-            height={524}
-            priority
-          />
-        </div>
-        */}
-          <p className={"text-center text-2xl my-6 md:my-12 Montserrat"}>
-            and more ...
-          </p>
-        </section>
-        <div className="svg__container">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
             className={"svg__content under"}
             viewBox="0 0 1366 100"
           >
@@ -264,7 +182,62 @@ const Home = () => {
           </svg>
         </div>
 
-        <section id="about" className={""}>
+        {/** 特典*/}
+        <section id="prize" className={""}>
+          <h2 className="secTitle">
+            <span className={"flex gap-2 m-auto items-center justify-center "}>
+              Prize
+            </span>
+            特典
+          </h2>
+          <div className="mx-auto max-w-7xl p-5 m-10">
+            <div className="text-xl sm:text-2xl text-center p-5 sm:leading-relaxed bg-gradient-to-tr from-[#CAA846] to-[#E0CA82] rounded-t-3xl text-white font-bold">
+              グランプリ特典
+            </div>
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 gap-10">
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_05.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  高級スパサウナ招待券100万円分
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_06.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  銀座駅コンコース内サイネージ掲載
+                </div>
+              </div>
+              <div className="py-10">その他スポンサー賞</div>
+            </div>
+          </div>
+        </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content top"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              id="パス_285"
+              data-name="パス 285"
+              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
+              transform="translate(0 -20)"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+
+        <section id="about" className={"bg-white"}>
           <h2 className={`secTitle`}>
             <span className={`flex gap-2 justify-center Montserrat`}>
               <Image
@@ -375,19 +348,19 @@ const Home = () => {
         <div className="svg__container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className={"svg__content top"}
+            className={"svg__content under"}
             viewBox="0 0 1366 100"
           >
             <path
-              id="パス_285"
-              data-name="パス 285"
-              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
-              transform="translate(0 -20)"
+              className={"w-full"}
+              id="パス_286"
+              data-name="パス 286"
+              d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
               fill="#fff"
             />
           </svg>
         </div>
-        <section id="flow" className={"bg-white"}>
+        <section id="flow" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
               <Image
@@ -421,19 +394,19 @@ const Home = () => {
         <div className="svg__container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className={"svg__content under"}
+            className={"svg__content top"}
             viewBox="0 0 1366 100"
           >
             <path
-              className={"w-full"}
-              id="パス_286"
-              data-name="パス 286"
-              d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
+              id="パス_285"
+              data-name="パス 285"
+              d="M0,120H1366V60s-154.1-40-324.849-40S683,60,683,60s-208.446,40-379.2,40S0,60,0,60Z"
+              transform="translate(0 -20)"
               fill="#fff"
             />
           </svg>
         </div>
-        <section id="committee" className={""}>
+        <section id="committee" className={"bg-white"}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
               <Image
@@ -590,6 +563,21 @@ const Home = () => {
             ))}
           </div>
         </section>
+        <div className="svg__container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className={"svg__content under"}
+            viewBox="0 0 1366 100"
+          >
+            <path
+              className={"w-full"}
+              id="パス_286"
+              data-name="パス 286"
+              d="M1366,0H0V60s154.1,40,324.849,40S683,60,683,60s208.446-40,379.2-40S1366,60,1366,60Z"
+              fill="#fff"
+            />
+          </svg>
+        </div>
         {/** 
         <div className={"svg__container"}>
           <svg
