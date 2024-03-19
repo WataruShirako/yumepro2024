@@ -14,9 +14,9 @@ export const Navigation: FC<Props> = ({ open, id }) => {
         <Image
           src={"/logo_black.svg"}
           alt={"logo"}
-          width={98}
-          height={103}
-          className={"pb-10"}
+          width={80}
+          height={80}
+          className={"pb-5"}
         />
       </a>
       <p className="font-bold text-2xl pt-2 border-b border-dashed w-10/12 text-center">
@@ -52,7 +52,7 @@ export const Navigation: FC<Props> = ({ open, id }) => {
         学生ピッチ甲子園2024 {">"}
       </a>
 
-      <p className="py-10">
+      <p className="py-5">
         <a href="/sponsor">スポンサー募集 {">"}</a>
       </p>
     </nav>
