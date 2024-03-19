@@ -22,6 +22,14 @@ import Category from "@/components/top/Category";
 import Link2023 from "@/components/top/Link2023";
 import ComingSoon from "@/components/entt/Comingsoon";
 import { Coming_Soon } from "next/font/google";
+import React from "react";
+import TikTokEmbed from "@/components/entt/shortdrama/TikTokEmbed";
+import dynamic from "next/dynamic";
+
+const DynamicTikTokEmbed = dynamic(
+  () => import("../../../../components/entt/shortdrama/TikTokEmbed"),
+  { ssr: false }
+);
 const Home = () => {
   // 公開済みのコンテスト エンタメコンテスト
   const enttContests = [
@@ -128,6 +136,7 @@ const Home = () => {
             />
           </div>
         </section>
+
         <section id="intro" className="bg-white">
           <div className="container flex m-auto items-center justify-between flex-wrap flex-col lg:flex-row gap-4 max-w-6xl">
             <div className="flex-1 px-[4%]">
@@ -345,6 +354,28 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+        <section id="tiktok" className="bg-white">
+          <h2 className="secTitle">
+            <span className={"flex gap-2 justify-center"}>
+              <Image
+                src={"/entt/yumephoto/icons/flow.svg"}
+                alt=""
+                width={20}
+                height={20}
+              />
+              movie
+            </span>
+            参考作品
+          </h2>
+          <div className="lg:flex gap-10 justify-center mx-0">
+            <DynamicTikTokEmbed url="https://www.tiktok.com/@sukima_cinema/video/7266708898239745281" />
+
+            <DynamicTikTokEmbed url="https://www.tiktok.com/@sukima_cinema/video/7262214655358160136" />
+
+            <DynamicTikTokEmbed url="https://www.tiktok.com/@sukima_cinema/video/7306852631153102088" />
+          </div>
+        </section>
         <div className="svg__container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -360,6 +391,7 @@ const Home = () => {
             />
           </svg>
         </div>
+
         <section id="flow" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -390,7 +422,6 @@ const Home = () => {
             />
           </div>
         </section>
-
         <div className="svg__container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -406,6 +437,7 @@ const Home = () => {
             />
           </svg>
         </div>
+
         <section id="committee" className={"bg-white"}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>

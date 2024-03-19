@@ -60,9 +60,9 @@ const Home = () => {
         <section id="" className="">
           <h2 className="secTitle">
             <span className={"flex gap-2 m-auto items-center justify-center "}>
-              About
+              online contest
             </span>
-            開催概要
+            ONELI LIVE予選
           </h2>
 
           <div className="container m-auto max-w-[92%] lg:max-w-2xl">
@@ -119,32 +119,7 @@ const Home = () => {
                 ワンリーライブ
               </div>
             </div>
-            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
-              <p
-                className={
-                  "w-1/4 md:w-1/5 text-xs md:text-sm leading-5 md:leading-8"
-                }
-              >
-                <span
-                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
-                >
-                  関東予選
-                  <br />
-                  THE STAGE
-                </span>
-              </p>
-              <div
-                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
-              >
-                2024年3月30日 (土)
-                <br />
-                <br />
-                BASE GRANBELL
-                <br />
-                〒104-0061 東京都中央区銀座7丁目2番18号
-                グランベルスクエアB2F,B3F
-              </div>
-            </div>
+
             <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between gap-3">
               <p
                 className={
@@ -189,6 +164,125 @@ const Home = () => {
             className={"btn btnEntt"}
           >
             エントリー・詳細こちら
+            <Image
+              className={"absolute right-[20px] top-1/2 -translate-y-1/2"}
+              src={"/entt/entt_btn_arrow.svg"}
+              alt={"▶︎"}
+              width={26}
+              height={26}
+            />
+          </a>
+        </section>
+        <section id="" className="">
+          <h2 className="secTitle">
+            <span className={"flex gap-2 m-auto items-center justify-center "}>
+              offline contest
+            </span>
+            関東予選 THE STAGE
+          </h2>
+
+          <div className="container m-auto max-w-[92%] lg:max-w-2xl">
+            <div className="py-5">
+              ビジネス部門の「全国学生ピッチ甲子園」とエンタメ部門の「スター誕生オーディション」に分かれ、
+              2024年4月末に実施される決勝へ向けた予選を行います。
+              <br />
+              ONELI LIVE予選での勝者が出場します。
+              <br />
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
+              <p
+                className={
+                  "w-1/4 md:w-1/4 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  開催日
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                2024年3月30日 (土)
+              </div>
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
+              <p
+                className={
+                  "w-1/4 md:w-1/4 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  開催場所
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                BASE GRANBELL
+                <br />
+                〒104-0061 東京都中央区銀座7丁目2番18号
+                グランベルスクエアB2F,B3F
+              </div>
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-t border-[#485757] items-center justify-between gap-3">
+              <p
+                className={
+                  "w-1/4 md:w-1/4 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  入場料金
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                ・両部門（エンタメ部門・ビジネス部門）入場料金：5,000円
+                <br />
+                ・エンタメ部門入場料金：3,000円 <br />
+                ・ビジネス部門入場料金：3,000円
+                <br />
+              </div>
+            </div>
+            <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between gap-3">
+              <p
+                className={
+                  "w-1/4 md:w-1/4 text-xs md:text-sm leading-5 md:leading-8"
+                }
+              >
+                <span
+                  className={"px-2 py-1 bg-[#888888] text-white inline-block"}
+                >
+                  タイムスケジュール
+                </span>
+              </p>
+              <div
+                className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
+              >
+                12:00〜13:00　開場 お客様入場 <br />
+                13:00〜13:20　オープニングアクト(配信ランキングTOP3) <br />
+                13:20〜13:30　審査員の紹介 <br />
+                13:30〜15:00　ビジネスピッチ8名 <br />
+                15:00〜15:30　休憩&審査 <br />
+                15:30〜15:50　ビジネスピッチ結果発表 <br />
+                16:00〜17:10　エンタメ部門パフォーマンス7名 <br />
+                17:40〜18:00　エンタメ部門結果発表 <br />
+                18:15〜19:00　終了 お客様退場 <br />
+              </div>
+            </div>
+          </div>
+          <a
+            href="https://tiget.net/events/307517"
+            target="_blank"
+            className={"btn btnEntt"}
+          >
+            チケットを購入する
             <Image
               className={"absolute right-[20px] top-1/2 -translate-y-1/2"}
               src={"/entt/entt_btn_arrow.svg"}

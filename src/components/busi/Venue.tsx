@@ -5958,7 +5958,7 @@ const Venue = () => {
                 <p className="mt-2 text-sm">2024年4月7日</p>
                 <p className="mb-5 text-sm">浜松市総合産業展示館</p>
               </div>
-              <div className="md:absolute right-[36%] top-[55%]">
+              <div className="md:absolute right-[35%] top-[53%]">
                 <a
                   href="/business/aichi"
                   target="_blank"
@@ -5974,7 +5974,11 @@ const Venue = () => {
                   />
                 </a>
                 <p className="mt-2 text-sm">2024年3月31日</p>
-                <p className="mb-5 text-sm">名古屋市内</p>
+                <p className="mb-5 text-sm">
+                  SLOW ART
+                  <br />
+                  CENTER NAGOYA
+                </p>
               </div>
 
               <div className="md:absolute right-[35%] top-[65%]">
