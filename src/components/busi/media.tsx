@@ -24,7 +24,7 @@ const Media = () => {
         <div className="App max-w-3xl mx-auto p-10">
           <YouTubeEmbed videoId="oBtPUG09J0A" />
         </div>
-        <div className="max-w-3xl mx-auto p-10">
+        <div className="max-w-3xl mx-auto p-5 md:p-10">
           <p className="font-bold text-xl text-center">学生起業王 参加者募集</p>
           <br /> <br />
           「学生起業王」は、学生が感じている起業へのハードルのイメージを下げて学生の起業を応援することにより、
