@@ -19,36 +19,39 @@ export const Navigation: FC<Props> = ({ open, id }) => {
           className={"pb-5"}
         />
       </a>
-      <p className="font-bold text-2xl pt-2 border-b border-dashed w-10/12 text-center">
+      <p className="font-bold text-2xl py-2 border-b border-dashed w-10/12 text-center">
         エンタメ部門
       </p>
-      <a className="py-2" href="/project/entertainment">
-        スター誕生オーディション2024 {">"}
+      <a className="py-1" href="/project/entertainment">
+        スター誕生オーディション {">"}
       </a>
-      <a className="py-2" href="/project/entertainment/photo">
+      <a className="py-1" href="/project/entertainment/photo">
         夢フォトオーディション {">"}
       </a>
-      <a className="py-2" href="/project/entertainment/shortdrama">
+      <a className="py-1" href="/project/entertainment/shortdrama">
         ショートドラマオーディション {">"}
       </a>
-      <a className="py-2" href="/project/entertainment/shinzentaishi">
+      <a className="py-1" href="/project/entertainment/shinzentaishi">
         親善大使オーディション {">"}
       </a>
-      <a className="py-2" href="/project/entertainment/liver">
+      <a className="py-1" href="/project/entertainment/liver">
         ライバーオーディション {">"}
       </a>
-      <a className="py-2" href="/project/entertainment/dance">
+      <a className="py-1" href="/project/entertainment/dance">
         ダンスオーディション {">"}
       </a>
-      <a className="py-2" href="/project/entertainment/vocal">
+      <a className="py-1" href="/project/entertainment/vocal">
         ボーカルオーディション {">"}
       </a>
+      <a className="py-1" href="/project/entertainment/spasauna">
+        スパサウナオーディション {">"}
+      </a>
 
-      <p className="font-bold text-2xl pt-8  border-b  border-dashed w-10/12 text-center">
+      <p className="font-bold text-2xl pt-8 pb-2  border-b  border-dashed w-10/12 text-center">
         ビジネス部門
       </p>
 
-      <a className="py-2" href="/business">
+      <a className="py-1" href="/business">
         学生ピッチ甲子園2024 {">"}
       </a>
 

@@ -16,6 +16,7 @@ import Company from "@/components/busi/Company";
 import Backup from "@/components/busi/Backup";
 import Chairman from "@/components/common/Chairman";
 import Timetable from "@/components/busi/Timetable";
+import Media from "@/components/busi/media";
 
 const BusinessPage = () => {
   return (
@@ -32,6 +33,7 @@ const BusinessPage = () => {
         <Adviser />
         <Committee />
         <Company />
+        <Media />
         <Sponsor />
         <Backup />
         <News />

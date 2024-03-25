@@ -221,7 +221,19 @@ const Home = () => {
             </span>
             後援
           </h2>
-          <ComingSoon />
+
+          <div className="flex justify-center py-10 gap-10">
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/busi/shizuoka/hamamatsu.png"}
+                alt={"浜松市"}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+          </div>
+          <p className="text-center text-lg">and more...</p>
         </section>
         <section id="regional_tournament" className={"mt-20"}>
           <h2 className="secTitle">

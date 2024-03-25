@@ -91,6 +91,15 @@ const Backup = ({ sponsors }: any) => {
               className={"rounded-md"}
             />
           </div>
+          <div className="item mx-auto">
+            <Image
+              src={"/busi/shizuoka/hamamatsu.png"}
+              alt={"浜松市"}
+              width={"200"}
+              height={"200"}
+              className={"rounded-md"}
+            />
+          </div>
         </div>
         <p className="text-center text-lg">and more...</p>
       </section>

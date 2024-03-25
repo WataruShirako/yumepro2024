@@ -20,7 +20,7 @@ const auditions = [
   {
     name: "夢プロショートドラマオーディション",
     path: "/project/entertainment/shortdrama",
-    src: "/top/banner/banner_drama3.jpg",
+    src: "/top/banner/banner_drama4.jpg",
   },
   {
     name: "親善大使オーディション",
@@ -41,6 +41,11 @@ const auditions = [
     name: "ボーカルオーディション",
     path: "/project/entertainment/vocal",
     src: "/top/banner/banner_vocal.jpg",
+  },
+  {
+    name: "ミスミスタースパサウナ2024オーディション",
+    path: "/project/entertainment/spasauna",
+    src: "/top/banner/banner_spasauna.jpg",
   },
   {
     name: "学生ピッチ甲子園",

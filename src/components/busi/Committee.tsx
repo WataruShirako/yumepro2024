@@ -68,7 +68,7 @@ const Committee = () => {
             </div>
             <div className="itemText px-5 text-left">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                島川敏明
+                島川 敏明
               </p>
               <p className="font-bold text-[15px] text-center ">
                 IVS株式会社 代表取締役
@@ -92,7 +92,7 @@ const Committee = () => {
             </div>
             <div className="itemText px-5 text-left">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                青木康時
+                青木 康時
               </p>
               <p className="font-bold text-[15px] text-center ">
                 株式会社サムライパートナーズ 取締役
@@ -115,7 +115,7 @@ const Committee = () => {
             </div>
             <div className="itemText px-5 text-left ">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                片石貴展
+                片石 貴展
               </p>
               <p className="font-bold text-[15px] text-center ">
                 株式会社yutori 代表取締役
@@ -165,7 +165,7 @@ const Committee = () => {
             </div>
             <div className="itemText px-5 text-left ">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                石倉壱彦
+                石倉 壱彦
               </p>
               <p className="font-bold text-[15px] text-center ">
                 株式会社Akatsuki Ventures 代表取締役
@@ -189,7 +189,7 @@ const Committee = () => {
             </div>
             <div className="itemText px-5 text-left ">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                舟引美咲
+                舟引 美咲
               </p>
               <p className="font-bold text-[15px] text-center ">
                 東京大学大学院 Graduate fellow
@@ -214,7 +214,7 @@ const Committee = () => {
             </div>
             <div className="itemText px-5 text-left ">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                柴田秀樹
+                柴田 秀樹
               </p>
               <p className="font-bold text-[15px] text-center ">
                 株式会社HSPB 代表取締役
@@ -256,13 +256,13 @@ const Committee = () => {
                 src={"/busi/kojima_.jpg"}
                 width={642}
                 height={642}
-                alt="小嶋彗史"
+                alt="小嶋 彗史"
                 className="w-60  md:w-[320px]  object-cover mx-auto"
               />
             </div>
             <div className="itemText px-5 text-left ">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                小嶋彗史
+                小嶋 彗史
               </p>
               <p className="font-bold text-[15px] text-center ">
                 株式会社Unpacked 代表取締役
@@ -272,6 +272,29 @@ const Committee = () => {
                 中高生の進路学習の可能性に気づき、立教大学在学中にUnpackedを創業。
                 「みらいの不安をみらい世代と共に解決する」をコンセプトに、探究型学習と事業開発を掛け合わせたビジネスモデルを日系企業かグローバル企業まで延べ１００社以上に展開。
                 「自立共生」をミッションに、今後はハイクラスU18市場を確立し、意志を持ったキャリア選択ができるインフラをアジア圏を中心に展開予定。
+              </div>
+            </div>
+          </div>
+          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+            <div className="">
+              <Image
+                src={"/busi/kitamori.jpg"}
+                width={642}
+                height={642}
+                alt="北森 聖士"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left ">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                北森 聖士
+              </p>
+              <p className="font-bold text-[15px] text-center ">
+                株式会社Unpacked 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                関西学院大学在学中に株式会社ライズアースを創業し、在学中に株式会社Donutsへ売却。売却後3年半、インフルエンサー事業に従事。現在は生成AIを軸に生成AI×税務の『税務GPT』、生成AI×労務の『労務GPT』等を展開する株式会社VOLTMIND代表。
               </div>
             </div>
           </div>

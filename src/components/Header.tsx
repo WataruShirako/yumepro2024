@@ -83,6 +83,11 @@ const NavEntt = () => {
       name: "vocal",
       title: "ボーカルオーディション",
     },
+    {
+      path: "/project/entertainment/spasauna",
+      name: "spasauna",
+      title: "スパサウナオーディション",
+    },
   ];
   return (
     <nav

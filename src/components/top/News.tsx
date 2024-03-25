@@ -6,7 +6,7 @@ const News = () => {
   const news = [
     {
       path: "/#sponsor",
-      title: "2024.3.12",
+      title: "2024.3.26",
       content: "スポンサーを更新しました。",
     },
     {
