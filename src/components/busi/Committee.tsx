@@ -290,7 +290,7 @@ const Committee = () => {
                 北森 聖士
               </p>
               <p className="font-bold text-[15px] text-center ">
-                株式会社Unpacked 代表取締役
+                株式会社VOLTMIND 代表取締役
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />

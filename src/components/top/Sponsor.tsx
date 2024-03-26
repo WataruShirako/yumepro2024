@@ -117,6 +117,20 @@ const Sponsor = () => {
             height={500}
           />
           <Image
+            src={"/top/sponsor/nestle.png"}
+            alt={"nestle"}
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
+            src={"/top/sponsor/kirin.png"}
+            alt={"kirin"}
+            width={500}
+            height={500}
+            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+          />
+          <Image
             src={"/top/sponsor/an_spa.png"}
             alt="an_spa"
             width={500}
