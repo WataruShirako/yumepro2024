@@ -106,7 +106,7 @@ const Home = () => {
       name: "バラン",
       pro: "Strategic Insights, Inc Chief Marketing Innovator",
       text: "YouTube登録者150万人アーティスト「虹色侍」を0から輩出。 昨年は、12歳以下ミス・インターナショナル日本代表を輩出。現在は、数々の法人に対してマー ケティングの戦略コンサルティングを行う他、監修者を務める「ホラーちゃんねる」は総再生数1.7 億回を突破。",
-      src: "/shortdrama/baran.jpg",
+      src: "/shortdrama/baran2.jpg",
       tiktok: "",
       twitter: "purechocolovely",
       insta: "",

@@ -91,24 +91,7 @@ const Sponsor = () => {
             height={"150"}
           />
         </div>
-        <div className="item">
-          <Image
-            className={"rounded-md mx-auto"}
-            src={"/top/sponsor/Queencard.png"}
-            alt={"Queencard"}
-            width={"150"}
-            height={"150"}
-          />
-        </div>
-        <div className="item">
-          <Image
-            className={"rounded-md mx-auto"}
-            src={"/top/sponsor/nestle.png"}
-            alt={"nestle"}
-            width={"150"}
-            height={"150"}
-          />
-        </div>
+
         <div className="item">
           <Image
             className={"rounded-md mx-auto"}

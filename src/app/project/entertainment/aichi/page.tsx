@@ -162,7 +162,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/** 
+
         <section id="committee" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -176,11 +176,32 @@ const Home = () => {
             </span>
             審査委員会
           </h2>
-          <p className="text-center md:text-5xl text-3xl font-black bg-clip-text bg-gradient-to-tr from-[#C52CFD] to-[#2D4BB5] text-transparent">
-            — COMING SOON —
-          </p>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/star/aichi/kodama.jpg"}
+                width={642}
+                height={642}
+                alt="兒玉 遥"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                兒玉 遥
+              </p>
+
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                1996年生まれ。福岡県出身。
+                2011年HKT48の第1期生オーディションに合格し、同グループのメンバーとして活動を開始。
+                2019年にグループを卒業し、女優としての活動を本格化。
+                現在は、ドラマや映画、舞台のほかYouTubeなどジャンルを問わず様々な分野で活躍中。
+              </div>
+            </div>
+          </div>
         </section>
-*/}
+
         <section id="sponsor" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -194,8 +215,21 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="my-10">
-            <ComingSoon />
+          <div className="my-2 md:my-4 flex flex-row flex-wrap gap-1 md:gap-5 justify-center max-w-5xl mx-auto">
+            <Image
+              src={"/top/sponsor/sakura_logo.jpg"}
+              alt="sakura"
+              width={500}
+              height={500}
+              className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+            />
+            <Image
+              src={"/top/sponsor/an_spa.png"}
+              alt="an_spa"
+              width={500}
+              height={500}
+              className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+            />
           </div>
           <a
             href="/sponsor"

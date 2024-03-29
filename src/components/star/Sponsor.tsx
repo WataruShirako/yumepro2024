@@ -101,15 +101,7 @@ const Sponsor = ({ sponsors }: any) => {
                 height={"200"}
               />
             </div>
-            <div className="item">
-              <Image
-                className={"rounded-md mx-auto"}
-                src={"/top/sponsor/nestle.png"}
-                alt={"nestle"}
-                width={"200"}
-                height={"200"}
-              />
-            </div>
+
             <div className="item">
               <Image
                 className={"rounded-md mx-auto"}
