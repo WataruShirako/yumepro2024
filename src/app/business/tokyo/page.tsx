@@ -160,7 +160,7 @@ const BusinessPage = () => {
             <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
               <div className="">
                 <Image
-                  src={"/busi/tokyo/yamamoto.jpg"}
+                  src={"/busi/tokyo/yamamoto1.jpg"}
                   width={642}
                   height={642}
                   alt="山本 康二"
