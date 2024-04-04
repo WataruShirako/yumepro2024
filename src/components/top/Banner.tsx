@@ -30,7 +30,7 @@ const auditions = [
   {
     name: "ライバーオーディション",
     path: "/project/entertainment/liver",
-    src: "/top/banner/banner_liver.jpg",
+    src: "/top/banner/banner_liver1.jpg",
   },
   {
     name: "ダンスオーディション",

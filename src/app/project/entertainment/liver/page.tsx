@@ -16,7 +16,7 @@ const Home = () => {
           <div className="imgWrap">
             <Image
               className="img hidden md:lg:block"
-              src={"/liver/liver.jpg"}
+              src={"/liver/liver1.jpg"}
               alt="text"
               width={1920}
               height={930}
@@ -24,7 +24,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={"/liver/liver.jpg"}
+              src={"/liver/liver1.jpg"}
               alt="text"
               width={750}
               height={1370}
