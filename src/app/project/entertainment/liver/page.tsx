@@ -154,7 +154,7 @@ const Home = () => {
               <div
                 className={"w-[75%]  text-xs md:text-sm leading-5 md:leading-8"}
               >
-                4/28(日) 幕張メッセ in ニコニコ超会議
+                4/27(土) 幕張メッセ in ニコニコ超会議
               </div>
             </div>
             <div className="list flex py-5 md:py-8 border-solid border-y border-[#485757] items-center justify-between gap-3">
@@ -176,7 +176,7 @@ const Home = () => {
                 <br />
                 未成年者はエントリーの際に保護者の同意が必要となります。
                 <br />
-                必ず、4/28(日)に開催されるニコニコ超会議(都内での実施)への参加が必要となります。参加できない場合はFINAL・受賞は辞退とみなしますのであらかじめご了承ください。
+                必ず、4/27(土)に開催されるニコニコ超会議(都内での実施)への参加が必要となります。参加できない場合はFINAL・受賞は辞退とみなしますのであらかじめご了承ください。
               </div>
             </div>
           </div>

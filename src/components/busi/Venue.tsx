@@ -5973,7 +5973,7 @@ const Venue = () => {
                     className={"absolute top-[40%]  right-2"}
                   />
                 </a>
-                <p className="mt-2 text-sm">2024年3月31日</p>
+                <p className="mt-2 text-sm">2024年4月14日</p>
                 <p className="mb-5 text-sm">
                   SLOW ART
                   <br />

@@ -15,7 +15,7 @@ import ComingSoon from "@/components/common/ComingSoon";
 const contents = [
   {
     title: "開催日",
-    content: `2024年3月31日(日)`,
+    content: `2024年4月14日(日)`,
   },
   {
     title: "会場",
