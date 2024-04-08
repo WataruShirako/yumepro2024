@@ -200,6 +200,62 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/star/aichi/akishino.jpg"}
+                width={642}
+                height={642}
+                alt="秋篠くるみ"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                秋篠 くるみ
+              </p>
+              <p className="font-bold text-[15px] text-center md:text-left">
+                株式会社ミルク　代表取締役
+                <br /> 株式会社ブランコ　代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                吉本初のアイドルユニットとして芸能界デビュー。
+                タレント経験を活かしてプロフィールに特化した写真スタジオ「スタジオミルク」を開業。
+                現在は個人・中小企業のビジュアルブランディングとして、魅せ方と事業戦略を軸に、集客・PR・求人のサポートを行なっている。
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/busi/aichi/nakashima.jpg"}
+                width={642}
+                height={642}
+                alt="中島惇生"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                中島惇生
+              </p>
+              <p className="font-bold text-[15px] text-center md:text-left">
+                株式会社REVIVE代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                名古屋市にて築75年の古民家を改装した「KIWAMI
+                SAUNA」を経営。コンセプトはととのうを超えた「きわまる」。
+                代表中島が世界中400以上のサウナを訪問した経験から、気持ちよさを科学的に追求。
+                酸素濃度が高く呼吸のしやすいサウナや、最深部2mの水風呂などが特徴。
+                サウナの聖地と言われ、競合ひしめく名古屋において開業から1年で4万人を動員。
+                Instagramのフォロワーは12,000以上あるサウナの中で7番目。
+                また、来客者の半数以上が20代と従来のサウナと一線を画す。
+                ストレス社会と呼ばれる昨今サウナのニーズは拡大しており、全国展開を企図し拡大中。
+              </div>
+            </div>
+          </div>
         </section>
 
         <section id="sponsor" className={""}>
@@ -215,10 +271,17 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="container my-2 md:my-4  grid grid-cols-3 md:grid-cols-3 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
+          <div className="container my-2 md:my-4  grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
             <Image
               src={"/busi/aichi/miruku.jpg"}
               alt="miruku"
+              width={"200"}
+              height={"200"}
+              className="rounded-2xl mx-auto"
+            />
+            <Image
+              src={"/top/sponsor/amaterasu.jpg"}
+              alt={"アマテラス"}
               width={"200"}
               height={"200"}
               className="rounded-2xl mx-auto"

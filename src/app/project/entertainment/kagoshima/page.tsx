@@ -241,15 +241,23 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
-          <div className="flex justify-center">
+          <div className="container my-2 md:my-4  grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
             <div className="item">
               <Image
                 src={"/busi/kagoshima/TYH.jpg"}
-                alt="showroom"
+                alt="TYH"
                 width={200}
                 height={200}
-                className={"rounded-md"}
+                className={"rounded-md mx-auto"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                src={"/top/sponsor/amaterasu.jpg"}
+                alt={"アマテラス"}
+                width={200}
+                height={200}
+                className={"rounded-md mx-auto"}
               />
             </div>
           </div>

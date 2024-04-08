@@ -24,7 +24,7 @@ const Backup = () => {
             alt="takamatsu"
             width={200}
             height={200}
-            className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block "
+            className="rounded-2xl  md:w-[190px] block "
           />
         </div>
       </div>

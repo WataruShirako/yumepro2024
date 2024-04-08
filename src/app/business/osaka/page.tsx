@@ -157,10 +157,10 @@ const BusinessPage = () => {
             </p>
           </h2>
 
-          <div className="flex justify-center py-10 gap-10">
+          <div className="container my-2 md:my-4  grid grid-cols-2 sm:grid-cols-3 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
             <div className="item">
               <Image
-                className={"rounded-md"}
+                className={"rounded-md mx-auto"}
                 src={"/top/sponsor/onedining.jpg"}
                 alt={"ワンダイニング"}
                 width={"200"}
@@ -169,9 +169,18 @@ const BusinessPage = () => {
             </div>
             <div className="item">
               <Image
-                className={"rounded-md"}
+                className={"rounded-md mx-auto"}
                 src={"/busi/osaka/venue_logo.png"}
                 alt={"近畿大学"}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                className={"rounded-md mx-auto"}
+                src={"/top/sponsor/amaterasu.jpg"}
+                alt={"アマテラス"}
                 width={"200"}
                 height={"200"}
               />

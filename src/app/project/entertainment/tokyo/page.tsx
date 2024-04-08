@@ -650,12 +650,21 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="flex justify-center py-2">
+          <div className="flex justify-center py-2 gap-5 p-5">
             <div className="item">
               <Image
                 className={"rounded-md"}
                 src={"/top/sponsor/onelilive.jpg"}
                 alt={""}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/top/sponsor/amaterasu.jpg"}
+                alt={"アマテラス"}
                 width={"200"}
                 height={"200"}
               />

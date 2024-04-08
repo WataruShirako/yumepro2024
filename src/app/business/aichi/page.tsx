@@ -182,10 +182,17 @@ const BusinessPage = () => {
             </p>
           </h2>
 
-          <div className="container my-2 md:my-4  grid grid-cols-3 md:grid-cols-3 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
+          <div className="container my-2 md:my-4  grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
             <Image
               src={"/busi/aichi/miruku.jpg"}
               alt="miruku"
+              width={"200"}
+              height={"200"}
+              className="rounded-2xl mx-auto"
+            />
+            <Image
+              src={"/top/sponsor/amaterasu.jpg"}
+              alt={"アマテラス"}
               width={"200"}
               height={"200"}
               className="rounded-2xl mx-auto"

@@ -83,9 +83,16 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="my-10">
-            <ComingSoon />
+          <div className="container my-2 md:my-4  grid grid-cols-1 md:grid-cols-1 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
+            <Image
+              src={"/top/sponsor/amaterasu.jpg"}
+              alt={"アマテラス"}
+              width={"200"}
+              height={"200"}
+              className="rounded-2xl mx-auto"
+            />
           </div>
+
           <a
             href="/sponsor"
             className="button md:text-xl text-base font-bold relative"

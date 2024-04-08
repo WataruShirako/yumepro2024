@@ -375,19 +375,14 @@ const BusinessPage = () => {
             </p>
           </h2>
 
-          <div className="flex justify-center py-10">
-            <Comingsoon />
-            {/* 
-            <div className="item">
-              <Image
-                className={"rounded-md"}
-                src={"/busi/miyagi/tumiki.png"}
-                alt={""}
-                width={"200"}
-                height={"200"}
-              />
-            </div>
-            */}
+          <div className="container my-2 md:my-4  grid grid-cols-1 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
+            <Image
+              src={"/top/sponsor/amaterasu.jpg"}
+              alt={"アマテラス"}
+              width={"200"}
+              height={"200"}
+              className="rounded-2xl mx-auto"
+            />
           </div>
 
           <a

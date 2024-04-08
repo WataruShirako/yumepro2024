@@ -201,12 +201,21 @@ const BusinessPage = () => {
             </p>
           </h2>
 
-          <div className="flex justify-center py-10">
+          <div className="flex justify-center py-10 gap-5">
             <div className="item">
               <Image
                 className={"rounded-md"}
                 src={"/top/sponsor/onelilive.jpg"}
-                alt={""}
+                alt={"ワンリーライブ"}
+                width={"200"}
+                height={"200"}
+              />
+            </div>
+            <div className="item">
+              <Image
+                className={"rounded-md"}
+                src={"/top/sponsor/amaterasu.jpg"}
+                alt={"アマテラス"}
                 width={"200"}
                 height={"200"}
               />

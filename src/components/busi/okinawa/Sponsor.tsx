@@ -18,18 +18,24 @@ const Sponsor = () => {
           スポンサー企業
         </p>
       </h2>
-      {/*<div className="container grid grid-cols-1 md:grid-cols-1 gap-10 px-4 mt-10 mx-auto md:max-w-5xl pb-10">*/}
-      <div className="flex justify-center py-10">
-        <div className="item">
-          <Image
-            className={"rounded-md"}
-            src={"/busi/okinawa/sponsor01.webp"}
-            alt={""}
-            width={"150"}
-            height={"150"}
-          />
-        </div>
+      <div className="container my-2 md:my-4  grid grid-cols-2 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
+        <Image
+          className={"rounded-md mx-auto"}
+          src={"/busi/okinawa/sponsor01.webp"}
+          alt={""}
+          width={"200"}
+          height={"200"}
+        />
+
+        <Image
+          src={"/top/sponsor/amaterasu.jpg"}
+          alt={"アマテラス"}
+          width={"200"}
+          height={"200"}
+          className={"rounded-md mx-auto"}
+        />
       </div>
+
       <p className="text-center text-lg">and more...</p>
       <a
         href="/sponsor"

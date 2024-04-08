@@ -81,6 +81,13 @@ const Home = () => {
             </div>
             <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-3">
               <p className="font-bold">1位 りり姫🍑🖤</p>
+              <Image
+                className="mx-auto"
+                src={"/shinzentaishi/ririhime.jpg"}
+                alt="りり姫"
+                width={300}
+                height={300}
+              />
               <a
                 href="https://mixch.tv/u/15384704"
                 target="_blank"
@@ -277,6 +284,13 @@ const Home = () => {
                 <br />
                 台湾大会にご招待
               </p>
+              <Image
+                className="mx-auto"
+                src={"/shinzentaishi/taiwan.png"}
+                alt="台湾"
+                width={300}
+                height={300}
+              />
               交通費&宿泊費は夢プロが手配します。
               <br />
               台湾で動画を撮影してシェアしていただきます。
@@ -294,6 +308,13 @@ const Home = () => {
                 <br />
                 地方大会のアシスタントMC
               </p>
+              <Image
+                className="mx-auto"
+                src={"/shinzentaishi/map.png"}
+                alt="地図"
+                width={400}
+                height={400}
+              />
               【関東】 3/30東京都 3/24宮城県
               <br /> 【関西】 2/28大阪府 2/17香川県
               <br />
@@ -317,6 +338,13 @@ const Home = () => {
                 <br />
                 地方大会のアシスタントMC
               </p>
+              <Image
+                className="mx-auto"
+                src={"/shinzentaishi/map.png"}
+                alt="地図"
+                width={400}
+                height={400}
+              />
               【関東】 3/30東京都 3/24宮城県
               <br /> 【関西】 2/28大阪府 2/17香川県
               <br />

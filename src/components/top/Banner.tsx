@@ -12,6 +12,11 @@ const auditions = [
     src: "/top/banner/banner_star1.jpg",
   },
   {
+    name: "学生ピッチ甲子園",
+    path: "/business",
+    src: "/top/banner/banner_business.jpg",
+  },
+  {
     name: "夢フォトオーディション",
     path: "/project/entertainment/photo",
     src: "/top/banner/yumephoto.png",
@@ -46,11 +51,6 @@ const auditions = [
     name: "ミスミスタースパサウナ2024オーディション",
     path: "/project/entertainment/spasauna",
     src: "/top/banner/banner_spasauna.jpg",
-  },
-  {
-    name: "学生ピッチ甲子園",
-    path: "/business",
-    src: "/top/banner/banner_business.jpg",
   },
 ];
 
