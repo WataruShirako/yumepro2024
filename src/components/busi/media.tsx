@@ -21,11 +21,38 @@ const Media = () => {
             メディア
           </p>
         </h2>
-        <div className="App max-w-3xl mx-auto p-10">
+        <div className="max-w-3xl mx-auto px-5 md:px-10 pt-20">
+          <a href="https://www.youtube.com/@gakuseikigyouou" target="_blank">
+            <div className="flex text-lg font-bold justify-center">
+              <p>
+                <Image
+                  src={"/busi/youtube2.png"}
+                  width={25}
+                  height={25}
+                  alt="youtube"
+                  className=""
+                />
+              </p>
+              <p className="text-center">
+                YouTubeチャンネル
+                <br className="sm:hidden" />
+                「学生起業王」
+              </p>
+            </div>
+
+            <Image
+              src={"/busi/gakusei_kigyoou.png"}
+              width={500}
+              height={500}
+              alt="学生起業王"
+              className="w-auto mx-auto"
+            />
+          </a>
+        </div>
+        <div className="App max-w-3xl mx-auto  px-5 md:px-10">
           <YouTubeEmbed videoId="oBtPUG09J0A" />
         </div>
-        <div className="max-w-3xl mx-auto p-5 md:p-10">
-          <p className="font-bold text-xl text-center">学生起業王 参加者募集</p>
+        <div className="max-w-3xl mx-auto  px-5 md:px-10 pb-20">
           <br /> <br />
           「学生起業王」は、学生が感じている起業へのハードルのイメージを下げて学生の起業を応援することにより、
           起業しやすくなる環境を日本に作り上げ、結果的に日本国内の起業家の増加に繋げていくことを目的としたYouTubeチャンネルです。

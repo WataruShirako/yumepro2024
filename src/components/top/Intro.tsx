@@ -10,12 +10,10 @@ const Intro = () => {
           }
         >
           <Image src={"/icons/whatweare.svg"} alt={""} width={16} height={20} />
-          Yume project 2024 ?
+          Yume project ?
         </span>
         <p className={"font-bold text-2xl md:text-3xl mt-1"}>
-          夢叶えるプロジェクト
-          <br className={"md:hidden"} />
-          2024とは？
+          夢叶えるプロジェクトとは？
         </p>
       </h2>
       <div
@@ -26,25 +24,23 @@ const Intro = () => {
         <Image
           src={"/top/whatweare_img.webp"}
           alt={"夢叶えるプロジェクトとは？"}
-          width={1000}
-          height={1000}
+          width={800}
+          height={800}
           className={"rounded-2xl overflow-hidden flex-1"}
         />
         <div className="flex-1">
-          <h3 className={"text-2xl font-semibold my-8"}>
-            テーマ
-            <br className={"sm:hidden"} />
-            「エンタメ」x「地方創生」x「SDGs」
-            <br />
-            若者も大人も夢に
-            <br className={"sm:hidden"} />
-            チャレンジしやすい社会を
+          <h3 className={"text-xl font-semibold my-8"}>
+            <p className="text-center mb-5">2024年のテーマは</p>
+
+            <div className="text-2xl sm:text-3xl">
+              <p className="text-center">「エンターテイメント」</p>
+              <p className="text-center">×</p>
+              <p className="text-center">「地方創生」</p>
+            </div>
           </h3>
           <p className={"my-8"}>
-            「夢叶えるプロジェクト」は、
-            様々な部門のエンタメビジネスコンテストで、
-            企画やピッチコンテストを通じて若者に訴求し、
-            各業界の夢を持つ人々を支援します。 <br />
+            「夢叶えるプロジェクト」は、夢を持つ全ての方を夢を叶える機会を生み出し、様々なジャンルの
+            オーディションやピッチコンテストを通じて、夢を持つ人々を支援する日本最大級のエンタメ・ビジネスオーディションイベントです。
           </p>
         </div>
       </div>

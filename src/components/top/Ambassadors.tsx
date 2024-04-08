@@ -139,6 +139,24 @@ const Ambassadors = () => {
           </div>
         </div>
       </div>
+      <div className="container text-center m-auto mt-6">
+        <p className="mt-6 md:mt-12 font-semibold">ARTIST</p>
+        <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
+          <p className="text-2xl p-28 bg-white rounded-2xl">Coming Soon</p>
+          {/** 
+          <div>
+            <Image
+              src={"/top/ambassodors/yokotamirai.jpg"}
+              alt=""
+              width={300}
+              height={300}
+              className="rounded-2xl  block "
+            />
+            横田未来
+          </div>
+          */}
+        </div>
+      </div>
     </section>
   );
 };

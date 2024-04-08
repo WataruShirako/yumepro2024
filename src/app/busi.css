@@ -43,6 +43,9 @@
   background: #151d22;
   border-radius: 50%;
 }
+a:hover {
+  @apply opacity-80;
+}
 @media screen and (max-width: 500px) {
   .circle {
     width: 130px;

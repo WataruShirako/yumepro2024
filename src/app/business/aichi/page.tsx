@@ -182,20 +182,27 @@ const BusinessPage = () => {
             </p>
           </h2>
 
-          <div className="my-2 md:my-4 flex flex-row flex-wrap gap-1 md:gap-5 justify-center max-w-5xl mx-auto py-10">
+          <div className="container my-2 md:my-4  grid grid-cols-3 md:grid-cols-3 gap-3 md:gap-5 justify-center max-w-3xl mx-auto p-5">
+            <Image
+              src={"/busi/aichi/miruku.jpg"}
+              alt="miruku"
+              width={"200"}
+              height={"200"}
+              className="rounded-2xl mx-auto"
+            />
             <Image
               src={"/top/sponsor/sakura_logo.jpg"}
               alt="sakura"
-              width={500}
-              height={500}
-              className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+              width={"200"}
+              height={"200"}
+              className="rounded-2xl mx-auto"
             />
             <Image
               src={"/top/sponsor/an_spa.png"}
               alt="an_spa"
-              width={500}
-              height={500}
-              className="rounded-2xl w-[calc(100%/4_-_4px)] md:w-[190px] block"
+              width={"200"}
+              height={"200"}
+              className="rounded-2xl mx-auto"
             />
           </div>
 

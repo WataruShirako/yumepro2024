@@ -283,30 +283,33 @@ const Home = () => {
               FINAL最終決戦 グランプリ特典
               <p className="text-sm"></p>
             </div>
-            <div className="grid md:grid-cols-2 bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center font-bold">
-              <div>
-                <Image
-                  src={"/liver/100.jpg"}
-                  alt=""
-                  width={500}
-                  height={500}
-                  className="mx-auto"
-                />
-                賞金100万円
-              </div>
-              <div>
-                <Image
-                  src={"/star/tokyo/prize_02.jpg"}
-                  alt=""
-                  width={500}
-                  height={500}
-                  className="mx-auto"
-                />
-                映画『夢叶えるプロジェクト(仮)』出演権
-                <br />
-                <p className="font-normal text-sm">
-                  （内容が変更となる可能性があります）
-                </p>
+
+            <div className="bg-white rounded-b-3xl pb-5 md:pb-10 text-sm sm:text-base sm:leading-loose text-center p-5 md:p-10 font-bold">
+              <div className=" grid md:grid-cols-2 gap-10">
+                <div>
+                  <Image
+                    src={"/liver/prize_money1.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  賞金100万円
+                </div>
+                <div>
+                  <Image
+                    src={"/star/tokyo/prize_02.jpg"}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="mx-auto"
+                  />
+                  映画『夢叶えるプロジェクト(仮)』出演権
+                  <br />
+                  <p className="font-normal text-sm">
+                    （内容が変更となる可能性があります）
+                  </p>
+                </div>
               </div>
             </div>
           </div>

@@ -24,11 +24,11 @@ const company = () => {
           </p>
         </h2>
         <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
-          <div className="w-1/2 mx-auto">
+          <div className="">
             <Image
               src={"/busi/company01.jpg"}
-              width={900}
-              height={320}
+              width={642}
+              height={642}
               alt=""
               className="w-60  md:w-[320px]  object-cover mx-auto"
             />
