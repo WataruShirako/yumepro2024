@@ -83,7 +83,7 @@ const Home = () => {
               <p className="font-bold">1位 りり姫🍑🖤</p>
               <Image
                 className="mx-auto"
-                src={"/shinzentaishi/ririhime.jpg"}
+                src={"/shinzentaishi/ririhime1.jpg"}
                 alt="りり姫"
                 width={300}
                 height={300}
