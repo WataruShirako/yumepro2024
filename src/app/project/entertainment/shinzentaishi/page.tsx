@@ -28,7 +28,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={"/shinzentaishi/sp_shinzentaishi_Fv.jpg"}
+              src={"/shinzentaishi/sp_shinzentaishi_Fv1.jpg"}
               alt="text"
               width={750}
               height={1370}

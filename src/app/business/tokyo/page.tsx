@@ -236,7 +236,6 @@ const BusinessPage = () => {
             />
           </a>
         </section>
-        <Backup />
 
         {/*-----RegionalTournament -----*/}
         <section id="regional_tournament" className={"my-20 md:my-40"}>

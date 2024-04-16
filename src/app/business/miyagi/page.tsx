@@ -185,7 +185,7 @@ const BusinessPage = () => {
   */}
         </section>
         <WinnerBenefit />
-        <Ambassador />
+
         <section className=" my-20 md:my-40">
           <h2 className="sectionTitle text-center items-center">
             <div className="relative w-max montserrat">

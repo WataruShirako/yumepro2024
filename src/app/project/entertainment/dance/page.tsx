@@ -115,7 +115,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={"/dance/dance.jpg"}
+              src={"/dance/sp_dance.jpg"}
               alt="text"
               width={750}
               height={1370}

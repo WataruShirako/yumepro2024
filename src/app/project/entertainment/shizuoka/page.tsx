@@ -103,21 +103,7 @@ const Home = () => {
           </div>
         </section>
         <WinnerBenefit />
-        <section id="ambassador" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              AMBASSADOR
-            </span>
-            アンバサダー
-          </h2>
-          <ComingSoon />
-        </section>
+
         <section id="" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -131,8 +117,7 @@ const Home = () => {
             </span>
             司会
           </h2>
-          <ComingSoon />
-          {/** 
+
           <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
             <div className="w-1/2 mx-auto">
               <Image
@@ -156,7 +141,6 @@ const Home = () => {
               </p>
             </div>
           </div>
-          */}
         </section>
         {/** 
         <section id="committee" className={""}>

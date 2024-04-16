@@ -14,7 +14,7 @@ const auditions = [
   {
     name: "学生ピッチ甲子園",
     path: "/business",
-    src: "/top/banner/banner_business.jpg",
+    src: "/top/banner/banner_business1.jpg",
   },
   {
     name: "夢フォトオーディション",
@@ -35,12 +35,12 @@ const auditions = [
   {
     name: "ライバーオーディション",
     path: "/project/entertainment/liver",
-    src: "/top/banner/banner_liver1.jpg",
+    src: "/top/banner/banner_liver2.jpg",
   },
   {
     name: "ダンスオーディション",
     path: "/project/entertainment/dance",
-    src: "/top/banner/banner_dance.jpg",
+    src: "/top/banner/banner_dance1.jpg",
   },
   {
     name: "ボーカルオーディション",

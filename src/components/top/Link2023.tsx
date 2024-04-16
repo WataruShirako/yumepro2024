@@ -8,26 +8,15 @@ const Link2023 = () => {
     >
       <div
         className={
-          "max-w-[92%] lg:max-w-6xl m-auto rounded-2xl overflow-hidden relative py-5 h-56 md:h-auto"
+          " md:max-w-4xl mx-auto  overflow-hidden relative p-5 md:h-auto"
         }
       >
         <Image
-          src={"/top/2023_link.webp"}
+          src={"/top/2023_link2.jpg"}
           alt={""}
-          className={
-            "relative object-cover w-full h-full rounded-2xl overflow-hidden"
-          }
+          className={"relative  w-full rounded-2xl"}
           width={1100}
           height={200}
-        />
-        <Image
-          src={"/top/2023_link_text.svg"}
-          alt={"夢叶えるプロジェクト2023はこちら"}
-          className={
-            "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 md:w-2/5"
-          }
-          width={330}
-          height={75}
         />
       </div>
     </a>

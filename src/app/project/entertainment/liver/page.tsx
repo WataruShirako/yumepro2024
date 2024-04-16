@@ -24,7 +24,7 @@ const Home = () => {
             />
             <Image
               className="img lg:hidden"
-              src={"/liver/liver1.jpg"}
+              src={"/liver/sp_liver1.png"}
               alt="text"
               width={750}
               height={1370}

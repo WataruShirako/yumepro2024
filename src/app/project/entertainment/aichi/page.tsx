@@ -102,21 +102,7 @@ const Home = () => {
           </div>
         </section>
         <WinnerBenefit />
-        <section id="ambassador" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              AMBASSADOR
-            </span>
-            アンバサダー
-          </h2>
-          <ComingSoon />
-        </section>
+
         <section id="" className={""}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
@@ -316,21 +302,7 @@ const Home = () => {
             />
           </a>
         </section>
-        <section id="backup" className={""}>
-          <h2 className="secTitle">
-            <span className={"flex gap-2 justify-center"}>
-              <Image
-                src={"/entt/committee.svg"}
-                alt=""
-                width={15}
-                height={20}
-              />
-              Backup
-            </span>
-            後援
-          </h2>
-          <ComingSoon />
-        </section>
+
         <section id="regional_tournament" className={"mt-20"}>
           <h2 className="secTitle">
             <span className={"flex gap-2 justify-center"}>
