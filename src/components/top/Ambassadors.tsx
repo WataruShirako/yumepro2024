@@ -146,7 +146,7 @@ const Ambassadors = () => {
             <Image
               src={"/top/kamengumi.jpg"}
               alt=""
-              width={400}
+              width={300}
               height={300}
               className="rounded-2xl  block "
             />
