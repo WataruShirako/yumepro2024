@@ -14,11 +14,16 @@ const NavBusi = () => {
       name: "business",
       title: "学生ピッチ甲子園",
     },
+    {
+      path: "/business/#timetable",
+      name: "business",
+      title: "パネルディスカッション",
+    },
   ];
   return (
     <nav
       className={
-        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[180px] border rounded-xl overflow-hidden"
+        "absolute top-[150%] left-1/2 -translate-x-1/2 bg-white shadow w-[230px] border rounded-xl overflow-hidden"
       }
     >
       <ul className={""}>

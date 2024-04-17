@@ -80,6 +80,18 @@ const Home = () => {
   // 審査委員
   const committee = [
     {
+      id: 0,
+      name: "市川 美織",
+      pro: "",
+      text: "2010年にAKB48のメンバーとして活動開始NMB48移籍を経て2018年5月1日に48グループを卒業現在は俳優、バラエティ番組への出演、モデルをはじめアパレルとのコラボなどで活動のほかレトロポップユニット・FANCYLABOのメンバーとしても活動中",
+      src: "/star/ichikawa.jpg",
+      hp: "",
+      youtube: "",
+      tiktok: "",
+      twitter: "",
+      insta: "",
+    },
+    {
       id: 1,
       name: "横田 未来",
       pro: "",
@@ -145,6 +157,18 @@ const Home = () => {
       pro: "",
       text: "大学生時代よりテレビ業界で働く。築いたネットワークを駆使し、株式会社フォーミュレーションI．T．S．を立ち上げる。テレビ業界CM業界、芸能界への人材派遣をはじめ 様々なサービスを展開。現在新規事業としてエンターテイメント業界における採用サービスに注力中。",
       src: "/entt/imabeppu1.jpg",
+      hp: "",
+      youtube: "",
+      tiktok: "",
+      twitter: "",
+      insta: "",
+    },
+    {
+      id: 7,
+      name: "太一監督",
+      pro: "",
+      text: "1984年にSFXアーティストとして映画界デビューし、60本以上の劇場映画や500本以上のメジャーTVCMに携わる。またA.T-ILLUSIONやEDLEAD inc.などの国際映画製作会社を設立し、ハリウッドでCEOを務めている。",
+      src: "/star/taichi.jpg",
       hp: "",
       youtube: "",
       tiktok: "",

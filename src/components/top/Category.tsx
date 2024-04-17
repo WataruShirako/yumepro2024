@@ -54,38 +54,18 @@ const Category = () => {
           <div className={"flex justify-around mt-4 gap-6 "}>
             <Link
               href={"/project/entertainment"}
-              className={"text-center w-1/2 hover:brightness-90"}
+              className={"text-center  hover:brightness-90"}
               onClick={() => window.scrollTo(0, 0)}
             >
               <Image
-                src={"/top/top_star.jpg"}
+                src={"/star/fv_star_pc1.jpg"}
                 alt={"夢プロスター誕生オーディション"}
                 width={400}
                 height={400}
                 className={"rounded-2xl shadow-md w-full"}
               />
               <p className={"text-xs font-semibold mt-2"}>
-                夢プロスター誕生
-                <br />
-                オーディション2024
-              </p>
-            </Link>
-            <Link
-              href={"/project/entertainment/photo"}
-              className={"text-center w-1/2 hover:brightness-90"}
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              <Image
-                src={"/top/top_entt_enttcontest.webp"}
-                alt={"エンタメコンテスト"}
-                width={400}
-                height={400}
-                className={"rounded-2xl shadow-md w-full"}
-              />
-              <p className={"text-xs font-semibold mt-2"}>
-                部門別
-                <br className="md:hidden" />
-                エンタメオーディション
+                夢プロスター誕生 オーディション2024
               </p>
             </Link>
           </div>
@@ -125,7 +105,7 @@ const Category = () => {
             <div className={"flex justify-around mt-4 gap-6 "}>
               <div className={"text-center w-full"}>
                 <Image
-                  src={"/busi/busi_top_pc.jpg"}
+                  src={"/busi/busi_top_pc1.jpg"}
                   alt={"学生ピッチ甲子園"}
                   width={500}
                   height={250}

@@ -242,6 +242,29 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/shortdrama/ohashi.jpg"}
+                width={642}
+                height={642}
+                alt="大橋孝史"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                大橋孝史
+              </p>
+              <p className="font-bold text-[15px] text-center md:text-left">
+                モバコン株式会社代表取締役 プロデューサー/監督
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                1974年7月27日生まれ。21歳の時に実写映画「ろくでなしBLUSE」プロデューサーデビューし、これまでに数々の映画・ドラマ・アニメ・音楽などエンタテインメント作品をプロデュース。近年は地方創生・インバウンドを目的とした、ふるさと映画祭を開催し、新しい日本のエンタテインメント業界を牽引している。
+              </div>
+            </div>
+          </div>
         </section>
 
         <section id="sponsor" className={""}>

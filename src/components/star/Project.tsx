@@ -16,17 +16,29 @@ const Project = ({ about }: any) => {
           </span>
           開催目的
         </h2>
-        <div className="container m-auto max-w-[92%] lg:max-w-2xl">
-          夢叶えるプロジェクトは、80億分の１の才能の輝き、というテーマのもと
-          夢を持つ全ての人に夢を叶える為の機会を与え、応援、激励、そして支えるプロジェクトです。
+        <div className="container m-auto max-w-[92%] sm:max-w-3xl text-center text-[14px] sm:text-[16px] sm:px-2">
+          夢叶えるプロジェクトは、
+          <br className="sm:hidden" />
+          80億分の１の才能の輝き、 <br />
+          というテーマのもと夢を持つ全ての人に
+          <br className="sm:hidden" />
+          夢を叶える為の機会を与え、 <br />
+          応援、激励、そして支えるプロジェクトです。
           <br />
           <br />
           ジャンルは無し。
           <br />
           <br />
-          あなたが一番自信のある才能を輝かせ、『夢叶えるプロジェクト2024
-          スター誕生オーディション決勝 in
-          ニコニコ超会議2024』でグランプリを勝ち取り、世界的スターへの第一歩を踏み出しましょう。
+          あなたが一番自信のある才能を輝かせ、
+          <br />
+          『夢叶えるプロジェクト2024
+          <br className="sm:hidden" /> スター誕生オーディション決勝{" "}
+          <br className="sm:hidden" />
+          in ニコニコ超会議2024』で
+          <br />
+          グランプリを勝ち取り、
+          <br className="sm:hidden" />
+          世界的スターへの第一歩を踏み出しましょう。
         </div>
       </section>
       <div className="svg__container">

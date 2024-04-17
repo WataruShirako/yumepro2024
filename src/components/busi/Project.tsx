@@ -15,16 +15,34 @@ const Project = () => {
             />
             <p className="relative montserrat">Project</p>
           </div>
-          <p className="relative mt-3 md:mt-6 mb-20 md:text-[32px] text-2xl">
+          <p className="relative mt-3 md:mt-6 mb-10 md:mb-20 md:text-[32px] text-2xl">
             学生ピッチ甲子園とは？
           </p>
         </h2>
-        <p className="container text-left mx-auto px-5 md:px-0 md:max-w-2xl pb-20 text-[15px] leading-[1.3rem]">
-          学生ピッチ甲子園とは、日本から世界を代表するスタートアップ企業を生み出すべく誕生したピッチコンテスト。
+        <p className="container text-center mx-auto px-5  md:max-w-xl pb-20 text-[14px] sm:text-[16px] ">
+          学生ピッチ甲子園とは
+          <br className="sm:hidden" />
+          日本から世界を代表する
           <br />
-          各地の予選通過者が東京にて最終決戦を行い、優勝者には賞金として起業・事業資金1,000万が与えられる。
+          スタートアップ企業を生み出すべく
+          <br className="sm:hidden" />
+          誕生したピッチコンテスト。
           <br />
-          日本最大級の学生ピッチコンテストの映えある第一回大会優勝者に乞うご期待。
+          <br />
+          各地の予選通過者が東京にて
+          <br className="sm:hidden" />
+          最終決戦を行い、
+          <br className="hidden sm:block" />
+          優勝者には賞金として
+          <br className="sm:hidden" />
+          起業・事業資金1,000万が与えられる。
+          <br />
+          <br />
+          日本最大級の学生ピッチコンテストの
+          <br className="sm:hidden" />
+          映えある
+          <br className="hidden sm:block" />
+          第一回大会優勝者に乞うご期待。
           <br />
         </p>
         <div className="md:flex md:space-x-4 justify-center md:max-w-6xl mx-auto">

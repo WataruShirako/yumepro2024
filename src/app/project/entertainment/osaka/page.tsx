@@ -154,6 +154,34 @@ const Home = () => {
               </p>
             </div>
           </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2 mx-auto">
+              <Image
+                src={"/busi/osaka/riri.jpg"}
+                width={900}
+                height={320}
+                alt=""
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-10 text-center md:text-left YuGothic">
+                りり姫
+              </p>
+              <p className="text-[15px] mx-auto md:text-left md:mx-0 pb-10">
+                2022年トップオブミクチャ <br />
+                累計1億投げ銭 <br />
+                ライバー事務所LILI LIVE代表 <br />
+                <br />
+                出演 <br />
+                TV <br />
+                ・TBS『中居正広の金曜日のスマイルたちへ』赤服出演 <br />
+                ・西日本放送『加藤浩次のちゃっかりバズってます』出演 <br />
+                ・北海道文化放送『ドキドキライブ』出演 <br />
+                ・JLCレジャーチャンネル出演
+              </p>
+            </div>
+          </div>
         </section>
 
         <section id="committee" className={""}>

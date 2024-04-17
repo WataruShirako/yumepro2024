@@ -59,7 +59,7 @@ const Committee = () => {
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/shimakawa_toshiaki.jpg"}
+                src={"/busi/shimakawa.jpg"}
                 width={642}
                 height={642}
                 alt="島川敏明"
@@ -71,12 +71,14 @@ const Committee = () => {
                 島川 敏明
               </p>
               <p className="font-bold text-[15px] text-center ">
-                IVS株式会社 代表取締役
+                Headline Asia プリンシパル、IVS 代表取締役
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                次世代の起業家が集うスタートアップカンファレンスカンファレンス「IVS」の運営や日本最大のライブ配信アプリを提供する株式会社17Media
-                Japan（現17LIVE）の立ち上げを行う。
+                IT企業の経営者層が約700名参加する招待制カンファレンス「IVS」の運営や日本最大のライブ配信アプリを提供する株式会社17
+                Media Japan（現：17LIVE株式会社）の創業メンバー・経営企画室
+                室長として2年間で日本のライブ配信業界において売上1位を達成する。2020年より代表取締役に就任。招待制カンファレンスからオープンなカンファレンスに進化させた「IVS2023
+                KYOTO」では1万人が参加。起業家のためのさらに新しいIVSを創るため奔走中。
               </div>
             </div>
           </div>
@@ -99,7 +101,8 @@ const Committee = () => {
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                これまで4社を起業しIPOやM&Aを経験した後、ヒカル・宮迫博之などのプロモーションを行うサムライパートナーズに参画。1000万再生を超える起業家育成リアリティショー「Nontitle」などの制作にも携わるYouTubeプロモーター兼連続起業家。
+                実業からITまで4社を起業しIPOやM&Aを経験した後、2020年よりヒカルなどTop
+                YouTuberのプロモーションを行うサムライパートナーズの事業統括として参画。インフルエンサー案件やD2Cなど、数多くの事業を手掛けると共に、毎シーズン1000万再生を超える起業家育成リアリティショー「Nontitle」などのTVクオリティの番組制作も手掛けるYouTubeプロデューサー兼連続起業家。
               </div>
             </div>
           </div>
@@ -131,7 +134,7 @@ const Committee = () => {
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/koukou.webp"}
+                src={"/busi/koukou.jpg"}
                 width={642}
                 height={642}
                 alt=""
@@ -147,19 +150,17 @@ const Committee = () => {
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                全国で20店舗以上展開するパーソナルジムの経営者を務める。
-                スマートミラーデバイス「MIRROR
-                FIT.」を通して、オンラインフィットネス事業を展開。著書『異なる勇気』『超完璧な伝え方』
+                全国で約15店舗のパーソナルジム兼セルフエステの受け放題サロンを経営。2020年にはミラーフィット㈱を設立し、自社開発のスマートミラーデバイスを活用した、新しい形のオンラインフィットネス事業を展開。「ジムに通いたいけれども時間がない」「毎日続けられない」といったユーザーのペインを解消するだけでなく、トレーナーの新しい働き方を叶えるプラットフォームを目指していく。
               </div>
             </div>
           </div>
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/ishikura_kazuhiko.jpg"}
+                src={"/busi/ishikura.jpg"}
                 width={642}
                 height={642}
-                alt=""
+                alt="石倉 壱彦"
                 className="w-60  md:w-[320px]  object-cover mx-auto"
               />
             </div>
@@ -168,12 +169,19 @@ const Committee = () => {
                 石倉 壱彦
               </p>
               <p className="font-bold text-[15px] text-center ">
-                株式会社Akatsuki Ventures 代表取締役
+                株式会社アカツキ 取締役
+                <br />
+                株式会社 Akatsuki Ventures 代表取締役
+                <br />
+                株式会社 WARC取締役等
+                <br />
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                KPMGあずさ監査法人を経て、株式会社アカツキにて株式上場準備に従事。2022年4月に株式会社Akatsuki
-                Venturesを立ち上げる。
+                （株）アカツキの経営管理部長として、同社の上場に貢献。
+                2015年より株式会社3ミニッツ取締役CFOとして、創業時から事業成長を牽引し、2017年にグリー株式会社とのM&A後2018年6月に退任。
+                その後、現職では、上場会社やベンチャー企業の取締役、CVCの代表パートナーとして国内・海外のベンチャー企業への投資並びに成長支援に従事。
+                これまで、３社のIPOや１０社のM＆A実績を有する。
               </div>
             </div>
           </div>

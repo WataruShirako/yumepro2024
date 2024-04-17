@@ -348,11 +348,11 @@ const Home = () => {
             </span>
             スポンサー
           </h2>
-          <div className="container my-2 md:my-4  grid grid-cols-2  gap-5 md:gap-5 justify-center max-w-3xl mx-auto p-5">
+          <div className="container my-2 md:my-4  grid grid-cols-2  gap-5  justify-center max-w-xl mx-auto p-5">
             <Image
               className={"rounded-md mx-auto"}
-              src={"/entt/okinawa/sponsor01.webp"}
-              alt={""}
+              src={"/busi/okinawa/asteeda.jpg"}
+              alt="asteeda"
               width={"200"}
               height={"200"}
             />

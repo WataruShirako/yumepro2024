@@ -40,7 +40,7 @@ const Sponsor = () => {
         <p className="mt-6 md:mt-12 font-semibold">スポンサー企業</p>
         <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
           <Image
-            src={"/top/sponsor/asteeda.png"}
+            src={"/busi/okinawa/asteeda.jpg"}
             alt="asteeda"
             width={500}
             height={500}
