@@ -84,7 +84,7 @@ const Home = () => {
       name: "市川 美織",
       pro: "",
       text: "2010年にAKB48のメンバーとして活動開始NMB48移籍を経て2018年5月1日に48グループを卒業現在は俳優、バラエティ番組への出演、モデルをはじめアパレルとのコラボなどで活動のほかレトロポップユニット・FANCYLABOのメンバーとしても活動中",
-      src: "/star/ichikawa.jpg",
+      src: "/star/ichikawa_.jpg",
       hp: "",
       youtube: "",
       tiktok: "",
