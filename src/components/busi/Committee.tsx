@@ -85,7 +85,7 @@ const Committee = () => {
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/minami1.jpg"}
+                src={"/busi/minami1.JPG"}
                 width={642}
                 height={642}
                 alt="南 章行"
