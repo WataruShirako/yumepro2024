@@ -135,7 +135,7 @@ const BusinessPage = () => {
             <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
               <div className="">
                 <Image
-                  src={"/busi/funabiki.jpg"}
+                  src={"/busi/funabiki1.jpg"}
                   width={642}
                   height={642}
                   alt="舟引美咲"
@@ -147,13 +147,13 @@ const BusinessPage = () => {
                   舟引美咲
                 </p>
                 <p className="font-bold text-[15px] text-center ">
-                  東京大学大学院 Graduate fellow
+                  Nobless Oblige Laboratory代表
                 </p>
                 <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                   <br />
-                  慶応義塾大学法学部政治学科卒業後、テレビ局のアナウンサーやニュースキャスターの経験を積んだ後、University
-                  Of The Arts London（UAL）に留学。
-                  その際、福島復興支援のチャリティープロジェクトを英国貴族院議員らの協力を経て、アジア人初となる英国国会議事堂にてイベント開催した経験を経て、帰国後はLuxury業界で主にブランド・マーケティングやCSRに従事。現在は東京大学大学院にてLuxuryとCSRの研究を行っている。
+                  Luxury業界で主にブランド・マーケティングやCSRに従事しながら、修士号(社会情報学)を取得した東京大学大学院にてLuxuryとCSRの研究を行う。
+                  また自身が顧問を務めるCredo
+                  Internationalとラグジュアリーホテルでの産後ケアサービス「AMATERASU」ブランドのトータル・プロデュースも手掛けている二児の母でもある。
                 </div>
               </div>
             </div>

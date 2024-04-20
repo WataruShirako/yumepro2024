@@ -21,26 +21,43 @@ const Ambassadors = () => {
         <p className={"font-bold text-2xl md:text-3xl mt-1"}>アンバサダー</p>
       </h2>
       <div className="container text-center m-auto mt-6">
-        <p className="mt-6 md:mt-12 font-semibold">MAIN AMBASSADOR</p>
-        <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
-          <p className="text-2xl p-28 bg-white rounded-2xl">Coming Soon</p>
-          {/** 
+        <p className="mt-6 md:mt-12 font-semibold">総合司会</p>
+        <div className="mt-2 md:mt-4 grid grid-cols-1 sm:grid-cols-2  gap-2 px-3 md:gap-5 justify-center max-w-5xl mx-auto w-fit">
           <div>
             <Image
-              src={"/top/ambassodors/yokotamirai.jpg"}
+              src={"/top/fukuda.jpg"}
               alt=""
               width={300}
               height={300}
               className="rounded-2xl  block "
             />
-            横田未来
+            福田典子
           </div>
-          */}
+          <div>
+            <Image
+              src={"/top/tokui.jpg"}
+              alt=""
+              width={300}
+              height={300}
+              className="rounded-2xl  block "
+            />
+            徳井健太(平成ノブシコブシ)
+          </div>
         </div>
       </div>
       <div className="container text-center m-auto mt-6">
         <p className="mt-6 md:mt-12 font-semibold">GUEST AMBASSADOR</p>
-        <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
+        <div className="mt-2 md:mt-4 grid grid-cols-1 sm:grid-cols-2  gap-2 px-3  md:gap-5 justify-center max-w-5xl mx-auto w-fit">
+          <div>
+            <Image
+              src={"/top/nakagawa.jpg"}
+              alt=""
+              width={300}
+              height={300}
+              className="rounded-2xl  block"
+            />
+            仲川遥香
+          </div>
           <div>
             <Image
               src={"/top/ambassodors/yokotamirai.jpg"}
@@ -56,18 +73,18 @@ const Ambassadors = () => {
 
       <div className="container text-center m-auto mt-6">
         <p className="mt-6 md:mt-12 font-semibold">MOVIE</p>
-        <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-5 justify-center max-w-5xl mx-auto">
-          <div>
+        <div className="mt-2 md:mt-4 grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-2 md:gap-5 justify-center max-w-5xl mx-auto w-fit px-3">
+          <div className="mx-auto ">
             <Image
               src={"/top/ambassodors/oguriyui.webp"}
               alt=""
               width={190}
               height={190}
-              className="rounded-2xl  block "
+              className="rounded-2xl  block"
             />
             小栗有以
           </div>
-          <div>
+          <div className="mx-auto">
             <Image
               src={"/top/ambassodors/linxiang.webp"}
               alt=""
@@ -77,7 +94,7 @@ const Ambassadors = () => {
             />
             リンシャン
           </div>
-          <div>
+          <div className="mx-auto">
             <Image
               src={"/top/ambassodors/ryuto.webp"}
               alt=""
@@ -87,7 +104,7 @@ const Ambassadors = () => {
             />
             りゅうと
           </div>
-          <div>
+          <div className="mx-auto">
             <Image
               src={"/top/ambassodors/miyasenako.webp"}
               alt=""
@@ -97,7 +114,7 @@ const Ambassadors = () => {
             />
             宮瀬なこ
           </div>
-          <div>
+          <div className="mx-auto">
             <Image
               src={"/top/ambassodors/takanashiyuka.webp"}
               alt=""
@@ -107,7 +124,7 @@ const Ambassadors = () => {
             />
             高梨優佳
           </div>
-          <div>
+          <div className="mx-auto">
             <Image
               src={"/top/ambassodors/taguchiotoha.webp"}
               alt=""
@@ -117,7 +134,7 @@ const Ambassadors = () => {
             />
             田口音羽
           </div>
-          <div>
+          <div className="mx-auto">
             <Image
               src={"/top/ambassodors/kimuraayane.webp"}
               alt=""
@@ -127,7 +144,7 @@ const Ambassadors = () => {
             />
             木村彩音
           </div>
-          <div>
+          <div className="mx-auto">
             <Image
               src={"/top/ambassodors/toutaro.webp"}
               alt=""
@@ -140,17 +157,27 @@ const Ambassadors = () => {
         </div>
       </div>
       <div className="container text-center m-auto mt-6">
-        <p className="mt-6 md:mt-12 font-semibold">ARTIST</p>
-        <div className="mt-2 md:mt-4 flex flex-row flex-wrap gap-1 md:gap-2.5 justify-center max-w-5xl mx-auto">
+        <p className="mt-6 md:mt-12 font-semibold">PERFORMANCE</p>
+        <div className="mt-2 md:mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2 px-3  md:gap-5 justify-center max-w-5xl mx-auto w-fit">
           <div>
             <Image
-              src={"/top/kamengumi.jpg"}
+              src={"/top/kamengumi1.jpg"}
               alt=""
               width={300}
               height={300}
               className="rounded-2xl  block "
             />
             華MEN組
+          </div>
+          <div>
+            <Image
+              src={"/top/andmore.jpg"}
+              alt=""
+              width={300}
+              height={300}
+              className="rounded-2xl  block "
+            />
+            AND MORE
           </div>
         </div>
       </div>

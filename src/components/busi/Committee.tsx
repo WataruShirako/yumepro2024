@@ -30,82 +30,32 @@ const Committee = () => {
           </p>
         </h2>
         <div className="md:grid grid-cols-2 md:max-w-6xl mx-auto">
-          {/* 
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/okinawa/committee01.webp"}
+                src={"/busi/ishikawa.jpg"}
                 width={642}
                 height={642}
-                alt=""
-                className="w-60  md:w-[320px]  object-cover mx-auto"
-              />
-            </div>
-            <div className="itemText px-5 text-left ">
-              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                早川周作
-              </p>
-              <p className="font-bold text-[15px] text-center ">
-                琉球アスティーダスポーツクラブ株式会社 代表取締役
-              </p>
-              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
-                <br />
-                沖縄から卓球のプロリーグであるＴリーグに参戦する「琉球アスティーダ」やトライアスロンチーム、飲食店を運営する琉球アスティーダスポーツクラブ株式会社を設立し、代表取締役に就任。
-                2021年3月、プロスポーツチームとして日本初となる上場を果たす。
-              </div>
-            </div>
-          </div>
-          */}
-          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
-            <div className="">
-              <Image
-                src={"/busi/shimakawa.jpg"}
-                width={642}
-                height={642}
-                alt="島川敏明"
+                alt="石川 聡彦"
                 className="w-60  md:w-[320px]  object-cover mx-auto"
               />
             </div>
             <div className="itemText px-5 text-left">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                島川 敏明
+                石川 聡彦
               </p>
               <p className="font-bold text-[15px] text-center ">
-                Headline Asia プリンシパル、IVS 代表取締役
+                株式会社アイデミー 代表取締役
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                IT企業の経営者層が約700名参加する招待制カンファレンス「IVS」の運営や日本最大のライブ配信アプリを提供する株式会社17
-                Media Japan（現：17LIVE株式会社）の創業メンバー・経営企画室
-                室長として2年間で日本のライブ配信業界において売上1位を達成する。2020年より代表取締役に就任。招待制カンファレンスからオープンなカンファレンスに進化させた「IVS2023
-                KYOTO」では1万人が参加。起業家のためのさらに新しいIVSを創るため奔走中。
+                京大学工学部卒。同大学院中退。在学中の専門は環境工学で、水処理分野での機械学習の応用研究に従事した経験を活かし、
+                DX/GX人材へのリスキリングサービス「Aidemy」やシステムの内製化支援サービス「Modeloy」を開発・提供している。著書に『人工知能プログラミングのための数学がわかる本』（KADOKAWA/2018年）、『投資対効果を最大化する
+                AI導入７つのルール』（ KADOKAWA/ 2020年）など。
               </div>
             </div>
           </div>
-          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
-            <div className="">
-              <Image
-                src={"/busi/aoki_koji.jpg"}
-                width={642}
-                height={642}
-                alt="青木康時"
-                className="w-60  md:w-[320px]  object-cover mx-auto"
-              />
-            </div>
-            <div className="itemText px-5 text-left">
-              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                青木 康時
-              </p>
-              <p className="font-bold text-[15px] text-center ">
-                株式会社サムライパートナーズ 取締役
-              </p>
-              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
-                <br />
-                実業からITまで4社を起業しIPOやM&Aを経験した後、2020年よりヒカルなどTop
-                YouTuberのプロモーションを行うサムライパートナーズの事業統括として参画。インフルエンサー案件やD2Cなど、数多くの事業を手掛けると共に、毎シーズン1000万再生を超える起業家育成リアリティショー「Nontitle」などのTVクオリティの番組制作も手掛けるYouTubeプロデューサー兼連続起業家。
-              </div>
-            </div>
-          </div>
+
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
@@ -131,29 +81,33 @@ const Committee = () => {
               </div>
             </div>
           </div>
+
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/koukou.jpg"}
+                src={"/busi/minami1.jpg"}
                 width={642}
                 height={642}
-                alt=""
+                alt="南 章行"
                 className="w-60  md:w-[320px]  object-cover mx-auto"
               />
             </div>
-            <div className="itemText px-5 text-left">
+            <div className="itemText px-5 text-left ">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                黄皓
+                南 章行
               </p>
               <p className="font-bold text-[15px] text-center ">
-                ミラーフィット株式会社 代表取締役
+                株式会社ココナラ 取締役
+                <br />
+                株式会社ココナラスキルパートナーズ 代表取締役
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                全国で約15店舗のパーソナルジム兼セルフエステの受け放題サロンを経営。2020年にはミラーフィット㈱を設立し、自社開発のスマートミラーデバイスを活用した、新しい形のオンラインフィットネス事業を展開。「ジムに通いたいけれども時間がない」「毎日続けられない」といったユーザーのペインを解消するだけでなく、トレーナーの新しい働き方を叶えるプラットフォームを目指していく。
+                慶応義塾大学を卒業後、住友銀行を経て、企業買収ファンドのアドバンテッジパートナーズに入社し、5件の投資案件を担当。2009年に英国オックスフォード大学MBAを修了後、複数のNPO法人の立ち上げに参加。2012年1月、自ら代表として株式会社ウェルセルフ（現株式会社ココナラ）を設立、スキルのマーケットプレイス「ココナラ」を運営。現在同社取締役。2022年よりベンチャー投資子会社である株式会社ココナラスキルパートナーズの代表取締役に就任。
               </div>
             </div>
           </div>
+
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
@@ -188,25 +142,74 @@ const Committee = () => {
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/funabiki.jpg"}
+                src={"/busi/shimakawa.jpg"}
                 width={642}
                 height={642}
-                alt="舟引美咲"
+                alt="島川敏明"
                 className="w-60  md:w-[320px]  object-cover mx-auto"
               />
             </div>
-            <div className="itemText px-5 text-left ">
+            <div className="itemText px-5 text-left">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                舟引 美咲
+                島川 敏明
               </p>
               <p className="font-bold text-[15px] text-center ">
-                東京大学大学院 Graduate fellow
+                Headline Asia プリンシパル、IVS 代表取締役
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                慶応義塾大学法学部政治学科卒業後、テレビ局のアナウンサーやニュースキャスターの経験を積んだ後、University
-                Of The Arts London（UAL）に留学。
-                その際、福島復興支援のチャリティープロジェクトを英国貴族院議員らの協力を経て、アジア人初となる英国国会議事堂にてイベント開催した経験を経て、帰国後はLuxury業界で主にブランド・マーケティングやCSRに従事。現在は東京大学大学院にてLuxuryとCSRの研究を行っている。
+                IT企業の経営者層が約700名参加する招待制カンファレンス「IVS」の運営や日本最大のライブ配信アプリを提供する株式会社17
+                Media Japan（現：17LIVE株式会社）の創業メンバー・経営企画室
+                室長として2年間で日本のライブ配信業界において売上1位を達成する。2020年より代表取締役に就任。招待制カンファレンスからオープンなカンファレンスに進化させた「IVS2023
+                KYOTO」では1万人が参加。起業家のためのさらに新しいIVSを創るため奔走中。
+              </div>
+            </div>
+          </div>
+
+          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+            <div className="">
+              <Image
+                src={"/busi/koukou.jpg"}
+                width={642}
+                height={642}
+                alt=""
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                黄皓
+              </p>
+              <p className="font-bold text-[15px] text-center ">
+                ミラーフィット株式会社 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                全国で約15店舗のパーソナルジム兼セルフエステの受け放題サロンを経営。2020年にはミラーフィット㈱を設立し、自社開発のスマートミラーデバイスを活用した、新しい形のオンラインフィットネス事業を展開。「ジムに通いたいけれども時間がない」「毎日続けられない」といったユーザーのペインを解消するだけでなく、トレーナーの新しい働き方を叶えるプラットフォームを目指していく。
+              </div>
+            </div>
+          </div>
+          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+            <div className="">
+              <Image
+                src={"/busi/aoki_koji.jpg"}
+                width={642}
+                height={642}
+                alt="青木康時"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                青木 康時
+              </p>
+              <p className="font-bold text-[15px] text-center ">
+                株式会社サムライパートナーズ 取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                実業からITまで4社を起業しIPOやM&Aを経験した後、2020年よりヒカルなどTop
+                YouTuberのプロモーションを行うサムライパートナーズの事業統括として参画。インフルエンサー案件やD2Cなど、数多くの事業を手掛けると共に、毎シーズン1000万再生を超える起業家育成リアリティショー「Nontitle」などのTVクオリティの番組制作も手掛けるYouTubeプロデューサー兼連続起業家。
               </div>
             </div>
           </div>
@@ -233,28 +236,29 @@ const Committee = () => {
               </div>
             </div>
           </div>
+
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/minami.jpg"}
+                src={"/busi/funabiki1.jpg"}
                 width={642}
                 height={642}
-                alt="南 章行"
+                alt="舟引美咲"
                 className="w-60  md:w-[320px]  object-cover mx-auto"
               />
             </div>
             <div className="itemText px-5 text-left ">
               <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
-                南 章行
+                舟引 美咲
               </p>
               <p className="font-bold text-[15px] text-center ">
-                株式会社ココナラ 取締役
-                <br />
-                株式会社ココナラスキルパートナーズ 代表取締役
+                Nobless Oblige Laboratory代表
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
-                慶応義塾大学を卒業後、住友銀行を経て、企業買収ファンドのアドバンテッジパートナーズに入社し、5件の投資案件を担当。2009年に英国オックスフォード大学MBAを修了後、複数のNPO法人の立ち上げに参加。2012年1月、自ら代表として株式会社ウェルセルフ（現株式会社ココナラ）を設立、スキルのマーケットプレイス「ココナラ」を運営。現在同社取締役。2022年よりベンチャー投資子会社である株式会社ココナラスキルパートナーズの代表取締役に就任。
+                Luxury業界で主にブランド・マーケティングやCSRに従事しながら、修士号(社会情報学)を取得した東京大学大学院にてLuxuryとCSRの研究を行う。
+                また自身が顧問を務めるCredo
+                Internationalとラグジュアリーホテルでの産後ケアサービス「AMATERASU」ブランドのトータル・プロデュースも手掛けている二児の母でもある。
               </div>
             </div>
           </div>

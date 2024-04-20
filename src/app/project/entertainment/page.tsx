@@ -175,6 +175,18 @@ const Home = () => {
       twitter: "",
       insta: "",
     },
+    {
+      id: 7,
+      name: "Enishi",
+      pro: "",
+      text: "America's Got Talent2023に出演し、フェイスチェンジパフォーマンスで、世界が注目！！",
+      src: "/star/enishi.jpg",
+      hp: "",
+      youtube: "",
+      tiktok: "",
+      twitter: "",
+      insta: "",
+    },
   ];
 
   return (
