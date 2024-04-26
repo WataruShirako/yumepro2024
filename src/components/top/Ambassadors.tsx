@@ -213,7 +213,7 @@ const Ambassadors = () => {
           </div>
           <div>
             <Image
-              src={"/top/performance3.jpg"}
+              src={"/top/performance3.JPG"}
               alt=""
               width={600}
               height={600}
