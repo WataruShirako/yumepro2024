@@ -5,6 +5,12 @@ import Instagram from "../entt/Instagram";
 const News = () => {
   const news = [
     {
+      path: "https://sp.ch.nicovideo.jp/yume-pj",
+      title: "2024.4.26",
+      content:
+        "4月27日、4月28日イベント当日の様子をニコニコチャンネルで生配信します。",
+    },
+    {
       path: "/#sponsor",
       title: "2024.4.20",
       content: "スポンサーを更新しました。",

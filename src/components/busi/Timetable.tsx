@@ -19,259 +19,210 @@ const Timetable = () => {
             タイムテーブル
           </p>
         </h2>
-        <div className="font-bold max-w-2xl mx-auto ">
-          <div className="p-2">
-            <div className="bg-gray-100 text-black p-2">10:00 - 10:30</div>
+        <div className="font-bold max-w-4xl mx-auto ">
+          <div className="px-2 py-4">
+            <div className="bg-gray-100 text-black p-2">10:00 - 10:10</div>
             <div className="p-2">開会式</div>
           </div>
-          <div className="p-2">
-            <div className="bg-gray-100 text-black p-2">10:30 - 11:15</div>
+          <div className="px-2 py-4">
+            <div className="bg-gray-100 text-black p-2">10:10 - 10:20</div>
+            <div className="p-2">ミクチャライバー争奪戦</div>
+          </div>
+          <div className="px-2 pt-4">
+            <div className="bg-gray-100 text-black p-2">10:40 - 11:25</div>
             <div className="p-2">
               パネルディスカッション
               <br className="md:hidden" />
-              「音楽×ビジネス」
+              「新しい世代のビューティー、ファッションの動向」
             </div>
           </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">10:30 - 10:45</div>
-            <div className="flex">
+          <div className="px-2 pb-4 grid grid-cols-2 md:grid-cols-4 text-center ">
+            <div className="p-2 mx-auto ">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/asakurakengo.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">音楽×ビジネス①</div>
+              <div className="">
+                浅倉健吾
+                <br />
+                <p className="text-[11px]">株式会社ネイリー 代表取締役</p>
+              </div>
             </div>
-          </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">10:45 - 11:00</div>
-            <div className="flex">
+            <div className="p-2 mx-auto">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/nakamuratomekichi.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">音楽×ビジネス②</div>
-            </div>
-          </div>
-          <div className="px-2 pb-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">11:00 - 11:15</div>
-            <div className="flex">
+              <div className="">
+                中村トメ吉
+                <br />
+                <p className="text-[11px]">株式会社GOALD JAPAN代表取締役</p>
+              </div>
+            </div>{" "}
+            <div className="p-2 mx-auto">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/akaogihitomi.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">音楽×ビジネス③</div>
+              <div className="">
+                校長 赤荻瞳
+                <br />
+                <p className="text-[11px]">
+                  株式会社エムアールエー 代表取締役
+                  <br />
+                  渋谷女子インターナショナルスクール 校長
+                </p>
+              </div>
+            </div>{" "}
+            <div className="p-2 mx-auto">
+              <Image
+                src={"/busi/panel/onozatoyasuaki.jpg"}
+                width={300}
+                height={300}
+                alt=""
+                className=""
+              />
+              <div className="">
+                小野里寧晃
+                <br />
+                <p className="text-[11px]">
+                  株式会社バニッシュ・スタンダード 代表取締役
+                </p>
+              </div>
             </div>
           </div>
-          <div className="p-2">
-            <div className="bg-gray-100 text-black p-2">11:30 - 12:15</div>
+
+          <div className="px-2 pt-4">
+            <div className="bg-gray-100 text-black p-2">11:35 - 12:20</div>
 
             <div className="p-2">
               パネルディスカッション
               <br className="md:hidden" />
-              「インフルエンサー×ビジネス」
+              「ビジネスにおけるSNS・メディア戦略」
             </div>
           </div>
 
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">11:30 - 11:45</div>
-            <div className="flex">
+          <div className="px-2 pb-4 grid grid-cols-2 md:grid-cols-4 text-center ">
+            <div className="p-2 mx-auto ">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/aokiyasutoki.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">インフルエンサー×ビジネス①</div>
+              <div className="">
+                青木康時
+                <br />
+                <p className="text-[11px]">
+                  株式会社サムライパートナーズ 取締役
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">11:45 - 12:00</div>
-            <div className="flex">
+            <div className="p-2 mx-auto">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/koko.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">インフルエンサー×ビジネス②</div>
-            </div>
-          </div>
-          <div className="px-2 pb-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">12:00 - 12:15</div>
-            <div className="flex">
+              <div className="">
+                黄皓
+                <br />
+                <p className="text-[11px]">ミラーフィット株式会社 代表取締役</p>
+              </div>
+            </div>{" "}
+            <div className="p-2 mx-auto">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/sakakibaraseiichi.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">インフルエンサー×ビジネス③</div>
+              <div className="">
+                榊原清一
+                <br />
+                <p className="text-[11px]">株式会社EMOLVA 代表取締役</p>
+              </div>
             </div>
           </div>
-          <div className="p-2">
+          <div className="px-2 pt-4">
             <div className="bg-gray-100 text-black p-2">12:30 - 13:15</div>
 
             <div className="p-2">
               パネルディスカッション
               <br className="md:hidden" />
-              「エンタメ×ビジネス」
+              「若手上場社長に聞く！〜新世代のIPO〜」
             </div>
           </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">12:30 - 12:45</div>
-            <div className="flex">
+          <div className="px-2 pb-4 grid grid-cols-2 md:grid-cols-4 text-center ">
+            <div className="p-2 mx-auto ">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/maruokoichi.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">エンタメ×ビジネス①</div>
+              <div className="">
+                丸尾浩一
+                <br />
+                <p className="text-[11px]">株式会社Major7th 代表取締役</p>
+              </div>
             </div>
-          </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">12:45 - 13:00</div>
-            <div className="flex">
+            <div className="p-2 mx-auto">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/kataishitakanori.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">エンタメ×ビジネス②</div>
-            </div>
-          </div>
-          <div className="px-2 pb-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">13:00 - 13:15</div>
-            <div className="flex">
+              <div className="">
+                片石 貴展
+                <br />
+                <p className="text-[11px]">株式会社yutori 代表取締役</p>
+              </div>
+            </div>{" "}
+            <div className="p-2 mx-auto">
               <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
+                src={"/busi/panel/ishikawaakihiko.jpg"}
+                width={300}
+                height={300}
                 alt=""
                 className=""
               />
-              <div className="p-2">エンタメ×ビジネス③</div>
+              <div className="">
+                石川聡彦
+                <br />
+                <p className="text-[11px]">株式会社アイデミー 代表取締役</p>
+              </div>
             </div>
           </div>
-          <div className="p-2">
-            <div className="bg-gray-100 text-black p-2">13:30 - 14:15</div>
+          <div className="px-2 py-4">
+            <div className="bg-gray-100 text-black p-2">13:25 - 13:30</div>
 
-            <div className="p-2">
-              パネルディスカッション
-              <br className="md:hidden" />
-              「ファッション×ビジネス」
-            </div>
+            <div className="p-2">審査員紹介</div>
           </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">13:30 - 13:45</div>
-            <div className="flex">
-              <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
-                alt=""
-                className=""
-              />
-              <div className="p-2">ファッション×ビジネス①</div>
-            </div>
-          </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">13:45 - 14:00</div>
-            <div className="flex">
-              <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
-                alt=""
-                className=""
-              />
-              <div className="p-2">ファッション×ビジネス②</div>
-            </div>
-          </div>
-          <div className="px-2 pb-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">14:00 - 14:15</div>
-            <div className="flex">
-              <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
-                alt=""
-                className=""
-              />
-              <div className="p-2">ファッション×ビジネス③</div>
-            </div>
-          </div>
-          <div className="p-2">
-            <div className="bg-gray-100 text-black p-2">14:30 - 15:15</div>
-
-            <div className="p-2">
-              パネルディスカッション
-              <br className="md:hidden" />
-              「若手IPOについて」
-            </div>
-          </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">14:30 - 14:45</div>
-            <div className="flex">
-              <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
-                alt=""
-                className=""
-              />
-              <div className="p-2">若手IPOについて①</div>
-            </div>
-          </div>
-          <div className="px-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">14:45 - 15:00</div>
-            <div className="flex">
-              <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
-                alt=""
-                className=""
-              />
-              <div className="p-2">若手IPOについて②</div>
-            </div>
-          </div>
-          <div className="px-2 pb-2 ml-5 sm:ml-12">
-            <div className="bg-gray-100 text-black p-2">15:00 - 15:15</div>
-            <div className="flex">
-              <Image
-                src={"/busi/comingsoon.webp"}
-                width={100}
-                height={100}
-                alt=""
-                className=""
-              />
-              <div className="p-2">若手IPOについて③</div>
-            </div>
-          </div>
-          <div className="p-2">
-            <div className="bg-gray-100 text-black p-2">15:30 - 16:45</div>
+          <div className="px-2 py-4">
+            <div className="bg-gray-100 text-black p-2">13:30 - 16:30</div>
 
             <div className="p-2">ピッチコンテスト</div>
           </div>
 
-          <div className="p-2">
-            <div className="bg-gray-100 text-black p-2">16:45 - 17:00</div>
+          <div className="px-2 py-4">
+            <div className="bg-gray-100 text-black p-2">16:30 - 17:00</div>
 
             <div className="p-2">授賞式＆閉会式</div>
           </div>

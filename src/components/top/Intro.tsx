@@ -62,6 +62,17 @@ const Intro = () => {
             審査員は、各部門の代表となるスタートアップや若手起業家を選び、
             豪華賞品を提供します。
           </p>
+          <p>
+            本イベントはニコニコチャンネル
+            <a
+              className="text-[#0000ee] underline"
+              href="https://sp.ch.nicovideo.jp/yume-pj"
+              target="_blank"
+            >
+              「夢叶えるプロジェクト」
+            </a>
+            で生配信しています。
+          </p>
         </div>
       </div>
     </section>
