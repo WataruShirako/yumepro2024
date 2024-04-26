@@ -25,7 +25,7 @@ const Timetable = () => {
             <div className="p-2">開会式</div>
           </div>
           <div className="px-2 py-4">
-            <div className="bg-gray-100 text-black p-2">10:10 - 10:20</div>
+            <div className="bg-gray-100 text-black p-2">10:10 - 10:30</div>
             <div className="p-2">ミクチャライバー争奪戦</div>
           </div>
           <div className="px-2 pt-4">
