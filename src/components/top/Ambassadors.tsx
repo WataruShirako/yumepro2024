@@ -50,7 +50,7 @@ const Ambassadors = () => {
         <div className="mt-2 md:mt-4 grid grid-cols-1 sm:grid-cols-2  gap-2 px-3  md:gap-5 justify-center max-w-5xl mx-auto w-fit">
           <div>
             <Image
-              src={"/top/nakagawa.jpg"}
+              src={"/top/nakagawa1.jpg"}
               alt=""
               width={300}
               height={300}
@@ -178,6 +178,58 @@ const Ambassadors = () => {
               className="rounded-2xl  block "
             />
             AND MORE
+          </div>
+        </div>
+        <div className="mt-2 md:mt-4 grid grid-cols-1 lg:grid-cols-3 gap-2 px-3  md:gap-5 justify-center max-w-7xl mx-auto w-fit">
+          <div>
+            <Image
+              src={"/top/+1.jpg"}
+              alt=""
+              width={600}
+              height={600}
+              className="rounded-2xl  block "
+            />
+            ＋1（プラスワン）
+          </div>
+          <div>
+            <Image
+              src={"/top/performance1.jpg"}
+              alt=""
+              width={600}
+              height={600}
+              className="rounded-2xl  block "
+            />
+            100℃の世界
+          </div>
+          <div>
+            <Image
+              src={"/top/performance2.jpg"}
+              alt=""
+              width={600}
+              height={600}
+              className="rounded-2xl  block "
+            />
+            VORTEX
+          </div>
+          <div>
+            <Image
+              src={"/top/performance3.jpg"}
+              alt=""
+              width={600}
+              height={600}
+              className="rounded-2xl  block "
+            />
+            東京ガールズブラボー
+          </div>
+          <div>
+            <Image
+              src={"/top/performance4.jpg"}
+              alt=""
+              width={600}
+              height={600}
+              className="rounded-2xl  block "
+            />
+            ROYAL NOVICE
           </div>
         </div>
       </div>

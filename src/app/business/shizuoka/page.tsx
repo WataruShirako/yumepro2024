@@ -160,6 +160,53 @@ const BusinessPage = () => {
               </div>
             </div>
           </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/busi/shizuoka/sakakibara.jpg"}
+                width={642}
+                height={642}
+                alt="榊原清一"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                榊原清一
+              </p>
+              <p className="font-bold text-[15px] text-center md:text-left">
+                株式会社EMOLVA 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                東京理科大学大学院を卒業後、サイバーエージェントでインフルエンジニアとして勤務し、その後SNSマーケティング業界のパイオニアとして起業。創業10年で500社以上の企業にサービスを提供。自身も合計40万人以上のフォロワーを持ち、10年前からSNSマーケティングを行ってきた豊富なノウハウの持ち主。
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center flex-col md:flex-row mt-10 gap-5 md:max-w-4xl mx-auto">
+            <div className="w-1/2">
+              <Image
+                src={"/busi/shizuoka/kawarasaki.jpg"}
+                width={642}
+                height={642}
+                alt="河原崎 幸之介"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left md:w-1/2 text-left w-4/5 w-full">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center md:text-left YuGothic">
+                河原崎 幸之介
+              </p>
+              <p className="font-bold text-[15px] text-center md:text-left">
+                株式会社LEAPH 代表取締役
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                静岡県静岡市生まれ。大学卒業後、都内人材会社、カリフォルニアのIT企業を経て、帰国後株式会社LEAPHを創業。
+                クライアントや社会の問題をマーケティングソリューションを軸に解決するサービスを展開中。静岡の素敵な企業を紹介する静岡みんなの広報を運営。
+              </div>
+            </div>
+          </div>
         </section>
         <section className={"my-20 md:my-40"}>
           <h2 className="sectionTitle text-center items-center Montserrat">

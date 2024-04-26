@@ -59,7 +59,7 @@ const Committee = () => {
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
-                src={"/busi/takaishi_takanori.webp"}
+                src={"/busi/kataishi.JPG"}
                 width={642}
                 height={642}
                 alt="片石貴展"
@@ -107,7 +107,30 @@ const Committee = () => {
               </div>
             </div>
           </div>
-
+          <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
+            <div className="">
+              <Image
+                src={"/busi/motoya.jpeg"}
+                width={642}
+                height={642}
+                alt="元谷 拓"
+                className="w-60  md:w-[320px]  object-cover mx-auto"
+              />
+            </div>
+            <div className="itemText px-5 text-left ">
+              <p className="mt-2 md:text-[32px] text-xl font-bold mb-4 text-center  YuGothic">
+                元谷 拓
+              </p>
+              <p className="font-bold text-[15px] text-center ">
+                アパホテル株式会社　代表取締役専務
+              </p>
+              <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
+                <br />
+                北陸銀行にて3年間勤務後、アパグループに取締役として入社。常務取締役後、アパホテル代表取締役専務に就任。リポビタンD300万本、ベビースターラーメン柿の種3種ミックス100万食配布等各企業様と400事例超のサンプリングやコラボレーションを実現。ポカリスエットプール(東京ベイ幕張)、キリンレモンプール(横浜ベイタワー)のネーミングライツに従事。
+                現役プロ野球選手やタレントのトークショー、真心笑顔美人No.1決定戦、累計800万食達成したアパ社長カレーをプロデュース。
+              </div>
+            </div>
+          </div>
           <div className=" items-center justify-center  mt-10 gap-5  mx-auto">
             <div className="">
               <Image
@@ -154,7 +177,7 @@ const Committee = () => {
                 島川 敏明
               </p>
               <p className="font-bold text-[15px] text-center ">
-                Headline Asia プリンシパル、IVS 代表取締役
+                株式会社Headline Asia 代表取締役
               </p>
               <div className="max-w-md text-[15px] mx-auto md:text-left md:mx-0">
                 <br />
