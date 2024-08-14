@@ -58,6 +58,9 @@ const Banner = () => {
   return (
     <>
       <section id="audition" className="pt-12 md:pt-24">
+      <a target="_blank" href="https://www.canva.com/design/DAGM93oNZqY/GhIWPpuGJcYIp_--A5PdEw/view?utm_content=DAGM93oNZqY&utm_campaign=designshare&utm_medium=link&utm_source=editor#1">
+        <div className="text-center mb-14 font-bold">ご紹介資料はこちら</div>
+        </a>
         <h2 className={"text-center"}>
           <span
             className={

@@ -31,6 +31,7 @@ const images = {
 const Fv = () => {
   return (
     <section className={"fv"}>
+      <a target="_blank" href="https://www.canva.com/design/DAGM93oNZqY/GhIWPpuGJcYIp_--A5PdEw/view?utm_content=DAGM93oNZqY&utm_campaign=designshare&utm_medium=link&utm_source=editor#1">
       <picture className=" w-full">
         <source
           media="(min-width: 768px)"
@@ -48,6 +49,7 @@ const Fv = () => {
           className="w-full"
         />
       </picture>
+      </a>
       {/** 
       <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
